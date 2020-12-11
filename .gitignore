@@ -37,3 +37,17 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+.Rproj.user
+
+# Auxiliary files
+/metafiles/
+
+# Data (raw, temporary, archived)
+analysis/data/raw_data/
+analysis/data/archived_data/
+
+# Figures (temporary, working figs)
+analysis/figures/temp
+
+
+
