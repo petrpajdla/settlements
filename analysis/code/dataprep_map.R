@@ -4,9 +4,10 @@
 # author: Petr Pajdla
 # Prepare background data for maps (crop, transform etc.)
 # Data from Natural Earth Project using rnaturalearth package
+# Own data for raw materials
 
-library(tidyverse)
 library(here)
+library(tidyverse)
 library(sf)
 library(rnaturalearth)
 
@@ -64,6 +65,28 @@ admin1 <- ne_load(scale = 10,
                   returnclass = "sf") %>%
   crop_and_transform()
 
+
+# raw materials -----------------------------------------------------------
+# lithics rm
+si_pts <- st_read(dsn = here(dt_raw, "suroviny/"), layer = "surovina") %>%
+  st_set_crs(5514) %>%
+  rename(rm = Surovina) %>%
+  mutate(orig = "l")
+si_lne <- st_read(dsn = here(dt_raw, "suroviny/"), layer = "SGS") %>%
+  rename(rm = surovina) %>%
+  mutate(orig = "l")
+
+# polished stone rm
+bi_pts <- st_read(dsn = here(dt_raw, "suroviny/"), layer = "surovinaBI") %>%
+  rename(rm = surovina) %>%
+  mutate(orig = "p")
+bi_lne <- st_read(dsn = here(dt_raw, "suroviny/"), layer = "surovinaBI_linie") %>%
+  rename(rm = surovina) %>%
+  mutate(orig = "p")
+
+rm_pts <- bind_rows(si_pts, bi_pts)
+rm_lne <- bind_rows(si_lne, bi_lne)
+
 # plots -------------------------------------------------------------------
 
 ggplot() +
@@ -75,6 +98,8 @@ ggplot() +
   # geom_rect(aes(xmin = bbox[1], xmax = bbox[3],
   #               ymin = bbox[2], ymax = bbox[4]), fill = NA, color = "black") +
   geom_sf(data = bbox, fill = NA) +
+  geom_sf(data = rm_pts, shape = 4) +
+  geom_sf(data = rm_lne) +
   theme_void()
 
 # write derived datasets --------------------------------------------------
@@ -92,3 +117,6 @@ geojson(admin1)
 geojson(mask)
 geojson(bbox_large)
 geojson(bbox)
+
+st_write(rm_lne, here(dt_der, "rm_lines.geojson"), delete_dsn = TRUE)
+st_write(rm_pts, here(dt_der, "rm_points.geojson"), delete_dsn = TRUE)
