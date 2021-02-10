@@ -1,20 +1,19 @@
 ---
-title: "Title Goes Here"
+title: "SI: Settlements"
 author:
-  - Myfirstname Mylastname:
-      email: fl@oneplace.edu
+  - Petr Pajdla:
+      email: petr.pajdla@protonmail.com
+      institute: [UofO]
+      correspondence: false
+  - František Trampota:
+      email: trampota@phil.muni.cz
       institute: [UofO]
       correspondence: true
-  - Yourfirstname Yourlastname:
-      email: fl@another.edu
-      institute: [UofA]
-      correspondence: false
 institute:
-  - UofO: University of One Place
-  - UofA: University of Another Place
+  - UofO: Department of Archaeology and Museology, Masaryk University, Brno
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
-    bookdown::word_document2:
+    bookdown::html_document2:
       fig_caption: yes
       reference_docx: "../templates/template.docx" # Insert path for the DOCX file
       pandoc_args:
@@ -22,75 +21,311 @@ output:
       - --lua-filter=../templates/author-info-blocks.lua
       - --lua-filter=../templates/pagebreak.lua
 bibliography: references.bib
-csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
-abstract: |
-  Text of abstract
+csl: "../templates/journal-of-archaeological-science.csl"
+# abstract: |
+#  "This is abstract"
 keywords: |
   keyword 1; keyword 2; keyword 3
-highlights: |
-  These are the highlights. 
 ---
-
-<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
-
-<!-- With the following code you can access and display values from the yml header above. -->
 
 Keywords: `r rmarkdown::metadata$keywords`
 
-Highlights: `r rmarkdown::metadata$highlights`
-
-<!-- The following code chunk defines some general settings how code chunks should behave. -->
-
-```{r setup, echo = FALSE}
+```{r setup, echo=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   warning = FALSE,
   message = FALSE,
   echo = FALSE,
+  cache = TRUE,
   comment = "#>",
   fig.path = "../figures/",
   dpi = 300
 )
 ```
 
-<!-- The actual document text starts here: -->
+```{r packages}
+devtools::load_all(".")
+library(tidyverse)
+library(sf)
+```
 
 # Introduction
 
-Here is a citation [@Marwick2017]
+The analysis is divided into two 'time' scales:
+
+* Pottery traditions
+* Pottery groups
+
+The study area is broadly defined as *Easter part of Bohemia* (abbreviated *B*) 
+and *Morava river catchment* (*M*).
+It spans across the area of the Czech Republic and bordering regions of 
+Austria and Slovakia.
+
+<!-- ======================================================================= -->
 
 # Background
 
-# Methods
+```{r get-data, cache = FALSE}
+derived_data <- "analysis/data/derived_data"
+path_maps <- here::here(derived_data, "maps/")
+path_data <- here::here(derived_data)
+path_temp <- here::here(derived_data, "temp/")
 
-# Results
+# read data ---------------------------------------------------------------
+# mask
+mask <- st_read(paste0(path_maps, "mask.geojson"), quiet = TRUE)
+bbox <- st_read(paste0(path_maps, "bbox.geojson"), quiet = TRUE)
 
-<!-- Here's some example analysis code: -->
+# rivers + admin for plots
+admin0 <- st_read(paste0(path_maps, "admin0.geojson"), quiet = TRUE)
+admin1 <- st_read(paste0(path_maps, "admin1.geojson"), quiet = TRUE)
+rivers0 <- st_read(paste0(path_maps, "rivers0.geojson"), quiet = TRUE)
+rivers1 <- st_read(paste0(path_maps, "rivers1.geojson"), quiet = TRUE)
 
-```{r get-data, eval = FALSE}
-# Note the path that we need to use to access our data files when rendering this document
-my_data <- read.csv(here::here('analysis/data/raw_data/my_csv_file.csv'))
+# labels
+labs_chrono <- read_rds(here::here(derived_data, "chrono_labels.RDS"))
+
+# database
+set_base <- read_rds(here::here(derived_data, "settlements.RDS"))
+
+set_spat <- st_read(here::here(derived_data, "settlements_sf.geojson"), 
+                    quiet = TRUE)
+
+settlements1 <- set_spat %>%
+  right_join(set_base$period1, by = "id")
+settlements2 <- set_spat %>%
+  right_join(set_base$period2, by = "id")
 ```
 
-```{r demo-plot, fig.cap="A plot of random numbers"}
-plot(rnorm(10))
+<!--
+```{r base-tab}
+# set_base$base %>%
+#   DT::datatable(rownames = FALSE)
+```
+-->
+
+## Pottery traditions 
+
+```{r tab-set1-count}
+set_base$period1 %>%
+  group_by(period_label) %>%
+  summarize(n = n()) %>% 
+  rename('Period' = period_label) %>% 
+  knitr::kable(caption = "Number of settlements across time periods.") %>% 
+  kableExtra::kable_styling(full_width = FALSE)
 ```
 
-Figure \@ref(fig:demo-plot) shows how we can have a caption and cross-reference for a plot
-
-```{r demo-inline-code}
-x <- round(pi, 2)
+```{r plot-set1-count, fig.cap = 'Settlements classified by general pottery traditions across time periods.'}
+settlements1 %>%
+  ggplot() +
+  geom_sf(data = mask, fill = "gray80", color = NA, alpha = 0.4) +
+  # geom_sf(data = admin1, linetype = 3, fill = NA, color = "gray60", size = 0.2, alpha = 0.4) +
+  geom_sf(data = admin0, linetype = 1, fill = NA, color = "gray60", alpha = 0.4) +
+  geom_sf(data = rivers1, color = "mediumblue", size = 0.4, alpha = 0.4) +
+  geom_sf(data = rivers0, color = "mediumblue", size = 0.6, alpha = 0.4) +
+  geom_sf(alpha = 0.2, aes(color = label)) +
+  scale_color_brewer(palette = "Set1", name = "Tradition") +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  facet_wrap(vars(period_label), nrow = 3) +
+  theme_void() +
+  theme(panel.border = element_rect(color = "black", fill = NA))
 ```
 
-Here is an example of inline code `r x` in the middle of a sentence. 
+<!-- ----------------------------------------------------------------------- -->
 
-# Discussion
+## Pottery groups
 
-# Conclusion
+```{r tab-set2-count}
+set_base$period2 %>%
+  group_by(period_label) %>%
+  summarize(n = n()) %>% 
+  rename('Period' = period_label) %>% 
+  knitr::kable(caption = "Number of settlements across time periods.") %>% 
+  kableExtra::kable_styling(full_width = FALSE)
+```
 
-# Acknowledgements
+```{r plot-set2-count, fig.cap = 'Settlements classified by pottery groups across time periods.'}
+settlements2 %>%
+  ggplot() +
+  geom_sf(data = mask, fill = "gray80", color = NA, alpha = 0.4) +
+  # geom_sf(data = admin1, linetype = 3, fill = NA, color = "gray60", size = 0.2, alpha = 0.4) +
+  geom_sf(data = admin0, linetype = 1, fill = NA, color = "gray60", alpha = 0.4) +
+  geom_sf(data = rivers1, color = "mediumblue", size = 0.4, alpha = 0.4) +
+  geom_sf(data = rivers0, color = "mediumblue", size = 0.6, alpha = 0.4) +
+  geom_sf(alpha = 0.2, aes(color = label)) +
+  scale_color_brewer(palette = "Set1", name = "Tradition") +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  facet_wrap(vars(period_label), nrow = 3) +
+  theme_void() +
+  theme(panel.border = element_rect(color = "black", fill = NA))
+```
 
-<!-- The following line inserts a page break  -->
+<!-- ======================================================================= -->
+
+# Settlement density
+
+Settlement density is estimated using KDE.
+Kernel size of 4 km is used. 
+This value is completely arbitrary but is selected because settlement clusters 
+are nicely highlighted at this scale.
+
+## Pottery traditions
+
+```{r set1-kde}
+kde1 <- kdestimate(settlements1,
+                   mask,
+                   markscol = "period",
+                   lvls = names(labs_chrono$period)) %>%
+  rename(period = name) %>%
+  mutate(period_label = labs_chrono$periods[period],
+         period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+  select(id, starts_with("period"), kde)
+```
+
+```{r plot-set1-kde, fig.cap = 'Kernel density estimation for different periods.'}
+kdestimate(settlements1,
+           mask,
+           markscol = "period",
+           lvls = names(labs_chrono$period),
+           points = FALSE) %>%
+  mutate(period_label = labs_chrono$periods[period],
+         period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+  ggplot(aes(x, y, fill = kde)) +
+  geom_raster() +
+  scale_fill_viridis_c(name = "KDE") +
+  facet_wrap(vars(period_label)) +
+  coord_fixed() +
+  theme_void()
+```
+
+<!-- ----------------------------------------------------------------------- -->
+
+## Pottery groups
+
+```{r set2-kde}
+kde2 <- kdestimate(settlements2,
+                   mask,
+                   markscol = "period",
+                   lvls = names(labs_chrono$period)) %>%
+  rename(period = name) %>%
+  mutate(period_label = labs_chrono$periods[period],
+         period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+  select(id, starts_with("period"), kde)
+```
+
+```{r plot-set2-kde, fig.cap = 'Kernel density estimation for different periods.'}
+kdestimate(settlements2,
+           mask,
+           markscol = "period",
+           lvls = names(labs_chrono$period),
+           points = FALSE) %>%
+  mutate(period_label = labs_chrono$periods[period],
+         period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+  ggplot(aes(x, y, fill = kde)) +
+  geom_raster() +
+  scale_fill_viridis_c(name = "KDE") +
+  facet_wrap(vars(period_label)) +
+  coord_fixed() +
+  theme_void()
+```
+
+<!-- ======================================================================= -->
+
+# Distance to raw material sources
+
+## Raw materials distribution
+
+Raw material sources are defined as either points or lines.
+Each raw material can be identified by single or multiple simple features.
+If the location of source used in the Neolithic period is unknown or several sources or even
+modes of procurement (e. g. from river bed etc.) are possible, the most probable 
+are included.
+
+```{r get_data-rm}
+rm_pts <- st_read(here::here(derived_data, "rm_points.geojson"), quiet = TRUE) %>% 
+  mutate(label = if_else(orig == "l", "Chipped", "Polished"))
+rm_lns <- st_read(here::here(derived_data, "rm_lines.geojson"), quiet = TRUE) %>% 
+  mutate(label = if_else(orig == "l", "Chipped", "Polished"))
+```
+
+```{r plot-rm, fig.cap = "Distribution of raw material sources."}
+ggplot() + 
+  geom_sf(data = mask, fill = "gray80", color = NA, alpha = 0.4) +
+  geom_sf(data = rivers1, color = "gray60", size = 0.4, alpha = 0.4) +
+  geom_sf(data = rivers0, color = "gray60", size = 0.6, alpha = 0.4) +
+  geom_sf(data = set_spat, alpha = 0.1, color = "gray80") +
+  geom_sf(data = rm_pts, aes(color = rm), shape = 4) +
+  geom_sf(data = rm_lns, aes(color = rm)) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  facet_wrap(vars(label)) +
+  theme_void() +
+  theme(panel.border = element_rect(color = "black", fill = NA)) +
+  labs(color = "Raw material")
+```
+```{r rm-dist, cache = FALSE}
+# calculated separately in a script `rm_distance.R`
+# dist_pts <- dist_to_rm(set_spat, rm_pts, "rm")
+# dist_lns <- dist_to_rm(set_spat, rm_lns, "rm")
+
+rm_dist <- read_csv(paste0(path_temp, "rm_dist.csv"))
+```
+
+```{r plot-rm-dist-min, fig.cap="Distance to raw material sources."}
+rm_dist %>%
+  ggplot(aes(x = min, y = rm, fill = region)) +
+  geom_violin() +
+  scale_fill_brewer(palette = "Accent") +
+  facet_wrap(~type, scales = "free_y") +
+  labs(x = "min. dist. (km)", y = "raw material", fill = "Region") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
+
+```{r plot-rm-dist-kde-chrono1, fig.cap="KDE against distance to raw material source, Morava river catchment, pottery traditions."}
+kde1 %>% select(id, period_label, kde) %>% 
+  left_join(rm_dist) %>% 
+  mutate(region = str_extract(id, "^.")) %>% 
+  filter(rm %in% c("AD", "ZELESICE", "PMD", "KL"),
+         region == "M") %>% 
+  ggplot(aes(median, kde)) +
+  geom_point(alpha = 0.1) + 
+  stat_smooth(method = "lm", se = FALSE) +
+  facet_grid(vars(period_label), vars(rm)) +
+  labs(x = "Median distance to raw material source (km)",
+       y = "KDE") +
+  theme_minimal() +
+  theme(strip.text.y = element_text(angle = 0))
+```
+
+```{r plot-rm-dist-kde-chrono2, fig.cap="KDE against distance to raw material source, Morava river catchment, pottery groups."}
+kde2 %>% select(id, period_label, kde) %>% 
+  left_join(rm_dist) %>% 
+  mutate(region = str_extract(id, "^.")) %>% 
+  filter(rm %in% c("AD", "ZELESICE", "PMD", "KL"),
+         region == "M") %>% 
+  ggplot(aes(median, kde)) +
+  geom_point(alpha = 0.1) + 
+  stat_smooth(method = "lm", se = FALSE) +
+  facet_grid(vars(period_label), vars(rm)) +
+  labs(x = "Median distance to raw material source (km)",
+       y = "KDE") +
+  theme_minimal() +
+  theme(strip.text.y = element_text(angle = 0))
+```
+
+<!-- ======================================================================= -->
+
+
+
+
+
+<!--\@ref(fig:demo-plot)-->
+
+
+<!-- The following line inserts a page break -->
 
 \newpage
 
