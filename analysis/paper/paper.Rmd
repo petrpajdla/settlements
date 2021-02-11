@@ -23,9 +23,11 @@ output:
 bibliography: references.bib
 csl: "../templates/journal-of-archaeological-science.csl"
 # abstract: |
-#  "This is abstract"
 keywords: |
   keyword 1; keyword 2; keyword 3
+editor_options: 
+  markdown: 
+    wrap: 80
 ---
 
 Keywords: `r rmarkdown::metadata$keywords`
@@ -45,21 +47,20 @@ knitr::opts_chunk$set(
 
 ```{r packages}
 devtools::load_all(".")
-library(tidyverse)
 library(sf)
+library(tidyverse)
 ```
 
 # Introduction
 
 The analysis is divided into two 'time' scales:
 
-* Pottery traditions
-* Pottery groups
+-   Pottery traditions
+-   Pottery groups
 
-The study area is broadly defined as *Easter part of Bohemia* (abbreviated *B*) 
-and *Morava river catchment* (*M*).
-It spans across the area of the Czech Republic and bordering regions of 
-Austria and Slovakia.
+The study area is broadly defined as *Easter part of Bohemia* (abbreviated *B*)
+and *Morava river catchment* (*M*). It spans across the area of the Czech
+Republic and bordering regions of Austria and Slovakia.
 
 <!-- ======================================================================= -->
 
@@ -71,7 +72,6 @@ path_maps <- here::here(derived_data, "maps/")
 path_data <- here::here(derived_data)
 path_temp <- here::here(derived_data, "temp/")
 
-# read data ---------------------------------------------------------------
 # mask
 mask <- st_read(paste0(path_maps, "mask.geojson"), quiet = TRUE)
 bbox <- st_read(paste0(path_maps, "bbox.geojson"), quiet = TRUE)
@@ -97,14 +97,7 @@ settlements2 <- set_spat %>%
   right_join(set_base$period2, by = "id")
 ```
 
-<!--
-```{r base-tab}
-# set_base$base %>%
-#   DT::datatable(rownames = FALSE)
-```
--->
-
-## Pottery traditions 
+## Pottery traditions
 
 ```{r tab-set1-count}
 set_base$period1 %>%
@@ -166,10 +159,9 @@ settlements2 %>%
 
 # Settlement density
 
-Settlement density is estimated using KDE.
-Kernel size of 4 km is used. 
-This value is completely arbitrary but is selected because settlement clusters 
-are nicely highlighted at this scale.
+Settlement density is estimated using KDE. Kernel size of 4 km is used. This
+value is completely arbitrary but is selected because settlement clusters are
+nicely highlighted at this scale.
 
 ## Pottery traditions
 
@@ -181,7 +173,13 @@ kde1 <- kdestimate(settlements1,
   rename(period = name) %>%
   mutate(period_label = labs_chrono$periods[period],
          period_label = factor(period_label, levels = labs_chrono$periods)) %>%
-  select(id, starts_with("period"), kde)
+  select(id, starts_with("period"), chrono, kde)
+
+# tibble with results
+res1_long <- kde1 %>% 
+  rename(settlements_kde = kde) %>% 
+  select(-period_label) %>% 
+  pivot_longer(col = settlements_kde, names_to = "variable")
 ```
 
 ```{r plot-set1-kde, fig.cap = 'Kernel density estimation for different periods.'}
@@ -212,7 +210,13 @@ kde2 <- kdestimate(settlements2,
   rename(period = name) %>%
   mutate(period_label = labs_chrono$periods[period],
          period_label = factor(period_label, levels = labs_chrono$periods)) %>%
-  select(id, starts_with("period"), kde)
+  select(id, starts_with("period"), chrono, kde)
+
+# tibble with results
+res2_long <- kde2 %>% 
+  rename(settlements_kde = kde) %>% 
+  select(-period_label) %>% 
+  pivot_longer(col = settlements_kde, names_to = "variable")
 ```
 
 ```{r plot-set2-kde, fig.cap = 'Kernel density estimation for different periods.'}
@@ -237,11 +241,14 @@ kdestimate(settlements2,
 
 ## Raw materials distribution
 
-Raw material sources are defined as either points or lines.
-Each raw material can be identified by single or multiple simple features.
-If the location of source used in the Neolithic period is unknown or several sources or even
-modes of procurement (e. g. from river bed etc.) are possible, the most probable 
-are included.
+Raw material sources are defined as either points or lines. Each raw material
+can be identified by single or multiple simple features. If the location of
+source used in the Neolithic period is unknown or several sources or even modes
+of procurement (e. g. from river bed etc.) are possible, the most probable are
+included.
+
+Minimum, mean, median and maximum distances are calculated, median is used 
+as a result.
 
 ```{r get_data-rm}
 rm_pts <- st_read(here::here(derived_data, "rm_points.geojson"), quiet = TRUE) %>% 
@@ -265,12 +272,32 @@ ggplot() +
   theme(panel.border = element_rect(color = "black", fill = NA)) +
   labs(color = "Raw material")
 ```
+
 ```{r rm-dist, cache = FALSE}
 # calculated separately in a script `rm_distance.R`
 # dist_pts <- dist_to_rm(set_spat, rm_pts, "rm")
 # dist_lns <- dist_to_rm(set_spat, rm_lns, "rm")
 
 rm_dist <- read_csv(paste0(path_temp, "rm_dist.csv"))
+
+rm_dist_median <- rm_dist %>% 
+  select(-region, -type, -shp, -min, -mean, -max) %>% 
+  group_by(id, rm) %>% 
+  summarise(dist_rm = mean(median)) %>% 
+  pivot_longer(cols = dist_rm, names_to = "variable") %>% 
+  mutate(variable = str_c(variable, rm, sep = "_")) %>% 
+  select(-rm)
+
+# update result tibbles
+res1_long <- set_base$period1 %>% 
+  select(id, period, chrono) %>% 
+  inner_join(rm_dist_median) %>%
+  bind_rows(res1_long)
+
+res2_long <- set_base$period2 %>% 
+  select(id, period, chrono) %>% 
+  inner_join(rm_dist_median) %>%
+  bind_rows(res2_long)
 ```
 
 ```{r plot-rm-dist-min, fig.cap="Distance to raw material sources."}
@@ -318,28 +345,73 @@ kde2 %>% select(id, period_label, kde) %>%
 
 <!-- ======================================================================= -->
 
+# Density of watercourses
 
+In settlement structure studies it is often assumed that past human settlements
+have some kind of a relation to the network of watercourses. Numerous problems
+are faced while assessing the relationship between settlements and close
+watercourse. Most importantly the man-made recent changes in the structure and
+intensity of watercourses (and landscape in general) are a major factor
+imapiring such analysis.
 
+Usually, the settlement - watercourse relationship is expressed in some form of
+a metric giving shortest distance or so. We choose an approach used to study
+road networks in modern urban areas [e. g. @lin2020].
 
+Most of the input data is derived from *DIBAVOD* data set A01 layer
+(<https://www.dibavod.cz/>). 
+Data for Slovakia are derived from OpenStreet map ? , data for Austria ???
 
-<!--\@ref(fig:demo-plot)-->
+Density (kernel smoothed intensity) is estimated using `spatstat::density.psp`
+function with sigma 2000 m.
+
+```{r get-raster}
+hydro_dens <- raster::raster(
+  here::here(derived_data, "hydro", "density_raster.tif")) %>% 
+  raster::rasterToPoints() %>%
+  as_tibble() %>%
+  rename(KDE = density_raster)
+```
+
+```{r plot-hydro-density, fig.cap="Kernel smoothed intensity of watercourses overlaid with sites."}
+ggplot() +
+  geom_raster(data = hydro_dens, aes(x, y, fill = KDE)) +
+  geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
+  theme_void()
+```
+
+# Results
+
+```{r results-export}
+res1_long %>% 
+  pivot_wider(names_from = variable, values_from = value) %>% 
+  arrange(id, period, chrono) %>% 
+  write_csv(here::here(derived_data, "results", "results1.csv"))
+
+res2_long %>% 
+  pivot_wider(names_from = variable, values_from = value) %>% 
+  arrange(id, period, chrono) %>% 
+  write_csv(here::here(derived_data, "results", "results2.csv"))
+```
 
 
 <!-- The following line inserts a page break -->
 
 \newpage
 
-# References 
+# References
 
 <!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
 
-<div id="refs"></div>
+::: {#refs}
+:::
 
 \newpage
 
 ### Colophon
 
-This report was generated on `r Sys.time()` using the following computational environment and dependencies: 
+This report was generated on `r Sys.time()` using the following computational
+environment and dependencies:
 
 ```{r colophon, cache = FALSE}
 # which R packages and versions?
