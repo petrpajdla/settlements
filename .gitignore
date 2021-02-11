@@ -40,11 +40,18 @@ vignettes/*.pdf
 .Rproj.user
 
 # Auxiliary files
-/metafiles/
+analysis/data/DO-NOT-EDIT-ANY-FILES-IN-HERE-BY-HAND
+
+# Archived code
+analysis/code/archived/
 
 # Data (raw, temporary, archived)
 analysis/data/raw_data/
-analysis/data/archived_data/
+
+analysis/data/derived_data/output_manual_edit
+analysis/data/derived_data/input_gd
+analysis/data/derived_data/temp
+analysis/data/derived_data/results
 
 # Figures (temporary, working figs)
 analysis/figures/temp
