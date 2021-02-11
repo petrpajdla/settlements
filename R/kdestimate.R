@@ -49,7 +49,7 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
     set <- x %>%
       sf::st_drop_geometry() %>%
       dplyr::as_tibble() %>%
-      dplyr::select(id, markscol) %>%
+      dplyr::select(id, chrono, markscol) %>%
       dplyr::group_by(!!as.symbol(markscol)) %>%
       tidyr::nest()
 
@@ -61,7 +61,7 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
       dplyr::mutate(name = factor(!!as.symbol(markscol),
                                   levels = levels(marks))) %>%
       dplyr::mutate(kde = value * 1e6) %>%
-      dplyr::select(id, name, kde)
+      dplyr::select(id, name, chrono, kde)
   } else {
     img <- spatstat::density.splitppp(splitpppset,
                                       sigma = sigma)
