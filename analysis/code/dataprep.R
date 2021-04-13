@@ -33,15 +33,20 @@ files_disk <- list.files(here(dt_der, "input_gd"), full.names = TRUE)
 
 set_base <- vector("list")
 
-set_base$base <- read_csv(str_subset(files_disk, "base"))
+set_base$base <- read_csv(str_subset(files_disk, "base")) %>%
+  filter(in_analysis)
 
-set_base$chrono1 <- read_csv(str_subset(files_disk, "chrono1"))
+set_base$chrono1 <- read_csv(str_subset(files_disk, "chrono1")) %>%
+  filter(id %in% set_base$base$id)
 
-set_base$chrono2 <- read_csv(str_subset(files_disk, "chrono2"))
+set_base$chrono2 <- read_csv(str_subset(files_disk, "chrono2")) %>%
+  filter(id %in% set_base$base$id)
 
-set_base$period1 <- read_csv(str_subset(files_disk, "period1"))
+set_base$period1 <- read_csv(str_subset(files_disk, "period1")) %>%
+  filter(id %in% set_base$base$id)
 
-set_base$period2 <- read_csv(str_subset(files_disk, "period2"))
+set_base$period2 <- read_csv(str_subset(files_disk, "period2")) %>%
+  filter(id %in% set_base$base$id)
 
 read_csv(str_subset(files_disk, "spatial")) %>%
   st_as_sf(coords = c("X", "Y")) %>%

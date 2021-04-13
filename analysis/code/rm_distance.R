@@ -40,7 +40,11 @@ dist <- bind_rows(p = dist_pts, l = dist_lns, .id = "shp") %>%
          region = if_else(str_detect(id, "^B"), "Boh.", "Mor."))
 
 # save result
-dir.create(temp_data)
 
-write_csv(dist, paste0(temp_data, "rm_dist.csv"))
+if (!dir.exists(temp_data)) {
+  dir.create(temp_data)
+}
+
+
+write_csv(dist, paste0(temp_data, "/rm_dist.csv"))
 

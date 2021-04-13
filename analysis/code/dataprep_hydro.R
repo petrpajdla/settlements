@@ -21,7 +21,12 @@ au <- st_read(here(dt_hydro, "hydro_austria"))
 sk <- st_read(here(dt_hydro, "hydro_slovakia"))
 
 # project mask
-mask <- st_read(here("analysis/data/derived_data/maps/", "mask.geojson"))
+mask_orig <- st_read(here("analysis/data/derived_data/maps/", "mask.geojson"))
+
+mask <- st_buffer(mask_orig, 20000) %>% st_simplify()
+
+plot(st_geometry(mask))
+plot(st_geometry(mask_orig), add = TRUE)
 
 # transform to S-JTSK and crop to mask
 au_crop <- au %>%
@@ -75,7 +80,7 @@ full <- st_union(temp, cz_geom)
 # full <- st_read(here(dt_hydro_derived, "hydro_mask.geojson"))
 
 rm(list = c("cz_geom", "au_geom", "sk_geom", "temp"))
-rstudioapi::restartSession()
+# rstudioapi::restartSession()
 
 ggplot() +
   geom_sf(data = full) +
@@ -96,4 +101,5 @@ dens_raster <- dens_raster %>%
   mask(mask)
 
 # save resulting raster
-dens_raster %>% writeRaster(here(dt_hydro_derived, "density_raster.tif"))
+dens_raster %>% writeRaster(here(dt_hydro_derived, "density_raster.tif"),
+                            overwrite = TRUE)
