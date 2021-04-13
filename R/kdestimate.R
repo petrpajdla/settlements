@@ -26,19 +26,19 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
 
   coords <- x %>% dplyr::filter(!is.na(markscol)) %>%
     sf::st_coordinates(x)
-  mask <- spatstat::as.owin(mask)
+  mask <- spatstat.geom::as.owin(mask)
   marks <- sf::st_drop_geometry(x) %>%
     dplyr::filter(!is.na(markscol)) %>%
     dplyr::pull(markscol) %>%
     factor(levels = lvls)
 
-  pppset <- spatstat::ppp(x = coords[, 1], y = coords[, 2],
+  pppset <- spatstat.geom::ppp(x = coords[, 1], y = coords[, 2],
                           window = mask,
                           marks = marks)
-  splitpppset <- spatstat::split.ppp(pppset)
+  splitpppset <- spatstat.geom::split.ppp(pppset)
 
   if (points) {
-    dens <- spatstat::density.splitppp(splitpppset,
+    dens <- spatstat.core::density.splitppp(splitpppset,
                                        at = "points",
                                        sigma = sigma) %>%
       purrr::map(as_tibble) %>%
@@ -63,7 +63,7 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
       dplyr::mutate(kde = value * 1e6) %>%
       dplyr::select(id, name, chrono, kde)
   } else {
-    img <- spatstat::density.splitppp(splitpppset,
+    img <- spatstat.core::density.splitppp(splitpppset,
                                       sigma = sigma)
     rstr <- vector("list", length(img))
     names(rstr) <- lvls
