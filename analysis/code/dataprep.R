@@ -26,26 +26,34 @@ for (i in seq_along(files_gd$id)) {
 
 
 # prepare derived data ----------------------------------------------------
-
+labs_chrono <- read_rds(here::here(dt_der, "chrono_labels.RDS"))
 
 # list downloaded files
 files_disk <- list.files(here(dt_der, "input_gd"), full.names = TRUE)
 
+# prepare input files for analysis
 set_base <- vector("list")
 
 set_base$base <- read_csv(str_subset(files_disk, "base")) %>%
   filter(in_analysis)
 
-set_base$chrono1 <- read_csv(str_subset(files_disk, "chrono1")) %>%
-  filter(id %in% set_base$base$id)
-
-set_base$chrono2 <- read_csv(str_subset(files_disk, "chrono2")) %>%
-  filter(id %in% set_base$base$id)
+# set_base$chrono1 <- read_csv(str_subset(files_disk, "chrono1")) %>%
+#   filter(id %in% set_base$base$id)
+#
+# set_base$chrono2 <- read_csv(str_subset(files_disk, "chrono2")) %>%
+#   filter(id %in% set_base$base$id)
 
 set_base$period1 <- read_csv(str_subset(files_disk, "period1")) %>%
-  filter(id %in% set_base$base$id)
+  filter(id %in% set_base$base$id) %>%
+  mutate(period_label = fct_relevel(period_label, unname(labs_chrono$periods)),
+         period = fct_relevel(period, names(labs_chrono$periods)))
 
 set_base$period2 <- read_csv(str_subset(files_disk, "period2")) %>%
+  filter(id %in% set_base$base$id) %>%
+  mutate(period_label = fct_relevel(period_label, unname(labs_chrono$periods)),
+         period = fct_relevel(period, names(labs_chrono$periods)))
+
+set_base$references <- read_csv(str_subset(files_disk, "references")) %>%
   filter(id %in% set_base$base$id)
 
 read_csv(str_subset(files_disk, "spatial")) %>%
