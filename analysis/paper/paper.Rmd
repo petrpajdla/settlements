@@ -40,7 +40,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   message = FALSE,
   echo = FALSE,
-  cache = TRUE,
+  cache = FALSE,
   comment = "#>",
   fig.path = "../figures/",
   dpi = 300
@@ -304,21 +304,23 @@ rm_dist_mean <- rm_dist %>%
   select(-rm)
 ```
 
-```{r plot-rm-dist-min, fig.cap="Min. distance to raw material sources."}
-rm_dist %>%
-  ggplot(aes(x = min, y = rm, fill = region)) +
-  geom_violin() +
-  scale_fill_brewer(palette = "Accent") +
-  facet_wrap(~type, scales = "free_y") +
-  labs(x = "min. dist. (km)", y = "raw material", fill = "Region") +
-  theme_minimal() +
-  theme(legend.position = "bottom")
-```
+<!-- ```{r plot-rm-dist-min, fig.cap="Min. distance to raw material sources."} -->
+<!-- rm_dist %>% -->
+<!--   ggplot(aes(x = min, y = rm, fill = region)) + -->
+<!--   geom_violin() + -->
+<!--   scale_fill_brewer(palette = "Accent") + -->
+<!--   facet_wrap(~type, scales = "free_y") + -->
+<!--   labs(x = "min. dist. (km)", y = "raw material", fill = "Region") + -->
+<!--   theme_minimal() + -->
+<!--   theme(legend.position = "bottom",  -->
+<!--         panel.border = element_rect(color = "black", fill = NA)) -->
+<!-- ``` -->
+
 ## Settlement density against distance to raw materials
 
 > Hypothesis: In Morava river catchment settlement position is directly associated with 
-  raw material source.
-  
+raw material source.
+
 We compare settlement density (KDE) with distance to chosen raw materials.
 There is no strong evidence that the distribution of settlements is associated with distance to 
 any of the key raw material sources occurring in the region in any of the studied periods.
@@ -338,7 +340,8 @@ kde1 %>% select(id, period_label, kde) %>%
   labs(x = "Mean distance to raw material source (km)",
        y = "KDE") +
   theme_minimal() +
-  theme(strip.text.y = element_text(angle = 0))
+  theme(strip.text.y = element_text(angle = 0),
+        panel.border = element_rect(color = "black", fill = NA))
 ```
 
 ```{r tab-rm-dist-cor-kde1}
@@ -369,7 +372,8 @@ kde2 %>% select(id, period_label, kde) %>%
   labs(x = "Mean distance to raw material source (km)",
        y = "KDE") +
   theme_minimal() +
-  theme(strip.text.y = element_text(angle = 0))
+  theme(strip.text.y = element_text(angle = 0),
+        panel.border = element_rect(color = "black", fill = NA))
 ```
 ```{r tab-rm-dist-cor-kde2}
 kde2 %>% select(id, period_label, kde) %>% 
@@ -442,6 +446,90 @@ res2_long <- set_base$period2 %>%
 rm(list = ls(pattern = "^rm_dist_"))
 ```
 
+## RM relevant to given period and/or region
+
+```{r rm-period}
+# 0 = not used
+# 0.5 = somewhat used
+# 1 = used
+rm_b <- readxl::read_xlsx(here::here("analysis/data/raw_data",
+                                     "sidliste_vs_zdroje.xlsx"), sheet = "B")
+rm_m <- readxl::read_xlsx(here::here("analysis/data/raw_data",
+                                     "sidliste_vs_zdroje.xlsx"), sheet = "M")
+
+rm_relevance <- bind_rows(b = rm_b, m = rm_m, .id = "reg") %>% 
+  mutate(across(starts_with("p"), function(x) x * 0.5)) %>% 
+  pivot_longer(starts_with("p"), names_to = "period", values_to = "relevance") %>% 
+  rename(rm = surovina)
+
+rm_dist_rel_p1 <- rm_dist %>% group_by(id, rm) %>% 
+  summarise(mean = mean(mean)) %>% 
+  mutate(reg = if_else(str_detect(id, "^B"), "b", "m")) %>% 
+  left_join(select(set_base$period1, period, id)) %>% 
+  left_join(rm_relevance) %>% 
+  filter(relevance > 0) %>% 
+  mutate(relevance = factor(relevance, levels = c("0", "0.5", "1")),
+         label = labs_chrono$periods[period],
+         label = factor(label, levels = labs_chrono$periods))
+
+rm_dist_rel_p2 <- rm_dist %>% group_by(id, rm) %>% 
+  summarise(mean = mean(mean)) %>% 
+  mutate(reg = if_else(str_detect(id, "^B"), "b", "m")) %>% 
+  left_join(select(set_base$period2, period, id)) %>% 
+  left_join(rm_relevance) %>% 
+  filter(relevance > 0) %>% 
+  mutate(relevance = factor(relevance, levels = c("0", "0.5", "1")),
+         label = labs_chrono$periods[period],
+         label = factor(label, levels = labs_chrono$periods))
+```
+
+```{r fun-plot-rm-reg-dist}
+plot_rm_reg_dist <- function(x, region) {
+  x %>% 
+    filter(reg == region) %>% 
+    ggplot(aes(label, mean, color = relevance)) +
+    geom_violin(show.legend = FALSE) +
+    geom_boxplot(width = 0.2, show.legend = FALSE) +
+    scale_color_manual(values = c("gray", "black")) +
+    facet_wrap(vars(rm), scales = "free_y") + 
+    labs(x = element_blank(), y = "Mean distance to raw material source (km)") +
+    theme_minimal() + 
+    theme(axis.text.x = element_text(angle = 80, hjust = 1))
+}
+```
+
+
+### RM relations in *general* pottery traditions
+
+#### Morava river catchment
+
+```{r rm-dist-m-p1, fig.cap="Distance to RM sources, Morava river catchment, pottery traditions. RM sources relevant in given period in black, somewhat relevant RM sources in gray."}
+rm_dist_rel_p1 %>% 
+  plot_rm_reg_dist("m")
+```
+
+#### Eastern part of Bohemia
+
+```{r rm-dist-b-p1, fig.cap="Distance to RM sources, Eastern part of Bohemia, pottery traditions. RM sources relevant in given period in black, somewhat relevant RM sources in gray."}
+rm_dist_rel_p1 %>% 
+  plot_rm_reg_dist("b")
+```
+
+### RM relations in *detailed* pottery groups
+
+#### Morava river catchment
+
+```{r rm-dist-m-p2, fig.cap="Distance to RM sources, Morava river catchment, pottery groups. RM sources relevant in given period in black, somewhat relevant RM sources in gray."}
+rm_dist_rel_p2 %>% 
+  plot_rm_reg_dist("m")
+```
+
+#### Eastern part of Bohemia
+
+```{r rm-dist-b-p2, fig.cap="Distance to RM sources, Eastern part of Bohemia, pottery groups. RM sources relevant in given period in black, somewhat relevant RM sources in gray."}
+rm_dist_rel_p2 %>% 
+  plot_rm_reg_dist("b")
+```
 
 <!-- ======================================================================= -->
 
@@ -465,63 +553,493 @@ Density (kernel smoothed intensity) is estimated using `spatstat::density.psp`
 function with sigma 2000 m.
 
 ```{r get-raster}
-hydro_dens <- raster::raster(
-  here::here(derived_data, "hydro", "density_raster.tif"))
+# pkg raster
+# hydro_dens <- raster::raster(
+#   here::here(derived_data, "hydro", "density_raster.tif"))
+# 
+# hydro_dens_at_points <- hydro_dens %>% 
+#   raster::extract(set_spat) %>% 
+#   as_tibble() %>% 
+#   rename(hydro_kde = value) %>% 
+#   bind_cols(select(st_drop_geometry(set_spat), id))
+
+# pkg stars
+hydro_dens <- stars::read_stars(
+  here::here(derived_data, "hydro", "density_raster.tif")
+) %>% 
+  st_set_crs(value = st_crs(set_spat))
 
 hydro_dens_at_points <- hydro_dens %>% 
-  raster::extract(set_spat) %>% 
-  as_tibble() %>% 
-  rename(hydro_kde = value) %>% 
+  stars::st_extract(set_spat) %>% 
+  st_drop_geometry() %>% 
+  rename(hydro_kde = density_raster.tif) %>% 
   bind_cols(select(st_drop_geometry(set_spat), id))
 
+# bind to results
 res1_long <- set_base$period1 %>% 
   select(-ends_with("label")) %>% 
-  left_join(hydro_dens_at_points) %>% 
+  left_join(hydro_dens_at_points, by = "id") %>% 
   pivot_longer(cols = hydro_kde) %>% 
   rename(variable = name) %>% 
   bind_rows(res1_long)
 
 res2_long <- set_base$period2 %>% 
   select(-ends_with("label"), -facet) %>% 
-  left_join(hydro_dens_at_points) %>% 
+  left_join(hydro_dens_at_points, by = "id") %>% 
   pivot_longer(cols = hydro_kde) %>% 
   rename(variable = name) %>% 
   bind_rows(res2_long)
 ```
 
 ```{r plot-hydro-density, fig.cap="Kernel smoothed intensity of watercourses overlaid with sites (raster clipped to research area extent)."}
-hydro_dens %>% 
-  raster::mask(mask) %>% 
-  raster::rasterToPoints() %>%
-  as_tibble() %>%
-  rename(KDE = density_raster) %>% 
-  ggplot() +
-  geom_raster(aes(x, y, fill = KDE)) +
+# hydro_dens %>% 
+#   raster::mask(mask) %>% 
+#   raster::rasterToPoints() %>%
+#   as_tibble() %>%
+#   rename(KDE = density_raster) %>% 
+#   ggplot() +
+#   geom_raster(aes(x, y, fill = KDE)) +
+#   geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
+#   theme_void()
+
+ggplot() +
+  stars::geom_stars(data = st_crop(hydro_dens, mask), sf = TRUE) +
   geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
-  theme_void()
+  theme_void() +
+  labs(fill = "KDE")
 ```
+<!--- ====================================================================== -->
 
 # Terrain surrounding the settlements
 
-We focus on slope around the settlements
+We focus on slope around the settlements.
+
+```{r dem-data}
+dem_data <- read_csv(here::here(derived_data, "dem/vals_dem.csv"))
+
+# bind to results
+res1_long <- set_base$period1 %>% 
+  select(-ends_with("label")) %>% 
+  left_join(dem_data, by = "id") %>% 
+  pivot_longer(cols = c(dem, slope)) %>% 
+  rename(variable = name) %>% 
+  bind_rows(res1_long)
+
+res2_long <- set_base$period2 %>% 
+  select(-ends_with("label"), -facet) %>% 
+  left_join(dem_data, by = "id") %>% 
+  pivot_longer(cols = c(dem, slope)) %>% 
+  rename(variable = name) %>% 
+  bind_rows(res2_long)
+```
+
+```{r altitude-to-res}
+altitude <- set_spat %>% st_drop_geometry() %>% 
+  as_tibble() %>% 
+  select(id, altitude)
+
+# bind to results
+res1_long <- set_base$period1 %>% 
+  select(-ends_with("label")) %>% 
+  left_join(altitude, by = "id") %>% 
+  pivot_longer(cols = altitude) %>% 
+  rename(variable = name) %>% 
+  bind_rows(res1_long)
+
+res2_long <- set_base$period2 %>% 
+  select(-ends_with("label"), -facet) %>% 
+  left_join(altitude, by = "id") %>% 
+  pivot_longer(cols = altitude) %>% 
+  rename(variable = name) %>% 
+  bind_rows(res2_long)
+```
+
+
+```{r dem-analysis-correlation, fig.cap='Correlation between altitude derived from DEM and altitude reading in the topographic map.'}
+set_spat %>% st_drop_geometry() %>% 
+  as_tibble() %>% 
+  select(id, altitude) %>% 
+  left_join(dem_data) %>% 
+  ggplot(aes(altitude, dem)) +
+  geom_point() +
+  theme_minimal()
+```
+
+<!--- ====================================================================== -->
+
+# Settlement 'hierarchy'
+
+Minimal distance to fortified settlements in given regions is explored.
+
+```{r dist-fenced-input}
+dist_fenced <- read_rds(here::here(derived_data, "fortif/distance_fortif.RDS"))
+
+# results 1
+dist_fenced_p1 <- dist_fenced$traditions %>% 
+  mutate(variable = "dist_fenced",
+         value = min_dist) %>% 
+  select(-min_dist, -reg) %>% 
+  left_join(select(set_base$period1, id, period, chrono))
+
+res1_long <- res1_long %>% 
+  bind_rows(dist_fenced_p1)
+
+# results 2
+dist_fenced_p2 <- dist_fenced$groups %>% 
+  mutate(variable = "dist_fenced",
+         value = min_dist) %>% 
+  select(-min_dist, -reg)
+
+res2_long <- res2_long %>% 
+  bind_rows(dist_fenced_p2)
+```
+
+<!--- ====================================================================== -->
+
+# Settlement 'continuity'
+
+Is the same location settled in the previous period?
+
+```{r continuity-calc}
+settlement_continuity <- function(x) {
+  x %>% select(-label, -period_label) %>%
+    distinct(id, period, chrono) %>%
+    mutate(pres = 1L) %>%
+    pivot_wider(names_from = period, values_from = pres, values_fill = 0L) %>%
+    pivot_longer(starts_with("p"), names_to = "period") %>%
+    mutate(period = factor(period, levels = levels(set_base$period1$period)),
+           period_label = labs_chrono$periods[period],
+           period_label = factor(period_label, labs_chrono$periods)) %>%
+    arrange(id, period, chrono) %>%
+    group_by(id, chrono) %>%
+    mutate(prev = if_else(value == 1, lag(value), 0L),
+           prev = if_else(is.na(prev), 0L, prev),
+           reg = if_else(str_detect(id, "^B"), "B", "M")) %>%
+    ungroup(id, chrono)
+}
+
+cont1 <- set_base$period1 %>%
+  settlement_continuity()
+
+cont2 <- set_base$period2 %>%
+  settlement_continuity()
+
+# update results
+cont1_res <- cont1 %>% select(-value, -reg, -period_label) %>% 
+  mutate(variable = "cont") %>% 
+  rename(value = prev) %>% 
+  filter(value != 0)
+
+res1_long <- res1_long %>% bind_rows(cont1_res)
+
+cont2_res <- cont2 %>% select(-value, -reg, -period_label) %>% 
+  mutate(variable = "cont") %>% 
+  rename(value = prev) %>% 
+  filter(value != 0)
+
+res2_long <- res2_long %>% bind_rows(cont2_res)
+
+rm(list = c("cont1_res", "cont2_res"))
+```
+
+```{r continuity-plot1, fig.cap="Continuity of settlements, pottery traditions."}
+plot_continuity <- function(x) {
+  x %>% 
+    group_by(period_label, reg) %>%
+    summarise(n = sum(value), prev = sum(prev)) %>%
+    mutate(perc = (prev / n) * 100) %>%
+    ggplot(aes(period_label, perc, fill = reg)) +
+    geom_col(show.legend = FALSE) +
+    scale_fill_manual(values = mycol) +
+    facet_wrap(vars(reg), ncol = 1) +
+    labs(x = "Period", y = "Continuity of settlement (%)") +
+    theme_minimal()
+}
+
+cont1 %>% plot_continuity()
+```
+```{r continuity-plot2, fig.cap="Continuity of settlements, pottery groups."}
+cont2 %>% plot_continuity()
+```
+
+<!--- ====================================================================== -->
+
+# Arrangement along natural lines
+
+Arrangement of settlements along natural 'terrain' lines or along waterways is explored.
+
+```{r along_lines}
+along_lines <- read_rds(here::here(derived_data, "lines/linear_arrangement.RDS"))
+
+along_lines1 <- along_lines$traditions %>% 
+  mutate(chrono = str_remove(chrono, ".$")) %>% 
+  group_by(id, chrono, period, variable) %>% 
+  summarise(value = max(value)) %>% 
+  ungroup(id, chrono, variable) %>% 
+  mutate(value = value / n())
+
+along_lines2 <- along_lines$groups %>% 
+  distinct(id, chrono, period, variable, value) %>% 
+  group_by(period) %>% 
+  mutate(value = value / n())
+
+# results 1
+res1_long <- res1_long %>% 
+  bind_rows(along_lines1)
+
+# results 2
+res2_long <- res2_long %>% 
+  bind_rows(along_lines2)
+```
+
+<!--- ====================================================================== -->
 
 # Synthesis
 
+```{r res-cleaning}
+na2null <- function(x) {
+  x[is.na(x)] <- 0
+  x
+}
 
+not_na <- function(x) {
+  !is.na(x)
+}
+
+# tradice
+res1_wide <- res1_long %>% 
+  group_by(id, period, variable) %>% 
+  summarise(value = mean(value), .groups = "drop") %>% 
+  pivot_wider(values_from = value, names_from = variable) %>%
+  mutate(across(c(cont, starts_with("line")), na2null)) %>%
+  filter(across(everything(), not_na))
+
+res1_long <- res1_wide %>% 
+  pivot_longer(-c(id, period), names_to = "variable", values_to = "value")
+
+# skupiny
+res2_wide <- res2_long %>% 
+  group_by(id, period, variable) %>% 
+  summarise(value = mean(value), .groups = "drop") %>% 
+  pivot_wider(values_from = value, names_from = variable) %>%
+  mutate(across(c(cont, starts_with("line")), na2null)) %>%
+  filter(across(everything(), not_na))
+
+res2_long <- res2_wide %>% 
+  pivot_longer(-c(id, period), names_to = "variable", values_to = "value")
+
+# scale cols
+res1_wide <- res1_wide %>% 
+  mutate(across(where(is.numeric), scale))
+
+res2_wide <- res2_wide %>% 
+  mutate(across(where(is.numeric), scale))
+```
+
+## Violin plots
+
+```{r variable-labels}
+labs_variables <- c(
+  "settlements_kde" = "Settlement density",
+  "dist_fenced" = "Min. dist. to fenced set. (km)",
+  "line_terrain" = "Along terrain line",
+  "line_water" = "Along water line",
+  "cont" = "Settlement continuity",
+  "hydro_kde" = "Watercourse density",
+  "dem" = "Altitude (DEM)", 
+  "altitude" = "Altitude (map)",
+  "slope" = "Slope (°)",
+  "rm_pc1" = "Distance to RM sources 1",
+  "rm_pc2" = "Distance to RM sources 2",
+  "rm_pc3" = "Distance to RM sources 3"
+) %>% 
+  map_chr(str_wrap, 12)
+```
+
+```{r syn-p1, fig.height=12}
+res1_violin <- res1_long %>% 
+  filter(variable != "cont") %>% 
+  mutate(reg = str_extract(id, "^."),
+         period = labs_chrono$periods[period],
+         period = fct_relevel(period, labs_chrono$periods),
+         variable = labs_variables[variable],
+         variable = fct_relevel(variable, labs_variables)) %>% 
+  ggplot(aes(reg, value)) +
+  geom_violin(fill = "white") +
+  geom_boxplot(aes(fill = reg), width = .2) +
+  scale_fill_manual(values = mycol, name = "Region") +
+  facet_grid(rows = vars(variable), cols = vars(period), scales = "free_y") +
+  theme_minimal() +
+  theme(legend.position = "bottom", 
+        panel.border = element_rect(color = "black", fill = NA), 
+        strip.text.y = element_text(angle = 0))
+
+res1_violin
+```
+
+```{r syn-p2, fig.height=12}
+res2_violin <- res2_long %>% 
+  filter(variable != "cont") %>% 
+  mutate(reg = str_extract(id, "^."),
+         period = labs_chrono$periods[period],
+         period = fct_relevel(period, labs_chrono$periods),
+         variable = labs_variables[variable],
+         variable = fct_relevel(variable, labs_variables)) %>% 
+  ggplot(aes(reg, value)) +
+  geom_violin(fill = "white") +
+  geom_boxplot(aes(fill = reg), width = .2) +
+  scale_fill_manual(values = mycol, name = "Region") +
+  facet_grid(rows = vars(variable), cols = vars(period), scales = "free_y") +
+  theme_minimal() +
+  theme(legend.position = "bottom", 
+        panel.border = element_rect(color = "black", fill = NA), 
+        strip.text.y = element_text(angle = 0))
+
+res2_violin
+```
+
+```{r res-violin-out}
+ggsave(here::here("analysis/figures", "res1_violin.png"), res1_violin, 
+       width = 9, height = 12)
+ggsave(here::here("analysis/figures", "res2_violin.png"), res2_violin, 
+       width = 9, height = 12)
+```
+
+## Line plots
+
+```{r syn-p1-sum, fig.cap="Summaries for different variables across studied periods. Solid line - mean value, wide transparent line - median value.", fig.height=12}
+res1_line <- res1_long %>% 
+  mutate(reg = str_extract(id, "^."),
+         period = labs_chrono$periods[period],
+         period = fct_relevel(period, labs_chrono$periods),
+         variable = labs_variables[variable],
+         variable = fct_relevel(variable, labs_variables)) %>% 
+  group_by(period, variable, reg) %>% 
+  summarise(mean = mean(value),
+            median = median(value)) %>% 
+  ggplot(aes(x = period, color = reg, group = reg)) +
+  geom_line(aes(y = mean)) +
+  geom_line(aes(y = median), alpha = 0.4, size = 2) +
+  scale_color_manual(values = mycol, name = "Region") +
+  facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 80, hjust = 1),
+        axis.title = element_blank())
+
+res1_line
+```
+
+```{r syn-p2-sum, fig.cap="Summaries for different variables across studied periods. Solid line - mean value, wide transparent line - median value.", fig.height=12}
+res2_line <- res2_long %>% 
+  mutate(reg = str_extract(id, "^."),
+         period = labs_chrono$periods[period],
+         period = fct_relevel(period, labs_chrono$periods),
+         variable = labs_variables[variable],
+         variable = fct_relevel(variable, labs_variables)) %>% 
+  group_by(period, variable, reg) %>% 
+  summarise(mean = mean(value),
+            median = median(value), .groups = "drop") %>% 
+  ggplot(aes(x = period, color = reg, group = reg)) +
+  geom_line(aes(y = mean)) +
+  geom_line(aes(y = median), alpha = 0.4, size = 2) +
+  scale_color_manual(values = mycol, name = "Region") +
+  facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 80, hjust = 1),
+        axis.title = element_blank())
+
+res2_line
+```
+
+```{r res-line-out}
+ggsave(here::here("analysis/figures", "res1_line.png"), res1_line, 
+       width = 7, height = 7)
+ggsave(here::here("analysis/figures", "res2_line.png"), res2_line, 
+       width = 7, height = 7)
+```
+
+## Analysing results
+
+
+```{r}
+pca2 <- res2_wide %>% 
+  group_by(period) %>% 
+  nest() %>% 
+  mutate(mx = map(data, function(x) select(x, -id)),
+         mx = map(mx, as.matrix),
+         pca = map(mx, prcomp, center = TRUE),
+         sdev = map(pca, function(x) tibble(sdev = x$sdev)),
+         sdev = map(sdev, function(x) mutate(x, 
+                                             var_prop = sdev^2 / sum(sdev^2),
+                                             cum_prop = cumsum(var_prop),
+                                             pc = row_number())),
+         scores = map(pca, function(x) as_tibble(x$x)),
+         rotation = map(pca, broom::tidy, matrix = "rotation"),
+         rotation = map(rotation, pivot_wider, names_from = "PC", names_prefix = "PC", values_from = "value")) %>%
+  select(-mx, -pca)
+
+pca2 %>% 
+  unnest(sdev) %>% 
+  ggplot(aes(pc, cum_prop)) +
+  geom_col() +
+  facet_wrap(~period)
+
+p_pca2_x <- pca2 %>% 
+  unnest(c(scores, data)) %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(PC1, PC2, color = reg)) +
+  geom_point(alpha = 0.1) +
+  facet_wrap(~period, ncol = 1) +
+  theme_minimal()
+
+p_pca2_a <- pca2 %>% 
+  unnest(c(rotation)) %>% 
+  ggplot(aes(PC1, PC2)) +
+  geom_segment(xend = 0, yend = 0, alpha = 0.4) +
+  geom_text(
+    aes(label = column),
+    hjust = 1, nudge_x = -0.02, 
+    color = "#904C2F",
+    size = 2.4
+  ) +
+  facet_wrap(~period, ncol = 1) +
+  theme_minimal()
+
+g_out <- gridExtra::grid.arrange(p_pca2_x, p_pca2_a, ncol = 2)
+
+ggsave(here::here("analysis/figures", "pca2.png"), g_out, height = 21)
+```
+
+
+## Nature vs Culture
+
+## Morava river valley vs East part of Bohemia
+
+
+
+<!--- ====================================================================== -->
 
 # Results
 
 ```{r results-export}
 res1_long %>% 
+  # distinct(id, chrono, period, variable, .keep_all = TRUE) %>% 
   pivot_wider(names_from = variable, values_from = value) %>% 
   arrange(id, period, chrono) %>% 
   write_csv(here::here(derived_data, "results", "results1.csv"))
 
+# res1_long %>% 
+#   add_count(id, chrono, period, variable) %>% 
+#   filter(n > 1)
+
 res2_long %>% 
+  # distinct(id, chrono, period, variable, .keep_all = TRUE) %>% 
   pivot_wider(names_from = variable, values_from = value) %>% 
   arrange(id, period, chrono) %>% 
   write_csv(here::here(derived_data, "results", "results2.csv"))
 ```
+
+<!--- ====================================================================== -->
 
 \newpage
 

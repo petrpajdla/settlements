@@ -36,3 +36,12 @@ drive_readme <- drive_upload(readme, gd_path, overwrite = TRUE)
 si <- here("analysis/paper/paper.html")
 
 drive_si <- drive_upload(si, "~/settlements/SI/", overwrite = TRUE)
+
+
+# Figs to GD --------------------------------------------------------------
+
+figs <- here("analysis/figures")
+figs_up <- str_c(figs, "/", list.files(figs, pattern = "^res"))
+
+map(figs_up, ~ drive_upload(.x, "~/settlements/figures/",
+                                overwrite = TRUE))

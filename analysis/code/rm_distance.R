@@ -39,12 +39,12 @@ dist <- bind_rows(p = dist_pts, l = dist_lns, .id = "shp") %>%
          type = if_else(rm %in% pstrm, "Polished", "Chipped"),
          region = if_else(str_detect(id, "^B"), "Boh.", "Mor."))
 
+
 # save result
 
 if (!dir.exists(temp_data)) {
   dir.create(temp_data)
 }
-
 
 write_csv(dist, paste0(temp_data, "/rm_dist.csv"))
 
