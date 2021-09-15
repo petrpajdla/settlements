@@ -33,14 +33,14 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
     factor(levels = lvls)
 
   pppset <- spatstat.geom::ppp(x = coords[, 1], y = coords[, 2],
-                          window = mask,
-                          marks = marks)
+                               window = mask,
+                               marks = marks)
   splitpppset <- spatstat.geom::split.ppp(pppset)
 
   if (points) {
     dens <- spatstat.core::density.splitppp(splitpppset,
-                                       at = "points",
-                                       sigma = sigma) %>%
+                                            at = "points",
+                                            sigma = sigma) %>%
       purrr::map(as_tibble) %>%
       dplyr::bind_rows(.id = markscol) %>%
       dplyr::group_by(!!as.symbol(markscol)) %>%
@@ -64,7 +64,7 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
       dplyr::select(id, name, chrono, kde)
   } else {
     img <- spatstat.core::density.splitppp(splitpppset,
-                                      sigma = sigma)
+                                           sigma = sigma)
     rstr <- vector("list", length(img))
     names(rstr) <- lvls
 
@@ -78,4 +78,59 @@ kdestimate <- function(x, mask, markscol, lvls, sigma = 4e3, points = TRUE) {
       dplyr::mutate(kde = layer * 1e6) %>%
       dplyr::select(markscol, x, y, kde, -layer)
   }
+}
+
+
+#' Helper function to estimate KDE
+#'
+#' @param x Simple features object. Input data.
+#'
+#' @return A long \code{tibble} with kernel density estimate for each id and period pair.
+#' @export
+#'
+#' @examples
+est_kde <- function(x) {
+  x %>% group_by(id, period) %>%
+    mutate(n = row_number()) %>%
+    filter(n == 1L) %>%
+    select(-label) %>%
+    kdestimate(mask,
+               markscol = "period",
+               lvls = names(labs_chrono$period)) %>%
+    rename(period = name) %>%
+    mutate(period_label = labs_chrono$periods[period],
+           period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+    select(id, starts_with("period"), kde) %>%
+    rename(settlements_kde = kde) %>%
+    select(-period_label) %>%
+    pivot_longer(col = settlements_kde, names_to = "variable") %>%
+    distinct()
+}
+
+#' Helper function to plot KDE
+#'
+#' @param x Simple features object. Input data.
+#'
+#' @return A \code{ggplot2} object.
+#' @export
+#'
+#' @examples
+plot_kde <- function(x) {
+  x %>% group_by(id, period) %>%
+    mutate(n = row_number()) %>%
+    filter(n == 1L) %>%
+    select(-label) %>%
+    kdestimate(mask,
+               markscol = "period",
+               lvls = names(labs_chrono$period),
+               points = FALSE) %>%
+    mutate(period_label = labs_chrono$periods[period],
+           period_label = factor(period_label, levels = labs_chrono$periods)) %>%
+    distinct() %>%
+    ggplot(aes(x, y, fill = kde)) +
+    geom_raster() +
+    scale_fill_viridis_c(name = "KDE") +
+    facet_wrap(vars(period_label)) +
+    coord_fixed() +
+    theme_void()
 }
