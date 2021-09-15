@@ -58,7 +58,7 @@ cz_geom <- st_combine(st_geometry(cz_crop))
 rm(list = c("cz_crop", "au_crop", "sk_crop"))
 
 # save temp files...
-# dt_hydro_derived <- "analysis/data/derived_data/hydro/"
+dt_hydro_derived <- "analysis/data/derived_data/hydro/"
 # dir.create(here(dt_hydro_derived))
 # st_write(sk_geom, here(dt_hydro_derived, "sk_prep.geojson"))
 # st_write(au_geom, here(dt_hydro_derived, "au_prep.geojson"))

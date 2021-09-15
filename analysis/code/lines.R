@@ -56,7 +56,7 @@ pivot_period <- function(x) {
            period_label = factor(period_label, levels = chrono_labels$periods))
 }
 
-# east art of bohemia
+# east part of bohemia
 # traditions
 b1 <- readxl::read_excel(
   here::here("analysis/data/raw_data/lines.xlsx"),
@@ -65,7 +65,7 @@ b1 <- readxl::read_excel(
   add_id() %>%
   pivot_terrain_and_water() %>%
   mutate("p5.0" = if_else(chrono  %in% c("SBK1", "SBK2"), TRUE, FALSE),
-         "p4.8" = if_else(chrono  %in% c("SBK1", "SBK2", "LgK2"), TRUE, FALSE),
+         "p4.8" = if_else(chrono  %in% c("SBK1", "SBK2"), TRUE, FALSE),
          "p4.6" = if_else(chrono  %in% c("LgK2"), TRUE, FALSE),
          "p4.4" = if_else(chrono  %in% c("LgK2", "ENE0"), TRUE, FALSE),
          "p4.2" = if_else(chrono  == "ENE0", TRUE, FALSE),
@@ -75,21 +75,21 @@ b1 <- readxl::read_excel(
          "p3.4" = if_else(chrono  %in% c("TRB1", "TRB2"), TRUE, FALSE)) %>%
   pivot_period()
 
-# grousp
+# groups
 b2 <- readxl::read_excel(
   here::here("analysis/data/raw_data/lines.xlsx"),
   sheet = "b") %>%
   select(site = NAZLOK, site2 = ALTERNAZ, starts_with("w"), starts_with("t")) %>%
   add_id() %>%
   pivot_terrain_and_water() %>%
-  mutate("p5.0" = if_else(chrono  %in% c("SBK1", "SBK2"), TRUE, FALSE),
-         "p4.8" = if_else(chrono  %in% c("SBK1", "SBK2", "LgK2"), TRUE, FALSE),
+  mutate("p5.0" = if_else(chrono  %in% c("SBK1"), TRUE, FALSE),
+         "p4.8" = if_else(chrono  %in% c("SBK1", "SBK2"), TRUE, FALSE),
          "p4.6" = if_else(chrono  %in% c("LgK2"), TRUE, FALSE),
          "p4.4" = if_else(chrono  %in% c("LgK2", "ENE0"), TRUE, FALSE),
          "p4.2" = if_else(chrono  == "ENE0", TRUE, FALSE),
          "p4.0" = if_else(chrono  == "ENE0", TRUE, FALSE),
          "p3.8" = if_else(chrono  == "TRB1", TRUE, FALSE),
-         "p3.6" = if_else(chrono  %in% c("TRB1", "TRB2"), TRUE, FALSE),
+         "p3.6" = if_else(chrono  %in% c("TRB2"), TRUE, FALSE),
          "p3.4" = if_else(chrono  == "TRB2", TRUE, FALSE)) %>%
   pivot_period()
 
@@ -119,14 +119,14 @@ m2 <- readxl::read_excel(
   select(site = NAZLOK, site2 = ALTERNAZ, starts_with("w"), starts_with("t")) %>%
   add_id() %>%
   pivot_terrain_and_water() %>%
-  mutate("p5.0" = if_else(chrono  %in% c("SBK1", "SBK2"), TRUE, FALSE),
+  mutate("p5.0" = if_else(chrono  %in% c("SBK1"), TRUE, FALSE),
          "p4.8" = if_else(chrono  %in% c("SBK1", "SBK2", "LgK1"), TRUE, FALSE),
          "p4.6" = if_else(chrono  %in% c("LgK1", "LgK2"), TRUE, FALSE),
          "p4.4" = if_else(chrono  %in% c("LgK2", "ENE0"), TRUE, FALSE),
          "p4.2" = if_else(chrono  == "ENE0", TRUE, FALSE),
          "p4.0" = FALSE,
          "p3.8" = if_else(chrono  == "TRB1", TRUE, FALSE),
-         "p3.6" = if_else(chrono  %in% c("TRB1", "TRB2"), TRUE, FALSE),
+         "p3.6" = if_else(chrono  %in% c("TRB2"), TRUE, FALSE),
          "p3.4" = if_else(chrono  == "TRB2", TRUE, FALSE)) %>%
   pivot_period()
 

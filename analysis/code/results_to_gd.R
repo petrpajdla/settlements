@@ -26,8 +26,8 @@ files_local <- list.files(dt_result, pattern = "csv$", full.names = TRUE)
 readme <- list.files(dt_result, pattern = "^README$", full.names = TRUE)
 
 drive_results <- map(files_local, ~ drive_upload(.x, gd_path,
-                                           type = "spreadsheet",
-                                           overwrite = TRUE))
+                                                 type = "spreadsheet",
+                                                 overwrite = TRUE))
 drive_readme <- drive_upload(readme, gd_path, overwrite = TRUE)
 
 
@@ -41,7 +41,7 @@ drive_si <- drive_upload(si, "~/settlements/SI/", overwrite = TRUE)
 # Figs to GD --------------------------------------------------------------
 
 figs <- here("analysis/figures")
-figs_up <- str_c(figs, "/", list.files(figs, pattern = "^res"))
+figs_up <- str_c(figs, "/", list.files(figs, pattern = "^res|^pca"))
 
 map(figs_up, ~ drive_upload(.x, "~/settlements/figures/",
-                                overwrite = TRUE))
+                            overwrite = TRUE))
