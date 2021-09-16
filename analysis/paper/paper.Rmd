@@ -1151,6 +1151,64 @@ hclust2_neo <- pca2_neo %>%
 hclust_plot_dendro(hclust2_neo, c("reg", "neo"))
 ```
 
+## Groups in the data
+
+This is not done for pottery traditions due to an error in one of the periods/
+regions that is caused by not enough variance in the PCA data. Weird...
+
+
+### Pottery groups
+
+```{r mclust2-neo}
+mb_clust2 <- pca2_neo %>% mbc_cluster()
+
+mb_clust2 %>% pull(classif)
+
+
+mb_clust2 %>%
+    select(classif) %>% 
+    ungroup(c(reg, neo)) %>%
+  unnest() %>% View()
+    mutate(g = str_c(reg, g))
+
+mb_classif2_neoB <- mb_clust2 %>% mbc_classify("NeoB")
+mb_classif2_neoC <- mb_clust2 %>% mbc_classify("NeoC")
+
+(mb_classif2_neoB == mb_classif2_neoC) %>% all()
+
+# bind_cols(mb_clustering_neo2$x[[2]][, 1:2], mb_clustering_neo2$classif[[2]]) %>% 
+#   ggplot(aes(PC1, PC2, color = factor(g))) +
+#   stat_ellipse() +
+#   geom_point() +
+#   theme_bw() +
+#   facet_wrap(vars(g))
+
+mb_map2_neoB <- mb_classif2 %>% mbc_map(sf = settlements2, neo = "NeoB")
+mb_map2_neoC <- mb_classif2 %>% mbc_map(sf = settlements2, neo = "NeoC")
+
+# boxploty pro proměnné ve skupinách...
+```
+
+```{r mclust2-map-neoB, fig.cap="Clusters in pottery groups in Neolithic B."}
+mb_map2_neoB
+```
+
+```{r mclust2-map-neoC, fig.cap="Clusters in pottery groups in Neolithic C."}
+mb_map2_neoC
+```
+
+```{r}
+res2_long %>% 
+  filter(variable != "cont") %>% 
+  add_neo() %>% 
+  right_join(mb_classif2, by = c("id", "neo")) %>% 
+  filter(neo == "NeoC") %>% 
+  ggplot(aes(g, value, color = g))+
+  geom_boxplot(show.legend = FALSE) +
+  facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
+  theme_minimal()
+```
+
 
 <!--- ====================================================================== -->
 
@@ -1199,3 +1257,4 @@ The current Git commit details are:
 # what commit is this file at? 
 if ("git2r" %in% installed.packages() & git2r::in_repository(path = ".")) git2r::repository(here::here())  
 ```
+
