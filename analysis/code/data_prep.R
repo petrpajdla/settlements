@@ -1,8 +1,8 @@
 # Project "Settlements"
 # Script nr. 0
-# DATA PREPARATION II
+# DATA PREPARATION
 # author: Petr Pajdla
-# Downloads updated data from GD
+# Downloads updated data from GD and prepares input files
 
 library(here)
 library(tidyverse)
@@ -10,31 +10,28 @@ library(sf)
 library(googledrive)
 
 # paths
+dt_in <- "analysis/data/input_data"
 dt_der <- "analysis/data/derived_data"
 gd_path <- "~/settlements/data/database/"
 
-# dir.create(here(dt_der, "input_gd"))
+# dir.create(here(dt_in))
+# dir.create(here(dt_in, "gd"))
 
 # get updated data from drive
 files_gd <- drive_ls(gd_path)
 
 for (i in seq_along(files_gd$id)) {
   drive_download(as_id(files_gd[i, ]),
-                 here(dt_der, "input_gd", files_gd$name)[i],
+                 here(dt_in, "gd", files_gd$name)[i],
                  type = "csv", overwrite = TRUE)
 }
 
 
 # prepare derived data ----------------------------------------------------
-labs_chrono <- read_rds(here::here(dt_der, "chrono_labels.RDS"))
-
-# labs_chrono$periods["p5.0"] <- "4.9 – 4.8 k"
-# labs_chrono$periods["p3.4"] <- "3.4 – 3.3 k"
-#
-# write_rds(labs_chrono, here::here(dt_der, "chrono_labels.RDS"))
+labs_chrono <- read_rds(here::here(dt_in, "chrono_labels.RDS"))
 
 # list downloaded files
-files_disk <- list.files(here(dt_der, "input_gd"), full.names = TRUE)
+files_disk <- list.files(here(dt_in, "gd"), full.names = TRUE)
 
 # prepare input files for analysis
 set_base <- vector("list")
@@ -84,9 +81,9 @@ set_base$references <- read_csv(str_subset(files_disk, "references")) %>%
 read_csv(str_subset(files_disk, "spatial")) %>%
   st_as_sf(coords = c("X", "Y")) %>%
   st_set_crs(5514) %>%
-  st_write(here(dt_der, "settlements_sf.geojson"), delete_dsn = TRUE)
+  st_write(here(dt_in, "settlements_sf.geojson"), delete_dsn = TRUE)
 
-write_rds(set_base, here(dt_der, "settlements.RDS"))
+write_rds(set_base, here(dt_in, "settlements.RDS"))
 
 
 # # upload corrected csv to GD ----------------------------------------------

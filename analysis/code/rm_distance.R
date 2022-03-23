@@ -9,20 +9,20 @@ library(tidyverse)
 library(sf)
 
 
-derived_data <- "analysis/data/derived_data"
-temp_data <- here::here(derived_data, "temp")
+input_path <- "analysis/data/input_data"
+input_data <- here::here(derived_data)
 
 # database
-set_base <- read_rds(here::here(derived_data, "settlements.RDS"))
+set_base <- read_rds(here::here(input_data, "settlements.RDS"))
 
-set_spat <- st_read(here::here(derived_data, "settlements_sf.geojson"),
+set_spat <- st_read(here::here(input_data, "settlements_sf.geojson"),
                     quiet = TRUE)
 
 # raw materials
-rm_pts <- st_read(here::here(derived_data, "rm_points.geojson"), quiet = TRUE) %>%
+rm_pts <- st_read(here::here("analysis/data/derived_data/rm_points.geojson"), quiet = TRUE) %>%
   mutate(label = if_else(orig == "l", "Chipped", "Polished"))
 
-rm_lns <- st_read(here::here(derived_data, "rm_lines.geojson"), quiet = TRUE) %>%
+rm_lns <- st_read(here::here("analysis/data/derived_data/rm_lines.geojson"), quiet = TRUE) %>%
   mutate(label = if_else(orig == "l", "Chipped", "Polished"))
 
 # distance
@@ -39,12 +39,11 @@ dist <- bind_rows(p = dist_pts, l = dist_lns, .id = "shp") %>%
          type = if_else(rm %in% pstrm, "Polished", "Chipped"),
          region = if_else(str_detect(id, "^B"), "Boh.", "Mor."))
 
-
 # save result
 
-if (!dir.exists(temp_data)) {
-  dir.create(temp_data)
-}
+# if (!dir.exists(temp_data)) {
+#   dir.create(temp_data)
+# }
 
-write_csv(dist, paste0(temp_data, "/rm_dist.csv"))
+write_csv(dist, here::here("analysis/data/input_data/rm_dist.csv"))
 
