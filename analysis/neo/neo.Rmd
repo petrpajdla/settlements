@@ -1,0 +1,472 @@
+---
+title: "SI: Settlements / Neo"
+author: Petr Pajdla
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+    bookdown::html_document2:
+      fig_caption: yes
+      reference_docx: "../templates/template.docx" # Insert path for the DOCX file
+      toc: true
+      toc_depth: 3
+bibliography: ../paper/references.bib
+csl: "../templates/journal-of-archaeological-science.csl"
+# abstract: |
+# keywords: |
+#   keyword 1; keyword 2; keyword 3
+editor_options: 
+  markdown: 
+    wrap: 80
+---
+
+<!-- Keywords: `r rmarkdown::metadata$keywords` -->
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  cache = FALSE,
+  comment = "#>",
+  # fig.path = "../figures/",
+  dpi = 300
+)
+```
+
+```{r packages, cache=FALSE}
+library(sf)
+library(tidyverse)
+library(spatstat)
+library(patchwork)
+devtools::load_all(".")
+```
+
+# Introduction
+
+The analysis is divided into three scales:
+
+-   Neolithic B/C
+-   Pottery traditions
+-   Pottery groups
+
+**This document describes results for Neolithic (A)/B/C.**
+
+The study area is broadly defined as *Easter part of Bohemia* (abbreviated *B*)
+and *Morava river catchment* (*M*). It spans across the area of the Czech
+Republic and bordering regions of Austria and Slovakia.
+
+<!-- ======================================================================= -->
+
+## Data
+
+Data is published in the Journal of Open Archaeology Data:
+
+> Pajdla, P. and Trampota, F., 2021. Neolithic Settlements in Central Europe: Data from the Project ‘Lifestyle as an Unintentional Identity in the Neolithic’. Journal of Open Archaeology Data, 9, p.13. DOI: <http://doi.org/10.5334/joad.88>
+
+```{r load-data, cache = FALSE}
+source(here::here("analysis/code/data_load.R"))
+```
+
+```{r}
+set_base$period2$id %in% set_base$period1$id %>% table()
+
+neoB <- c("SBK", "LgK")
+neoC <- c("ENE", "TRB")
+
+neo <- set_base$period2 %>% 
+  mutate(chrono = str_remove(chrono, ".$")) %>% 
+  select(-facet) %>% 
+  bind_rows(set_base$period1) %>% 
+  select(-starts_with("period")) %>% 
+  arrange(id) %>% 
+  distinct(id, chrono) %>% 
+  mutate(period = if_else(chrono %in% neoB, "NeoB", NA_character_),
+         period = if_else(chrono %in% neoC, "NeoC", period)) %>% 
+  select(-chrono) %>% 
+  distinct(id, period) %>% 
+  mutate(period_label = if_else(period == "NeoB", "Neolithic B", "Neolithic C"),
+         label = period_label)
+
+neo_spat <- neo %>%
+  left_join(set_spat, by = "id") %>% 
+  st_as_sf()
+
+# edit labs for chrono
+labs_chrono$periods <- c("Neolithic B", "Neolithic C") %>% 
+  setNames(c("NeoB", "NeoC"))
+```
+
+
+```{r tab-set-nr}
+neo %>%
+  table_nr_set()
+```
+
+```{r map-set-nr, fig.cap = 'Settlements across time periods.'}
+neo_spat %>% 
+  plot_nr_set()
+```
+
+<!-- ======================================================================= -->
+
+# Analysis
+
+## Settlement density
+
+Settlement density is estimated using KDE. Kernel size of 4 km is used. This
+value is completely arbitrary but is selected because settlement clusters are
+nicely highlighted at this scale.
+
+```{r map-kde, fig.cap = 'Kernel density estimation for different periods.'}
+neo_spat %>% 
+  plot_kde()
+```
+
+```{r set-kde}
+kde <- neo_spat %>% 
+  mutate(chrono = period) %>% 
+  est_kde() %>% 
+  mutate(reg = str_extract(id, "^."))
+```
+
+```{r plot-kde}
+kde %>% ggplot(aes(period, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(y = "KDE")
+```
+
+
+<!--- ====================================================================== -->
+
+## Terrain surrounding the settlements
+
+### Altitude
+
+```{r alt-data}
+alt <- neo_spat %>% 
+  select(id, altitude) %>% 
+  st_drop_geometry() %>% 
+  distinct(id, altitude) %>% 
+  transmute(id, value = altitude,
+            variable = "altitude")
+```
+
+
+```{r alt}
+neo_spat %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(period, altitude)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(y = "Altitude (m)")
+```
+
+
+### Slope
+
+```{r slope}
+slope <- read_csv(here::here("analysis/data/derived_data", 
+                             "slope_at_points.csv")) %>% 
+  filter(id %in% neo$id) %>% 
+  mutate(variable = "slope")
+```
+
+```{r plot-slope}
+slope %>% 
+  left_join(neo, by = "id") %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(period, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(y = "Slope (°)")
+```
+
+### TPI
+
+> Terrain / Topographic position index
+
+```{r tpi}
+tpi <- read_csv(here::here("analysis/data/derived_data", 
+                           "tpi_at_points.csv")) %>% 
+  filter(id %in% neo$id) %>% 
+  mutate(variable = "tpi")
+```
+
+```{r plot-tpi}
+tpi %>% 
+  left_join(neo, by = "id") %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(period, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(y = "TPI")
+```
+
+### Density of water courses
+
+```{r hydro}
+hydro <- read_csv(here::here("analysis/data/derived_data", 
+                             "hydro_at_points.csv")) %>% 
+  filter(id %in% neo$id) %>% 
+  mutate(variable = "hydro") %>% 
+  rename(value = hydro_kde)
+```
+
+```{r plot-hydro}
+hydro %>% 
+  left_join(neo, by = "id") %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(period, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(y = "Hydrology KDE")
+```
+
+<!--- ====================================================================== -->
+
+<!-- # Settlement 'hierarchy' -->
+
+<!-- Minimal distance to fortified settlements in given regions is explored. -->
+
+
+<!--- ====================================================================== -->
+
+# Arrangement along natural lines
+
+```{r along-lines}
+along_lines <- read_rds(here::here(derived_data, "lines/linear_arrangement.RDS"))
+
+along_lines <- along_lines$groups %>% 
+  bind_rows(along_lines$traditions) %>% 
+  mutate(chrono = str_remove(chrono, ".$")) %>% 
+  select(-starts_with("period")) %>% 
+  arrange(id) %>% 
+  mutate(period = if_else(chrono %in% neoB, "NeoB", NA_character_),
+         period = if_else(chrono %in% neoC, "NeoC", period)) %>% 
+  select(-chrono) %>% 
+  group_by(variable, period, id) %>% 
+  summarise(value = mean(value)) %>% 
+  ungroup(c(variable, period, id)) %>% 
+  mutate(period_label = if_else(period == "NeoB", "Neolithic B", "Neolithic C"),
+         label = period_label)
+```
+
+```{r along-lines-plot}
+along_lines %>% 
+  mutate(reg = str_extract(id, "^.")) %>% 
+  ggplot(aes(period, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_grid(vars(variable), vars(reg)) +
+  theme_bw() +
+  labs(y = NULL)
+```
+
+
+<!--- ====================================================================== -->
+
+# Distance to raw material sources
+
+```{r rm}
+# calculated separately in a script `rm_distance.R`
+# dist_pts <- dist_to_rm(set_spat, rm_pts, "rm")
+# dist_lns <- dist_to_rm(set_spat, rm_lns, "rm")
+rm_dist <- read_csv(here::here("analysis/data/input_data", "rm_dist.csv")) %>% 
+  mutate(rm = str_to_lower(rm)) %>% 
+  filter(id %in% settlements2$id)
+
+# 0 = not used
+# 0.5 = somewhat used
+# 1 = used
+rm_b <- readxl::read_xlsx(here::here("analysis/data/raw_data",
+                                     "sidliste_vs_zdroje.xlsx"), sheet = "B")
+rm_m <- readxl::read_xlsx(here::here("analysis/data/raw_data",
+                                     "sidliste_vs_zdroje.xlsx"), sheet = "M")
+
+rm_relevance <- bind_rows(b = rm_b, m = rm_m, .id = "reg") %>% 
+  mutate(across(starts_with("p"), function(x) x * 0.5)) %>% 
+  pivot_longer(starts_with("p"), 
+               names_to = "period", values_to = "relevance") %>% 
+  rename(rm = surovina) %>% 
+  mutate(period2 = if_else(period %in% c("p5.0", "p4.8", "p4.6", "p4.4"), "NeoB", NA_character_),
+         period2 = if_else(period %in% c("p4.2", "p4.0", "p3.8", "p3.6", "p3.4"), "NeoC", period2)) %>% 
+  select(rm, period = period2, relevance, reg)
+
+rm_dist_rel <- neo %>% 
+  filter_rel_dist_rm()
+
+# ---
+rm_types <- rm_dist %>% 
+  select(rm, type) %>% 
+  distinct()
+rm_types_tab <- rm_types %>% 
+  pull(type)
+names(rm_types_tab) <- rm_types %>% 
+  pull(rm)
+# ---
+
+rm_dist_fin <- rm_dist_rel %>% 
+  prep_dist_rel_rm()
+```
+
+<!--- ====================================================================== -->
+
+# Synthesis
+
+```{r variable-labels}
+labs_variables <- c(
+  "settlements_kde" = "Settlement density",
+  # "dist_fenced" = "Min. dist. to fenced set. (km)",
+  "line_terrain" = "Along terrain line",
+  "line_water" = "Along water line",
+  # "cont" = "Settlement continuity",
+  "hydro" = "Watercourse density",
+  # "dem" = "Altitude (DEM)", 
+  "altitude" = "Altitude (map)",
+  "slope" = "Slope (°)",
+  "tpi" = "TPI",
+  "rm_dist_chipped" = "Distance to chipped RM",
+  "rm_dist_polished" = "Distance to polished RM"
+  # "rm_pc1" = "Distance to RM sources 1",
+  # "rm_pc2" = "Distance to RM sources 2",
+  # "rm_pc3" = "Distance to RM sources 3"
+) %>% 
+  map_chr(str_wrap, 12)
+```
+
+```{r variables}
+res_long <- alt %>% 
+  bind_rows(slope) %>% 
+  bind_rows(tpi) %>% 
+  bind_rows(hydro) %>% 
+  left_join(neo) %>% 
+  select(id, variable, value, period) %>% 
+  bind_rows(select(along_lines, -ends_with("label"))) %>% 
+  bind_rows(rm_dist_fin) %>% 
+  bind_rows(select(kde, -reg)) %>% 
+  filter(id %in% neo$id) %>% 
+  group_by(variable, id, period) %>% 
+  summarise(value = mean(value)) %>% 
+  ungroup()
+
+res_wide <- res_long %>% 
+  pivot_wider(id_cols = c(id, period), 
+              names_from = variable, 
+              values_from = value, values_fill = 0)
+```
+
+## Principal components analysis
+
+```{r nested-pca}
+# traditions
+pca_per <- res_wide %>%
+  add_region() %>% 
+  group_by(reg, period) %>% 
+  nest() %>% 
+  nested_pca()
+```
+
+```{r pca-plot}
+pca_per %>% plot_nested_pca(var = "period")
+```
+
+## Groups in the data
+
+```{r package-mclust}
+library(mclust)
+```
+
+```{r mclust2-neo}
+mb_clust <- pca_per %>% mbc_cluster()
+
+classif <- mb_clust %>%
+  dplyr::select(reg, period, classif) %>% 
+  tidyr::unnest(c(classif)) %>% 
+  dplyr::ungroup(c(reg, period)) %>% 
+  dplyr::mutate(g = str_c(reg, g))
+
+set_spat %>% 
+  select(id) %>% 
+  inner_join(classif, by = "id") %>% 
+  ggplot() +
+  geom_sf(aes(color = g)) +
+  facet_grid(vars(g), vars(period)) +
+  theme_void()
+```
+
+```{r spat-out}
+# set_spat %>% 
+#   select(id) %>% 
+#   inner_join(classif, by = "id") %>% 
+#   write_sf(here::here("analysis/neo/neo.geojson"), delete_layer = TRUE)
+```
+
+```{r plot-vars-g}
+plot_g_distribution <- function(var) {
+  res_long %>% 
+    filter(variable == var) %>% 
+    inner_join(classif, by = c("id", "period")) %>% 
+    add_period_label() %>% 
+    ggplot(aes(g, value)) +
+    geom_boxplot() +
+    facet_wrap(vars(period_label), scales = "free_x") +
+    theme_bw() +
+    labs(title = var)
+}
+
+plot_g_distribution("altitude")
+plot_g_distribution("slope")
+plot_g_distribution("tpi")
+
+plot_g_distribution("hydro")
+
+plot_g_distribution("line_terrain")
+plot_g_distribution("line_water")
+
+plot_g_distribution("rm_dist_chipped")
+plot_g_distribution("rm_dist_polished")
+
+plot_g_distribution("settlements_kde")
+```
+
+
+<!--- ====================================================================== -->
+
+\newpage
+
+# References
+
+<!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
+
+::: {#refs}
+:::
+
+\newpage
+
+### Colophon
+
+This report was generated on `r Sys.time()` using the following computational
+environment and dependencies:
+
+```{r colophon, cache = FALSE}
+# which R packages and versions?
+if ("devtools" %in% installed.packages()) devtools::session_info()
+```
+

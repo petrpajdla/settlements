@@ -25,14 +25,14 @@ output:
 bibliography: references.bib
 csl: "../templates/journal-of-archaeological-science.csl"
 # abstract: |
-keywords: |
-  keyword 1; keyword 2; keyword 3
+# keywords: |
+#   keyword 1; keyword 2; keyword 3
 editor_options: 
   markdown: 
     wrap: 80
 ---
 
-Keywords: `r rmarkdown::metadata$keywords`
+<!-- Keywords: `r rmarkdown::metadata$keywords` -->
 
 ```{r setup, echo=FALSE}
 knitr::opts_chunk$set(
@@ -215,14 +215,6 @@ ggplot() +
 
 rm_dist <- read_csv(paste0(path_temp, "rm_dist.csv")) %>% 
   mutate(rm = str_to_lower(rm))
-
-# rm_dist_mean <- rm_dist %>%
-#   select(-region, -type, -shp, -min, -median, -max) %>%
-#   group_by(id, rm) %>%
-#   summarise(dist_rm = mean(mean)) %>%
-#   pivot_longer(cols = dist_rm, names_to = "variable") %>%
-#   mutate(variable = str_c(variable, rm, sep = "_")) %>%
-#   select(-rm)
 ```
 
 <!-- ```{r plot-rm-dist-min, fig.cap="Min. distance to raw material sources."} -->
@@ -411,6 +403,10 @@ rm_dist_rel_p2 %>%
   plot_dist_rel_rm()
 ```
 
+```{r rm-clean}
+rm(list = ls(pattern = "^rm_"))
+```
+
 
 <!-- ======================================================================= -->
 
@@ -433,7 +429,7 @@ Most of the input data is derived from *DIBAVOD* data set A01 layer
 Density (kernel smoothed intensity) is estimated using `spatstat::density.psp`
 function with sigma 2000 m.
 
-```{r get-raster}
+```{r count-water-dens}
 # pkg raster
 # hydro_dens <- raster::raster(
 #   here::here(derived_data, "hydro", "density_raster.tif"))
@@ -445,16 +441,32 @@ function with sigma 2000 m.
 #   bind_cols(select(st_drop_geometry(set_spat), id))
 
 # pkg stars
-hydro_dens <- stars::read_stars(
-  here::here(derived_data, "hydro", "density_raster.tif")
-) %>% 
-  st_set_crs(value = st_crs(set_spat))
+# hydro_dens <- stars::read_stars(
+#   here::here(derived_data, "hydro", "density_raster.tif")
+# ) %>% 
+#   st_set_crs(value = st_crs(set_spat))
+# 
+# hydro_dens_at_points <- hydro_dens %>% 
+#   stars::st_extract(set_spat) %>% 
+#   st_drop_geometry() %>% 
+#   rename(hydro_kde = density_raster.tif) %>% 
+#   bind_cols(select(st_drop_geometry(set_spat), id))
 
-hydro_dens_at_points <- hydro_dens %>% 
-  stars::st_extract(set_spat) %>% 
-  st_drop_geometry() %>% 
-  rename(hydro_kde = density_raster.tif) %>% 
-  bind_cols(select(st_drop_geometry(set_spat), id))
+# pkg terra, implementing buffer around settlements
+# settlements represented as points
+
+hydro_dens <- terra::rast(
+  here::here(derived_data, "hydro", "density_raster.tif")
+)
+
+hydro_dens_at_points <- terra::extract(
+  hydro_dens, 
+  terra::vect(st_buffer(set_spat, dist = 2e3))
+) %>% 
+  group_by(ID) %>% 
+  summarise(hydro_kde = mean(density_raster)) %>% 
+  bind_cols(id = set_spat$id) %>% 
+  select(-ID)
 
 # bind to results
 res1_long <- set_base$period1 %>% 
@@ -478,68 +490,236 @@ res2_long <- set_base$period2 %>%
 #   geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
 #   theme_void()
 
-ggplot() +
-  stars::geom_stars(data = st_crop(hydro_dens, mask), sf = TRUE) +
-  geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
-  theme_void() +
-  labs(fill = "KDE")
+# stars
+# ggplot() +
+#   stars::geom_stars(data = st_crop(hydro_dens, mask), sf = TRUE) +
+#   geom_sf(data = set_spat, alpha = 0.1, shape = 1, color = "white") +
+#   theme_void() +
+#   labs(fill = "KDE")
 ```
+
+```{r water-clean}
+rm(list = c("hydro_dens", "hydro_dens_at_points"))
+```
+
+
 <!--- ====================================================================== -->
 
 # Terrain surrounding the settlements
 
-We focus on slope around the settlements.
+```{r dem}
+dem_terra <- terra::rast(here::here(derived_data, "/dem/dem_aster_sjtsk_stars.tif"))
+```
 
+## Slope
+
+```{r slope}
+dem_slope <- terra::terrain(dem_terra, v = "slope")
+
+# slope in the vicinity of settlements - 2km
+slope <- terra::extract(dem_slope, 
+                        terra::vect(st_buffer(set_spat, dist = 2e3)))
+
+# derive median aspect
+mean_slope <- slope %>% 
+  tibble() %>% 
+  group_by(ID) %>% 
+  summarise(mean_slope = mean(slope)) %>% 
+  bind_cols(id = set_spat$id) %>% 
+  mutate(reg = str_extract(id, "^."))
+
+# shapiro.test(filter(mean_slope, reg == "B")$mean_slope)
+# hist(filter(mean_slope, reg == "B")$mean_slope)
+# qqnorm(filter(mean_slope, reg == "B")$mean_slope)
+# 
+# shapiro.test(filter(mean_slope, reg == "M")$mean_slope)
+# hist(filter(mean_slope, reg == "M")$mean_slope)
+# qqnorm(filter(mean_slope, reg == "M")$mean_slope)
+
+# mean_slope %>% 
+#   inner_join(settlements2, by = "id") %>% 
+#   ggplot(aes(mean_slope)) + 
+#   geom_histogram(color = "black", fill = "white") +
+#   facet_grid(vars(period_label), vars(reg), scales = "free_y") +
+#   theme_bw() +
+#   labs(x = "slope (°)")
+
+# mean_slope %>% 
+#   inner_join(settlements2, by = "id") %>% 
+#   ggplot(aes(mean_slope, period_label)) + 
+#   geom_boxplot(color = "black", fill = "white") +
+#   facet_wrap(vars(reg), scales = "free_y") +
+#   theme_bw() +
+#   labs(x = "slope (°)")
+```
+
+```{r slope-to-res}
+res1_long <- mean_slope %>% 
+  select(-ID, -reg) %>% 
+  inner_join(st_drop_geometry(select(settlements1, id, period))) %>% 
+  transmute(id, 
+            period,
+            value = mean_slope, 
+            variable = "slope") %>% 
+  bind_rows(res1_long)
+
+res2_long <- mean_slope %>% 
+  select(-ID, -reg) %>% 
+  inner_join(st_drop_geometry(select(settlements2, id, period))) %>% 
+  transmute(id, 
+            period,
+            value = mean_slope, 
+            variable = "slope") %>% 
+  bind_rows(res2_long)
+```
+
+```{r aspect-clean}
+rm(list = c("dem_slope", "slope", "mean_slope"))
+gc()
+```
+
+<!--
 ```{r dem-data}
 dem_data <- read_csv(here::here(derived_data, "dem/vals_dem.csv"))
 
 # bind to results
 res1_long <- set_base$period1 %>% 
-  prep_dem_res() %>% 
-  bind_rows(res1_long)
+prep_dem_res() %>% 
+bind_rows(res1_long)
 
 res2_long <- set_base$period2 %>% 
-  select(-facet) %>% 
-  prep_dem_res() %>% 
-  bind_rows(res2_long)
+select(-facet) %>% 
+prep_dem_res() %>% 
+bind_rows(res2_long)
 ```
 
 ```{r altitude-to-res}
 altitude <- set_spat %>% st_drop_geometry() %>% 
-  as_tibble() %>% 
-  select(id, altitude)
+as_tibble() %>% 
+select(id, altitude)
 
 # bind to results
 res1_long <- set_base$period1 %>% 
-  prep_alt_res() %>% 
-  bind_rows(res1_long)
+prep_alt_res() %>% 
+bind_rows(res1_long)
 
 res2_long <- set_base$period2 %>% 
-  select(-facet) %>% 
-  prep_alt_res() %>% 
-  bind_rows(res2_long)
+select(-facet) %>% 
+prep_alt_res() %>% 
+bind_rows(res2_long)
 
 ```
 
 
 ```{r dem-analysis-correlation, fig.cap='Correlation between altitude derived from DEM and altitude reading in the topographic map.'}
 alt_plot <- set_spat %>% st_drop_geometry() %>% 
-  as_tibble() %>% 
-  select(id, altitude) %>% 
-  left_join(dem_data)
+as_tibble() %>% 
+select(id, altitude) %>% 
+left_join(dem_data)
 
 alt_cor <- alt_plot %>% 
-  summarise(cor = cor(altitude, dem)) %>% 
-  pull(cor) %>% 
-  round(2)
+summarise(cor = cor(altitude, dem)) %>% 
+pull(cor) %>% 
+round(2)
 
 alt_plot %>% 
-  ggplot(aes(altitude, dem)) +
-  geom_point() +
-  theme_minimal() +
-  annotate(geom = "text", x = 175, y = 525, 
-           label = paste("Cor. ", alt_cor))
+ggplot(aes(altitude, dem)) +
+geom_point() +
+theme_minimal() +
+annotate(geom = "text", x = 175, y = 525, 
+label = paste("Cor. ", alt_cor))
 ```
+-->
+
+## Exploring aspect
+
+Aspect is calculated from the DEM, 0 means the slope is facing North, 
+90 East, 180 South and 270 West. The settlements are buffered 
+by 200 meters and the median aspect is taken.
+The vicinity of settlements is thus of interest, not the given point.
+
+In both Morava river drainage basin and Eastern part of 
+Bohemia, median aspect is normally distributed.
+
+```{r aspect-norm}
+shapiro.test(filter(med_asp, reg == "B")$med_asp)
+shapiro.test(filter(med_asp, reg == "M")$med_asp)
+```
+
+```{r aspect-plot-reg, fig.cap="Histogram of aspect distibution on polar coordinates."}
+
+# polar plot
+med_asp %>% 
+  ggplot(aes(med_asp)) + 
+  geom_histogram(color = "black", fill = "white") +
+  scale_x_continuous(limits = c(0, 359), 
+                     breaks = c(0, 90, 180, 270)) +
+  coord_polar(start = 0) + 
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  labs(x = "median aspect (°)")
+```
+
+```{r aspect-plot-reg-p2}
+med_asp %>% 
+  inner_join(settlements2, by = "id") %>% 
+  ggplot(aes(med_asp)) + 
+  geom_histogram(color = "black", fill = "white") +
+  scale_x_continuous(limits = c(0, 360), 
+                     breaks = c(0, 90, 180, 270, 360)) +
+  facet_grid(vars(period_label), vars(reg), scales = "free_y") +
+  theme_bw() +
+  labs(x = "median aspect (°)")
+```
+
+```{r aspect-clean}
+rm(list = c("dem_asp", "asp", "med_asp"))
+```
+
+## TPI
+
+> Terrain / Topographic roughness index
+
+```{r tpi}
+dem_tpi <- terra::terrain(dem_terra, v = "TPI")
+
+# tpi in the vicinity of settlements - 2km
+tpi <- terra::extract(dem_tpi, 
+                      terra::vect(st_buffer(set_spat, dist = 2e3)))
+
+# derive median aspect
+mean_slope <- slope %>% 
+  tibble() %>% 
+  group_by(ID) %>% 
+  summarise(mean_slope = mean(slope)) %>% 
+  bind_cols(id = set_spat$id) %>% 
+  mutate(reg = str_extract(id, "^."))
+
+# shapiro.test(filter(mean_slope, reg == "B")$mean_slope)
+# hist(filter(mean_slope, reg == "B")$mean_slope)
+# qqnorm(filter(mean_slope, reg == "B")$mean_slope)
+# 
+# shapiro.test(filter(mean_slope, reg == "M")$mean_slope)
+# hist(filter(mean_slope, reg == "M")$mean_slope)
+# qqnorm(filter(mean_slope, reg == "M")$mean_slope)
+
+# mean_slope %>% 
+#   inner_join(settlements2, by = "id") %>% 
+#   ggplot(aes(mean_slope)) + 
+#   geom_histogram(color = "black", fill = "white") +
+#   facet_grid(vars(period_label), vars(reg), scales = "free_y") +
+#   theme_bw() +
+#   labs(x = "slope (°)")
+
+# mean_slope %>% 
+#   inner_join(settlements2, by = "id") %>% 
+#   ggplot(aes(mean_slope, period_label)) + 
+#   geom_boxplot(color = "black", fill = "white") +
+#   facet_wrap(vars(reg), scales = "free_y") +
+#   theme_bw() +
+#   labs(x = "slope (°)")
+```
+
 
 <!--- ====================================================================== -->
 
@@ -563,39 +743,42 @@ dist_fenced_p2 <- dist_fenced$groups %>%
 
 <!--- ====================================================================== -->
 
+<!--
 # Settlement 'continuity'
 
 Is the same location settled in the previous period?
 
 ```{r continuity-calc}
 res1_long <- set_base$period1 %>%
-  settlement_continuity() %>% 
-  bind_rows(res1_long)
+settlement_continuity() %>% 
+bind_rows(res1_long)
 
 res2_long <- set_base$period2 %>%
-  settlement_continuity() %>% 
-  bind_rows(res2_long)
+settlement_continuity() %>% 
+bind_rows(res2_long)
 ```
 
 ```{r continuity-plot1, fig.cap="Settlements continuity, pottery traditions."}
 n_set_per1 <- set_base$period1 %>% 
-  add_region() %>% 
-  group_by(period_label, reg) %>% 
-  summarise(sum = n())
+add_region() %>% 
+group_by(period_label, reg) %>% 
+summarise(sum = n())
 
 res1_long %>% 
-  plot_continuity(y = n_set_per1)
+plot_continuity(y = n_set_per1)
 ```
 
 ```{r continuity-plot2, fig.cap="Settlements continuity, pottery groups."}
 n_set_per2 <- set_base$period2 %>% 
-  add_region() %>% 
-  group_by(period_label, reg) %>% 
-  summarise(sum = n())
+add_region() %>% 
+group_by(period_label, reg) %>% 
+summarise(sum = n())
 
 res2_long %>% 
-  plot_continuity(y = n_set_per2)
+plot_continuity(y = n_set_per2)
 ```
+-->
+
 
 <!--- ====================================================================== -->
 
@@ -675,7 +858,7 @@ labs_variables <- c(
   "dist_fenced" = "Min. dist. to fenced set. (km)",
   "line_terrain" = "Along terrain line",
   "line_water" = "Along water line",
-  "cont" = "Settlement continuity",
+  # "cont" = "Settlement continuity",
   "hydro_kde" = "Watercourse density",
   # "dem" = "Altitude (DEM)", 
   "altitude" = "Altitude (map)",
@@ -1068,16 +1251,16 @@ pca2_neo <- res2_wide %>%
 
 Variable labels in PCA plots:
 
-altitude - alt.,
-cont - cont.,
-dist_fenced - d. fenced,
-hydro_kde - hydro.,
-line_terrain -  t. line,
-settlements_kde - dens.,
-slope ~ slope,
-rm_dist_chipped - d. ch.,
-line_water - w. line,
-rm_dist_polished - d. pol.
+altitude - alt.,  
+cont - cont.,  
+dist_fenced - d. fenced,  
+hydro_kde - hydro.,  
+line_terrain -  t. line,  
+settlements_kde - dens.,  
+slope ~ slope,  
+rm_dist_chipped - d. ch.,  
+line_water - w. line,  
+rm_dist_polished - d. pol.  
 
 
 
@@ -1108,12 +1291,16 @@ pca2_neo %>% plot_nested_pca("neo", c("PC3", "PC4"))
 pca1_per %>% 
   add_period_label() %>% 
   plot_nested_pca("period_label")
+
+# ggsave(here::here("analysis/paper/temp/pca_trad_1.png"), width = 10, height = 21)
 ```
 
 ```{r plot-pca1-period2, fig.cap="PCA for pottery traditions data across periods, PC 3-4 space."}
 pca1_per %>% 
   add_period_label() %>% 
   plot_nested_pca("period_label", c("PC3", "PC4"))
+
+# ggsave(here::here("analysis/paper/temp/pca_trad_2.png"), width = 10, height = 14)
 ```
 
 ### Pottery groups across periods
@@ -1122,12 +1309,16 @@ pca1_per %>%
 pca2_per %>% 
   add_period_label() %>% 
   plot_nested_pca("period_label")
+
+ggsave(here::here("analysis/paper/temp/pca_skup_1.png"), width = 10, height = 21)
 ```
 
 ```{r plot-pca2-period2, fig.cap="PCA for pottery groups data across periods, PC 3-4 space."}
 pca2_per %>% 
   add_period_label() %>% 
   plot_nested_pca("period_label", c("PC3", "PC4"))
+
+ggsave(here::here("analysis/paper/temp/pca_skup_2.png"), width = 10, height = 21)
 ```
 
 
@@ -1159,20 +1350,30 @@ regions that is caused by not enough variance in the PCA data. Weird...
 
 ### Pottery groups
 
+```{r package-mclust}
+library(mclust)
+```
+
 ```{r mclust2-neo}
 mb_clust2 <- pca2_neo %>% mbc_cluster()
 
-mb_clust2 %>% pull(classif)
+x <- mb_clust2 %>%
+  dplyr::select(reg, neo, classif) %>% 
+  tidyr::unnest() %>% 
+  dplyr::ungroup(c(reg, neo)) %>% 
+  dplyr::mutate(g = str_c(reg, g))
+
+set_spat %>% 
+  inner_join(x, by = "id") %>% 
+  ggplot() +
+  geom_sf(aes(color = g)) +
+  facet_grid(vars(g), vars(neo))
 
 
-mb_clust2 %>%
-    select(classif) %>% 
-    ungroup(c(reg, neo)) %>%
-  unnest() %>% View()
-    mutate(g = str_c(reg, g))
+```
 
-mb_classif2_neoB <- mb_clust2 %>% mbc_classify("NeoB")
-mb_classif2_neoC <- mb_clust2 %>% mbc_classify("NeoC")
+mb_classif2_neoB <- mb_clust2 %>% mbc_classify(neo = "NeoB")
+mb_classif2_neoC <- mb_clust2 %>% mbc_classify(neo = "NeoC")
 
 (mb_classif2_neoB == mb_classif2_neoC) %>% all()
 
@@ -1199,14 +1400,14 @@ mb_map2_neoC
 
 ```{r}
 res2_long %>% 
-  filter(variable != "cont") %>% 
-  add_neo() %>% 
-  right_join(mb_classif2, by = c("id", "neo")) %>% 
-  filter(neo == "NeoC") %>% 
-  ggplot(aes(g, value, color = g))+
-  geom_boxplot(show.legend = FALSE) +
-  facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
-  theme_minimal()
+filter(variable != "cont") %>% 
+add_neo() %>% 
+right_join(mb_classif2, by = c("id", "neo")) %>% 
+filter(neo == "NeoC") %>% 
+ggplot(aes(g, value, color = g))+
+geom_boxplot(show.legend = FALSE) +
+facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
+theme_minimal()
 ```
 
 
@@ -1216,16 +1417,16 @@ res2_long %>%
 
 ```{r results-export}
 res1_long %>%
-  distinct(id, period, variable, .keep_all = TRUE) %>% 
-  pivot_wider(names_from = variable, values_from = value) %>% 
-  arrange(id, period) %>% 
-  write_csv(here::here(derived_data, "results", "results1.csv"))
+distinct(id, period, variable, .keep_all = TRUE) %>% 
+pivot_wider(names_from = variable, values_from = value) %>% 
+arrange(id, period) %>% 
+write_csv(here::here(derived_data, "results", "results1.csv"))
 
 res2_long %>% 
-  distinct(id, period, variable, .keep_all = TRUE) %>% 
-  pivot_wider(names_from = variable, values_from = value) %>% 
-  arrange(id, period) %>% 
-  write_csv(here::here(derived_data, "results", "results2.csv"))
+distinct(id, period, variable, .keep_all = TRUE) %>% 
+pivot_wider(names_from = variable, values_from = value) %>% 
+arrange(id, period) %>% 
+write_csv(here::here(derived_data, "results", "results2.csv"))
 ```
 
 <!--- ====================================================================== -->
