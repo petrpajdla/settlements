@@ -47,11 +47,11 @@ mbc_cluster <- function(x, prob = 0.75) {
 #' @examples
 mbc_classify <- function(x, neo) {
   x %>%
-    select(classif) %>%
-    filter(neo == neo) %>%
-    unnest() %>%
-    ungroup(c(reg, neo)) %>%
-    mutate(g = str_c(reg, g))
+    dplyr::select(classif) %>%
+    dplyr::filter(neo == neo) %>%
+    tidyr::unnest() %>%
+    dplyr::ungroup(c(reg, neo)) %>%
+    dplyr::mutate(g = str_c(reg, g))
 }
 
 

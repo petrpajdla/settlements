@@ -9,26 +9,26 @@
 nested_pca <- function(x) {
   x %>%
     mutate(
-      id = map(data, \(x) select(x, id)),
-      data = map(data, \(x) select(x, -id)),
-      mx = map(data, \(x) complete(x)),
-      mx = map(mx, \(x) select(x, where(~ sum(.x) != 0))),
-      mx = map(mx, \(x) select(x, where(~ sum(.x)/length(.x) != 1))),
-      mx = map(mx, \(x) mutate(x, across(where(is.numeric), scale))),
-      mx = map(mx, as.matrix),
-      pca = map(mx, prcomp),
-      sdev = map(pca, \(x) tibble(sdev = x$sdev)),
-      sdev = map(sdev, \(x) mutate(x,
-                                   var_prop = sdev^2 / sum(sdev^2),
-                                   cum_prop = cumsum(var_prop),
-                                   pc = row_number())),
-      x = map(pca, \(x) as_tibble(x$x)),
-      rotation = map(pca, broom::tidy, matrix = "rotation"),
-      rotation = map(rotation, pivot_wider,
-                     names_from = "PC", names_prefix = "PC",
-                     values_from = "value")
+      id = purrr::map(data, \(x) dplyr::select(x, id)),
+      data = purrr::map(data, \(x) dplyr::select(x, -id)),
+      mx = purrr::map(data, \(x) complete(x)),
+      mx = purrr::map(mx, \(x) dplyr::select(x, where(~ sum(.x) != 0))),
+      mx = purrr::map(mx, \(x) dplyr::select(x, where(~ sum(.x)/length(.x) != 1))),
+      mx = purrr::map(mx, \(x) dplyr::mutate(x, across(where(is.numeric), scale))),
+      mx = purrr::map(mx, as.matrix),
+      pca = purrr::map(mx, prcomp),
+      sdev = purrr::map(pca, \(x) tibble(sdev = x$sdev)),
+      sdev = purrr::map(sdev, \(x) dplyr::mutate(x,
+                                                 var_prop = sdev^2 / sum(sdev^2),
+                                                 cum_prop = cumsum(var_prop),
+                                                 pc = row_number())),
+      x = purrr::map(pca, \(x) as_tibble(x$x)),
+      rotation = purrr::map(pca, broom::tidy, matrix = "rotation"),
+      rotation = purrr::map(rotation, pivot_wider,
+                            names_from = "PC", names_prefix = "PC",
+                            values_from = "value")
     ) %>%
-    select(-mx, -pca)
+    dplyr::select(-mx, -pca)
 }
 
 #' Plot nested PCA results
@@ -80,12 +80,12 @@ plot_nested_pca <- function(x, var, pc = c("PC1", "PC2")) {
 #' @examples
 hclust_variables <- function(x) {
   x %>% mutate(
-    dist = map(rotation, \(x) column_to_rownames(x, "column")),
-    dist = map(dist, \(x) as.matrix(x)),
-    dist = map(dist, \(x) dist(x, method = "maximum")),
-    hclust = map(dist, \(x) hclust(x, method = "ward.D2")),
-    lab = map2(reg, neo, \(x, y) str_c("Reg. ", x, ", ", y)),
-    dendro = map2(hclust, lab, \(x, y) ggdendro::ggdendrogram(x, rotate = TRUE) +
+    dist = purrr::map(rotation, \(x) column_to_rownames(x, "column")),
+    dist = purrr::map(dist, \(x) as.matrix(x)),
+    dist = purrr::map(dist, \(x) dist(x, method = "maximum")),
+    hclust = purrr::map(dist, \(x) hclust(x, method = "ward.D2")),
+    lab = purrr::map2(reg, neo, \(x, y) str_c("Reg. ", x, ", ", y)),
+    dendro = purrr::map2(hclust, lab, \(x, y) ggdendro::ggdendrogram(x, rotate = TRUE) +
                     labs(title = y))
   )
 }
