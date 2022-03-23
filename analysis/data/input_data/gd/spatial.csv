@@ -1,0 +1,2171 @@
+id,site,accuracy,surface,altitude,X,Y
+B0001,Bačalky-,1,FALSE,360,-687123,-1017048
+B0002,Bašnice-Potvrzník,2,TRUE,272,-655020,-1027000
+B0003,Bašnice-Potvrzník,2,TRUE,264,-655248,-1027404
+B0004,Bašť-Nová Bašť,2,NA,230,-736587,-1030806
+B0005,Běchovice-V panenkách,2,TRUE,252,-727471,-1046164
+B0006,Běchovice-Nad vodárnou,2,TRUE,238,-729763,-1045159
+B0007,Běchovice-Za homolí,2,TRUE,250,-728547,-1044771
+B0008,Běchovice-pískovna,2,FALSE,237,-729591,-1045958
+B0009,Bělá u Turnova-Dvojitá brána,1,FALSE,370,-680859,-993079
+B0010,Benátky-Na Trubačce,1,FALSE,280,-646662,-1029230
+B0011,Benátky-,2,TRUE,266,-647486,-1031116
+B0012,Benátky-Na oborách,2,FALSE,266,-646715,-1029692
+B0013,Benátky-Za Březinou,2,TRUE,272,-647512,-1031514
+B0014,Benátky-Na předních stáních,2,TRUE,270,-646417,-1030773
+B0015,Bílskou u Hořic-,3,NA,298,-655596,-1022486
+B0016,Blato-K Mikulovicím,2,NA,256,-648299.47,-1066299.06
+B0017,Bohnice-U Šípků,2,FALSE,294,-741605,-1037768
+B0018,Bohnice-sídliště,2,FALSE,276,-743250,-1037756
+B0019,Bohnice-Zámka,2,FALSE,251,-743212,-1036421
+B0020,Brandýs nad Labem-Královice,2,NA,178,-723259,-1034910
+B0021,Brandýs nad Labem-cihelna p. Kejmara,2,NA,216,-725785,-1035289
+B0022,Brandýs nad Labem-Hrušov,2,FALSE,200,-725505,-1034924
+B0023,Brandýs nad Labem-mezi hřbitovy,1,TRUE,180,-724658,-1034079
+B0024,Brandýs nad Labem-Sněženková ul.,2,FALSE,214,-725053,-1035509
+B0025,Brandýs nad Labem-U vodojemu,2,FALSE,220,-725594,-1035593
+B0026,Brandýs nad Labem-Zápská,2,FALSE,208,-723774,-1035385
+B0029,Brázdim-Veliký Brádim,3,NA,204,-729215,-1032936
+B0030,Brodce nad Jizerou-,3,NA,200,-707817,-1021444
+B0031,Březiněves-Na Hlavní,2,FALSE,254,-737110,-1035254
+B0032,Březno u Mladé Boleslavi-Pod vinicí,2,TRUE,236,-696198,-1013974
+B0033,Březovice-,2,FALSE,306,-650837,-1024125
+B0034,Březovice-Mezi řekami,2,TRUE,306,-651228,-1024882
+B0035,Břežany II-Na statku,NA,NA,232,-716514,-1044231
+B0036,Bříšťany-Na Parkáně,2,NA,266,-654738,-1029024
+B0037,Bříšťany-,2,TRUE,270,-654303,-1028365
+B0038,Bukvice-východní okraj obce,1,FALSE,316,-676012,-1015477
+B0039,Bylany u Českého Brodu-Klečky,3,FALSE,252,-708150,-1051601
+B0040,Bylany u Českého Brodu-Okrouhlík,2,TRUE,254,-708406,-1050646
+B0041,Bylany u Kutné Hory-1,1,FALSE,300,-686600,-1067514
+B0042,Bylany u Kutné Hory-2,1,FALSE,300,-686652,-1066818
+B0043,Bylany u Kutné Hory-3,1,FALSE,310,-687366,-1066472
+B0044,Bylany u Kutné Hory-4,1,FALSE,310,-687372,-1066874
+B0045,Bylany u Kutné Hory-5,1,FALSE,335,-687716,-1067436
+B0046,Bylany u Kutné Hory-Nade vsí,1,FALSE,320,-687256,-1067394
+B0047,Bystřice-V bahnech,2,TRUE,310,-680763,-1017477
+B0048,Bystřice-Nad Bahny,2,TRUE,296,-680479,-1016625
+B0049,Cerekvice nad Bystřicí-Za Lužním mlýnem,2,TRUE,276,-648044,-1028566
+B0050,Cerekvice nad Bystřicí-Na kozách,2,TRUE,274,-646828,-1028857
+B0051,Cerekvice nad Loučnou-,2,TRUE,302,-617064,-1079805
+B0052,Cerekvice nad Loučnou-zemědělské družstvo,2,FALSE,300,-617153,-1080199
+B0053,Cerhenice-Za dráhou,2,FALSE,202,-696288,-1050146
+B0054,Cernenice-Za oborou,2,FALSE,200,-696680,-1051557
+B0055,Cerhenice-U cukrovaru,2,FALSE,198,-696091,-1050435
+B0056,Církvice u Kutné Hory-Nad vsí,3,FALSE,215,-680740,-1066351
+B0057,Církvice u Kutné Hory-Cihelna,2,NA,212,-680779,-1065771
+B0058,Černá za Bory-Žižín,2,TRUE,230,-642527,-1063504
+B0059,Čakovice-Kostelecká ul.,2,FALSE,250,-735693,-1036783
+B0060,Čakovice-,2,NA,252,-734599,-1037603
+B0061,Čáslav-Nový Čeplov,1,FALSE,266,-676764,-1072624
+B0062,Čáslav-U hřbitova,2,FALSE,240,-676360,-1069883
+B0063,Čáslav-Na skále,1,FALSE,262,-675794,-1072718
+B0064,Čáslav-Kalabousek,1,FALSE,230,-677779,-1069552
+B0065,Čáslav-Staré město,1,FALSE,258,-676368,-1071478
+B0066,Čáslav-Ke Koudelovu,2,FALSE,236,-674238,-1071348
+B0067,Čáslav-Svornost,2,FALSE,260,-676151,-1073223
+B0068,Čáslav-Hrádek,1,FALSE,260,-676931,-1071485
+B0069,Čáslavky-,2,TRUE,270,-630576,-1025080
+B0070,Čáslavky-cihelna,2,NA,274,-630989,-1025126
+B0071,Čelákovice-J.A. Komenského,2,NA,184,-718524,-1037919
+B0072,Čelákovice-V Rybníčkách,2,FALSE,190,-719041,-1038599
+B0073,Čelákovice-býv. Švejdova cihelna,3,FALSE,198,-718758,-1039327
+B0074,Čelákovice-S.K. Neumanna,3,NA,184,-718648,-1038601
+B0075,Čenkov-kamenolom,2,TRUE,282,-740005,-1027168
+B0076,Černožice nad Labem-konzervárna,2,FALSE,248,-636976,-1031076
+B0077,Černožice nad Labem-Gen. Svobody,2,FALSE,255,-636746,-1030642
+B0078,Černožice nad Labem-Čáslavky,2,FALSE,254,-636518,-1030192
+B0079,Černožice nad Labem-železnice,2,FALSE,255,-636837,-1030174
+B0080,Černý Most-jižně od Chlumecké ul.,2,FALSE,256,-731932,-1042535
+B0081,Červené Pečky-Parkán,2,NA,280,-688688,-1062341
+B0082,Červené Pečky-U nádraží,3,NA,270,-688593,-1061343
+B0083,Červené Pečky-U panského ovčína,3,NA,290,-689651,-1061742
+B0084,Český Brod-K Dolankám,2,FALSE,226,-712487,-1049214
+B0085,Český Brod-Klímova cihelna,2,FALSE,240,-713219,-1050230
+B0086,Češov-Češovské valy,2,TRUE,320,-673758,-1024860
+B0087,Číbuz-,2,TRUE,240,-637102,-1033621
+B0088,Čilec-Pískovna J. Kozla,2,FALSE,196,-700923,-1034092
+B0089,Čimice-Žalovská ul.,2,FALSE,300,-741377,-1037062
+B0090,Čistěves-,1,TRUE,270,-647625,-1032465
+B0091,Čistěves-U německého rybníka,2,TRUE,266,-647889,-1031588
+B0092,Dětenice-bioplynová stanice,1,FALSE,230,-685321,-1019048
+B0093,Dneboh-Hrada,1,FALSE,406,-692919,-999875
+B0094,Dobrovice-Losky,2,NA,232,-700542,-1017696
+B0095,Dobřenice-,1,FALSE,272,-655346,-1047711
+B0096,Dobřenice-intravilán,1,TRUE,284,-655439,-1047646
+B0097,Dobřichov-Pod Třebickou,3,TRUE,200,-698753,-1050804
+B0098,Dohalice-Dohaličky,2,FALSE,268,-650098,-1033363
+B0099,Dolany u Červených Peček-závlaha,3,FALSE,262,-686938,-1062766
+B0100,Dolany u Červených Peček-,2,FALSE,254,-687305,-1062268
+B0101,Dolany u Červených Peček-,2,FALSE,260,-687398,-1062610
+B0102,Dolany u Červených Peček-Malá Vysoká,2,TRUE,304,-687472,-1063032
+B0103,Dolany u Jaroměře-intravilán,2,NA,282,-629865.48,-1024438.45
+B0104,Dolany u Jaroměře-u osady Sebuč,2,TRUE,296,-628510,-1022362
+B0105,Dolany u Jaroměře-Nad silnicí,2,TRUE,284,-629005,-1023863
+B0106,Dolany u Pardubic-Břeština,2,TRUE,222,-652670,-1051781
+B0107,Dolní Břežany-K Hradišťátku,NA,FALSE,356,-742858,-1057451
+B0108,Dolní Břežany-Kamínek,2,FALSE,346,-741282,-1057079
+B0109,Dolní Břežany-K Hodkovicům,2,FALSE,346,-741706,-1056958
+B0110,Dolní Břežany-U struh,3,NA,350,-741207,-1057411
+B0111,Dolní Jirčany-Nad školkou,2,FALSE,336,-738135,-1059696
+B0112,Dolní Počernice-Na vinici,2,FALSE,260,-730542,-1044835
+B0113,Dolní Chabry-Do rybníčků,1,FALSE,270,-740284,-1036175
+B0114,Dolní Chabry-Cihelna pana Malinskeho,3,NA,258,-740583,-1035950
+B0115,Doubrava-Svatogothardská Lhota,2,FALSE,298,-651119,-1024390
+B0116,Drobovice-křižovníci,2,NA,269,-675133,-1073609
+B0117,Dřenice-Bažantnice,2,NA,244,-650444,-1066101
+B0118,Dřevčice u Brandýsa nad Labem-,2,TRUE,220,-726970,-1035372
+B0119,Dřevčice u Brandýsa nad Labem-Na čtrnácti,1,FALSE,234,-727527,-1036569
+B0120,Dřevčice u Brandýsa nad Labem-Na paterých,2,TRUE,220,-725803,-1035532
+B0121,Dřevčice u Brandýsa nad Labem-Za zvonicí,2,TRUE,226,-726646,-1036036
+B0122,Dřínov-Na provázku,2,TRUE,206,-741753,-1021858
+B0123,Dušníky nad Vltavou-Na špalkách,2,TRUE,168,-745026,-1018753
+B0124,Dvory u Nymburka-u potoka Liduška,2,FALSE,200,-698985,-1034717
+B0125,Ďáblice-Řepná ul.,1,FALSE,250,-736649,-1036626
+B0126,Ďáblice-K Letňanům,2,FALSE,276,-737404,-1037478
+B0127,Ďáblice-Legionářů,1,FALSE,270,-737248,-1037208
+B0128,Ďáblice-Nové Ďáblice,2,FALSE,284,-737544,-1037674
+B0129,Ďáblice-křižovatka Cínovecká-Kostelecká,2,NA,258,-736772,-1036975
+B0130,Habřina-Prašivka,3,NA,301,-638672,-1029566
+B0131,Hlaváčova Lhota-u dvora Broučkov,3,TRUE,286,-706107,-1056080
+B0132,Hlízov-Močidla,3,FALSE,202,-681637,-1062616
+B0133,Hlízov-,2,TRUE,204,-681400,-1062925
+B0134,Hloubětín-Nepelova,2,FALSE,200,-735295,-1041906
+B0135,Hloubětín-,2,NA,258,-732999,-1041895
+B0136,Hlušičky-U Bydžovského,2,TRUE,248,-670923,-1033257
+B0137,Hnanice pod Troskami-Těhníkova skála,1,FALSE,288,-678581,-1001448
+B0138,Hněvčeves-Pod kostelem,2,TRUE,274,-647740,-1029902
+B0139,Hněčeves-nádraží,2,FALSE,262,-647549,-1030045
+B0140,Hněvčeves-U březiny,3,TRUE,260,-647557,-1030596
+B0141,Hněčeves-,2,FALSE,260,-647880,-1030725
+B0142,Holín-Jandice,2,TRUE,294,-674366,-1011519
+B0143,Holohlavy,2,NA,261,-637735.51,-1031354.15
+B0144,Holohlavy-severně od obce,1,NA,254,-637477,-1031414
+B0145,Holohlavy_Na rozcestí,1,NA,258,-637809.59,-1031712.28
+B0146,Holohlavy_teplárna,1,FALSE,245,-637062.15,-1031405.81
+B0147,Horní Bousov-U výkrmny kachen,2,TRUE,246,-687911,-1009186
+B0148,Horní Dolce-U kapličky,2,TRUE,284,-634461,-1025734
+B0149,Horní Dolce-,2,TRUE,296,-634896,-1025478
+B0150,Horní Lochov-,2,FALSE,306,-675418,-1010875
+B0151,Horní Lochov-,3,NA,334,-674749,-1010548
+B0153,Horní Měcholupy-Na Vartě,2,FALSE,288,-734305,-1049527
+B0154,Horní Počernice-Na chvalce,2,FALSE,268,-729788,-1042683
+B0155,Horní Počernice-Na tarase,2,FALSE,260,-730584,-1042204
+B0156,Horní Sloupnice,2,TRUE,385,-610674,-1078986
+B0157,Horní Stakory-U bažantnice,2,TRUE,222,-699750,-1009401
+B0158,Horušice-Duna,2,TRUE,210,-674387,-1063398
+B0159,Hořany u Kutné Hory-,2,FALSE,282,-686999,-1063061
+B0160,Hořany u Poříčan-,2,FALSE,246,-705617,-1045661
+B0161,Hořenice,2,TRUE,270,-633609,-1025557
+B0162,Hořenice-U pískoviště,2,TRUE,314,-634314,-1025284
+B0163,Hoštice u Vodochod-Březí,2,FALSE,278,-742185,-1029704
+B0164,Hoštice u Vodochod-Na rovišťatech,1,FALSE,284,-741521,-1029942
+B0165,Hoštice u Vodochod-Na rovišťatech,2,NA,283,-741309,-1029974
+B0166,Hostivař-K jezeru,1,FALSE,256,-736080,-1048493
+B0167,Hostivař-stará Hostivař,2,FALSE,362,-735810,-1048383
+B0168,Hostivař-býv. pískovna,3,NA,228,-736356,-1047931
+B0169,Hradec Králové-centrum,2,FALSE,246,-640998,-1042376
+B0170,Hrubá Skála-Hlavatá skála,1,FALSE,312,-679663,-1002212
+B0171,Husinec u Řeže-,2,NA,190,-744754,-1033038
+B0172,Hustířany-Velká Hradečnice,2,TRUE,272,-640334,-1027854
+B0173,Hustířany-Na Merklovém,2,TRUE,280,-639808,-1026563
+B0174,Hustířany-Na provázcích,1,FALSE,280,-639995,-1027213
+B0175,Hvězda-,2,TRUE,302,-639586,-1024233
+B0176,Chleby-U Havranska,2,FALSE,193,-691492,-1035494
+B0177,Chloumek-Na hrádku,3,TRUE,340,-702746,-1015651
+B0178,Chloumek-Švédské šance,1,FALSE,360,-702567,-1014492
+B0179,Chlumín-Na dymáku,2,TRUE,166,-737406,-1020844
+B0180,Chlum u Hradce Králové-Na vrších,2,TRUE,330,-645857,-1034568
+B0181,Chotouchov-zahrada p. Horáka,3,NA,334,-694332,-1063444
+B0182,Chotýš,1,FALSE,304,-709799,-1054985
+B0183,Chotýš-nad úvozovou cestou,2,TRUE,290,-710408,-1055174
+B0184,Chrast-K Chrašicícm,2,FALSE,284,-637246,-1076465
+B0185,Chrast,2,FALSE,278,-637383,-1075850
+B0186,Chrášťany u Českého Brodu-bioplynová stanice,2,FALSE,256,-707341,-1050180
+B0187,Chrudim-Nad železniční zastávkou,2,TRUE,258,-646813,-1069710
+B0188,Chrudim-Olbrachtova ul,2,NA,260,-647859,-1070625
+B0189,Chrudim-Píšťovy,1,FALSE,258,-646749,-1072189
+B0190,Chrudim-Pod křížem,2,NA,290,-645720.83,-1070006.58
+B0191,Chrudim-Pod požární zbrojnicí,2,NA,274,-645822.43,-1070768.58
+B0192,Chrudim-Pumberky,2,FALSE,288,-645497,-1070514
+B0193,Chrudim-Staré město,1,FALSE,265,-647136,-1070565
+B0194,Chrudim-U kostela Sv. Kříže,1,FALSE,272,-647569,-1071524
+B0195,Chrudim-Wiesnerova továrna,1,FALSE,252,-647738,-1070180
+B0196,Chudonice-,3,FALSE,226,-665599,-1036957
+B0197,Chyjice-V lohovicích,1,FALSE,316,-678461,-1018160
+B0198,Chýšť-Vražednice,1,FALSE,238,-663047,-1047972
+B0199,Jakub-K Novému rybníku,2,TRUE,212,-678359,-1064658
+B0200,Jaroměř-Dolní dolce,1,FALSE,260,-634352,-1028327
+B0201,Jaroměř-Dolní Dolce-Zavadilka,1,FALSE,264,-634397,-1027636
+B0202,Jaroměř-Na cihelnách,1,FALSE,268,-633733.47,-1027371.05
+B0203,Jaroměř-Na Vinicích,2,NA,264,-633876,-1026822
+B0204,Jenštejn-Na vartě,2,FALSE,236,-728838,-1037185
+B0205,Jenštejn-Na Stráni,2,TRUE,236,-728730,-1037526
+B0206,Jenštejn-,2,FALSE,232,-729037,-1037425
+B0207,Jeřice-V Motsečkách,2,TRUE,280,-650375,-1026128
+B0208,Jeřice-U studánky,2,TRUE,288,-650881,-1025625
+B0209,Jičín-nemocnice,2,FALSE,288,-671597,-1012741
+B0210,Jirny-Na Kaštance,1,FALSE,244,-723123,-1042678
+B0211,Jiřice u Kostelce nad Labem-,2,TRUE,172,-730625,-1028243
+B0213,Kbelnice-Horka,2,TRUE,284,-671125,-1010934
+B0214,Kbelnice-úvoz k Bílému mlýnu,2,NA,283,-671259,-1011228
+B0215,Kbely-cihelna,2,FALSE,276,-733044,-1038876
+B0216,Kbely-,3,NA,270,-732597,-1039105
+B0217,Kbely-ZŠ Albrechtická,1,FALSE,274,-733376,-1039078
+B0218,Klecany-Na hradišti,2,FALSE,278,-743229,-1032964
+B0219,Klecany-zámecká zahrada,1,FALSE,280,-742558,-1032858
+B0220,Klecany-Na skalkách,2,NA,268,-741766,-1033313
+B0221,Klučov u Českého Brodu-Na ptáčku,2,FALSE,248,-707949,-1046476
+B0222,Klučov u Českého Brodu-,1,FALSE,214,-708429,-1047023
+B0223,Kobylisy-Kobyliské nám.,2,FALSE,276,-739939,-1039341
+B0224,Kobylisy-U Ženíškovy cihelny,2,NA,276,-739745,-1039519
+B0225,Kojice-Za domkem,2,TRUE,206,-674059,-1057260
+B0226,Kolín-Ve vrbičkách,1,NA,214,-690541,-1056051
+B0227,Kolín-Šťáralka,1,FALSE,202,-686458,-1059295
+B0228,Kolín-Lučební závody Draslovka,1,FALSE,200,-687211,-1058042
+B0229,Kolín-Plynárenská,2,FALSE,210,-687361,-1058463
+B0230,Kolín-Syntezia,2,NA,198,-689689,-1056071
+B0231,Kolín-U zálabské Prachárny,3,NA,198,-688248,-1056592
+B0232,Kolín VII,1,FALSE,216,-687184,-1059215
+B0233,Konecchlumí-U dubu,2,NA,294,-663090,-1017626
+B0234,Kopidlno-ČOV,1,FALSE,220,-680125,-1023883
+B0235,Kornice-Hlavňov,2,TRUE,380,-611385,-1081665
+B0236,Kosmonosy-,2,FALSE,232,-700629,-1008810
+B0237,Kostelec nad Labem-Blatenská,2,FALSE,170,-729417,-1028994
+B0238,Kostelec nad Labem-cukrovar,2,FALSE,174,-729769,-1028788
+B0239,Kostelec nad Labem-Na pískách,2,NA,164,-728170,-1028492
+B0240,Kostelec nad Orlicí-Hálkova ul.,1,FALSE,306,-614604,-1054443
+B0241,Kounice-Na Skále,2,FALSE,240,-712971,-1045084
+B0242,Kouřim-Molitirov,1,FALSE,286,-705797,-1057865
+B0243,Kouřim-U cukrovaru,2,NA,258,-703758,-1057636
+B0244,Kouřim-Stará Kouřim,1,FALSE,290,-703812,-1058047
+B0245,Kouřim-V Dolnici,3,NA,276,-704001,-1058851
+B0246,Kouřim-U svatého Jiří,2,NA,280,-704382,-1058215
+B0247,Kovanice-intravilán,3,FALSE,178,-695508,-1040126
+B0248,Kratonohy-Požárský,1,FALSE,230,-659028,-1044639
+B0249,Krč-Společenská zahrada,1,FALSE,230,-741373,-1049248
+B0250,Křinec-Za mostem,2,FALSE,192,-689353,-1031174
+B0251,Krchleby u Čáslavi-Na Lomenici,2,FALSE,272,-679367,-1073161
+B0252,Krupá u Kostelce nad Černými Lesy-Syneč,1,FALSE,274,-710582,-1053932
+B0253,Krupá u Kostelce nad Černými Lesy-V roklích,2,TRUE,300,-711123,-1054219
+B0254,Krupá u Kostelce nad Černými Lesy-Měchejřík,2,TRUE,290,-710759,-1054719
+B0255,Křeslice-U Fantova mlýna,2,TRUE,262,-733757,-1050967
+B0256,Kšely-,2,FALSE,258,-708818,-1051334
+B0257,Kšely-,2,TRUE,252,-708968,-1051377
+B0258,Kšely-Za humny,3,NA,272,-709137,-1052627
+B0259,Kšely-stavba kravínů,2,FALSE,258,-709568,-1052168
+B0260,Kšely-V červenkách,3,TRUE,292,-710450,-1053201
+B0261,Kšely-dům č.p.7,2,NA,256,-709554,-1052332
+B0262,Kukleny-škola,1,FALSE,234,-643491,-1042270
+B0263,Kunětice,NA,NA,222,-643162,-1057279
+B0264,Kunratice-Nový hrad,2,FALSE,264,-740257,-1051000
+B0265,Kutná Hora-Cimburk,1,FALSE,312,-686485,-1068329
+B0266,Kutná Hora-Karlov,2,FALSE,238,-683651,-1066450
+B0267,Kutná Hora-Školní ul.,2,FALSE,230,-684116,-1065718
+B0268,Kutná Hora-Dänemark,1,FALSE,300,-686041,-1068239
+B0269,Kutná Hora-Stará cihelna,2,FALSE,266,-684851,-1067779
+B0270,Květnice-Za mlýnem,2,NA,272,-724973,-1048409
+B0271,Květnice-Bedrníková ul.,2,FALSE,270,-725212,-1048794
+B0272,Květnice-Na Ladech,1,FALSE,270,-724727,-1048454
+B0273,Lány u Bylan-Mezi mlýny,2,TRUE,268,-650204,-1071379
+B0274,Lány u Bylan-,2,TRUE,268,-650372,-1071156
+B0275,Lázně Bohdaneč-Na kozlíčku,2,TRUE,222,-653026,-1053160
+B0276,Lázně Bohdaneč-Dobrá,2,TRUE,220,-653395,-1052525
+B0277,Lázně Toušeň-Nad tratí,1,FALSE,194,-721171,-1037257
+B0278,Lázně Toušeň-Na hradisku,2,TRUE,184,-720201,-1037211
+B0279,Lázně Toušeň-Jandova cihelna,2,FALSE,200,-720809,-1037487
+B0280,Letňany-Beranových,2,FALSE,282,-735772,-1039520
+B0281,Lhota u Dolních Břežan- dům č. 46,2,FALSE,352,-744130,-1057407
+B0282,Lhota u Dolních Břežan-Hradiště,2,TRUE,380,-745707,-1056635
+B0283,Libáň-,2,FALSE,236,-681532,-1018445
+B0284,Libáň-,2,TRUE,230,-681697,-1018746
+B0285,Libčany-,1,FALSE,260,-651394,-1042860
+B0286,Libčany-intravilán,2,TRUE,270,-650880,-1043336
+B0287,Libeň-Libušák,2,FALSE,221,-739012,-1040546
+B0288,Libeň-Na Košince,2,FALSE,213,-739012,-1041060
+B0289,Libeň-Okrouhlík,1,FALSE,266,-739003,-1040012
+B0290,Libeň-Balabenka,3,NA,200,-738366,-1041644
+B0291,Libeň-Na Žertvách,3,FALSE,190,-738597,-1041650
+B0292,Libenice-Velký kus,2,FALSE,218,-684857,-1061515
+B0293,Líbeznice-obchvat,1,FALSE,228,-736383,-1031626
+B0294,Libiš-,1,FALSE,163,-734569,-1022333
+B0295,Libiš-,2,FALSE,164,-734028,-1024123
+B0296,Libišany-,1,FALSE,230,-647242,-1047366
+B0297,Libišany-Na bahnech,1,TRUE,226,-646167,-1046802
+B0298,Libišany-,2,TRUE,228,-646532,-1047360
+B0299,Libišany-Na nivách,1,FALSE,230,-647563,-1047243
+B0300,Libošovice-,1,FALSE,300,-684363,-1005224
+B0301,Limuzy-,3,FALSE,288,-716428,-1049945
+B0302,Lípa nad Orlicí-Písník k Rašovicím,2,NA,272,-622065,-1050502
+B0303,Litíč-Za kravínem,2,NA,338,-638094.02,-1023962.2
+B0304,Litíč-,2,TRUE,340,-637669,-1023737
+B0305,Litíč-K Vestci,2,TRUE,330,-637045,-1024287
+B0306,Lochenice_cihelna,2,NA,248,-641077.2,-1034430.88
+B0307,Lochenice-V polích,2,NA,244,-640600.95,-1034212.6
+B0308,Lochenice_rozšiřování trati,2,FALSE,242,-640581.11,-1034556.55
+B0309,Lochenice-Za humny k Předměřicícm,2,NA,256,-641577.7,-1035561.97
+B0310,Lochenice-intravilán,2,TRUE,240,-640910,-1035080
+B0311,Lochenice-Na šancích,1,FALSE,252,-640481.62,-1033716.82
+B0312,Lochenice-SV okraj obce,2,FALSE,250,-640978,-1034770
+B0313,Lochenice-,2,TRUE,240,-641051,-1035448
+B0314,Lochenice-,2,NA,250,-640948,-1034760
+B0316,Loučeň-,3,NA,256,-697838,-1027244
+B0317,Malín-u vepřína,3,FALSE,210,-681591,-1064670
+B0318,Malotice-Za zahradami,3,FALSE,312,-705633,-1062173
+B0319,Máslojedy,2,TRUE,332,-645674,-1032180
+B0320,Máslojedy,2,TRUE,300,-643767,-1032629
+B0321,Máslovice-Na dole,2,TRUE,178,-744984,-1029670
+B0322,Mašov u Turnova-Valdštejnsko,1,FALSE,262,-682051,-997011
+B0323,Mcely-Na Kamenci,3,TRUE,216,-692885,-1026628
+B0324,Mělčany u Dobrušky-Chlum,2,TRUE,325,-615478,-1039137
+B0325,Měšice u Prahy-,3,NA,200,-734447,-1030954
+B0326,Michle- pískovna,3,FALSE,230,-740578,-1048743
+B0327,Mikulovice u Pardubic,NA,NA,252,-647690.25,-1066145.37
+B0328,Mikulovice u Pardubic-ul.V loučkách,1,FALSE,246,-647908,-1065838
+B0329,Mikulovice u Pardubic-Kašparova cihelna,2,FALSE,244,-647445,-1065690
+B0330,Milíčeves-Zámecká zahrada,1,FALSE,262,-669941,-1019974
+B0331,Milíčeves-intravilán,1,FALSE,255,-669209,-1019898
+B0332,Milovice u Hořic-Nad vorlem,2,FALSE,266,-653978,-1027880
+B0333,Mladá Boleslav-Jičínská ul.,1,FALSE,212,-700719,-1012543
+B0334,Mladá Boleslav-u Dolanského statku,2,TRUE,210,-701125,-1012771
+B0335,Mladá Boleslav-Staroměstské nám.,2,FALSE,234,-704081,-1012032
+B0336,Mlékovice-zaharada p. Novotného,3,NA,284,-701540,-1060445
+B0337,Mnichovo Hradiště-Nad maliním,2,TRUE,230,-698144,-1001483
+B0338,Močovice-U studánky,3,FALSE,250,-678797,-1071460
+B0339,Močovice-První Lochovsko,2,FALSE,250,-679534,-1071093
+B0340,Močovice-Na trnince,2,NA,250,-679139,-1070927
+B0341,Močovice-Na kopě,2,FALSE,270,-678945,-1071787
+B0342,Modřany-K vystrkovu,1,FALSE,202,-745098,-1052588
+B0343,Modřany-Andělova ul.,2,FALSE,226,-744622,-1051536
+B0344,Mochov-Na Nehvizdku,1,FALSE,220,-716967,-1041350
+B0345,Mochov-Nad domkem,2,FALSE,198,-714126,-1040562
+B0346,Mochov-obecní pískovna u Obory,2,FALSE,198,-713849,-1040402
+B0347,Mratín-Nový Mratín,2,FALSE,182,-731510,-1031128
+B0348,Mrzky-Nad vsí,2,TRUE,270,-715919,-1051001
+B0349,Mrzky-U kamenného kříže,2,NA,244,-715580,-1050550
+B0351,Nadslav-Na vrších,2,TRUE,324,-678994,-1014866
+B0352,Nahořany nad Metují-,3,NA,294,-621029,-1028627
+B0353,Nebovidy-Zádušní pole,2,FALSE,254,-687549,-1061425
+B0354,Nebovidy-,1,FALSE,206,-685899,-1060235
+B0355,Neratovice-Spolana,2,FALSE,161,-733089,-1024020
+B0356,Nevratice-Na Zádušníku,2,TRUE,266,-664654,-1024057
+B0357,Neznášov,2,NA,280,-638527,-1028632
+B0358,Neznášov,2,TRUE,260,-638165,-1029457
+B0359,Nová Ves I-Ohrada,2,FALSE,200,-691237,-1054447
+B0360,Nová Ves I-S od obce pri polni ceste k Labi,3,NA,194,-691129,-1052759
+B0361,Nová Ves I-zahrada domu č.p. 25,2,NA,202,-692031,-1053801
+B0362,Nová Ves I-obecní hliník,3,NA,216,-692814,-1053284
+B0363,Nové Dvory u Kutné Hory-V bojišti,2,NA,210,-680943,-1065202
+B0364,Nové Dvory u Kutné Hory-V prostředních lukách,1,NA,205,-681392,-1063435
+B0365,Nový Bydžov-severní úpatí Chlumu,2,TRUE,238,-661694,-1036369
+B0366,Nový Bydžov-Schnablova cihelna,2,FALSE,230,-665347,-1036482
+B0367,Nový Bydžov-Mlýniště,2,TRUE,226,-664009,-1035328
+B0368,Nymburk-Kostelní nám.,1,FALSE,186,-697303,-1038071
+B0369,Nymburk-,1,FALSE,186,-694911,-1038129
+B0370,Nymburk-Velké valy,1,FALSE,186,-697783,-1038031
+B0371,Nymburk- seřazovací nádraží,2,FALSE,186,-695296,-1037880
+B0372,Obruby-,2,TRUE,264,-690594,-1007731
+B0373,Obříství-U Talicha,2,FALSE,166,-735198,-1021004
+B0374,Obříství-Svatopluka Čecha,2,FALSE,164,-735548,-1020658
+B0375,Obříství-Na Tarase,1,FALSE,164,-736112,-1020474
+B0376,Odolena Voda-Velký háj,1,FALSE,272,-742077,-1027272
+B0377,Ohaveč-,3,TRUE,320,-674756,-1010835
+B0378,Ohrobec-Nad Úvozem,2,FALSE,368,-744457,-1059028
+B0379,Olšina-Kurovodice,2,NA,246,-692596,-999116
+B0380,Opatovice nad Labem,3,NA,224,-644513.49,-1050520.52
+B0381,Opatovice nad Labem-V Dílcích,2,FALSE,225,-644326,-1049684
+B0382,Opolánky-Staré Badry,3,FALSE,196,-684191,-1046173
+B0383,Osnice-U Herinku,1,FALSE,350,-734598,-1057468
+B0384,Osnice-Na Vrbici,2,TRUE,350,-735112,-1056946
+B0385,Ostroměř-Starohorská ul.,1,FALSE,264,-659310,-1021683
+B0386,Ostrov v Podkrkonoší,2,TRUE,274,-652951,-1026626
+B0387,Ostrov v Podkrkonoší-Pod kazatelnou,2,NA,276,-652133,-1027268
+B0388,Pardubice-V úzkém,1,FALSE,220,-644959,-1059184
+B0389,Pašinka-U hřiště,2,FALSE,274,-690166,-1060517
+B0390,Pašinka-Na stráních,2,FALSE,284,-690153,-1061143
+B0391,Perštejnec,1,FALSE,256,-682237,-1067974
+B0392,Petrovice-Dobrá Voda,2,FALSE,294,-733678,-1050469
+B0393,Pitkovice-Nové Pitkovice,3,FALSE,282,-732266,-1052287
+B0394,Plaňany-U cukrovaru,2,FALSE,216,-700562,-1053254
+B0395,Plaňany-Na skřipci,3,NA,212,-700910,-1053022
+B0396,Plaňany-Na melounici,2,FALSE,222,-701109,-1052570
+B0397,Plaňany-V lukách,3,FALSE,218,-699637,-1053525
+B0398,Plotiště nad Labem_mezi Součkovou a výzkumem,1,NA,248,-642360.43,-1038243.08
+B0399,Plácky-písečník_Marela,1,NA,234,-642188.45,-1040564.8
+B0400,Plotiště nad Labem_rondel,1,NA,242,-643011.91,-1039701.1
+B0401,Plácky-šutrovník-Holecká,1,NA,232,-642102.46,-1040286.99
+B0402,Plotiště nad Labem_za hospodářskými budovami,1,NA,247,-643174.02,-1038759.02
+B0403,Plácky-U zabitého,1,NA,232,-641612.98,-1040167.92
+B0404,Plotiště nad Labem-Plácky_Kydlinov,1,NA,234,-641361.63,-1039109.59
+B0405,Plotiště nad Labem-Součkova cihelna,1,FALSE,248,-642651.85,-1038511.1
+B0406,Plotiště nad Labem-Vozelnikův mlýn,1,NA,238,-641771.73,-1037815.34
+B0407,Plotiště nad Labem-U předměřické cihelny,1,FALSE,248,-642011.56,-1037685.6
+B0408,Pňov-Kobylnice,1,TRUE,194,-693441,-1050999
+B0409,Pňov-Doubice,2,NA,193,-691821,-1051544
+B0410,Poboří-,2,NA,254,-699293,-1055657
+B0411,Poboří-,2,NA,262,-699882,-1055896
+B0412,Podhradí-Veliš,1,FALSE,405,-674890,-1014986
+B0413,Podkost-Velký Poráň,2,TRUE,324,-685882,-1005969
+B0414,Polepy u Kolína-,2,NA,204,-687962,-1059114
+B0415,Polepy u Kolína-,3,FALSE,226,-688407,-1059806
+B0416,Poličany-,2,FALSE,296,-685864,-1068876
+B0417,Poříčany-pískovna Černá obora,1,FALSE,226,-706145,-1045648
+B0418,Poříčany-V rolcích,1,FALSE,200,-705571,-1044620
+B0419,Poříčany-Na seňarku,1,FALSE,238,-706369,-1044714
+B0420,Postřižín-ul. Pod Topolákem,2,FALSE,238,-742915,-1026843
+B0421,Praskačka-Na pískách,2,FALSE,231,-646457,-1045646
+B0422,Pravy-Za humny,2,FALSE,262,-657732,-1048729
+B0423,Pražské Předměstí-Hořická ul.,2,FALSE,234,-642028,-1041634
+B0424,Přebozy-u dvora,3,NA,254,-700927,-1055753
+B0425,Předmeřice nad Labem-písečník V. Petra,2,FALSE,246,-641379.06,-1036343.99
+B0426,Předměřice nad Labem-U zahrad,1,NA,256,-641740.86,-1036115.39
+B0427,Předměřice nad Labem-pískovna u nádraží,2,NA,236,-641421,-1037884
+B0428,Předměřice nad Labem-Za drůbežárnou,2,NA,256,-641619,-1035767
+B0429,Předměřice nad Labem-cihelna cukrovaru,1,FALSE,248,-642164.2,-1037400.82
+B0430,Předměřice nad Labem-Honkeho cihelna,1,NA,250,-641939.3,-1036741.57
+B0431,Předměřice nad Labem-Slavoj,1,NA,252,-641961.35,-1037171.52
+B0432,Přemyšlení-Na Brnky,1,FALSE,268,-741250,-1034367
+B0433,Přemyšlení-U Cihelny,2,FALSE,266,-741078,-1033798
+B0434,Přemyšlení-Veltěžská,2,FALSE,276,-740809,-1034287
+B0435,Přerov nad Labem-,2,NA,178,-711775,-1038381
+B0436,Přistoupim-,3,NA,250,-710910,-1051298
+B0437,Přišimasy-kravín,2,FALSE,312,-719425,-1049912
+B0438,Přišimasy-S okraj obce,1,FALSE,306,-719212,-1049950
+B0439,Pučery-Panské pole,2,NA,338,-696233,-1063593
+B0440,Pulice-Poříčí,2,TRUE,282,-618030,-1035926
+B0441,Račice nad Trotinou-Záložnice,2,TRUE,252,-641966,-1029071
+B0442,Račice nad Trotinou-Frantov,3,TRUE,266,-642874,-1029233
+B0443,Radim u Kolína-,2,TRUE,208,-701093,-1049389
+B0444,Radim u Kolína-,2,NA,200,-701243,-1049925
+B0445,Radim u Kolína-,3,NA,202,-701574,-1050323
+B0446,Radonice u Prahy-V obůrkách,2,TRUE,252,-729994,-1038310
+B0447,Radovesnice I-Za školou,2,FALSE,284,-692213,-1058663
+B0448,Radovesnice I-dvorek domu čp. 95,2,FALSE,278,-691872,-1058328
+B0449,Ratboř-V cukrovaru u staré školy,2,FALSE,300,-691693,-1061662
+B0450,Ratenice-Nad Loučkama,2,FALSE,194,-697923,-1048758
+B0451,Rodov-Trotina,3,FALSE,252,-640022,-1033294
+B0452,Rohozec u Žehušic-Za humny na obíckách,2,FALSE,215,-675907,-1065065
+B0453,Rosice nad Labem-cihelna,2,FALSE,217,-650118.57,-1059861.15
+B0454,Rosice u Chrasti-Za školou,2,TRUE,270,-636427,-1075771
+B0455,Rosice u Chrasti-tvrziště,2,TRUE,258,-636388,-1075347
+B0456,Rosice u Chrasti-cihelna,2,NA,272,-637003,-1075709
+B0457,Rosnice u Všestar,4,NA,280,-645989.52,-1037528.95
+B0458,Rožďalovice-u školy,3,FALSE,222,-686607,-1025687
+B0459,Rtyně-Rtyňská,3,NA,288,-636040.79,-1025848.94
+B0460,Rtyně-,3,TRUE,278,-636359,-1025495
+B0461,Řepov-průmyslová zóna,1,FALSE,210,-700696,-1011983
+B0462,Řepov-u hřbitova,2,FALSE,212,-700613,-1012925
+B0463,Říčany u Prahy-Pískovna pod hradem,2,NA,228,-728031,-1055413
+B0464,Sány-,2,NA,194,-684162,-1046462
+B0465,Sány-ul. Dlouhá,1,FALSE,198,-683847,-1046622
+B0466,Sběř-,2,TRUE,250,-668536,-1026183
+B0467,Sedlec u Kutné Hory-Mokřiny,3,FALSE,212,-682504,-1064966
+B0468,Semčice-U Okálů,2,FALSE,240,-697617,-1017563
+B0469,Semonice_trasa silnice,2,FALSE,270,-635606,-1028836
+B0470,Semonice_vodovod,1,FALSE,259,-636205,-1029365
+B0471,Sibřina-,1,FALSE,296,-726232,-1048377
+B0472,Skřivany-Malátova,3,FALSE,236,-663749,-1033234
+B0473,Slatiny-Slatinky,3,NA,254,-669820,-1020939
+B0474,Slavhostice-U Vraždy,2,TRUE,252,-674950,-1027255
+B0475,Slavhostice-U studeného lesa,2,TRUE,296,-673220,-1025768
+B0476,Slavhostice-Nad dvorem,2,TRUE,276,-673626,-1026877
+B0477,Smiřice-Zbuzany,2,FALSE,256,-638595.62,-1032864.7
+B0478,Smiřice_nádraží,2,NA,260,-638052.13,-1032565.56
+B0479,Smiřice-Za cihelnou,2,NA,260,-638142.53,-1032274.52
+B0480,Smiřice-Zderaz,2,NA,244,-638598.93,-1033182.92
+B0481,Sobčice-Bezděkov,3,TRUE,262,-661816,-1020862
+B0482,Sobčice-U svatého Jana,2,TRUE,260,-661126,-1021061
+B0483,Sobčice-U lomu,2,NA,258,-660682,-1022072
+B0484,Soběraz-Červenice,2,TRUE,334,-667666,-1010272
+B0485,Soběraz-Pod trním,2,FALSE,320,-667634,-1010809
+B0486,Sobotka-U křížku,2,TRUE,314,-683460,-1007653
+B0487,Solec-Mezi Solci,2,TRUE,250,-691595,-1006525
+B0488,Sovětice-Skalka,2,FALSE,280,-648051,-1031169
+B0489,Staré Jesenčany-Kopanina,2,FALSE,236,-649319.85,-1064965.19
+B0490,Starý Bydžov-Obecní písník u kóty 287,3,NA,284,-667344,-1033455
+B0491,Starý Kolín-u hřbitova,2,NA,200,-681903,-1060478
+B0492,Stěžery-,1,FALSE,261,-647001,-1041327
+B0493,Stěžery-U cihelny,2,TRUE,264,-647014,-1040397
+B0494,Stěžery-U hřbitova,2,NA,270,-647387,-1040651
+B0495,Stíčany-Za sady,2,TRUE,243,-639490,-1069205
+B0496,Straky-severní okraj obce,1,FALSE,194,-702260,-1031811
+B0497,Stránka u Brandýsa nad Labem-,1,FALSE,220,-723254,-1037391
+B0498,Strašnice-pískovny pod Bohdalcem,2,NA,230,-738448,-1046231
+B0499,Střevač-U Jordánu,2,TRUE,284,-677477,-1016533
+B0501,Svatý Mikuláš-U studánky,2,FALSE,210,-678630,-1064317
+B0502,Svinišťany-intravilán,2,TRUE,288,-627703,-1023569
+B0503,Svinišťany-Muka,2,TRUE,285,-628310,-1023609
+B0504,Svojšice u Kouřimi-u cukrovaru,3,NA,248,-699860,-1057306
+B0506,Šeberov-Na proutcích,2,FALSE,290,-737748,-1051888
+B0507,Škvorec-ul. Za Zahradami,1,FALSE,213,-721673,-1050393
+B0508,Škvorec-,2,TRUE,306,-720841,-1050205
+B0509,Štítary u Kolína-V šornici,1,FALSE,230,-690410,-1057194
+B0510,Štítary u Kolína-Za Dvorem,2,FALSE,240,-690406,-1057539
+B0511,Štítary u Kolína-Na stráni,3,FALSE,240,-690428,-1057960
+B0512,Štolmíř-,3,TRUE,226,-712085,-1045896
+B0513,Štolmíř-kravín,2,FALSE,230,-713333,-1047497
+B0514,Tatce-V dolních čtverých,2,FALSE,212,-703178,-1048742
+B0515,Tismice-západní hranice katastru,2,FALSE,284,-716209,-1050037
+B0516,Tismice-Za školou,3,NA,260,-714231,-1050263
+B0517,Tisová u Vysokého Mýta-nad osadou Bžundov,3,TRUE,286,-618367,-1073582
+B0518,Topol-Na hradě,1,FALSE,286,-644087,-1069242
+B0519,Topol-Na skále,2,TRUE,284,-643862,-1069476
+B0520,Trnová-,2,NA,217,-649411,-1058701
+B0521,Třebestovice-Na struhách,2,FALSE,198,-705021,-1044738
+B0522,Třebestovice- U bažantnic,2,NA,190,-703210,-1043869
+B0523,Třebešice-,2,NA,222,-679490,-1069199
+B0524,Třebnouševes-Na střebovským,2,TRUE,278,-651711,-1026929
+B0525,Třebosice-Kamenec,2,FALSE,237,-650592,-1065239
+B0526,Třebosice-Hlinecké,2,FALSE,240,-650731,-1065664
+B0527,Třebovětice-V Blatečkách,2,TRUE,300,-648037,-1026131
+B0528,Třebovětice-Na průhonku,2,TRUE,276,-648629,-1027138
+B0529,Třebovětice-Za rašovkami,2,TRUE,284,-648453,-1026233
+B0530,Třebovle-U Sázavského dvora,2,FALSE,264,-705585,-1054290
+B0531,Třibřichy-býv. Cihelna,2,FALSE,260,-650775,-1068723
+B0532,Tuchoraz-Na Pařezu,1,FALSE,272,-712501,-1051405
+B0533,Tuchoraz-Na Vápeníkovým,2,FALSE,300,-712453,-1052550
+B0534,Tuchoraz-JZD,2,FALSE,282,-712889,-1051762
+B0535,Tuněchody-u žst.,2,FALSE,240,-642884,-1068495
+B0536,Tuněchody-cihelna,2,FALSE,234,-642677,-1068010
+B0537,Tuněchody-Ruzkovské pole,2,NA,238,-643377,-1066078
+B0538,Tupadly u Čáslavi-,2,TRUE,270,-675625,-1074714
+B0539,Turnov-Maškovy zahrady,1,FALSE,250,-684112,-995292
+B0540,Úhřetice-,2,TRUE,240,-642085,-1067448
+B0541,Úhřetice-,2,NA,248,-641407.17,-1068579.07
+B0542,Úhřetice-Kopistova a Slavíkova cihelna,2,FALSE,246,-641805.46,-1067983.28
+B0543,Úhřetická Lhota-,2,TRUE,230,-641594,-1066655
+B0544,Újezd nad Lesy-Blatov,2,FALSE,248,-727301,-1045470
+B0545,Vejvanovice-Na červené hůrce,2,TRUE,250,-640702,-1069313
+B0546,Velešice-,2,TRUE,260,-667739,-1026700
+B0547,Velichovky-Pod kopcem,3,NA,278,-639288,-1026323
+B0548,Velim-K sídlišti,2,FALSE,200,-693649,-1052286
+B0549,Velim-Dolní Nouzov,2,FALSE,196,-692780,-1051543
+B0550,Velim-cukrovar,1,FALSE,196,-693247,-1051865
+B0551,Veliš u Jičína-,2,TRUE,318,-675145,-1015910
+B0552,Velké Zboží-pískovna,2,NA,186,-694573,-1039633
+B0554,Vesec u Sobotky-U křížku,2,TRUE,290,-685794,-1006654
+B0555,Vesec u Sobotky-Poráň,2,TRUE,308,-686890,-1006341
+B0556,Vestec nad Mrlinou-Hliňák,2,NA,190,-689915,-1033964
+B0557,Vestec u Chrudimi-,2,TRUE,246,-645235,-1068131
+B0558,Vestec u Jaroměře-,2,TRUE,284,-636183,-1025067
+B0559,Vestec u Jaroměře-Amerika,2,TRUE,320,-636463,-1024014
+B0560,Větrušice u Klecan-Mezi cestami,3,FALSE,280,-743968,-1031074
+B0561,Vinaře-Před Drbohlavem,2,TRUE,228,-669266,-1071943
+B0562,Vinařice u Dobrovice-Na kroužku,2,TRUE,355,-701759,-1015034
+B0563,Vinoř-Bohdanečská ul.,1,FALSE,250,-730967,-1038244
+B0564,Vinoř-Kamenný stůl,2,TRUE,254,-730350,-1038912
+B0565,Vinoř-V Obůrkách,2,FALSE,238,-730308,-1038211
+B0566,Vinoř-hřbitov,1,FALSE,246,-730714,-1038182
+B0567,Vinoř-Mladoboleskavská,2,FALSE,258,-731239,-1038810
+B0568,Vinoř-U cukrovaru,2,FALSE,238,-730029,-1037420
+B0569,Vinoř-Lohenická,2,FALSE,232,-730173,-1037830
+B0570,Vinoř-Štěpánovská,2,FALSE,226,-729835,-1037720
+B0571,Vitice-K Močedníku,3,FALSE,306,-708698,-1054860
+B0572,Vitice-K Synči,2,TRUE,302,-709367,-1054153
+B0573,Vitiněves-,2,TRUE,270,-670461,-1018364
+B0574,Vitiněves-,2,TRUE,258,-670797,-1017794
+B0575,Vlčnov u Chrudimi-U Presů,3,FALSE,274,-645309,-1073199
+B0576,Vlhošť-,2,FALSE,250,-668526,-1023405
+B0578,Vodochody u Prahy-,3,NA,246,-742703,-1029924
+B0579,Votuz-Třešňovka,2,TRUE,316,-648337,-1025652
+B0580,Vrbčany-Cihelna na Kubšovce,2,NA,252,-704635,-1052521
+B0581,Vrbčany-Na křemencích,3,FALSE,242,-702834,-1051827
+B0582,Vršce-,2,TRUE,264,-675612,-1025942
+B0583,Vršovice-bývalá Rennerova pískovna,2,NA,206,-740700,-1045959
+B0584,Vysočany-býv. pískovna,3,NA,206,-736822,-1041151
+B0585,Vysoké Mýto-Na Krétě,1,FALSE,282,-619589,-1073945
+B0586,Vysoké Mýto-Průhony,1,FALSE,284,-620259,-1073802
+B0587,Vyšehořovice-,1,FALSE,244,-717329,-1042673
+B0588,Vyšehořovice-lupkové doly,2,FALSE,240,-718667,-1043813
+B0589,Záběhlice-Práčská ul.,2,FALSE,230,-736817,-1047698
+B0590,Záluží u Čelákovic-Límanova cihelna,2,NA,208,-718639,-1039324
+B0591,Zámostí u Rožďalovic,1,FALSE,202,-687072,-1026397
+B0592,Zápy-,2,FALSE,216,-723440,-1037279
+B0593,Zápy-Průmyslová ul.,1,FALSE,216,-723789,-1035644
+B0594,Zápy-,2,FALSE,216,-723856,-1037098
+B0595,Zápy-Velká strana,1,FALSE,218,-724248,-1035890
+B0596,Zápy-intravilán,1,FALSE,212,-723364,-1036891
+B0597,Zápy-Na příčce,2,TRUE,220,-722595,-1036201
+B0598,Zápy-,2,TRUE,224,-722949,-1036265
+B0599,Zásmuky-Za pivovarem,2,NA,240,-701779,-1063504
+B0600,Zdiby-Na Brnky,1,FALSE,186,-741214,-1034260
+B0601,Zeleneč-K potoku,2,NA,254,-725033,-1039805
+B0602,Zlatníky u Prahy-Za zahradami,2,TRUE,356,-740922,-1057652
+B0603,Zliv u Libáně-,2,TRUE,224,-681440,-1020329
+B0604,Zlončice-Nad hájem,2,TRUE,240,-745288,-1027226
+B0605,Zlončice-Mezi dubci,2,TRUE,250,-744781,-1027651
+B0606,Zlončice-,2,TRUE,240,-744609,-1027071
+B0607,Žabonosy-Za dvorem,2,NA,248,-700150,-1054441
+B0608,Ždánice u Kouřimi-U dvora Běšínova,2,NA,292,-704159,-1060241
+B0609,Žehušice-Hlavní ul.,2,FALSE,220,-674536,-1065537
+B0610,Židněves-,1,FALSE,220,-696969,-1012423
+B0611,Žleby-kamenolom,2,FALSE,278,-671797,-1074236
+B0612,Týnec u Dobrovice-U Ctiměřic,1,FALSE,322,-698813,-1016478
+B0613,Jaroměř-Přední Dolce,1,FALSE,286,-635514,-1027270
+B0614,Vysoké Mýto-Za pivovarem,1,FALSE,296,-621986,-1073542
+M0001,Alojzov u Prostějova-Frolinková,2,NA,425,-564603,-1138473
+M0002,Alojzov u Prostějova-Horní Golštýn,2,NA,400,-563759,-1138411
+M0003,Alojzov u Prostějova-Malý Mitrov,3,NA,375,-563853,-1139743
+M0004,Alojzov u Prostějova-mezi intravilánem a lesem,2,TRUE,410,-564364,-1138617
+M0005,Altmanns-Untern Stein,3,TRUE,268,-616413,-1224750
+M0006,Altruppersdorf-,1,TRUE,307,-608307,-1215562
+M0007,Angern an der March-Felbergau,2,TRUE,147,-591250,-1253344
+M0008,Angern an der March-Marchfeld,2,TRUE,147,-591291,-1253962
+M0009,Archlebov-Maliny,2,TRUE,313,-572905.403,-1177946.936
+M0010,Asparn an der Zaya-Schwaze Lacke,3,NA,278,-613470,-1223283
+M0013,Babice u Šternberka-Dlouhé,2,NA,242,-545196,-1105597
+M0014,Bačice-Padělky,3,TRUE,415,-640946,-1168135
+M0015,Bačice-Pode vsí,2,TRUE,426,-641374.9315,-1168256.891
+M0016,Bačkovice-Za mlýnem,2,TRUE,429,-675346,-1177723
+M0017,Bánov-U Zbela,1,NA,278,-520819,-1190841
+M0018,Bantice-Am Berg,3,TRUE,232,-632947,-1191201
+M0019,Baumgarten an der March-Bienenstand,2,TRUE,142,-589845,-1260582
+M0020,Baumgarten an der March-Kirchenfeld,2,FALSE,143,-588969,-1259995
+M0021,Bedihošť-cukrovar,NA,NA,210,-554675,-1137350
+M0022,Bedihošť-Dolní padělky,2,NA,210,-555601,-1135483
+M0023,Bedihošť-Václavovice,NA,NA,207,-555501,-1137778
+M0024,Bedřichovice-Malé pole,2,FALSE,240,-590088,-1162884
+M0025,Bedřichovice-Zlámaniny,3,FALSE,280,-590906,-1163960
+M0026,Běhařovice-Za kostelem,1,FALSE,354,-638179,-1177936
+M0027,Běhařovice-Za kostelem II,3,FALSE,376,-638648,-1177688
+M0028,Bělov-Horní pole,2,TRUE,235,-534445,-1164560
+M0029,Beňov-Dolní újezd,NA,TRUE,228,-530997,-1142059
+M0030,Bernahardsthal- Aulüssen,2,NA,154,-582410,-1219872
+M0031,Bernhardsthal-Aulüssen,2,FALSE,155,-582353,-1220178
+M0032,Bernhardsthal-Sandgrube,1,FALSE,164,-584785,-1217885
+M0033,Bernhardsthal-Werlehen,2,TRUE,160,-583681,-1219020
+M0034,Bezměrov-hliník,2,NA,215,-544173,-1152038
+M0035,Bezměrov-Hrubé teruty,1,NA,193,-544207,-1150887
+M0036,Bílavsko-Chlum,2,NA,418,-520465,-1147846
+M0037,Bílavsko-Nový trávník,2,TRUE,290,-521102,-1147257
+M0038,Bílovice nad Svitavou-Hradisko,2,FALSE,255,-592642,-1155476
+M0039,Bílovice u Prostějova-Hrad u Bílovic,2,NA,338,-566736,-1126949
+M0040,Bílovice u Prostějova-Meziluží,2,NA,250,-563360,-1128591
+M0041,Bílovice u Prostějova-Padělek,1,NA,290,-564036,-1128807
+M0042,Bílovice u Uherského Hradiště-Padělky u boru,2,NA,316,-530629,-1180066
+M0043,Biskupice u Jevíčka-U zastávky,3,NA,355,-582709,-1111603
+M0044,Bítov-Pískoviště u borovic,3,TRUE,430,-667034,-1181713.2
+M0045,Blanné I,3,FALSE,377,-652805,-1177712
+M0046,Blatec-cihelna U Kocandy,2,NA,220,-547769,-1128627
+M0047,Blatnice IV,3,TRUE,433,-654280,-1170578
+M0048,Blatnice pod Svatým Antonínkem-Sv. Antoníček,3,NA,350,-537854,-1193300
+M0049,Blatnice-Padělky,3,TRUE,438,-653989,-1169998
+M0050,Blatnice-U lesa Ochoz,3,TRUE,426,-654323,-1170975
+M0051,Blatnice-U spálených padělků,2,TRUE,415,-653534.4171,-1171290.102
+M0052,Blišice-Přídanky,1,TRUE,342,-557853,-1171599
+M0053,Blučina-Cezavy,2,FALSE,247,-598330,-1176911
+M0054,Blučina-Dlouhé,2,TRUE,183,-595813.3277,-1175610.79
+M0055,Blučina-Spodní Kolberky,NA,FALSE,186,-595160,-1175505
+M0056,Blučina-Štumberky,2,TRUE,226,-595743,-1177105
+M0057,Bohunice-Kamenice,1,FALSE,278,-600992,-1162326
+M0058,Bohuslavice u Kyjova-Na skalách,2,TRUE,301,-562063.8926,-1180061.326
+M0059,Bohuslavice u Kyjova-Šotnery,2,TRUE,253,-563424,-1179712
+M0060,Bohuslavice u Kyjova-U tvrze,1,FALSE,207,-562442,-1181470
+M0061,Bohušice-Bohušický rybník,2,FALSE,433,-654872,-1167090
+M0062,Bohušice-návrší nad Rokytkou,2,TRUE,446,-655303,-1167226
+M0063,Bohušice-U Blatnické křižovatky,3,TRUE,433,-653314.7341,-1167444.164
+M0064,Bohušice-U lomu,2,TRUE,436,-653625.6042,-1166905.667
+M0065,Bohušice-U Ouvaru,3,TRUE,453,-655089,-1166351
+M0066,Bohutice-za zámkem,2,TRUE,265,-618790,-1181230
+M0067,Bojanovice u Znojma-Kněžské,3,TRUE,347,-645416,-1180504
+M0068,Bojanovice u Znojma-Vesky,2,FALSE,336,-646406.9365,-1182540.489
+M0069,Boleradice-Kopanina,2,FALSE,208,-586438,-1187286
+M0070,Boleradice-U chaty,2,TRUE,296,-587145,-1186223
+M0071,Borkovany-Veselá hora,2,TRUE,317,-585019.1363,-1180140.335
+M0072,Borotice nad Jevišovkou-Nad dvorem,2,FALSE,226,-628794,-1195474
+M0073,Boršice u Buchlovic-Močidla,3,TRUE,230,-545761,-1179654
+M0074,Bořitov-Na křibě,2,TRUE,351,-596271,-1134505
+M0075,Bořitov-Perná,2,TRUE,336,-597459.4825,-1132932.459
+M0076,"Bořitov-Perná, sad",2,TRUE,346,-597479.8359,-1132538.286
+M0077,Bořitov-Písky,2,FALSE,338,-596931,-1133953
+M0078,Bořitov-U dálnice,2,FALSE,354,-598177,-1135209
+M0079,Bořitov-U hliníku,2,FALSE,315,-597489.1932,-1135461.289
+M0080,Boskovice-Mánesova,1,FALSE,348,-591917,-1128815
+M0081,Boskovice-Masarykovo nám.,2,FALSE,378,-590947,-1128823
+M0082,Boskovice-Na dlouhých,2,TRUE,346,-592469.1458,-1129534.75
+M0083,Boskovice-Pod lipníky,2,FALSE,366,-589690,-1126428
+M0084,Boskovštejn-K nové louce,3,TRUE,373,-649036,-1178796
+M0085,Boskovštejn-Písařovicovo pole nad rybníkem,3,FALSE,396,-651108,-1178838
+M0086,Boskovštejn-Pod zahradama,2,FALSE,350,-650040,-1178334
+M0087,Boskovštejn-Smoha,2,FALSE,383,-649109,-1178572
+M0088,Boskovštejn-Výhon,2,FALSE,392,-651163.5078,-1178139.73
+M0089,Bosonohy-Cihelna,2,FALSE,300,-604168,-1161728
+M0090,Bosonohy-Dlouhý padělky,2,FALSE,298,-605503.8183,-1161080.181
+M0091,Bosonohy-Hradisko,1,FALSE,333,-605368,-1160795
+M0092,Bošovice-Galaše,3,TRUE,305,-584286.0787,-1178835.908
+M0093,Bošovice-Příděl u háječka,2,TRUE,322,-582557,-1178841
+M0094,Božice u Znojma- Kolonie u dvora,2,NA,195,-623921,-1197576
+M0095,Božice-Na ostrůvku,2,TRUE,185,-625148,-1197249
+M0096,Brankovice-Kyniska,1,FALSE,250,-561311.2551,-1169669.343
+M0097,Brankovice-u železniční stanice,2,TRUE,282,-560572,-1169687
+M0098,Bratčice-Půllány k Mělčanům,2,TRUE,208,-606086,-1175197
+M0099,Bratčice-Půllány k Mělčanům (KNP),2,FALSE,228,-606461,-1174052
+M0100,Brněnské Ivanovice-Panský lán,2,FALSE,218,-595580,-1166234
+M0101,Brněnské Ivanovice-U lišek,2,TRUE,213,-595252,-1166217
+M0102,Brníčko u Zábřeha-Gartenanger,2,NA,238,-553235,-1101236
+M0103,Brníčko-intravilán,2,NA,240,-552948,-1101115
+M0104,Brníčko-obec,2,NA,238,-553235,-1101236
+M0105,Brno-Město-Bašty,1,FALSE,211,-598018,-1161204
+M0106,Brno-Město-Dvořákova,1,FALSE,209,-597831,-1160669
+M0107,Brod nad Dyjí-Krátké loučky,2,FALSE,171,-607892.2211,-1195313.896
+M0108,Brod nad Dyjí-Pod silnicí,2,TRUE,179,-608876,-1196763
+M0109,Brodek u Prostějova-Hájek,2,NA,255,-562373,-1145415
+M0110,Brodek u Prostějova-Hůrka,2,FALSE,274,-560233,-1145846
+M0111,Brodek u Prostějova-Lískovec,2,FALSE,236,-561415,-1144755
+M0112,Brodek u Prostějova-Za zámkem,2,NA,268,-562910,-1144690
+M0113,Brumovice-Brumovické úlehle,2,FALSE,224,-579834,-1187263
+M0114,Břeclav-Přední čtvrtky,2,FALSE,158,-581910,-1209059
+M0116,Březník-Klínky,2,TRUE,389,-628966,-1159763
+M0117,Březník-Kosův brodek,3,TRUE,362,-627945,-1160734
+M0118,Březník-Nad Výhonem,3,TRUE,415,-627947,-1159254
+M0119,Březník-Střední hon,2,TRUE,391,-627681,-1159801
+M0120,Březník-Zadní hon,2,FALSE,391,-627207,-1159573
+M0121,Březolupy-Čertoryje,2,NA,286,-527173,-1175910
+M0122,Březolupy-Pastvisko,3,NA,312,-528632,-1174117
+M0123,Břežany u Znojma-Sporná pole,3,TRUE,229,-622560,-1194321
+M0124,Budkovice-Myslivárna,2,FALSE,284,-618722,-1172351
+M0125,Budkovice-Na zadních,2,TRUE,256,-617654,-1172276
+M0126,Budkovice-Pod Holým kopcem,2,TRUE,219,-618471,-1172580
+M0127,Bukovany u Olomouce-Ohrady,2,NA,275,-540057,-1120535
+M0128,Bulhary-Au Äcker,2,FALSE,173,-592040,-1202527
+M0129,Bulhary-Gajdošova cihelna,2,FALSE,168,-591321.2061,-1203800.011
+M0130,Bulhary-Nad sklepy,2,TRUE,206,-593005,-1202102
+M0131,Bullendorf-Wiesental,2,TRUE,200,-600919,-1226952
+M0132,Býkovice-Příčníky,2,FALSE,332,-598925,-1134085
+M0133,Býkovice-U obrázku,2,FALSE,369,-599832,-1134005
+M0134,Bystrc-Na pile,2,FALSE,244,-607631,-1152458
+M0135,Bystrc-Rakovec,1,TRUE,210,-604577,-1156231
+M0136,Bystrc-U buku,2,TRUE,310,-608715,-1153704
+M0137,Bystrc-Zadní dlouhé,1,FALSE,268,-604185,-1157236
+M0138,Bystročice-nový kravín,2,NA,210,-551775,-1127761
+M0139,Bystročice-U Topolánků,2,NA,221,-551985,-1127063
+M0140,Cetechovice-okraj obce,2,TRUE,330,-550692,-1168017
+M0141,Ctidružice-Stejskalovo pole,3,FALSE,387,-654072,-1177761
+M0142,Ctidružice-U kříže k Pavlicím,3,TRUE,389,-654399,-1178455
+M0143,Častohostice-Nivky,2,TRUE,423,-658516,-1173599
+M0144,Častohostice-Stráž,2,TRUE,440,-658179.5295,-1174282.817
+M0145,Čechovice-Díly u Hloučely,2,NA,235,-560247,-1132562
+M0146,Čechovice-Pololání,2,NA,238,-560930,-1133574
+M0147,Čechovice-Záhoří-Čechovsko,3,FALSE,350,-563077,-1135562
+M0148,Čechůvky-Kopaniny,2,FALSE,216,-554449,-1134291
+M0149,Čechy pod Kosířem-Pod Brusem,2,NA,305,-565468,-1125407
+M0150,Čechy pod Kosířem-U Hluchova,3,NA,320,-565799,-1124588
+M0151,Čechy pod Kosířem-U vazu,3,NA,340,-565838,-1124237
+M0152,Čechy pod Kosířem-Za dvorem,1,NA,310,-564562,-1124550
+M0153,Čekyně-Žalkov,2,TRUE,282,-536198,-1133765
+M0154,Čelčice-Louky,NA,TRUE,204,-553038,-1139908
+M0155,Černá Hora-intravilán,2,FALSE,321,-597658.0458,-1136303.3
+M0156,Černá Hora-Porčův mlýn,2,FALSE,333,-595781,-1136841.25
+M0157,Černá Hora-Selkov,1,FALSE,332,-598651,-1136057
+M0158,Černá Hora-Zaryplovy,2,FALSE,318,-596973.6941,-1136100.736
+M0159,Černín-Nad silnicí,2,FALSE,292,-643061,-1179696
+M0160,Česká-Vrbky,2,FALSE,282,-599797.9232,-1151491.47
+M0161,Čučice-Milošov,3,TRUE,415,-621393,-1163170
+M0162,Dalešice-U dominka,2,TRUE,414,-636401,-1163264
+M0163,Dambořice-Kluče,2,FALSE,235,-577356,-1179000
+M0164,Dambořice-Spálený,1,FALSE,238,-577245,-1179815
+M0165,Dambořice-Vysoká,1,FALSE,243,-577373.9881,-1178505.356
+M0166,Dambořice-Za dvorem,1,FALSE,233,-577582,-1179131
+M0167,Dědice u Vyškova-cihelna,2,FALSE,280,-570788,-1151946
+M0168,Dědice u Vyškova-Kozí horka,3,NA,290,-570103,-1151785
+M0169,Dědice u Vyškova-Legerní pole,2,NA,274,-569136,-1153399
+M0170,Dědice u Vyškova-Letní pole,3,NA,264,-569894,-1153891
+M0171,Dědice u Vyškova-Za parkem,3,NA,262,-569173,-1153309
+M0172,Dědice u Vyškova-Za zbrojovkou,1,NA,272,-567851,-1152164
+M0173,Dědinka-U lípy,2,NA,290,-558887,-1096290
+M0174,Dešov-Příčný,2,FALSE,488,-665794,-1176049
+M0175,Dešov-Řepták,2,TRUE,455,-666441,-1177019
+M0176,Dešov-U Vlčáku,2,TRUE,470,-665943,-1176882
+M0177,Dětkovice u Prostějova-Skaličníky,NA,NA,270,-561832,-1139457
+M0178,Dětkovice u Prostějova-Široké šiborovice,3,NA,260,-562034,-1140760
+M0179,Dětkovice u Prostějova-Za zahradami,2,NA,250,-561091,-1139699
+M0180,Devínska Nová Ves-Kaštieľ,2,NA,150,-582938,-1272037
+M0181,Devínska Nová Ves-Útočnica,3,NA,150,-581500,-1272515
+M0182,Diváky-Burberk,2,FALSE,310,-588709,-1186188
+M0183,Diváky-Díly v zelách,2,FALSE,241,-586665,-1185195
+M0184,Diváky-Nedánov,2,FALSE,228,-585868,-1184942
+M0185,Diváky-Nivy pod Svárovem,3,TRUE,303,-588590,-1184046
+M0186,Diváky-Polejtně,2,FALSE,355,-589143,-1184564
+M0187,Diváky-Porgartně,2,FALSE,275,-587757,-1185302
+M0188,Diváky-Stará hora,3,TRUE,341,-588584,-1184738
+M0189,Diváky-U kravína,2,FALSE,247,-587926,-1185083
+M0190,Divoky-Žernová,2,NA,295,-546664,-1165238
+M0191,Dluhonice-Dolní újezd,3,FALSE,218,-536320,-1137639
+M0192,Dobrochov-Pod širokou,NA,NA,235,-560356,-1142859
+M0193,Dobrotice-Příčky od souhrad,3,TRUE,262,-523935,-1151781
+M0194,Dobšice u Znojma-Léry,2,NA,206,-640050,-1195183
+M0195,Dobšice u Znojma-Mezi potoky,2,FALSE,235,-640380,-1194351
+M0196,Dobšice u Znojma-V od obce,3,FALSE,244,-639539,-1194606
+M0197,Dojč-Jasenové,2,TRUE,190,-554083,-1222926
+M0198,Dolany u Olomouce-kostel sv. Matouše,2,NA,259,-541324,-1115999
+M0199,Dolany u Olomouce-Za Benešovo,2,NA,250,-541829,-1115980
+M0200,Dolní Dubňany-Na čtvrtích,3,FALSE,316,-626490,-1173709
+M0201,Dolní Němčí-Kráčinky,2,NA,260,-531002,-1193021
+M0202,Dolní Němčí-Záhumní,3,NA,260,-529102,-1193596
+M0203,Dolní Sukolom-cihelna,2,NA,240,-553005,-1099823
+M0204,Dolní Sukolom-obec,2,NA,240,-553352,-1098947
+M0205,Dolní Sukolom-Pirnikberg,2,NA,240,-553001,-1099849
+M0206,Dolní Sukolom-V lukách,2,NA,242,-553091,-1098173
+M0207,Dolní Ves-Za Suhým,1,NA,264,-521529,-1158888
+M0208,Dolní Věstonice-JZD,2,FALSE,183,-599631,-1195506
+M0209,Dolní Věstonice-Na pískách,2,FALSE,173,-599698.3889,-1194513.219
+M0210,Dolní Věstonice-Nad silnicí,1,FALSE,202,-597161.9543,-1196251.314
+M0211,Dolní Věstonice-štěrkovna,1,FALSE,171,-600074.0037,-1195187.083
+M0212,Dolní Věstonice-Věstonická brána,1,FALSE,186,-597214.5851,-1195992.725
+M0213,Domanín-Domanínský kopec,2,TRUE,312,-550169,-1186409
+M0214,Domčice-intravilán,3,FALSE,237,-633221,-1184718
+M0215,Doubrava u Březiny-Valy,1,TRUE,410,-572870,-1147247
+M0216,Doubravice nad Moravou-Kouřilka,2,NA,257,-565366,-1103460
+M0217,Doubravice nad Svitavou-intravilán,2,FALSE,296,-594030.8333,-1132808.917
+M0218,Drahanovice-U Lusthózu,2,NA,308,-559517,-1122913
+M0219,Drásov-Díly pod Horkami II,3,TRUE,290,-605096.318,-1142824.154
+M0220,Drásov-Keblány,3,TRUE,313,-604963.4789,-1142354.41
+M0221,Drnholec-Holenická pole,2,FALSE,171,-608602,-1195090
+M0222,Drnholec-Lidická ul.,1,FALSE,174,-610851,-1196959
+M0223,Drnholec-Malé hajdy,2,FALSE,179,-610623,-1194690
+M0224,Drnholec-Mrchoviště,1,TRUE,170,-610393,-1196348
+M0225,Drnovice u Vyškova-Adlerova mez,2,NA,325,-572643,-1153772
+M0226,Drnovice u Vyškova-Budonická louka,2,NA,310,-572697,-1153115
+M0227,Drnovice u Vyškova-Horka,2,TRUE,316,-573214,-1154898
+M0228,Drnovice u Vyškova-Kněží háj,3,NA,354,-573131,-1153458
+M0229,Drnovice u Vyškova-Končiny,2,NA,330,-572652,-1153613
+M0230,Drnovice u Vyškova-Kopaniny u lomu,2,NA,342,-573009,-1153651
+M0231,Drnovice u Vyškova-Křivda,1,NA,300,-572479,-1154089
+M0232,Drnovice u Vyškova-Podsedky,2,TRUE,294,-573666,-1154326
+M0233,Drnovice u Vyškova-Přídanky,3,TRUE,280,-572920,-1154888
+M0234,Drnovice u Vyškova-Za Lesní správou,2,FALSE,286,-571935,-1154153
+M0235,Drösing-Apfering,2,TRUE,149,-582838,-1234221
+M0236,Drösing-Hutmannsdorf,2,TRUE,150,-583249,-1233612
+M0237,Drösing-Meierheide,2,TRUE,150,-583439,-1234503
+M0238,Drösing-Röhringseewiesen,2,TRUE,149,-582799,-1235501
+M0239,Drösing-Röhringseewiesen,2,TRUE,148,-583154,-1235719
+M0240,Drösing-Steinafurth,2,TRUE,149,-583056,-1235133
+M0241,Drösing-Unteres inneres Feld,2,TRUE,150,-583998,-1236569
+M0242,Drysice-Dolní Radlikus,1,NA,270,-563525,-1148292
+M0243,Drysice-Na kopaninách,2,NA,370,-563839,-1147885
+M0244,Držovice na Moravě-Bezděkov,2,NA,216,-556664,-1132919
+M0245,Držovice na Moravě-Díly odvrahoviční,2,NA,230,-555916,-1132470
+M0246,Držovice na Moravě-Háj,2,NA,260,-555816,-1131399
+M0247,Držovice na Moravě-Horka,3,NA,218,-557589,-1132268
+M0248,Držovice na Moravě-Loučky,2,NA,210,-557228,-1132799
+M0249,Držovice na Moravě-Panský díl,2,NA,235,-556931,-1131339
+M0250,Držovice na Moravě-Pastviska,2,NA,222,-557121,-1131634
+M0251,Držovice na Moravě-U hřbitova,1,NA,222,-556276,-1132323
+M0252,Držovice na Moravě-Vinohrádky,2,TRUE,238,-556313,-1131449
+M0253,Dřevnovice-intravilán,2,NA,209,-557781,-1150069
+M0254,Dřevohostice-cihelna,3,NA,285,-524050,-1143759
+M0255,Dřevohostice-Pláňava,3,NA,300,-524326,-1140443
+M0256,Dub nad Moravou-Farská zahrada,3,NA,216,-546675,-1133788
+M0257,Dub nad Moravou-obec,NA,NA,210,-546454,-1133971
+M0258,Dub nad Moravou-Tučapy,NA,NA,214,-546535,-1133174
+M0259,Dubany na Hané-Vršiny,2,NA,210,-552159,-1129129
+M0260,Dubňany-Jarohněvický rybník,2,TRUE,172,-567836,-1193872
+M0261,Dubňany-Kostelisko,2,TRUE,175,-567165,-1192533
+M0262,Dubňany-Nivky,2,TRUE,179,-565907.5167,-1191154.648
+M0263,Dubovce-Pod Otrč horou,2,TRUE,252,-557893,-1213420
+M0264,Dúbravka-Veľá lúka,3,NA,190,-579898,-1274370
+M0265,Dukovany-Pařezy,2,FALSE,368,-627809,-1170203
+M0266,Dürnkrut-Am Mühlgraben,2,TRUE,150,-589684,-1243263
+M0267,Dürnkrut-Neue Wiesen,2,TRUE,146,-587480,-1242297
+M0268,Dyje-bezejmenná ostrožna,2,NA,240,-638077,-1196493
+M0269,Dyje-Sad u nádraží,1,NA,254,-638136,-1194844
+M0270,Džbánice-Marhulky,2,FALSE,302,-627924,-1179410
+M0271,Džbánice-Zahrady pod hájem,2,FALSE,284,-628753,-1179858
+M0272,Ebendorf-Edel Äcker,2,FALSE,204,-605386,-1230477
+M0273,Ebendorf-Hühnerkratzer,3,FALSE,515,-605792,-1230717
+M0274,Ebendorf-Schellenberg,2,TRUE,228,-607288,-1231144
+M0275,Eichenbrunn-Erntdankkreuz,1,FALSE,286,-623979,-1222462
+M0276,Elsern-Wartlüß,3,TRUE,440,-673749,-1190525
+M0277,Falkenstein-Burgberg,2,TRUE,400,-606070,-1212531
+M0278,Falkenstein-Schanzboden,2,FALSE,335,-605979,-1215617
+M0279,Friebritz-Fallehergraben,2,FALSE,302,-618234,-1221711
+M0280,Friebritz-Frauenberg,1,FALSE,266,-617760,-1222081
+M0281,Friebritz-westlich Teichbreite,2,TRUE,256,-618107,-1222282
+M0282,Fronsburg-Entersgraben,2,FALSE,400,-661432,-1196652
+M0283,Fronsburg-Hinterfeld,2,FALSE,400,-662922,-1197691
+M0284,Fugnitz-Geraser Feld,2,TRUE,480,-669128,-1197757
+M0285,Gaiselberg-Hausberg,2,TRUE,271,-598137,-1235176
+M0286,Gaiselberg-Nr. 80,2,TRUE,244,-597963,-1234772
+M0287,Gajary-Bystrá II,3,TRUE,150,-587681,-1247372
+M0288,Gajary-Jazierkové,3,TRUE,150,-584488,-1244028
+M0289,Gajary-Pod lipou,3,TRUE,150,-586218,-1247781
+M0290,Gajary-Prašivá,2,TRUE,151,-584481,-1244465
+M0291,Gajary-Radlica,2,NA,155,-581584,-1243710
+M0292,Gajary-Veselé,3,TRUE,150,-585322,-1244119
+M0293,Gaubitsch-Alpenberg,2,TRUE,232,-621202,-1220092
+M0294,Gaubitsch-Hanfthal,2,FALSE,265,-621986,-1220732
+M0295,Gaubitsch-Reifling,2,TRUE,270,-622410,-1220134
+M0296,Gaubitsch-südlich Ort,2,FALSE,222,-621028,-1219617
+M0297,Gaweinstal-Junggebirge,2,TRUE,206,-609407,-1239430
+M0298,Gnadendorf-Im Vorrain,2,FALSE,256,-620482,-1222590
+M0299,Gnadendorf-südwestlich hinter der Ortschaft,1,FALSE,263,-620799,-1223040
+M0300,Grafensulz-Haltergarten,2,FALSE,232,-617721,-1230331
+M0302,Grešlové Mýto-Mírovec,2,FALSE,390,-652505.9375,-1178056.917
+M0303,Grešlové Mýto-Pode mlýnem,2,FALSE,374,-653381,-1178123
+M0304,Grešlové Mýto-V sazích u kapličky,3,FALSE,396,-652879.8542,-1178393.375
+M0305,Großschweinbarth-,2,TRUE,161,-604564,-1248406
+M0306,Großschweinbarth-Freibergen,2,TRUE,224,-606825,-1246332
+M0307,Grub an der March-Äußere Wiesenäcker,2,FALSE,147,-589537,-1247468
+M0308,Grub an der March-Haspelberg,3,TRUE,192,-590602,-1247692
+M0309,Grub an der March-Unterhaspel,3,FALSE,147,-589640,-1247568
+M0310,Guttenbrunn-Sauberg,2,FALSE,298,-606153,-1210027
+M0311,Habrovany-Blatice,2,FALSE,300,-577092.759,-1158135.362
+M0312,Habrovany-Díly za dráhou,2,TRUE,284,-577427.7639,-1160523.231
+M0313,Habrovany-u zámku,1,FALSE,317,-578332.7665,-1158983.528
+M0315,Hagenberg-Hinter der Zeil,1,TRUE,296,-615176,-1221696
+M0316,Hanfthal-Walkenhübel,2,TRUE,190,-622094,-1212919
+M0317,Haňovice-Dolní konec,1,FALSE,252,-560522,-1110407
+M0318,Hauskirchen-Unterfeld,3,TRUE,214,-595262,-1227435
+M0319,Havřice-Nad zahrádky,2,NA,210,-526494,-1186996
+M0320,Hejčín-Mrštíkovo náměstí,2,NA,216,-547655,-1120111
+M0321,Herrnbaumgarten-Auf der Breiten,2,FALSE,225,-599823,-1217759
+M0322,Herrnbaumgarten-Buchholzacker,2,TRUE,240,-597027,-1217802
+M0323,Herrnbaumgarten-Tennauwald,3,NA,260,-599343,-1213779
+M0324,Hlboké-Padzelky,3,TRUE,312,-544762,-1227314
+M0325,Hlboké-Sochorovské,2,TRUE,318,-544489,-1228138
+M0326,Hlinsko-Nad Zbružovým,2,NA,300,-523885,-1133830
+M0327,Hlinsko-Podhůra,3,NA,300,-523541,-1133944
+M0328,Hlinsko-U větrného mlýna,3,TRUE,354,-523713,-1135173
+M0329,Hlinsko-Za mlynářovým,2,TRUE,340,-523826,-1135250
+M0330,Hlivice-U vepřína,3,NA,260,-560250,-1099391
+M0331,Hluboké Mašůvky-Hradisko,2,FALSE,321,-645417,-1184706
+M0332,Hluboké Mašůvky-Nivky,1,FALSE,329,-644206.6111,-1186207.269
+M0333,Hluchov-Podkahance,2,NA,314,-566957,-1126002
+M0334,Hluchov-Zadní stříbrné,1,NA,380,-566668,-1124288
+M0335,Hluk-Paligr,3,NA,228,-534256,-1190639
+M0336,Hnanice IV,3,NA,308,-648823,-1198306
+M0337,Hnanice-Hraběcí hora,3,TRUE,314,-649388,-1199273
+M0338,Hnanice-U roty,2,TRUE,297,-648895.6794,-1198737.195
+M0339,Hněvotín-Nový trávník,3,NA,215,-554915,-1125067
+M0340,Hněvotín-U struhy,3,NA,230,-554015,-1124368
+M0341,Hnojice-Mošťanky,2,TRUE,233,-548824,-1105716
+M0342,Hobersdorf-Schloßäcker,3,TRUE,188,-602764,-1229783
+M0343,Hodonice-Loydova cihelna,2,FALSE,218,-634331,-1196754
+M0344,Hodonice-Na vinici,2,FALSE,234,-634998,-1196418
+M0345,Hohenau-,2,TRUE,150,-583716,-1229161
+M0346,Hohenau-,3,TRUE,180,-586015,-1226111
+M0347,Hohenau-Föhrenhügel,2,TRUE,150,-581220,-1228147
+M0348,Hohenau-Gestüt Wiese,2,TRUE,151,-582091,-1227623
+M0349,Hohenau-Gestüt Wiese,2,TRUE,150,-582134,-1228213
+M0350,Hohenau-Hochleiten,2,TRUE,156,-583187,-1226405
+M0351,Hohenau-Hrutka,2,TRUE,150,-582422,-1228521
+M0352,Holásky-Písníky,1,FALSE,217,-595335,-1166865
+M0353,Holubice-Pod Holubskou,2,TRUE,271,-583913.7418,-1163690.522
+M0354,Horákov-Čtvrtky,2,FALSE,343,-588298,-1159777
+M0355,Horákov-Horka,2,TRUE,361,-589581,-1159045
+M0356,Horákov-Macocha,2,FALSE,278,-587674,-1160135
+M0357,Horákov-Ořechová seč,1,FALSE,354,-588907,-1159973
+M0358,Horákov-Remíse,2,TRUE,320,-588546.4994,-1160127.057
+M0359,Hörersdorf-Gaisstall,2,TRUE,288,-610272,-1223117
+M0360,Horka nad Moravou-Spodní kaluhy,3,TRUE,219,-549423,-1117471
+M0361,Horky u Stínavy-Na Křemeli,3,NA,350,-569309,-1132225
+M0362,Horní Dunajovice-Kuchyňkova cihelna,2,FALSE,262,-633488,-1184064
+M0363,Horní Dunajovice-Na vinohradské,2,FALSE,276,-634084,-1183679
+M0364,Horní Dunajovice-Na záhumenicích,2,TRUE,251,-633214,-1184259
+M0365,Horní Sukolom-Lihovarské,3,TRUE,250,-552727,-1097090
+M0366,Horní Újezd u Třebíče-Mejtnice,2,TRUE,461,-655438.4649,-1161127.032
+M0367,Horní Újezd u Třebíče-Panské,2,FALSE,475,-653099,-1161050
+M0368,Horní Věstonice-Na Lukách,2,FALSE,169,-601205,-1194921
+M0369,Hostěradice na Moravě-JV obce,2,FALSE,209,-626103,-1185667
+M0370,Hostim-Amerika,3,TRUE,403,-651725,-1175267
+M0371,Hostim-pole nad Radkovským mlýnem,3,TRUE,393,-650839,-1176024
+M0372,Hostim-Těchovec,2,TRUE,407,-651669.8892,-1173331.796
+M0373,Hostim-Za Ovčínem,2,NA,410,-651378,-1175695
+M0374,Hovorany-Újezdy,2,TRUE,198,-568445,-1190905
+M0375,Hradčany u Prostějova-Nad mlýnem,2,TRUE,240,-558774,-1146172
+M0376,Hradčany u Tišnova-Pod horkou,3,TRUE,250,-608052.9825,-1144493.772
+M0377,Hradčovice-Újezdy,2,NA,204,-529479,-1184435
+M0378,Hradisko-Hradisko,1,NA,222,-543077,-1152324
+M0379,Hrotovice-Mstěnice,2,FALSE,348,-638473,-1169273
+M0380,Hrotovice-Na panské nivě,3,FALSE,429,-639762,-1165250
+M0381,Hrotovice-Votavova cihelna,3,FALSE,398,-637884.2425,-1165473.219
+M0382,Hroznová Lhota-Čtvrtky,3,TRUE,220,-541629,-1197253
+M0383,Hrubčice-Košíky,NA,NA,210,-552993,-1136650
+M0384,Hrubčice-Nebnahy,NA,NA,211,-553179,-1136283
+M0385,Hrubšice-intravilán,2,TRUE,225,-621267,-1169841
+M0386,Hrubšice-Nad řekou,3,TRUE,274,-622524,-1169738
+M0387,Hruška-Nivky,1,NA,248,-551949,-1146775
+M0388,Hrušovany u Brna-SV intravilán,2,FALSE,182,-654446,-1177726
+M0389,Hrušovany u Brna-U tří mostů,2,FALSE,188,-654446,-1177466
+M0390,"Hulín-Padělky, pískovna",3,TRUE,194,-533607,-1155841
+M0391,Hulín-U Isidorka,1,NA,194,-535365,-1152383
+M0392,Hulín-U obrázku,1,NA,195,-533453,-1152963
+M0393,Hulín-Višňovce,1,NA,195,-533212,-1153695
+M0394,Hustopeče u Brna-Příčky,2,FALSE,219,-592108.6738,-1187920.275
+M0395,Hustopeče-dálniční nájezd,2,TRUE,200,-592017,-1188725
+M0396,Huštěnovice-Tegly,3,NA,190,-536898,-1176219
+M0397,Hvozdec u Veverské Bitýšky-Proti skalce,2,TRUE,313,-610186,-1154157
+M0398,Chaloupky u Otaslavic-Obrova noha,1,NA,420,-564084,-1143092
+M0399,Chaloupky u Otaslavic-Žákovec,3,TRUE,390,-563743,-1141335
+M0400,Charvátská Nová Ves-Líbivá,1,NA,158,-584823,-1209002
+M0401,Charváty-hliník,2,NA,207,-547452,-1129644
+M0402,Cholina-Horní farské,3,NA,310,-561594,-1112793
+M0403,Cholina-školní zahrada,2,NA,268,-561047,-1112864
+M0404,Chornice 2c,3,TRUE,335,-583844,-1108380
+M0405,Chornice-Kelinky,3,TRUE,366,-585382,-1110003
+M0406,Chornice-Pod hušákem,1,NA,380,-585052,-1109467
+M0407,Chořelice-Nad hliníkem,2,TRUE,240,-558502,-1110874
+M0408,Chořelice-za Teslou,2,NA,230,-558271,-1109388
+M0409,Chrudichromy-Čtvrti,1,FALSE,334,-593156,-1126686
+M0410,Chudčice-intavilán,2,FALSE,252,-607827,-1149073
+M0411,Chudčice-U dubu,3,FALSE,297,-609720,-1153954
+M0412,Chvalatice-Růžový kopec,2,TRUE,390,-664298,-1182577
+M0413,Ivaň na Hané-Nivky,NA,TRUE,200,-549060,-1141462
+M0414,Ivančice-cihelna,2,NA,240,-615851,-1168232
+M0415,Ivančice-Dolní Špýry,2,FALSE,292,-615187,-1167484
+M0416,Ivančice-Knížecí les,3,TRUE,374,-654446,-1165911
+M0417,Ivančice-Loučky,3,TRUE,242,-654446,-1168026
+M0418,Ivančice-Mřenková ul.,3,FALSE,224,-654446,-1168619
+M0419,Ivančice-Nové hory,3,FALSE,266,-615192,-1168547
+M0420,Ivančice-Panovského cihelna,3,FALSE,242,-615536,-1168738
+M0421,Ivanovice na Hané-Padělky za cihelnou,2,NA,235,-562055,-1154034
+M0422,Ivanovice na Hané-Spravedlnost,2,NA,216,-559960,-1152022
+M0423,Ivanovice na Hané-U Chvalkovic,3,NA,214,-560742,-1151862
+M0424,Ivanovice na Hané-Za střediskem,2,NA,240,-561067,-1153481
+M0425,Ivanovice-Pod Habřím,2,FALSE,256,-599373.3088,-1153280.368
+M0426,Jabloňany-kravín,2,FALSE,316,-595422.4583,-1130215.304
+M0427,Jabloňany-Sedliska,2,TRUE,348,-595085.9309,-1131029.595
+M0428,Jakubov-Pri starom mlyne,3,TRUE,150,-585209,-1249387
+M0429,Jakubov-Prostredné pole,3,TRUE,150,-583087,-1248644
+M0430,Jamolice-Čertova hráz,2,NA,370,-626153,-1169120
+M0431,Jamolice-Hájky,3,TRUE,371,-627532,-1170674
+M0432,Jarohněvice-Rozdíly,NA,NA,210,-541734,-1158371
+M0433,Jaroměřice nad Rokytnou-Kopanina,3,TRUE,458,-649627,-1166921
+M0434,Jaroměřice nad Rokytnou-Niva pod dráhou,1,FALSE,431,-652522,-1166465
+M0435,Jaroměřice nad Rokytnou-Spolek,3,TRUE,427,-649948,-1166192
+M0436,Jaroměřice nad Rokytnou-Štěpánovská trať,2,TRUE,433,-650477.3437,-1164630.784
+M0437,Jaroměřice nad Rokytnou-V košíkovém,2,TRUE,426,-651548,-1165067
+M0438,Jaroměřice nad Rokytnou-Za forotou,3,TRUE,430,-651855,-1166575
+M0439,Jaroměřice nad Rokytnou-Žabík,2,TRUE,474,-649164,-1166838
+M0440,Jaroměřice-Čtvrtě pod hájky,3,NA,350,-583925,-1113632
+M0441,Jaroměřice-Na hójezdech,3,TRUE,360,-583698,-1114235
+M0442,Jedenspeigen-Bahnfeld,2,TRUE,148,-585577,-1240187
+M0443,Jedenspeigen-Dammfeld,2,TRUE,148,-585577,-1240187
+M0444,Jedenspeigen-Östlich des Dammfeldes,2,TRUE,147,-586749,-1241680
+M0445,Jedenspeigen-Schafhofbreiten,2,TRUE,148,-586438,-1241723
+M0446,Jedenspeigen-Schafhofbreiten,2,TRUE,148,-586744,-1242019
+M0447,Jedenspeigen-Wimmerauwiesen,2,TRUE,147,-586136,-1241788
+M0448,Jemnice-Nad Jandovem,2,TRUE,465,-676045,-1171874
+M0449,Jemnice-Nad Týnicí,2,FALSE,457,-675731.1042,-1173369.5
+M0450,Jemnice-Padělky za šibenicí,2,TRUE,460,-677136,-1170496
+M0451,Jemnice-Široké,2,TRUE,484,-673683,-1171673
+M0452,Jestřebí-Hrubé dílce,2,TRUE,309,-595480.1971,-1137241.01
+M0453,Jetzelsdorf-Fundstelle 1,NA,FALSE,211,-644375,-1210449
+M0454,Jetzelsdorf-Rabenberg,NA,FALSE,262,-644461,-1207816
+M0455,Jevíčko-předměstí 19,3,TRUE,388,-585649,-1111368
+M0456,Jevišovice-Na příčných,3,TRUE,341,-644978,-1178911
+M0457,Jevišovka-Nová ul.,2,FALSE,177,-612543,-1200018
+M0458,Ježov-Díly,2,TRUE,242,-556210.031,-1183963.197
+M0459,Jinačovice-Klínky,2,TRUE,294,-603176,-1153198
+M0460,Jinačovice-Za sýčkami,1,FALSE,308,-602914,-1152734
+M0461,Jiřice u Moravských Budějovic-Na širokých,2,TRUE,394,-649981,-1176926
+M0462,Jiřice u Moravských Budějovic-Pod Borovým,2,TRUE,358,-649947.105,-1177878.947
+M0463,Jiříkovice-Díly,2,FALSE,235,-587599.9265,-1164408.716
+M0464,Jundrov-Optátova,2,FALSE,217,-602002.1692,-1158450.908
+M0465,Jundrov-U jezírka,2,TRUE,301,-603644.9008,-1158419.003
+M0466,Kadov-zahrada J. Šidla,3,FALSE,274,-624105,-1181629
+M0468,Kdousov-U Cihelny,2,TRUE,426,-669556,-1175778
+M0469,Kdousov-U Křížku,2,TRUE,454,-670798,-1176450
+M0470,Kelč-Staré Město-Pod Šibenky,3,TRUE,320,-508590,-1138854
+M0471,Kettlasbrunn-Mistelbacher Breiten,2,FALSE,217,-604524,-1233099
+M0472,Kettlasbrunn-Opersdorferfeld,3,TRUE,212,-604661,-1230894
+M0473,Kladeruby nad Oslavou-Na vlčinském,2,FALSE,360,-629218,-1163268
+M0474,Kladníky-Záhumenky,NA,NA,330,-523370,-1136095
+M0475,Kleinhadersdorf-Bockfeld,1,TRUE,230,-605893,-1218764
+M0476,Kleinhadersdorf-In Gründen,3,TRUE,236,-605522,-1218902
+M0477,Kleinhöflein-Kühlüssen,2,FALSE,234,-647220,-1203896
+M0478,Kleinsierndorf-Ratscherberg,2,FALSE,324,-632955,-1222038
+M0479,Klenovice na Hané-Kolečkářky,2,NA,204,-550996,-1141660
+M0480,Klenovice na Hané-Louky za Ovčinou,NA,TRUE,200,-551743,-1140889
+M0481,Klenovice na Hané-Noviny,NA,NA,200,-550780,-1140902
+M0482,Klenovice na Hané-Zábraní,NA,TRUE,200,-551322,-1140661
+M0483,Klentnice- Länger Acker,2,TRUE,338,-599161,-1200497
+M0484,Klentnice-Hirschwald,2,FALSE,340,-599517.8125,-1198556.375
+M0485,Klentnice-Stará hora,1,TRUE,350,-598643,-1201250
+M0486,Klentnice-Za kovárnou,2,FALSE,332,-599768,-1198812
+M0487,Kloboučky-Padělky za humny,2,FALSE,290,-569748,-1171788
+M0488,Kloboučky-Za školou,3,TRUE,240,-570202.0009,-1170726.541
+M0489,Klobouky u Brna-Hradisko,2,FALSE,311,-583093,-1185236
+M0490,Klobouky u Brna-Novosady,3,FALSE,221,-582378,-1186252
+M0491,Klobouky u Brna-Za psinky,3,TRUE,266,-582365,-1183883
+M0492,Klopina-Na lánech,2,NA,320,-561774,-1095510
+M0493,Klopina- U Křemelice,2,FALSE,320,-561747,-1094614
+M0494,Kniníčky-Sokolské koup.,1,FALSE,247,-604369,-1154716
+M0495,Kniníčky-U luhu,2,TRUE,265,-603440.9635,-1155160.367
+M0496,Kniníčky-U tří křížů,2,TRUE,390,-607128,-1150713
+M0497,Kobeřice u Brna-Čtvrtě,2,TRUE,235,-579796.0406,-1175509.299
+M0498,Kobeřice u Brna-Nová pole,2,FALSE,323,-578633.4539,-1175318.337
+M0499,Kobeřice-Padělky,2,NA,265,-559451,-1144493
+M0500,Kobylí na Moravě-Lumperky,3,FALSE,273,-582957,-1191887
+M0501,Kobylí na Moravě-U jezera,2,FALSE,188,-580294.4331,-1191236.616
+M0502,Kobylnice u Brna-Rozdíly,3,FALSE,216,-589693.2724,-1167443.354
+M0503,Kobylnice u Brna-Rybníky,1,FALSE,206,-590080,-1168451
+M0504,Kobylničky-Kozlének,2,NA,346,-565324,-1142409
+M0505,Kohoutovice-Na široké,2,TRUE,360,-603110,-1160129
+M0506,Kojatice-Smilová,2,TRUE,500,-666059,-1173872
+M0507,Kojetín-Babiny,NA,TRUE,200,-548576,-1150050
+M0508,Kojetín-Kroměřížská,2,NA,200,-545842,-1148832
+M0509,Kojetín-Nad Křenovskou lávkou,2,NA,200,-548680,-1149999
+M0510,Kokory-Zákostelky,3,NA,242,-538910,-1133344
+M0511,Količín-Šeblínek,2,NA,201,-531238,-1152673
+M0512,Količín-Újezd,3,NA,205,-530579,-1152699
+M0513,Komín-Kouty,3,TRUE,315,-602107.9502,-1153695.83
+M0514,Komín-Luhy,2,TRUE,219,-602869.0683,-1156681.956
+M0515,Komín-Nivy,2,FALSE,212,-601503.6558,-1157764.686
+M0516,Komín-Padělky u Medlánek,2,TRUE,271,-601284.1545,-1155252.974
+M0517,Komín-Pod vinohrady,2,TRUE,220,-601957.6217,-1157334.845
+M0518,Komořany na Moravě-U cihelny,2,FALSE,254,-576430,-1160220
+M0519,Kordula-Na jitrech,2,TRUE,320,-632815.1975,-1172127.964
+M0520,Kostelany nad Moravou-Roztoky,3,TRUE,180,-542773,-1183520
+M0521,Kostelec na Hané-K Čelechovicím,2,NA,255,-561318,-1128707
+M0522,Kostelec na Hané-Kozí brada,1,NA,250,-561498,-1128710
+M0523,Kostelec na Hané-Niva,2,FALSE,330,-565006,-1126804
+M0524,Kostelec na Hané-Prostřední pololány,2,TRUE,261,-562586,-1128462
+M0525,Kostelec na Hané-Srážka,2,NA,246,-562630,-1128676
+M0526,Kostelec na Hané-Trnka,2,NA,255,-560589,-1128866
+M0527,Kostelec na Hané-Za cihelnou,2,NA,258,-562218,-1128253
+M0528,Kostice-Louky u lesa,2,FALSE,156,-580596,-1214415
+M0529,Kostníky-Jezevčiny,3,TRUE,453,-671966.0773,-1179614.848
+M0530,Kostníky-Sedliště,2,TRUE,429,-670243.9419,-1178080.765
+M0531,Kostolište-Piesočné,3,TRUE,163,-579421,-1245971
+M0532,Kotáry-Chochola,2,NA,365,-566576,-1147115
+M0533,Kotáry-Melice,2,NA,330,-565559,-1148574
+M0534,Kounické Předměstí-Réna,2,TRUE,283,-615404,-1170318
+M0536,Koválov-Chrasci,3,TRUE,296,-556049,-1218376
+M0537,Koválov-Koválovca,2,TRUE,256,-553759,-1218204
+M0538,Koválov-Okrušky od Unína,2,TRUE,235,-555815,-1219393
+M0539,Koválov-Vinohrádky,3,TRUE,244,-554911,-1219249
+M0540,Kovalovice-Díly,1,FALSE,297,-583604,-1161352
+M0541,Kovalovice-Na rovinách,2,FALSE,305,-582805,-1162249
+M0542,Kozlany-Hošťálky,2,FALSE,442,-637085.7708,-1157963.375
+M0543,Kralice na Hané-Kralický háj,1,FALSE,212,-555935,-1134623
+M0544,Kralice na Hané-Noviny,3,NA,210,-555245,-1135023
+M0545,Kralice nad Oslavou-Klínky,2,TRUE,408,-627450,-1157911
+M0546,Kralice nad Oslavou-Pivovárky,2,TRUE,413,-627206,-1156553
+M0547,Kralice nad Oslavou-Posměch,2,TRUE,398,-627850,-1158234
+M0548,Králová-kóta 272,2,NA,272,-561138,-1099794
+M0549,Králová-u silnice do Benkova,2,NA,245,-559837,-1101194
+M0550,Královo Pole-Božetěchova,1,FALSE,221,-598610,-1157173
+M0551,Královo Pole-Kulhan,2,TRUE,228,-598912,-1155749
+M0552,Královopolské Vážany-Horka,2,TRUE,351,-579764.1635,-1159238.794
+M0553,Kramolín-Babské díly,2,FALSE,444,-633357,-1163203
+M0554,Kramolín-Hradisko,2,FALSE,378,-635203,-1162888
+M0555,Krasice-Kopaniny,2,NA,270,-562342,-1135684
+M0556,Krasice-U hřbitova,2,NA,235,-560549,-1134440
+M0557,Kravsko-Hradiště,3,TRUE,340,-646046,-1185047
+M0558,Kravsko-Mastník,3,TRUE,323,-646397,-1186600
+M0559,Kroměříž-Kotojedská,1,NA,196,-539560,-1156711
+M0560,Kroměříž-Újezd u svatého Františka,2,NA,200,-541370,-1153698
+M0561,Kroměříž-Velehradská,2,NA,200,-540669,-1156718
+M0562,Krumsín-Kněží hora,2,TRUE,320,-565447,-1135420
+M0563,Krumsín-Na Mokři,2,NA,310,-567184,-1135440
+M0564,Křelov-Za chaloupkami,NA,TRUE,310,-550736,-1119875
+M0565,Křemačov-Strinberg,3,NA,390,-570633,-1096383
+M0566,Křemenec-Pod dědinou,2,TRUE,405,-572603,-1120877
+M0567,Křenovice u Kojetína-Hradisko,2,NA,230,-547413,-1151759
+M0568,Křenovice u Kojetína-Koráb,2,NA,200,-547843,-1151366
+M0569,Křenovice u Kojetína-Vinice,1,NA,225,-547872,-1151806
+M0570,Křenovice u Slavkova-Dolní nádr.,2,TRUE,210,-582401.704,-1168031.441
+M0571,Křenovice u Slavkova-u trati,2,TRUE,206,-581431.8649,-1168577.2
+M0572,Křenovice u Slavkova-Zelnice,2,TRUE,214,-583003.6601,-1167441.155
+M0573,Křepice u Hustopečí-intravilán,2,FALSE,248,-592537.6937,-1183301.311
+M0574,Křepice u Hustopečí-Záhumenice,2,FALSE,251,-592082.8855,-1183389.623
+M0575,Křepice-Čtvrtky,2,FALSE,346,-637578,-1179259
+M0576,Křepice-Hradisko,2,FALSE,335,-636791,-1181320
+M0577,Křepice-Za hájkem,3,FALSE,339,-637658,-1178421
+M0578,Křižanovice u Bučovic-Padělky,2,FALSE,213,-574352.1801,-1169333.147
+M0579,Křižanovice u Bučovic-Padělky nad hliníkem,2,TRUE,256,-573959,-1170081
+M0580,Křižanovice u Vyškova-,2,FALSE,250,-566676,-1154101
+M0581,Kubšice-U vedrovických hranic,2,NA,243,-615080,-1179978
+M0582,Kudlovice-Zámeza,3,NA,240,-538006,-1172239
+M0583,Kuchařovice-Dolní Kasperek,1,FALSE,308,-639628,-1192541
+M0584,Kunov-Horekončie,2,TRUE,260,-545386,-1222763
+M0585,Kunov-Medzikružie,2,NA,250,-545406,-1222028
+M0586,Kunov-Nádemenice,2,NA,250,-545611,-1222281
+M0587,Kunov-Starý cintorín,2,TRUE,244,-546036,-1222750
+M0588,Kunov-zahrada domu č. 57,1,TRUE,223,-545939,-1222452
+M0589,Kunov-Záhrobné diely,2,NA,240,-546032,-1222996
+M0590,Kunov-Záchrastie,2,TRUE,274,-545161,-1222464
+M0591,Kunovice u Uherského Hradiště-Let,2,NA,178,-538225,-1184606
+M0592,Kunovice u Uherského Hradiště-Nedbalova cilhelna,NA,NA,200,-536746,-1184550
+M0593,Kunovice u Uherského Hradiště-Nová Čtvrť,NA,NA,198,-537349,-1184646
+M0594,Kunovice-Ve Slínech,3,TRUE,390,-508164,-1142862
+M0595,Kurdějov-Holý vrch,3,TRUE,397,-589421,-1186570
+M0596,Kuřim-Blanenská,1,FALSE,310,-602159,-1147317
+M0597,Kuřim-Křivé,1,FALSE,280,-603354,-1149070
+M0598,Kuřim-Na zahrádkách,2,FALSE,297,-602266,-1147869
+M0599,Kuřim-Nad nivkami pod Zlobicí,2,TRUE,333,-603318,-1146492
+M0600,Kuřim-Pod Toskou,2,FALSE,308,-601738.0181,-1147434.642
+M0601,Kuřim-Rybníky,2,FALSE,324,-600760.3107,-1147080.651
+M0602,Kuřim-U kopečku,1,FALSE,315,-601046.6552,-1147282.294
+M0603,Kuřim-U Marušky,3,FALSE,328,-602194,-1151182
+M0604,Kuřim-Ve vedlejších,1,FALSE,300,-601281,-1148987
+M0605,Kuřim-Za kostelem,3,FALSE,326,-602386,-1150797
+M0606,Kuřim-Za sv. Jánem,2,FALSE,314,-601706.1464,-1149601.582
+M0607,Kuřim-Za Špihlíkem,2,FALSE,314,-603473,-1146789
+M0608,Kuřim-Záruba,2,NA,370,-602045,-1147778
+M0609,Kvačice-Chylický rybník,2,NA,176,-542415,-1188067
+M0610,Kvítkovice u Otrokovice-Přední mezicestí,1,FALSE,202,-529741,-1167360
+M0611,Kyjov-komín sklárny,2,NA,190,-562709,-1185775
+M0612,Kyjov-Újezd,3,NA,200,-561822,-1185335
+M0613,Kyjovice-Nad silnicí,2,FALSE,206,-633185,-1188365
+M0614,Kyjovice-Sutny,2,FALSE,268,-636206.0171,-1189716.093
+M0615,Kyjovice-Zahrada F. Krejčího,3,TRUE,229,-633608,-1188455
+M0616,Laa an der Thaya-Inneres Gerichtsfeld,2,TRUE,178,-618721,-1210461
+M0617,Láb-Pálenice,2,TRUE,148,-582080,-1255500
+M0618,Láb-Tri tále,3,NA,141,-583328,-1256484
+M0619,Labuty-Juřičkův kopec,3,TRUE,273,-555412.0238,-1182066.089
+M0620,Labuty-Újezd za humny,2,TRUE,269,-555848.9922,-1181166.03
+M0621,Lakšárska Nová Ves-kravíny JRD,2,FALSE,214,-562911,-1232493
+M0622,Lamač-Jamy 2,3,FALSE,200,-577950,-1274182
+M0623,Lančov-Za kapličkou,3,TRUE,437,-661946,-1184409
+M0624,Lanzendorf-Sandgrube,2,TRUE,218,-607836,-1231010
+M0625,Lanžhot-Podsedky,2,FALSE,169,-576755,-1214889
+M0626,Laškov - Na příčkách,2,TRUE,314,-564487,-1120314
+M0627,Laškov-Na kuse,2,NA,295,-564195,-1120695
+M0628,Láz u Nových Syrovic-U nového rybníka,3,TRUE,441,-660954.6678,-1174824.2
+M0629,Lazce u Troubelic-U staré matky,2,NA,241,-555989,-1098317
+M0630,Lazce u Troubelic–Vystříbro,3,TRUE,241,-556647,-1097280
+M0631,Lázy-říšská dálnice,3,NA,366,-583864,-1106557
+M0632,Lednice na Moravě-Nejdecké roviny,2,FALSE,161,-589631,-1205872
+M0633,Lednice na Moravě-Podholmy,3,TRUE,203,-586773.9217,-1207217.5
+M0634,Lechotice-Podlesí,2,FALSE,232,-526271,-1159983
+M0635,Lechovice-parcela 424/21,2,FALSE,321,-630549,-1193008
+M0636,Lelekovice-hrad,1,FALSE,300,-598978,-1149899
+M0637,Lelekovice-intravilán,2,FALSE,273,-599395,-1150283
+M0638,Leodagger-Lange Vierteln,2,TRUE,309,-658353,-1206663
+M0639,Lesná u Znojma-Horní prátna,3,TRUE,460,-654368,-1186950
+M0640,Lesná u Znojma-U lihovaru,3,TRUE,458,-654824,-1186009
+M0641,Lesonice u Moravského Krumlova-Močidla,3,TRUE,265,-621246.6875,-1179197.125
+M0642,Lesůňky-cihlena,2,TRUE,447,-654881.7441,-1164322.724
+M0643,Lesůňky-Loch,2,TRUE,452,-655042,-1164223
+M0644,Lesůňky-nad soutokem,2,TRUE,444,-655082.8317,-1163750.836
+M0645,Lesůňky-Tvrz,3,TRUE,440,-654005,-1164479
+M0646,Lesůňky-U boroví,2,TRUE,482,-654329.9271,-1162444.628
+M0647,Lesůňky-U dubu,2,TRUE,478,-654129,-1162702
+M0648,Lesůňky-U tvrze,2,TRUE,435,-654572,-1164162
+M0649,Lešany u Prostějova-Na dluhošticích,3,TRUE,290,-565156,-1129614
+M0650,Lešany u Prostějova-U doubku,2,NA,310,-565474,-1130024
+M0651,Lešany u Prostějova-V Syrovátkách,2,NA,300,-565358,-1129258
+M0652,Lešany u Prostějova-Za Hemerkovým,2,NA,286,-564953,-1130395
+M0653,Letkovice-intravilán,2,FALSE,209,-617475,-1169827
+M0654,Letkovice-Pod kolibkami,3,TRUE,217,-618324,-1169866
+M0655,Letonice-Mezi hájky,3,TRUE,386,-573991,-1165067
+M0656,Letošov-cihlelna,3,TRUE,243,-565417.7803,-1169804.605
+M0657,Letošov-Půllány,3,TRUE,293,-565842,-1170588
+M0658,Lhánice-Černice,2,TRUE,325,-627134,-1166842
+M0659,Lhánice-Kolonie,1,FALSE,325,-627464,-1166806
+M0660,Lhánice-Kopanina,2,FALSE,352,-627365,-1167812
+M0661,Lhánice-Na hrádku,2,TRUE,332,-627687,-1168052
+M0662,Lhánice-Vodavek,2,TRUE,325,-627523,-1166847
+M0663,Lhánice-zemědělské družstvo,1,FALSE,331,-626871,-1167070
+M0664,Lhota u Lipníka nad Bečvou-Dlouhé hony,2,TRUE,336,-522148,-1134771
+M0665,Lhota u Lipníka nad Bečvou-Dlouhé hony,NA,TRUE,338,-522129,-1134693
+M0666,Lhotice u Jemnice-Široké,2,TRUE,484,-673692,-1171718
+M0667,Lhotka u Kroměříže-Padělky od Zelinky,3,NA,280,-542636,-1163074
+M0668,Líbivá-u nadjezdu nad dráhou,2,NA,260,-568691,-1096496
+M0669,Lipov-Padělky,2,TRUE,215,-540588,-1198901
+M0670,Lipůvka-Klíny,2,TRUE,346,-599730.6118,-1145047.243
+M0671,Lipůvka-Nad cihelnou,2,TRUE,369,-599962.2351,-1144735.615
+M0672,Lipůvka-Pod habřím,2,TRUE,352,-600696,-1143452
+M0673,Lipůvka-Pod Maňůvkou u Trojice,2,TRUE,332,-600605,-1145305.993
+M0674,Lísky-Za Hrubou loukou,2,TRUE,290,-554866,-1169160
+M0675,Líšeň-Breitcetlova,3,FALSE,329,-591960,-1159713
+M0676,Líšeň-Čihadlo,1,FALSE,319,-590134,-1159239
+M0677,Líšeň-Dlouhý kus,1,FALSE,352,-591045,-1158883
+M0678,Líšeň-Klicperova ul.,2,NA,322,-592273,-1160300
+M0679,Líšeň-Křížová zmola,1,FALSE,318,-591879,-1159944
+M0680,Líšeň-Zadní kostelíček,2,FALSE,337,-590975,-1159980
+M0681,Lobodice-Niva u Cvrčova,2,NA,202,-546483,-1142806
+M0682,Loštice-Náměstí Míru,2,NA,265,-568630,-1102374
+M0683,Lovčičky-Cihelna,2,FALSE,231,-583770,-1175279
+M0684,Lovčičky-Dlouhé,2,TRUE,285,-581347.0735,-1176386.223
+M0685,Lovčičky-Nádlese,2,FALSE,356,-580882,-1177228
+M0686,Lovčičky-Široké,2,TRUE,346,-581266,-1177472
+M0687,Lovčičky-Žleby,1,NA,256,-582764,-1176130
+M0688,Lovčovice-Na kopci,3,TRUE,477,-676731,-1175253
+M0689,Lubnice-Černá pole,2,TRUE,440,-673208,-1181487
+M0690,Lubnice-Dvorské Díly,2,TRUE,456,-673798,-1179289
+M0691,Lubnice-Na kopci,2,TRUE,427,-673120,-1180890
+M0692,Lubnice-Uherčická pole,2,TRUE,438,-672960,-1181676
+M0693,Ludéřov-U smrku,2,NA,315,-561801,-1121366
+M0694,Ludéřov-U Zlaté stružky,2,TRUE,270,-561241,-1122484
+M0695,Ludéřov-západně od Švédských šancí,3,TRUE,344,-562548,-1121036
+M0696,Lukov nad Dyjí-Ostroh,2,TRUE,354,-654446,-1194257
+M0697,Lukov u Moravských Budějovic-Týnské,2,TRUE,460,-656896.5864,-1167670.955
+M0698,Lukov u Moravských Budějovic-Za bažantnicí,3,TRUE,447,-655771,-1166609
+M0699,Lukovany-Za pazourkovým,2,TRUE,353,-619965,-1162500
+M0700,Luleč u Vyškova-sv. Martin,3,FALSE,375,-575350,-1156692
+M0701,Luleč-intravilán,2,NA,300,-574251,-1156675
+M0702,Lutín-Nový trávník,3,TRUE,230,-554718,-1125282
+M0703,Lutotín-intravilán,1,NA,252,-563793,-1128181
+M0704,Lutotín-Jestřábí rokle,2,TRUE,270,-564746,-1128148
+M0705,Lutotín-obec,2,NA,256,-563555,-1128028
+M0706,Lužice u Hodonína-Kratiny,2,TRUE,168,-567846.7403,-1203749.07
+M0707,Lužice u Hodonína-U starého,2,FALSE,177,-569237,-1202242
+M0708,Lýsky-intravilán,2,NA,216,-533545,-1135532
+M0709,Lýsky-Nad struhou,1,NA,216,-533312,-1135337
+M0710,Lýsky-Padělky u Lýsek,1,NA,228,-533218,-1134754
+M0711,Malenovice u Zlína-Jarolímkovo nám.,1,FALSE,202,-526510,-1166834
+M0712,Malenovice u Zlína-Mezicestí,2,FALSE,202,-528184,-1166913
+M0713,Malenovice u Zlína-Švermova,3,NA,210,-526335,-1166853
+M0714,Malhostovice-Jezera,2,TRUE,413,-601961,-1145289
+M0715,Malhostovice-Na jezerách nad Koudelkami,2,TRUE,374,-601571.2657,-1145105.719
+M0716,Malhostovice-Paní hora,2,NA,355,-603011,-1142279
+M0717,Malhostovice-Pod Brabinkou,2,TRUE,322,-602708.0164,-1144440.164
+M0718,Malhostovice-Polovy žleby,2,TRUE,406,-602042.0801,-1145661.632
+M0719,Malhostovice-U bílého kamene,1,FALSE,322,-602935.5453,-1145018.89
+M0720,Malhostovice-U Nuzířova,3,TRUE,310,-603055.1827,-1143859.269
+M0721,Malhostovice-U Pluštaru,2,TRUE,293,-603413,-1143928
+M0722,Malhostovice-Zlámaniny,2,TRUE,315,-603600,-1145567
+M0723,Malhostovice-Žalvíř,2,TRUE,298,-603581,-1144627
+M0724,Mallersbach-Schindberg,2,TRUE,440,-660242,-1193835
+M0725,Maloměřice-Holý kopec,2,FALSE,280,-594664,-1158743
+M0726,Maloměřice-U stavu,1,FALSE,214,-595231,-1157881
+M0727,Mannersdorf-Auhagen,3,FALSE,167,-590203,-1250152
+M0728,Mannersdorf-Dammäcker,2,FALSE,148,-591073,-1251795
+M0729,Marefy-Čtvrtě od Letonic,3,FALSE,246,-572683,-1167808
+M0730,Marefy-intravilán,2,FALSE,213,-572525,-1168887
+M0731,Marefy-Průtnice,2,FALSE,213,-573164,-1169169
+M0732,Marchegg-Lange Lüsse,3,TRUE,140,-584816,-1269577
+M0733,Marchegg-Ochsenweide,3,TRUE,140,-585439,-1266564
+M0734,Maršovice-Na kocourkách,2,FALSE,277,-613837,-1175966
+M0735,Mařatice-Štanclova cihelna,2,NA,225,-536184,-1181103
+M0736,Mašovice u Znojma-Malé poloúdělí,2,FALSE,386,-648734,-1192099
+M0737,Mašovice u Znojma-Mezicestí,2,TRUE,362,-647325,-1192576
+M0738,Mašovice u Znojma-Pšeničné,1,FALSE,368,-648053,-1192688
+M0739,Medlánky-Za Bomberkem,2,FALSE,257,-600248,-1155447
+M0740,Medlov u Uničova-cihelna,3,NA,270,-559210,-1098718
+M0741,Medlov u Uničova-důl Barbora,2,NA,302,-560459,-1097907
+M0742,Medlov u Uničova-parcela 411,2,NA,262,-558789,-1098782
+M0743,Medlov u Uničova-U Pískoviště,2,NA,250,-557354,-1098231
+M0744,Medlovice-Za Hanou,2,NA,230,-562328,-1154165
+M0745,Menhartice-Na pastvišťatech,2,TRUE,476,-676705,-1175247
+M0746,Měrovice nad Hanou-Přední díly,2,TRUE,225,-549642,-1148127
+M0747,Městys Blížkovice-u Mácova rybníka,3,TRUE,407,-656985.1494,-1175465.758
+M0748,Mešovice-Pod dančovickou silnicí,2,TRUE,451,-676365,-1180743
+M0749,Mezice-Za kovárnou,2,NA,228,-555641,-1112901
+M0750,Mezice-Za kovárnou,2,NA,230,-555690,-1112935
+M0751,Michelstetten-,3,NA,274,-619170,-1225621
+M0752,Michelstetten-,2,TRUE,238,-617334,-1225351
+M0753,Michelstetten-,3,TRUE,380,-618874,-1227206
+M0754,Michelstetten-,3,TRUE,272,-619069,-1225594
+M0755,Michelstetten-,3,TRUE,347,-617770,-1226915
+M0756,Michelstetten-,2,TRUE,250,-617178,-1225510
+M0757,Michelstetten-Am Sand,2,FALSE,306,-618726,-1227084
+M0758,Michelstetten-Bei der Feldmühle,3,NA,258,-616962,-1225621
+M0759,Michelstetten-Zeiselberg,3,TRUE,286,-618047,-1226369
+M0760,Míkovice nad Olšavou-Na Drahách,3,NA,212,-535260,-1184983
+M0761,Mikulčice-Podbřežníky,2,TRUE,172,-570926.8125,-1206232.313
+M0762,Mikulov na Moravě-Jelení louka,2,NA,230,-596314,-1203397
+M0763,Mikulov na Moravě-Kamenné,2,FALSE,255,-601180.9312,-1202654.047
+M0764,Mikulov na Moravě-Turold,2,NA,300,-600358,-1202730
+M0765,Mikulovice u Znojma-cihelna,3,FALSE,309,-638570,-1183458
+M0766,Mikulovice-Rohlík,2,FALSE,508,-653167,-1157456
+M0767,Milatice-Hekrle,1,FALSE,457,-655622,-1163698
+M0768,Milovice u Mikulova-intravilán,1,FALSE,179,-595641,-1199385
+M0769,Milovice u Mikulova-Klíny,2,FALSE,176,-595367,-1199098.25
+M0770,Milovice u Mikulova-Mikulovské terasy,3,TRUE,251,-596616,-1199248
+M0771,Milovice u Mikulova-Na pískách,2,FALSE,165,-594324.4063,-1198892.313
+M0772,Milovice u Mikulova-Prostřední pole,2,FALSE,166,-594623,-1199314
+M0773,Milovice u Mikulova-Spitzhübel,2,FALSE,199,-594282,-1200340
+M0774,Milovice u Mikulova-Velké díly,3,TRUE,176,-595887,-1198599
+M0775,Miňůvky-Křivky,2,FALSE,212,-542130,-1153882
+M0776,Miroslav-nám. Svobody,2,FALSE,249,-622690,-1185907
+M0777,Miroslav-Přední farské,1,FALSE,268,-622128,-1184855
+M0778,Miroslavské Knínice-U cihelny,2,FALSE,308,-621699,-1182900
+M0779,Mistřín-Vadasova pískovna,2,FALSE,192,-566098,-1188970
+M0780,Mitterretzbach-Hofäcker,3,FALSE,270,-649341,-1200748
+M0781,Mladkov u Boskovic-Mezicestí,2,FALSE,317,-593619,-1128267
+M0782,Mladoňovice na Moravě-Kozlovce,2,TRUE,440,-669123,-1174681
+M0783,Mladoňovice na Moravě-Sedliska,2,TRUE,434,-668938,-1173662
+M0784,Mladoňovice na Moravě-U Gottharda,2,TRUE,441,-669250.6243,-1174954.837
+M0785,Mladoňovice na Moravě-Záhumenice ke Slavíkovicím,2,FALSE,454,-671227,-1173362
+M0786,Modrá u Velehradu-Orlová,3,TRUE,278,-541886,-1174258
+M0787,Modřice-Lány,3,FALSE,206,-598769.01,-1167306.678
+M0788,Modřice-Primál,1,FALSE,196,-598900,-1169169
+M0789,Modřice-Sádky,1,FALSE,203,-599516,-1169454
+M0790,Modřice-U humusárny,1,NA,200,-599186,-1169883
+M0791,Modřice-Za humny,1,FALSE,198,-598435,-1168512
+M0792,Mohelnice-Bartošovo pole,2,NA,250,-566443,-1099650
+M0793,Mohelnice-Kernerovo pole,3,NA,250,-567466,-1097510
+M0794,Mohelnice-Nadjezd,2,NA,255,-567088,-1098209
+M0795,Mohelnice-Náměstí Svobody,1,NA,276,-568990,-1098779
+M0796,Mohelnice-park,2,NA,270,-569497,-1097902
+M0797,Mohelnice-škrobárna,2,NA,270,-568915,-1099896
+M0798,"Mohelnice-štěrkovna, u bývalého cukrovaru",2,NA,250,-566536,-1099160
+M0799,Mohelnice-U Křemačovského rybníka,2,NA,273,-569721,-1098125
+M0800,Mohelnice-U splavu,2,NA,250,-567276,-1097202
+M0801,Mohelnice-Ul. 1. máje,1,NA,262,-567993,-1099092
+M0802,Mohelnice-Za parkem,2,TRUE,280,-569650,-1097551
+M0803,Mohelnice-Za sídlištěm,2,NA,266,-567931,-1098248
+M0804,Mohelnice-Zückova cihlena,2,NA,258,-567275,-1099347
+M0805,Mohelno-Dlouhý,2,FALSE,370,-630383,-1166113
+M0806,Mohelno-Na boleniskách,3,TRUE,365,-627369,-1165672
+M0807,Mohelno-Na šibenici,2,TRUE,372,-630265,-1165131
+M0808,Mohelno-Nad tlustým,2,TRUE,395,-630679,-1164196
+M0809,Mohelno-Padělky,2,NA,408,-631524,-1166367
+M0810,Mohelno-Plevovce,1,FALSE,296,-632472,-1167081
+M0811,Mohelno-Skřipina,2,FALSE,321,-628086,-1163570
+M0812,Mohelno-Skřipina,2,NA,321,-628086,-1163570
+M0813,Mohelno-Staré Hory,2,TRUE,361,-628890,-1167298
+M0814,Mohelno-Suchánek,2,TRUE,362,-630215,-1166189
+M0815,Mohelno-Šibenice,3,TRUE,383,-630389,-1165521
+M0816,Mohelno-Za netřeskem,2,TRUE,343,-628531,-1165267
+M0817,Mohelno-Žebrák,2,TRUE,341,-628374,-1164684
+M0818,Mohleno-Za chobotem,2,TRUE,351,-629420,-1164618
+M0820,Mokrá u Brna-Hrnčířské pole,2,TRUE,362,-587636.6788,-1158111.296
+M0824,Mokrá u Brna-Spalená seč,2,FALSE,412,-587586.8929,-1157637.134
+M0825,Mokrá u Brna-Široké,1,FALSE,324,-587278,-1159110
+M0826,Mokrá u Brna-U obrázku,2,FALSE,440,-586718,-1157530
+M0827,Mokrá u Brna-Úzké,1,FALSE,316,-587461,-1159605
+M0828,Mokrá u Brna-Vlašňovské údolí,2,TRUE,385,-586154,-1158564
+M0829,Moravany u Brna-Horka,2,NA,266,-600445,-1165378
+M0830,Moravičany-Dílečky,2,FALSE,250,-566493,-1100875
+M0831,Moravičany-Dlouhý Díleček,2,FALSE,270,-566513,-1100156
+M0832,Moravičany-dům č. 206,1,FALSE,255,-566538,-1101364
+M0833,Moravičany-hřbitov,2,NA,247,-565595,-1101338
+M0834,Moravičany-kaple sv. Rocha,2,TRUE,248,-566088,-1102227
+M0835,Moravičany-Široké Díly,3,NA,250,-566755,-1101899
+M0836,Moravičany-U vody,2,NA,250,-566959,-1101988
+M0837,Moravská Nová Ves-intravilán,1,FALSE,191,-572575,-1207472
+M0838,Moravská Nová Ves-Padělky od vody,2,FALSE,163,-571469,-1207321
+M0839,Moravská Nová Ves-štěrkovna,3,NA,158,-571306,-1208898
+M0840,Moravské Bránice-Ve starých,2,TRUE,245,-612094.6,-1171409.8
+M0841,Moravské Budějovice-Náměstí Míru,2,NA,466,-657873,-1169917
+M0842,Moravské Budějovice-Pod heřmanským kopcem,3,TRUE,454,-656948.1656,-1169730.088
+M0843,Moravské Budějovice-u lesa Ochoz,3,TRUE,424,-654761.4797,-1171305.318
+M0844,Moravské Knínice-Čihadla,2,TRUE,354,-604172,-1150404
+M0845,Moravské Knínice-U kaple,2,TRUE,315,-604615,-1149670
+M0846,Moravské Knínice-U panských luk,3,FALSE,274,-603566,-1149447
+M0847,Moravské Knínice-V újezdech,2,TRUE,303,-604993,-1149940
+M0848,Moravský Krumlov-Dlouhá louka,2,TRUE,310,-616392,-1175758
+M0849,Moravský Krumlov-Horní Novosady,3,TRUE,290,-622791.1667,-1174956.667
+M0850,Moravský Krumlov-Na slatinách,2,FALSE,253,-620407,-1178700
+M0851,Moravský Krumlov-Nad Haltýřem,2,FALSE,277,-620808,-1175327
+M0852,Moravský Krumlov-Obory,2,TRUE,316,-619143,-1175778
+M0853,Moravský Krumlov-okolí těžebního revíru I,2,TRUE,317,-615324,-1177760
+M0854,Moravský Krumlov-okolí těžebního revíru VI,2,TRUE,323,-614589,-1175694
+M0855,Moravský Krumlov-U boudy,2,TRUE,299,-617992,-1173882
+M0856,Moravský Krumlov-u žst. Rakšice,2,FALSE,261,-619712,-1178737
+M0857,Moravský Krumlov-Vysoká hora,2,TRUE,341,-615909,-1176848
+M0858,Moravský Písek-pískovna,2,NA,179,-546950,-1186810
+M0859,Moravský Písek-Pod Kladichovem,3,NA,180,-547116,-1187222
+M0860,Moravský Svätý Ján-Dlhé lúky,2,TRUE,150,-578807,-1235133
+M0861,Moravský Svätý Ján-Na hrudoch,3,NA,160,-579884,-1228736
+M0862,Mořice-Pololány u můstku,2,NA,210,-554581,-1150764
+M0863,Mořice-Pololány u Studánky,2,NA,210,-553083,-1150723
+M0864,Mořice-U obrázku,2,NA,220,-553383,-1150949
+M0865,Mostkovice-mezi Hloučelou a silnicí do Smržic,3,NA,254,-562552,-1133136
+M0866,Mostkovice-Pod vinohrady,2,NA,265,-562768,-1134055
+M0867,Mostkovice-silnice u hřbitova,3,NA,256,-562799,-1133131
+M0868,Mostkovice-U vrbiček,1,NA,270,-564121,-1133983
+M0869,Mostkovice-Vysoudilka,2,NA,305,-563144,-1134165
+M0870,Mramotice-Kasárna,1,FALSE,356,-645934,-1189043
+M0871,Mušov-Mühläcker,2,FALSE,176,-603718.9512,-1194788.105
+M0872,Mušov-Neurissen I,2,TRUE,178,-604575,-1191123
+M0873,Mušov-Neurissen II,2,FALSE,186,-604144,-1192370
+M0874,Mušov-Sandäcker,2,FALSE,170,-604467,-1194719
+M0875,Mušov-Tuchna,1,FALSE,184,-604022,-1192693
+M0876,Mušov-U sv. Jana,2,FALSE,172,-602905,-1194860
+M0877,Mušov-U vodárny,2,FALSE,179,-605499,-1193334
+M0878,Mutěnice-Hraničky,1,FALSE,236,-572811,-1196197
+M0879,Mutěnice-Zbrod,2,TRUE,167,-569064,-1198408
+M0880,Myslejovice-Díly,2,TRUE,376,-565313,-1141046
+M0881,Myslejovice-Kluče od Kozylky,3,TRUE,382,-564991,-1139919
+M0882,Myslejovice-Kopaniny,3,NA,380,-564802,-1140452
+M0883,Myslejovice-Křéba,2,NA,390,-565821,-1140390
+M0884,Myslejovice-Mitrovy,3,NA,274,-564190,-1140099
+M0885,Myslejovice-Úzké,2,TRUE,368,-565109,-1140305
+M0886,Myslibořice-Hrušovec,1,NA,455,-644275,-1167260
+M0887,Náměšť na Hané-Dlouhá niva,2,NA,294,-562191,-1119375
+M0888,Náměšť na Hané-Džbán,2,NA,305,-561973,-1118905
+M0889,Náměšť na Hané-Křemela I,2,NA,400,-563949,-1118871
+M0890,Náměšť na Hané-Rmíz u Laškova,1,NA,360,-564014,-1120184
+M0891,Náměšť na Hané-Válník,2,NA,240,-559910,-1119449
+M0892,Náměšť na Hané-Za hřbitovem,2,TRUE,250,-561053,-1119117
+M0893,Nasobůrky-Cholinka,2,NA,236,-559480,-1109754
+M0894,Nedakonice-Padělky,3,NA,180,-544363,-1184462
+M0895,Nechvalín-Měřiny,2,TRUE,345,-564680.9173,-1180361.438
+M0896,Nechvalín-Nivky,2,FALSE,258,-566018.5969,-1179812.362
+M0897,Nejdek u Lednice-Czuczkova cihlena,3,FALSE,168,-590279.9048,-1204782.853
+M0898,Nejdek u Lednice-Nejdecké roviny,3,FALSE,172,-590553.8289,-1205130.108
+M0900,"Němčice nad Hanou-cukrovar, nádraží",2,NA,203,-552557,-1149085
+M0901,Němčice nad Hanou-Daňka,2,NA,208,-555137,-1149670
+M0902,Němčice nad Hanou-městečko,2,NA,205,-553227,-1149030
+M0903,Němčice nad Hanou-Nadloučí,2,NA,210,-551589,-1148403
+M0904,Němčice nad Hanou-Svorka,2,NA,206,-551714,-1148807
+M0905,Němčice u Ivančic-Široké u Komana,2,FALSE,206,-616152,-1170379
+M0906,Němčičky nad Jevišovkou-Horní kusy,1,FALSE,263,-638010.1262,-1185258.375
+M0907,Němčičky-Nad drůbežárnou,2,NA,230,-607130,-1175787
+M0908,Nemilany-intravilán,1,NA,212,-547803,-1125687
+M0909,Nemilany-Kapitulní,2,NA,215,-547638,-1126378
+M0910,Nemojany-Horka,3,TRUE,280,-576080,-1157462
+M0911,Nemojany-Na hřeblech,2,TRUE,278,-576070.6656,-1157509.896
+M0912,Nemojany-Podhoří,2,TRUE,276,-575670.7891,-1157120.295
+M0913,Nemojany-Račková,2,FALSE,307,-576624.7813,-1157386.063
+M0914,Nemojany-Zahrady,2,FALSE,290,-574723,-1157156
+M0915,Nemotice-Díly u dvora,2,TRUE,273,-561484,-1171604
+M0916,Neředín-letiště,3,NA,250,-550872,-1121478
+M0917,Neředín-Mýlina,3,NA,245,-549655,-1121420
+M0918,Neslovice-Domky,2,FALSE,275,-614782,-1165543
+M0919,Neslovice-Hlavní ul.,1,FALSE,334,-614717,-1164558
+M0920,Neslovice-Kaliště,3,TRUE,413,-614057,-1166426
+M0921,Neslovice-Nivky,2,FALSE,379,-614308,-1164731
+M0922,Neudorf-Schmalzberg,2,FALSE,181,-616279,-1207210
+M0923,Nezamyslice nad Hanou-Čtvrtě od Mořic,2,NA,226,-555566,-1151373
+M0924,Nezamyslice nad Hanou-Čtvrtě od Tištína,2,NA,220,-556016,-1151393
+M0925,Nezamyslice nad Hanou-Končiny,2,NA,209,-556700,-1150712
+M0926,Niederleis-Altstadt,3,TRUE,406,-620402,-1227910
+M0927,Niederleis-Leiser Berge,2,TRUE,417,-621057,-1227855
+M0928,Niederleis-Rotengern,2,TRUE,253,-618947,-1230358
+M0929,Niedersulz-Fünfvierteläcker,2,TRUE,248,-602217,-1240512
+M0930,Nivnice-Nivnické čtvrtky,2,NA,306,-527148,-1194735
+M0931,Nivnice-severně kóty 278,2,NA,277,-527442,-1193012
+M0932,Nová Dědina-Valcha,NA,NA,244,-554224,-1097338
+M0933,Nová Hradečná-Hradisko,2,TRUE,268,-555321,-1093653
+M0934,Nová Ves u Oslavan-Kopaniny,2,FALSE,255,-621317.3439,-1167057.265
+M0935,Nová Ves u Oslavan-Roveň,2,TRUE,318,-620684,-1166841
+M0936,Nové Bránice-Chajda,2,TRUE,296,-613532,-1173123
+M0937,Nové Bránice-u lesa,2,TRUE,284,-613474,-1173734
+M0938,Novosedly na Moravě-Louky,1,FALSE,173,-611184,-1199651
+M0939,Nový Lískovec-Klíny,1,FALSE,281,-601454,-1162515
+M0940,Nový Lískovec-Plachty,2,FALSE,292,-602569,-1162065
+M0941,Nový Šaldorf-U Atlanty,2,FALSE,250,-642819,-1196605
+M0942,Nuzířov-Rybníčky,1,FALSE,357,-602073,-1142710
+M0943,Obermarkersdorf-Sandgrube Diem,2,TRUE,310,-654682,-1203104
+M0944,Obermixnitz-Hermannsdorf,3,TRUE,430,-660747,-1203331
+M0945,Obernalb-Parz. N. 1330/1,2,TRUE,294,-653769,-1203309
+M0946,Obernalb-Urteln,2,TRUE,254,-652117,-1204771
+M0947,Oberretzbach-Ried Eben,2,TRUE,296,-650839,-1201471
+M0948,Obersulz-Leimgrube,2,TRUE,272,-600979,-1237020
+M0949,Oberthürnau-Daßing,3,TRUE,450,-673997,-1186021
+M0950,Oberthürnau-Obenaus,2,TRUE,472,-675868,-1185498
+M0951,Oberthürnau-Ostteil des Ortes,1,FALSE,430,-674386,-1186232
+M0952,Oberweiden-,3,TRUE,145,-592473,-1259130
+M0953,Oblekovice-Na Palici,2,TRUE,243,-638649.2816,-1196069.335
+M0954,Oblekovice-Závlaha,2,FALSE,210,-641412,-1196339
+M0955,Obora u Boskovic-Sedliska,2,TRUE,362,-595096.7648,-1131370.62
+M0956,Obřany-Líchy,2,TRUE,331,-595191,-1155604
+M0957,Obřany-Soběšské,2,TRUE,242,-595193,-1156415
+M0958,Obřany-Újezdy,2,FALSE,215,-595001,-1157294
+M0959,Odrlice - Na dílech,NA,NA,275,-560878,-1115049
+M0960,Ohrazenice na Moravě-Chobot,3,TRUE,414,-652013,-1170768
+M0961,Ohrazenice na Moravě-Šebestka,2,TRUE,408,-650749.6802,-1171523.567
+M0962,Ohrazenice na Moravě-U doubí,2,TRUE,415,-652061,-1170786
+M0963,Ohrazenice na Moravě-U lesa Chvojníka,3,TRUE,415,-652000,-1171213
+M0964,Ohrazenice-U Doubí,3,NA,416,-652084,-1170768
+M0965,Ohrozim-Čubernice,2,NA,330,-564786,-1132981
+M0966,Ohrozim-obec,3,NA,320,-564916,-1131554
+M0969,Okarec-bezejmenná trať,2,TRUE,420,-635141,-1155433
+M0970,Olbramice u Vilémova-silnice,2,NA,400,-564462,-1117511
+M0971,Olbramovice u Moravského Krumlova-Leskoun,2,FALSE,318,-618003,-1179411
+M0972,Oleksovice-bezejmenná poloha,2,TRUE,207,-627866,-1189691
+M0973,Olgersdorf-Am Wald,3,NA,280,-616035,-1226802
+M0974,Olomouc-město-Náměstí Republiky,2,NA,224,-546633,-1121241
+M0975,Olomouc-město-Olomoucký kopec,2,NA,220,-546345,-1121112
+M0976,Olomouc-město-ulice 8. května,1,NA,215,-547250,-1121241
+M0977,Olšany u Prostějova-Lánský kříž,3,NA,220,-554029,-1127504
+M0978,Olšany u Prostějova-Zlatniska,1,NA,218,-554248,-1126958
+M0979,Ondratice-Díly,2,TRUE,270,-562513,-1146010
+M0980,Ondratice-Podsedky,2,TRUE,250,-562204,-1145715
+M0981,Opatovice u Vyškova-Podsedky,2,NA,298,-571358,-1152339
+M0982,"Oplocany - hliník, Svárov",3,TRUE,206,-547833,-1141929
+M0983,Oponešice-Ve Chmelníku,3,TRUE,485,-669165,-1170620
+M0984,Orlovice-Lysá hora,1,NA,360,-563289,-1158508
+M0985,Ořechov-Kabáty,3,TRUE,334,-605843,-1167663
+M0986,Ořechov-U spáleného-Hradisko,2,FALSE,321,-605598,-1166909
+M0987,Osek nad Bečvou - levý břeh Bečvy,3,TRUE,225,-526839,-1133008
+M0988,Oslavany-Čučická,2,FALSE,243,-619418,-1165794
+M0989,Oslavany-Dvorek,2,FALSE,281,-619476.6456,-1165380.17
+M0990,Oslavany-Koblih,3,TRUE,257,-618240,-1167717
+M0991,Oslavany-Na Lužích,2,FALSE,286,-617801,-1165741
+M0992,Oslavany-Náporky,2,TRUE,250,-619227,-1165852
+M0993,Oslavany-Stará hora,3,FALSE,287,-619285,-1167131
+M0994,Ostrovačice-Padělky,3,TRUE,346,-611668,-1157320
+M0995,Ostrovačice-Prostřední Prutny,1,FALSE,339,-611723,-1158215
+M0996,Ostrovánky-Nádědíny,2,TRUE,329,-565886.2516,-1180862.907
+M0997,Ostrožská Lhota-Chylické,1,NA,222,-536319,-1191450
+M0998,Ostrožská Nová Ves-Koruny,1,NA,270,-537061,-1190445
+M0999,Ostrožská Nová Ves-Padělky,2,NA,190,-539360,-1187045
+M1000,Otaslavice-Homole,2,NA,275,-563002,-1143385
+M1001,Otaslavice-Horní Otaslavice (obec),NA,NA,265,-562467,-1143373
+M1002,Otaslavice-Kopaniny,2,NA,335,-563165,-1141886
+M1003,Otaslavice-Stany,NA,NA,270,-562770,-1143897
+M1004,Otaslavice-Zámecká trať,3,NA,260,-562257,-1144293
+M1005,Otaslavice-Žleb,NA,TRUE,315,-562615,-1141798
+M1006,Otrokovice-Bahňák,3,FALSE,183,-532879,-1164911
+M1007,Palonín-Dolnica,3,NA,258,-566262,-1104722
+M1008,Palonín-západně od Kouřilky,3,TRUE,250,-566654,-1103955
+M1009,Palterndorf-,2,FALSE,161,-590753,-1228257
+M1010,Pasohlávky-Dlouhé louky,2,TRUE,170,-607589,-1193211
+M1011,Pavlice-U Blažkovského rybníka,2,FALSE,393,-651275,-1179510
+M1012,Pavlov u Dolních Věstonic-Dolní pole,1,FALSE,167,-595276.5842,-1197658.155
+M1013,Pavlov u Dolních Věstonic-Hliník,2,FALSE,178,-596282,-1198071
+M1014,Pavlov u Dolních Věstonic-Horní pole,1,FALSE,167,-596351.3647,-1196816.896
+M1015,Pavlov u Dolních Věstonic-Pod Děvínem,2,FALSE,292,-598757.875,-1198033.75
+M1016,Pavlovice u Přerova-Dílce,2,NA,298,-526473,-1136923
+M1017,Pěnčín na Moravě-U Jána,2,NA,285,-564255,-1121226
+M1018,Pěnčín na Moravě-Za humny,2,NA,330,-564847,-1123098
+M1019,Petrůvky-Padělek u žlebu,3,TRUE,505,-649470,-1158860
+M1020,Pfaffenreith-Hintenausäcker,3,TRUE,488,-672552,-1197782
+M1021,"Pístovice-Zádvorčí, Za dvorkem",2,TRUE,300,-574072,-1154127
+M1022,Platt-Brunnfeld,1,FALSE,255,-651682,-1213646
+M1023,Platt-Reitlüsse,3,NA,294,-650884,-1214340
+M1024,Plavecký Mikuláš-Dzeravá skala,2,NA,460,-553942,-1243545
+M1025,Plaveč-Na tarase,2,TRUE,289,-639429.7011,-1186043.309
+M1026,Plaveč-Šance,2,FALSE,273,-641300,-1184693
+M1027,Pleissing-Holzfeld,3,TRUE,445,-658479,-1195561
+M1028,Plenkovice-Horní poloúdělí,2,NA,342,-644078,-1187086
+M1029,Plenkovice-Na záhumení,2,TRUE,346,-645284.3359,-1185949.724
+M1030,Plumlov-Roudník,3,NA,320,-566592,-1132045
+M1031,Plumlov-ředitelství vojenských lesů,NA,TRUE,315,-566316,-1133794
+M1032,Podivín-Kopce,2,FALSE,161,-586068,-1201710
+M1033,Podmolí-Šobes,2,FALSE,305,-648713.2808,-1197512.634
+M1034,Podolí nad Olšavou-Strážné,2,NA,331,-533546,-1185832
+M1035,Podolí u Brna-Palouky,2,FALSE,249,-590185.7904,-1162574.349
+M1036,Podolí u Brna-Pololány,3,TRUE,274,-589466,-1161453
+M1037,Podolí u Brna-U remízku,2,FALSE,299,-588870.1534,-1160956.401
+M1038,Podolí u Brna-V hlavách,1,NA,290,-588472,-1160955
+M1039,Podolí u Mohelnice- východní cíp katastru,2,NA,278,-569787,-1099002
+M1040,Podolí u Valašského Meziříčí-Skalka,3,TRUE,420,-505807,-1143508
+M1041,Pohořelice nad Jihlavou-Klášterka,1,FALSE,175,-604981.2654,-1187381.567
+M1042,Pohořelice nad Jihlavou-Nová louka,2,NA,178,-606312,-1184283
+M1043,Pohořelice nad Jihlavou-Velký Dvůr,2,NA,178,-605991,-1185917
+M1044,Pohořelice u Napajedel-Březí,2,NA,228,-530878,-1170597
+M1045,Polešovice-Nivy,2,NA,174,-546138,-1186135
+M1046,Police u Jemnice-Belka,2,TRUE,444,-673097,-1177849
+M1047,Police u Jemnice-Filipskovo pole,3,TRUE,449,-672894,-1177671
+M1048,Police u Jemnice-Horní Osík,2,TRUE,446,-673172,-1177380
+M1049,Police u Jemnice-Novomlýnská,2,TRUE,426,-671715,-1178797
+M1050,Police u Jemnice-U Dubu,2,NA,454,-673639,-1177172
+M1051,Police-Polanka I,3,TRUE,350,-563745,-1093254
+M1052,Police-Polanka II,3,TRUE,330,-563448,-1093580
+M1053,Polkovice – Ostrovy,NA,NA,200,-549321,-1143072
+M1054,Popovice nad Rokytnou-U borovice,2,TRUE,450,-654897.3757,-1164677.598
+M1055,Popovice nad Rokytnou-U habřiny,3,TRUE,464,-655458,-1164642
+M1056,Popovice u Přerova-Za Drahou,2,TRUE,217,-534188,-1136260
+M1057,Popovice u Rajhradu-Na nivách,1,FALSE,195,-598820,-1170719
+M1058,Popovice u Uherského Hradiště-Milonín,NA,NA,322,-531516,-1183591
+M1059,Popovice-Nad potokem,2,TRUE,458,-655210.4559,-1164855.242
+M1060,Popůvky nad Jihlavou-Beranovo,2,TRUE,440,-632369,-1161741
+M1061,Popůvky nad Jihlavou-Sedlecký dvůr,2,TRUE,441,-632764,-1161968
+M1062,Popůvky u Brna-Bukovanské louky,2,TRUE,310,-608382,-1161574
+M1063,Popůvky u Brna-Náves,2,FALSE,286,-607083,-1161759
+M1064,Popůvky u Brna-Panské nivy,1,FALSE,317,-607465,-1161149
+M1065,Popůvky u Brna-Pod Šípem/Panské Nivy,2,FALSE,304,-607122.5452,-1161299.381
+M1066,Popůvky u Brna-Sádky,2,FALSE,302,-606993,-1160558
+M1067,Popůvky u Brna-ul. Nová,1,FALSE,284,-606729.8782,-1161671.736
+M1068,Popůvky u Kojetína-U křižovatky,2,TRUE,196,-545564,-1151110
+M1069,Postřelmov-U Františka,2,NA,286,-569270,-1084895
+M1070,Poštorná-Boří les,2,TRUE,176,-586266,-1213126
+M1071,Povel-Jeremiášova,2,NA,211,-548011,-1123324
+M1072,Poysbrunn-Autobahn,NA,FALSE,286,-600712,-1215064
+M1073,Poysbrunn-Bittenau,2,TRUE,249,-601424,-1214478
+M1074,Poysbrunn-Ziegelei Weinmann,3,NA,274,-602935,-1213621
+M1075,Poysdorf-beim Huscharlkreuz,2,TRUE,275,-603725,-1217426
+M1077,Poysdorf-Bürsting,2,TRUE,236,-602543,-1218815
+M1078,Poysdorf-Hermannschachner,2,TRUE,252,-604249,-1217675
+M1079,Poysdorf-Steinberg,2,TRUE,262,-603400,-1217664
+M1080,Poysdorf-Winzerstrase,1,NA,212,-603436,-1219469
+M1081,Pozořice-Hlásnica,2,NA,365,-583201,-1159981
+M1082,Pozořice-Maršíky,2,NA,308,-583603,-1160886
+M1083,Pozořice-Rékoví,2,NA,382,-583462,-1159484
+M1084,Pravčice-Podsedky,1,FALSE,201,-531475,-1152374
+M1085,Pravčice-U obrázku,2,FALSE,195,-533441,-1152893
+M1086,Pravlov-Hájky,2,FALSE,198,-608933,-1174480
+M1087,Pravlov-rokle,3,TRUE,206,-609469,-1175407
+M1088,Prosenice-Nadloučí,NA,TRUE,217,-532352,-1134996
+M1089,Prosiměřice-U Kyjovic,2,FALSE,208,-632638,-1188760
+M1090,Prostějov-městská jatka,NA,NA,218,-557406,-1134610
+M1091,"Prostějov-Určická, Okružní ul.",NA,NA,226,-559418,-1134569
+M1092,Prostějov-Za kovárnou,2,NA,232,-559873,-1132386
+M1093,Prostějov-Za tržištěm,1,FALSE,210,-556066,-1135382
+M1094,Prštice-Na ostrých,2,FALSE,315,-609563,-1167162
+M1095,Prštice-Před zámkem,2,TRUE,298,-609019.6173,-1167894.303
+M1096,Prusínky-Obransko,2,NA,342,-525443,-1136100
+M1097,Prusinovice-Dolní odomče,2,NA,258,-524611,-1148218
+M1098,Prusy-Niva u Prus,3,TRUE,220,-530474,-1142409
+M1099,Prutzendorf-Martelbreite,2,TRUE,431,-662292,-1201225
+M1100,Prutzendorf-Prutzenberg,2,TRUE,433,-662078,-1200498
+M1101,Přáslavice u Olomouce-Díly pod dědinou,2,NA,280,-538577,-1123198
+M1102,Přáslavice u Olomouce-Na širokém,1,NA,310,-536765,-1124018
+M1103,Přáslavice u Olomouce-Padělky,3,NA,300,-537547,-1123891
+M1104,Předmostí-Díly,2,NA,221,-536393,-1137428
+M1105,Předmostí-Malé Předmostí,1,NA,224,-535616,-1136874
+M1106,Předmostí-Široký,1,NA,224,-536022,-1136785
+M1107,Přemyslovice-Nad rybníkem,2,NA,388,-566581,-1123653
+M1108,Přeskače-Výhon,2,NA,366,-637235,-1176863
+M1109,Přílepy u Holešova-Hynčina,3,TRUE,285,-523247,-1154863
+M1110,Příložany-Příložanské padělky,2,FALSE,473,-646901,-1166082
+M1111,Přísnotice-Za Humny,2,FALSE,180,-599696,-1181698
+M1112,Příštpo-Hodavy,3,TRUE,433,-649555,-1170933
+M1113,Příštpo-Markovský,3,TRUE,463,-648642,-1167194
+M1114,Příštpo-U žabíka,3,TRUE,456,-649552,-1167183
+M1115,Příštpo-Zamrzlík,2,TRUE,452,-648010.4755,-1167302.337
+M1116,Přítluky-Fraumühle,2,NA,162,-589440,-1201999
+M1117,Přítluky-Obecní pastviny,2,FALSE,164,-591128.4345,-1201742.614
+M1118,Ptení-Dvorek Kolonie,2,TRUE,345,-569958,-1125990
+M1119,Ptení-Tabule,2,NA,315,-569250,-1126799
+M1120,Ptení-V dobka,2,NA,226,-568940,-1128093
+M1121,Pulkau-Haselparz,2,TRUE,298,-659098,-1207386
+M1122,Pulkau-Scheiben,2,TRUE,330,-660775,-1208709
+M1123,Pulkava-Kozlének,2,NA,356,-565575,-1143059
+M1124,Pulkava-Obrova noha,1,NA,378,-564117,-1143129
+M1125,Pustiměř-Na rovinách,2,NA,280,-564486,-1149087
+M1126,Pustiměř-obec,2,NA,280,-566175,-1149565
+M1127,Pustiměř-Pod Grety,3,NA,276,-565740,-1150158
+M1128,Rácovice-Kopec,3,TRUE,472,-666632,-1172754
+M1129,Rácovice-U mlýna,2,NA,466,-667279,-1172894
+M1130,Rácovice-U železniční zastávky,3,TRUE,478,-667222,-1172094
+M1131,Račice u Hrotovic-U hájků,3,TRUE,426,-641160,-1165540
+M1132,Radošovce-Diely,2,FALSE,276,-552922,-1214036
+M1133,Radošovce-Vieska,2,NA,234,-553944,-1213860
+M1135,Radslavice u Vyškova-Niva,2,NA,325,-567930,-1149549
+M1136,Radslavice u Vyškova-Pod dědinou,2,NA,300,-568140,-1150512
+M1137,Radslavice u Vyškova-Zelená hora,2,NA,339,-567646,-1149364
+M1138,Radslavičky-Vinohrádky,3,NA,375,-568726,-1149373
+M1139,Rafing-Beim Bründl,3,TRUE,336,-660986,-1208754
+M1140,Rajhrad-Matlaška,1,FALSE,207,-599878.797,-1172948.504
+M1141,Rajhrad-Pod hraničkami,1,FALSE,236,-601586,-1172658
+M1142,Rajhradice-Na předním,1,FALSE,190,-596990,-1172348
+M1143,Rajhradice-Stráně nad Habřinou,2,FALSE,212,-597755,-1171356
+M1144,Rašovice u Bučovic-Za malým mostkem,2,TRUE,252,-575110,-1170444
+M1145,Reinthal-,3,FALSE,172,-586710,-1217866
+M1146,Rešice-Hradisko,2,TRUE,344,-633441,-1173989
+M1147,Rešice-Pod vilou,2,FALSE,299,-631732,-1173337
+M1148,Rešice-Zaječné zahrady,2,TRUE,327,-632596,-1173694
+M1149,Retz-Stadtfeld,3,NA,236,-650205,-1204297
+M1150,Ringelsdorf-Große Herrschaftswiese,1,TRUE,152,-583064,-1230210
+M1151,Ringelsdorf-Große Herrschaftswiese,1,TRUE,152,-582982,-1230907
+M1152,Ringelsdorf-Kuse,2,TRUE,151,-583740,-1231500
+M1153,Ringelsdorf-Langfeld,1,TRUE,150,-583478,-1233043
+M1154,Rokytná-Malé a Velké Hradisko,3,NA,250,-620635,-1172781
+M1155,Rokytná-Na brdcích,2,TRUE,312,-620502,-1173946
+M1156,Rokytná-Obora,3,TRUE,230,-620867,-1172577
+M1157,Rosice u Brna-Brusy,1,FALSE,345,-615678,-1159341
+M1158,Rouchovany-intravilán,1,FALSE,353,-636000,-1170516
+M1159,Rouchovany-Ouvary,3,TRUE,343,-634734,-1170558
+M1160,Rouchovany-silnice do Hrotovic,3,TRUE,382,-636761,-1168723
+M1161,Rousínov u Vyškova-autobusové nádraží,1,FALSE,237,-577979,-1162020
+M1162,Rousínov u Vyškova-Přední lány,2,FALSE,269,-578521,-1163342
+M1163,Rousínov u Vyškova-Tyršova,2,TRUE,240,-578300,-1161758
+M1164,Rozdrojovice-Čtvrtky,2,TRUE,289,-603437,-1154167
+M1165,Rozdrojovice-U kříže,2,TRUE,307,-604363,-1153941
+M1166,Rudimov-Paličky,3,NA,330,-511875,-1183081
+M1168,Rybníček-U Rybného potoka,2,NA,240,-549508,-1102848
+M1169,Rybníky na Moravě-Čtvrtky,2,FALSE,250,-623451,-1176837
+M1170,Rybníky na Moravě-Díly,2,FALSE,271,-623828,-1176394
+M1171,Rybníky na Moravě-Pipele,3,TRUE,301,-625284,-1175176
+M1172,"Rymice-Holoubky,  Za olším",3,TRUE,212,-529228,-1151914
+M1173,Rymice-Vrchní blání,2,FALSE,220,-528005,-1150705
+M1174,Řeckovice-Filkukova,2,FALSE,295,-600456,-1153528
+M1175,Řečkovice-Duhová,1,FALSE,293,-600059,-1154725
+M1176,Řečkovice-Kořískova,2,FALSE,247,-599173,-1155607
+M1177,Řepčín-Horní nivy,2,NA,250,-550332,-1120232
+M1178,Řepčín-Pod hřbitovem,2,NA,234,-549100,-1120399
+M1179,Řícany u Brna-Díly od Rosic,3,TRUE,345,-613089,-1157511
+M1180,Sebranice u Boskovic-Zadní pola,3,FALSE,359,-596619,-1127903
+M1181,Sedlec u Náměště nad Oslavou-hrad,2,TRUE,354,-630197,-1160396
+M1182,Selešovice-Pod rozdíly,1,NA,202,-542841,-1159712
+M1183,Seloutky-Bouzovce,2,NA,278,-562627,-1136639
+M1184,Seloutky-Kozinec,NA,NA,294,-562846,-1137330
+M1185,Seloutky-obec,NA,NA,255,-562401,-1137216
+M1186,Seloutky-Rozumky,2,NA,280,-562575,-1136219
+M1187,Seloutky-U planičky,2,FALSE,274,-562710,-1136885
+M1188,Senica-Čapková roľa,2,TRUE,220,-547466,-1222665
+M1189,Senica-Diely k vinohradom,2,FALSE,210,-547688,-1222582
+M1190,Senica-Diely za cintorínom,2,TRUE,243,-545916,-1222835
+M1191,Senica-jižně od liehovaru,2,TRUE,200,-548353,-1227334
+M1193,Senica-pri Dolných Surovinach,2,TRUE,210,-549009,-1226432
+M1194,Senica-Sedlička,2,FALSE,206,-548766,-1222637
+M1195,Senica-Sotina-Čapkova roľa,3,TRUE,204,-548284,-1222821
+M1196,Senica-Sotinská ul.,2,TRUE,202,-548217,-1222637
+M1197,Senica-Železničná ul.,3,TRUE,200,-550101,-1223947
+M1198,Senice na Hané-Loucká hora,2,NA,255,-559250,-1117745
+M1199,Senice na Hané-Loučanské,2,TRUE,237,-558323,-1118041
+M1200,Senička-Křéb,3,NA,300,-560618,-1116150
+M1201,Senička-Na záhumení,2,NA,266,-560753,-1115360
+M1202,Senička-Panské,3,NA,294,-561692,-1116078
+M1203,Senorady-Na hradiskách,2,TRUE,387,-625123,-1164493
+M1204,Senorady-Podhání,2,TRUE,322,-624773,-1166330
+M1205,Senorady-Rozběhlo,2,TRUE,336,-625851,-1165629
+M1206,Senorady-Zadní nivky,3,TRUE,363,-625211,-1164772
+M1207,Sentice-Sokolí,3,TRUE,316,-608653,-1146495
+M1208,Schletz-Kirchfeld,1,NA,240,-615063,-1227138
+M1209,Schletz-Kurze Ried,3,FALSE,286,-616014,-1229163
+M1210,Schletz-Sturmfleck,1,FALSE,264,-616940,-1228383
+M1211,Siebenhirten-dům č. 135,3,NA,232,-610304,-1224958
+M1212,Sierndorf an der March-Schanzenfeld,3,TRUE,149,-584990,-1237972
+M1213,Sierndorf an der March-Unteres Feld,3,TRUE,149,-584905,-1239091
+M1214,Silůvky-Tikovská hora,2,TRUE,333,-608610,-1170642
+M1215,Sivice-Nebosady,2,TRUE,295,-585735,-1160942
+M1216,Sivice-Rejdy,2,TRUE,288,-585978,-1161057
+M1217,Sivice-Záhumení,3,TRUE,298,-585788,-1160947
+M1218,Skalice u Znojma-V chobotech,3,TRUE,259,-629938,-1181974
+M1219,Skalice u Znojma-Za hájkem pod kopcem,3,TRUE,254,-629685,-1182965
+M1220,Skalka u Kyjova-Újezdy,2,FALSE,237,-556365,-1182697
+M1221,Skoronice-Přední díly,2,TRUE,204,-561957,-1188287
+M1222,Skrbeň-Hradisko,2,NA,225,-552287,-1115030
+M1223,Skrbeň-U křepelky,2,FALSE,234,-552987,-1117013
+M1224,Skryje nad Jihlavou-Jahodnice,3,TRUE,394,-632931,-1167904
+M1225,Slatina u Jevišovic-Padělky,3,TRUE,341,-643540,-1176694
+M1226,Slatina-Stránská skála,1,FALSE,299,-592795,-1162312
+M1227,Slatina-Švédské šance,1,NA,240,-593595,-1163839
+M1228,Slatina-Švédské valy,2,NA,246,-593787,-1164295
+M1229,Slatinice na Hané-Na Stráži,2,NA,284,-558946,-1123123
+M1230,Slatinice na Hané-Pasuňk,2,NA,330,-559689,-1124318
+M1231,Slatinice na Hané-Vinohrádky,2,NA,300,-559457,-1123784
+M1232,Slatinky-Boří,3,NA,360,-560089,-1125821
+M1233,Slatinky-Dlouhé,2,NA,270,-558641,-1126080
+M1234,Slatinky-Močilky,2,FALSE,280,-559262,-1125372
+M1235,Slatinky-Nad Ostichovcem,3,NA,391,-560456,-1126114
+M1236,Slatinky-Pod hájem,3,NA,320,-559488,-1124717
+M1237,Slatinky-Varhany,3,NA,390,-560090,-1125813
+M1238,Slatinky-Za humny,2,NA,290,-559010,-1124956
+M1239,Slavice-Achtele,2,TRUE,497,-652033,-1156861
+M1240,Slavíkovice u Jemnice-Brýle,2,NA,461,-670497,-1174411
+M1241,Slavíkovice u Jemnice-Na ostancích,2,TRUE,443,-670508,-1174382
+M1242,Slavkov u Brna-Na Obůrkách,3,NA,210,-578239,-1167867
+M1243,Slavkov u Uherského Brodu-Podluža,3,TRUE,286,-527958,-1194453
+M1244,Slavonín-Arbesova,1,NA,220,-548499,-1123794
+M1245,Slavonín-Horní lán,1,FALSE,226,-548690,-1123527
+M1246,Slavonín-Pod Vlachovým,2,NA,325,-549265,-1123468
+M1247,Slavonín-U hvězdárny,2,NA,255,-549674,-1124676
+M1248,Slavonín-U statku,2,NA,263,-550462,-1122505
+M1249,Slavonín-Za Křenkovým,2,FALSE,210,-548195,-1123889
+M1250,Slížany-mezi dvorem Oborou a lesem Přehýkem,3,TRUE,300,-552008,-1159692
+M1251,Služín-Nad zahradami,2,NA,254,-562344,-1125805
+M1252,Služín-Za hliníky,2,NA,250,-563320,-1125262
+M1253,Smrdáky-Hrachovište,2,TRUE,232,-552818,-1219061
+M1254,Smrdáky-Kraciny,2,TRUE,230,-552816,-1219240
+M1255,Smržice-Prostřední záolešní,2,NA,230,-559588,-1131668
+M1256,Smržice-Přední u cihelny,2,NA,229,-558571,-1129674
+M1257,Smržice-Rybník,2,NA,224,-558089,-1131955
+M1258,Smržice-Šamanovská,2,NA,228,-558394,-1129895
+M1259,Smržice-Šimanov,3,NA,260,-556854,-1129768
+M1260,Smržice-Trávníky u ostrova,2,NA,224,-558565,-1131347
+M1261,Smržice-Záolešní u mostu,2,NA,230,-559338,-1131835
+M1262,Sněhotice-Za Familií,NA,NA,300,-564004,-1144980
+M1263,Spytihněv-Němeča,2,NA,190,-533681,-1172235
+M1264,Staré Brno-Nové sady,1,FALSE,200,-598370,-1161621
+M1265,Staré Hvězdlice-Klín,3,TRUE,445,-562426,-1162180
+M1266,Staré Město u Uherského Hradiště-Baťův průplav,3,FALSE,180,-538034,-1180373
+M1267,Staré Město u Uherského Hradiště-Čertůj Kút,2,NA,180,-539540,-1180591
+M1268,Staré Město u Uherského Hradiště-Špitálky,3,FALSE,180,-539149,-1180379
+M1269,Staré Město u Uherského Hradiště-Zadní Kruhy,2,NA,178,-541008,-1181617
+M1270,Starovičky-Velké padělky,2,FALSE,199,-589764,-1194545
+M1271,Stařechovice–Kalvy,2,TRUE,268,-560892,-1127214
+M1272,Stavenice-Na flecích,2,NA,312,-563604,-1098377
+M1273,Steinebrunn-Hechtenteich,2,TRUE,220,-599576,-1212542
+M1274,Stichovice-Kříž u Zlechova,2,TRUE,298,-564493,-1133155
+M1275,Stichovice-Přehrada,2,NA,284,-564378,-1133342
+M1276,Stillfried-Auhagen am Roshusberg,2,TRUE,183,-590312,-1250266
+M1277,Strachotice-Pod silnicí,2,TRUE,210,-635258,-1199946
+M1278,Strachotín-štěrkovna,2,NA,166,-597064,-1194648
+M1279,Stránice-nám. Míru,2,FALSE,290,-599963,-1159759
+M1280,Střelice u Brna-Chromky,2,TRUE,272,-604747,-1165395
+M1281,Střelice u Brna-Líchy nad Bobravou,2,TRUE,302,-608675,-1165640
+M1282,Střelice u Brna-Líchy u palouku,2,TRUE,348,-608511,-1163729
+M1283,Střelice u Brna-Padělky,1,FALSE,267,-604738,-1164954
+M1284,Střelice u Brna-Prostřední trať,1,FALSE,283,-605614,-1164447
+M1285,Střelice u Brna-škola,1,FALSE,287,-607055,-1164774
+M1286,Střelice u Jevišovic-Bukovina,3,FALSE,337,-644068,-1177263
+M1287,Střelice u Jevišovic-Klobouček,2,FALSE,383,-644905,-1174824
+M1288,Střelice u Jevišovic-Na Okroukách,2,TRUE,342,-645715,-1176714
+M1289,Střelice u Jevišovic-Sklep,3,FALSE,334,-644884,-1177896
+M1290,Střelice u Jevišovic-Starý zámek,2,FALSE,354,-645423,-1178298
+M1291,Střelice u Jevišovic-Zádušky,3,FALSE,319,-644989,-1178289
+M1292,Stříbrnice u Uherského Hradiště-U sv. Jána,3,TRUE,300,-548024,-1179945
+M1293,Sudice u Boskovic-Na vrších,2,FALSE,387,-590705.7708,-1124026.958
+M1294,Sudice u Boskovic-Vejštice,2,FALSE,393,-589227,-1126349
+M1295,Sudoměřice-Horní chmelnice,2,FALSE,167,-555610,-1200777
+M1296,Suchohrad-Jednotky,3,TRUE,148,-588155,-1248510
+M1297,Suchohrdly u Znojma-Starý zámek,1,FALSE,295,-637444,-1189711
+M1298,Suchohrdly u Znojma-U Červeného Dvora,2,FALSE,312,-639608,-1192584
+M1299,Sušice u Přerova-Dílnice,2,NA,234,-526630,-1134815
+M1300,Sušice u Uherského Hradiště-Kočovy,3,NA,226,-538401,-1175581
+M1301,Svinošice-U břeží,2,TRUE,395,-598528.5824,-1145025.186
+M1302,Svitávka-Hradisko,1,FALSE,386,-594905.7356,-1125977.154
+M1303,Syrovice-Klínky,2,FALSE,241,-602144,-1172840
+M1304,Syrovice-Malé pole,3,TRUE,245,-604863,-1172304
+M1305,Šakvice-Štěpničky,2,FALSE,170,-594624.2323,-1195785.372
+M1306,Šardice-Areál Ústředního zásobníku,2,FALSE,185,-568904.3844,-1190629.708
+M1307,Šardice-intavilán,2,FALSE,184,-570335,-1189546
+M1308,Šardice-Na pískách,2,FALSE,186,-568494,-1191150
+M1309,Šardice-Šinogrova pískovna,2,NA,190,-568436,-1191195
+M1310,Šatov-Cihelna,2,TRUE,242,-645364,-1201302
+M1311,Šebetov-U Mořicova dvora,3,TRUE,437,-586024.0568,-1121481.811
+M1312,Šebkovice-Holeček,2,TRUE,449,-655572.0035,-1162136.996
+M1313,Šebkovice-U Újezdského mlýna,2,TRUE,462,-655899.765,-1160970.855
+M1314,Šišma - východně od obce,3,NA,385,-523905,-1138332
+M1315,Šišma-Amerika,2,TRUE,320,-524699,-1136628
+M1316,Šišma-Domovina,2,TRUE,286,-524196,-1137801
+M1317,Šišma-Domovina II,NA,TRUE,305,-524411,-1137522
+M1318,Šitbořice-Pod Líchama,2,TRUE,247,-586874,-1183539
+M1319,Šlapanice u Brna-Brněnská pole,1,FALSE,250,-590493,-1164903
+M1320,Šlapanice u Brna-Dílky,2,FALSE,266,-589743,-1163850
+M1321,Šlapanice u Brna-Na Puštoře,2,TRUE,233,-590413.5969,-1163892.772
+M1322,Šlapanice u Brna-Nad zámkem,3,FALSE,258,-590398.6618,-1164397.838
+M1323,Štěpánovice u Jaroměřic nad Rokytnou-Niva,2,FALSE,458,-651225.3257,-1161687.405
+M1324,Štěpánovice u Jaroměřic nad Rokytnou-okolo Vacenovického potoka,3,TRUE,456,-652767.7381,-1161872.797
+M1325,Štěpánovice u Jaroměřic nad Rokytnou-za dvorem,3,TRUE,452,-651523,-1162622
+M1326,Štítary na Moravě-U Helenina dvora,2,TRUE,467,-659753,-1182949
+M1327,Štýřice-Polní,1,FALSE,204,-599087,-1161776
+M1328,Štýřice-Vídeňská ul.,1,FALSE,208,-599263,-1161849
+M1329,Šumice u Uherského Brodu-U jezer,3,NA,244,-518730,-1186037
+M1330,Šumná-Na nivě,2,TRUE,483,-655716,-1185002
+M1331,Šumvald-rybník,2,NA,250,-554437,-1095356
+M1332,Tasov nad Veličkou-Mezi potoky,3,TRUE,208,-541605,-1199449
+M1333,Tasov nad Veličkou-Pod Radošovem,3,NA,212,-541280,-1198393
+M1334,Telnice u Brna-cihelna,3,FALSE,206,-590796.7212,-1171457.867
+M1335,Telnice u Brna-Nad Krakovcem,2,FALSE,212,-590499.9491,-1171185.543
+M1336,Těšetice u Znojma-Ruská,2,FALSE,246,-634836.1711,-1191286.127
+M1337,Těšetice u Znojma-Za kostelem,2,FALSE,235,-634428.0106,-1191233.976
+M1338,Těšov-Bažantnice,2,NA,214,-522603,-1187363
+M1339,Těšov-Losky,2,TRUE,230,-522064,-1187161
+M1340,Tetčice-Kříby,3,TRUE,340,-612502,-1161369
+M1341,Tetčice-Podhorka,3,TRUE,306,-613351,-1162420
+M1342,Thomasl-,2,TRUE,242,-620857,-1232026
+M1343,Tišnov-Černohorská ul.,1,FALSE,296,-608857,-1142152
+M1344,Tišnov-Wagnerova,1,FALSE,252,-609251,-1143147
+M1345,Tištín-Díly od Ivanovic,2,NA,224,-557749,-1151989
+M1346,Tlumačov na Moravě-Kopce,2,TRUE,250,-531362,-1159807
+M1347,Tlumačov na Moravě-Kráčiny,NA,NA,195,-533450,-1159285
+M1348,Tlumačov na Moravě-Slivotín,2,TRUE,215,-532917,-1159083
+M1349,Topolany u Vyškova-Padělky za dědinou,2,NA,245,-566007,-1155425
+M1350,Topolná-Osičná,3,NA,256,-531126,-1174154
+M1351,Tovačov - město,2,NA,205,-546091,-1139235
+M1352,Tovačov-cihelna na Hraďouchu,3,NA,205,-546804,-1138193
+M1353,Trboušany-V Olších,3,FALSE,220,-610584,-1175533
+M1354,Trnávka u Lipníka nad Bečvou-Hyk,2,NA,260,-525179,-1129415
+M1355,Trnitá-Dornych,1,FALSE,202,-597698,-1161316
+M1356,Trnitá-ul.Trnitá,2,NA,200,-597753,-1161591
+M1357,Troubelice-Padělky,2,NA,255,-555252,-1095782
+M1358,Troubsko-Bažantnice,1,FALSE,271,-605904,-1162236
+M1359,Troubsko-Za silnicí,2,FALSE,297,-605576,-1161983
+M1360,Trstěnice u Moravského Krumlova-Kleštěnec,3,TRUE,294,-630619.21,-1179419.175
+M1361,Tršice-Nad dolním mlýnem,2,TRUE,271,-535643,-1129393
+M1362,Tršice-Padělky,2,NA,290,-535432,-1126906
+M1363,Tršice-Za hruškou,3,NA,270,-536054,-1128914
+M1364,Třebelovice-Lovětice,2,TRUE,459,-667647.125,-1173303.917
+M1365,Třebelovice-Nádavky,3,TRUE,465,-668349,-1172826
+M1366,Třebelovice-Palovce,2,TRUE,458,-667317,-1173246
+M1367,Třebětice-Koleno,2,NA,212,-528832,-1154512
+M1368,Tučapy-Nad horkami,2,NA,340,-546959,-1182566
+M1369,Tulešice-Za zahradou,2,FALSE,300,-629193,-1174498
+M1370,Turovice-Díly za vodou,NA,NA,238,-525479,-1141868
+M1371,Tvarožná-Pod kopci,2,FALSE,250,-587273.0349,-1162571.731
+M1372,Tvarožná-Santon,2,NA,265,-587118,-1162933
+M1373,Tvarožná-U Sofra,2,FALSE,276,-585533,-1163754
+M1374,Tvarožná-Vinohrady,2,TRUE,296,-587016.6042,-1161751.833
+M1375,Tvarožná-Záhumení,3,FALSE,269,-586174,-1162041
+M1376,Tvořihráz-Louky,1,FALSE,207,-634476,-1187025
+M1377,Tvořihráz-Pod sedleckými,3,TRUE,271,-636954.8024,-1188426.665
+M1378,Tvořihráz-U lisovny,3,TRUE,226,-635962,-1187269
+M1379,Uherčice u Hustopečí-Prostřední nad silnicí,2,FALSE,214,-596587.4429,-1186869.187
+M1380,Uherský Brod-Katovka,2,NA,220,-525392,-1188194
+M1381,Uherský Brod-Kyčkov,2,NA,224,-525905,-1187856
+M1382,Uherský Brod-Náklady,3,NA,328,-524506,-1185004
+M1383,Uhřice u Boskovic-kravín JZD,3,NA,395,-584595,-1117372
+M1384,Újezd u Mohelnice-intravilán,3,NA,284,-570133,-1100131
+M1385,Újezd u Mohelnice-Na širokých,2,NA,300,-570232,-1100876
+M1386,Újezd u Mohelnice-severní okraj vsi,3,TRUE,280,-570008,-1099982
+M1387,Újezd u Mohelnice-U Horních Krčem,3,TRUE,285,-569796,-1100226
+M1388,Újezd u Uničova-K Žerotínu,2,NA,235,-550562,-1104305
+M1389,Újezdec u Luhačovic-Kopánky,2,TRUE,230,-520918,-1186911
+M1390,Újezdec u Luhačovic-Lány,2,TRUE,240,-521365,-1186839
+M1391,Únanov-Padělky,2,TRUE,284,-639763.5683,-1189369.565
+M1392,Únanov-Polodíly,2,FALSE,298,-639831.2963,-1188548.348
+M1393,Unčovice-Kříby,1,NA,230,-557281,-1111846
+M1394,Uničov-Mezi silnicemi,2,NA,234,-556252,-1100060
+M1395,Uničov-Šibeniční vrch,2,NA,240,-555864,-1100970
+M1396,Uničov-U kravína,1,NA,234,-555324,-1101779
+M1397,Uničov-Za drahou,2,NA,239,-555632,-1099079
+M1399,Untermixnitz-Droschelsau,2,TRUE,451,-658046,-1203032
+M1400,Untermixnitz-Hungerfeld,2,TRUE,442,-658675,-1202793
+M1401,Untermixnitz-Lißen,2,TRUE,434,-660097,-1203286
+M1402,Unterthürnau-Heide,2,TRUE,410,-672428,-1187208
+M1403,Určice-Dlouhé Kluče,NA,NA,319,-562580,-1138607
+M1404,Určice-Golštýn-Charbovec,NA,NA,300,-562414,-1138228
+M1405,Určice-Hájové,2,NA,310,-562794,-1139024
+M1406,Určice-Horní Golštýn,3,NA,290,-562407,-1138239
+M1407,Určice-Klementky,NA,TRUE,342,-563121,-1138621
+M1408,Určice-Kopaniny,NA,TRUE,342,-562991,-1139113
+M1409,Určice-Kumberky,3,NA,290,-562804,-1137755
+M1410,Určice-Nivky,NA,NA,275,-562168,-1138215
+M1411,Určice-Sedliska,NA,FALSE,265,-561513,-1138902
+M1412,Určice-Záhumení,3,NA,260,-561909,-1137823
+M1413,Určice-Zelená zmola,NA,NA,331,-562832,-1138852
+M1414,Úsov-město-Na úsovském,2,NA,270,-563673,-1097972
+M1415,Úsov-město-Okroužky,2,TRUE,340,-560595,-1097386
+M1416,Úsov-město-Ovčár,2,TRUE,288,-562328,-1097943
+M1417,Úsov-město-Pod Křížovou horou,3,TRUE,302,-561834,-1097423
+M1418,Ústín-Nad Spálencem,3,NA,230,-554833,-1122398
+M1419,Vacanovice-Zápotočí,2,TRUE,275,-537786,-1127406
+M1420,Vacenovice-Polodíly,3,TRUE,463,-652934,-1162188
+M1421,Vacenovice-U studně,3,FALSE,456,-653159,-1162566
+M1422,Vanovice-Boří,3,NA,520,-590639,-1119219
+M1423,Vanovice-Nad rozpadlou,2,FALSE,448,-590133,-1120028
+M1424,Vážany u Uherského Hradiště-Padělky u Divoků,1,NA,356,-548509,-1183317
+M1425,Vedrovice-Draždík,2,TRUE,281,-616999,-1177556
+M1426,Vedrovice-Široká u lesa/Za dvorem,1,FALSE,257,-617678,-1178501
+M1427,Vedrovice-U kostela,2,FALSE,263,-617102.1854,-1178039.901
+M1428,Vedrovice-Vanecká,2,FALSE,282,-616607,-1177599
+M1429,Vedrovice-Za sádkem,1,FALSE,255,-617636,-1178103
+M1430,Velatice-Padělky,2,FALSE,267,-587737,-1161221
+M1431,Velatice-Prostřední velikonoce,1,FALSE,274,-587930.3532,-1161778.92
+M1432,Velatice-Velatické vrchy,2,TRUE,289,-587231.2548,-1160496.928
+M1433,Velehrad-Rákoš,2,TRUE,223,-542671,-1175384
+M1434,Velešovice-Padělky,2,FALSE,260,-580333,-1164121
+M1435,Velešovice-Půllány za mlýnem,1,FALSE,232,-581087.9994,-1163505.617
+M1436,Velká Bystřice-obec,1,NA,246,-539476,-1122173
+M1437,Velká Bystřice-Přední trávníky,2,NA,238,-540907,-1122641
+M1438,Velké Bílovice-Zimarky,2,FALSE,248,-581068,-1197932
+M1439,Velké Hostěrádky-Klouč,1,FALSE,242,-582465,-1179477
+M1440,Velké Hostěrádky-Skřípov,1,FALSE,232,-580476,-1178933
+M1441,Velké Němčice-Nová Ves,3,TRUE,197,-594036,-1185925
+M1442,Velké Opatovice 2,3,NA,380,-587610,-1114973
+M1443,Velké Opatovice-Strážnice,3,NA,400,-588652,-1115086
+M1444,Velké Pavlovice-Na hrúdkách,2,FALSE,181,-586170.4526,-1193308.49
+M1445,Velký Dešov-U Vlčáku,3,TRUE,466,-666041,-1176922
+M1446,Velký Týnec-Prostřední a Zadní hony (díly),1,NA,242,-541761,-1125277
+M1447,Velký Týnec–Nivy,3,TRUE,240,-540474,-1126667
+M1448,Velký Újezd u Kojatic-Na volských,2,TRUE,467,-666852,-1173298
+M1449,Velký Újezd u Kojatic-Za ústavem,2,TRUE,478,-667130,-1173983
+M1450,Vémyslice-Na výhoně,3,TRUE,341,-627773.7481,-1177296.055
+M1451,Vémyslice-Stavové,2,FALSE,246,-625675,-1176679
+M1452,Věrovany-Padělky,2,NA,205,-545574,-1137113
+M1453,Ves Blížkovice-Dědictví,3,TRUE,413,-658462,-1177016
+M1454,Vesce u Moravských Budějovic-U silničky,3,TRUE,411,-655937,-1173316
+M1455,Veselíčko u Lipníka nad Bečvou-Vlčince,3,TRUE,281,-530550,-1130579
+M1456,Věteřov-Nové hory,2,FALSE,350,-566940,-1182649
+M1457,Vevčice-Nad vývozem,3,TRUE,277,-641686,-1181661
+M1458,Vevčice-Vysoké Pšeničné,2,FALSE,281,-642074,-1181151
+M1459,Veverská Bitýška-Člunky,2,TRUE,312,-610705,-1152297
+M1460,Veverská Bitýška-Chmelníky,3,NA,255,-608891,-1151093
+M1461,Veverské Knínice-Dlouhé díly,2,TRUE,312,-610582.3574,-1155824.82
+M1462,Veverské Knínice-Netušilky,2,TRUE,316,-610363,-1155215
+M1463,Věžky-u hřbitova,1,FALSE,284,-547968,-1155877
+M1464,Víceměřice-Padělky,2,NA,207,-555142,-1148935
+M1465,Vícemilice-Baračka,3,FALSE,256,-569379.9926,-1170764.086
+M1466,Vícemilice-Písky,3,NA,260,-569259,-1170710
+M1467,Vícemilice-U sv. Jána,3,FALSE,240,-568035.4316,-1170202.061
+M1468,Vícov-Výmoly,3,NA,360,-569302,-1130291
+M1469,Vícov-Zábrančí,2,NA,340,-569057,-1131445
+M1470,Vincencov-Kopaniny,2,TRUE,365,-563047,-1141233
+M1471,Vincencov-obec,3,NA,330,-562507,-1141207
+M1472,Vítovice-Padělky,1,FALSE,300,-580336,-1159847
+M1473,Vlčnov-Dřínky,2,NA,250,-531345,-1191924
+M1474,Vlčnov-Pod Hájkom,2,NA,245,-528492,-1188670
+M1475,Vojkovice u Židlochovic-Vojkovické nivy,3,FALSE,199,-600184,-1175363
+M1476,Vrádište-Rubanice,3,TRUE,174,-560124,-1207430
+M1477,Vrahovice-Trávníky,2,NA,214,-556237,-1133624
+M1478,Vranovice-Háj,3,NA,275,-561982,-1141606
+M1479,Vranovice-Vranovický Háj,3,NA,280,-561847,-1141467
+M1480,Vratěnín-U kola,3,TRUE,483,-677074,-1184513
+M1481,Vrbátky-Na panském,3,NA,214,-551806,-1130184
+M1482,Vrbice u Velkých Pavlovic-Famílie,1,FALSE,321,-580063,-1193530
+M1483,Vrchoslavice-Za hrobárňó,3,NA,210,-552747,-1150770
+M1484,Vrchoslavice-zemědělské družstvo,2,NA,207,-551694,-1150620
+M1485,Vsisko-Sklípky,2,NA,214,-543508,-1125692
+M1486,Všechovice u Tišnova-Rybníky,2,TRUE,302,-603653,-1142142
+M1487,Všetuly-Palackého,1,FALSE,217,-528318,-1153202
+M1488,Všetuly-Zdražilovsko,1,FALSE,212,-529345,-1153411
+M1489,Výčapy-Kovandy,3,TRUE,488,-652852,-1160724
+M1490,Výčapy-Strážnice,3,TRUE,493,-650713,-1160229
+M1491,Výčapy-Zátoka,3,FALSE,462,-650768,-1160730
+M1492,Výrovice-Na Brtníku,3,TRUE,260,-636488,-1186622
+M1493,Výrovice-Na kopci,3,TRUE,262,-636642,-1186564
+M1494,Výrovice-Nad skalkami,3,TRUE,251,-636317,-1186243
+M1495,Výrovice-Velká skála,2,FALSE,250,-637568,-1185910
+M1496,Vysočany u Znojma-Kochovo pole,2,NA,448,-668024,-1180891
+M1497,Vysočany u Znojma-Palliardiho hradisko,2,FALSE,392,-668240,-1179002
+M1498,Vysočany u Znojma-U rybníka,2,TRUE,451,-669763,-1180238
+M1499,Vyškov-Markova cihelna,3,NA,258,-568048,-1154296
+M1500,Waidendorf-Buhuberg,2,TRUE,172,-589559,-1245459
+M1501,Waidendorf-Kridlwiesen,2,TRUE,146,-588501,-1244366
+M1502,Waidendorf-Niklassee,2,TRUE,152,-590874,-1244103
+M1503,Waidendorf-Unteres Marchfeld,2,TRUE,176,-589695,-1245891
+M1504,Waltersdorf an der March-Honifäcker,3,TRUE,150,-584382,-1236750
+M1505,Waltersdorf an der March-Langes Feld,2,TRUE,150,-584135,-1236824
+M1506,Wetzelsdorf-,2,TRUE,292,-605923,-1221677
+M1507,Wilfersdorf-Kirchbergen,2,FALSE,216,-604110,-1228371
+M1508,Wilhelmsdorf-Gratzln,3,FALSE,230,-604911,-1218733
+M1509,Wolfsbach-Hofstätten,3,TRUE,474,-670639,-1191970
+M1510,Wolfsbach-Langmais-Irren,2,FALSE,444,-671322,-1192207
+M1511,Wultendorf-Angerl,2,TRUE,300,-614905,-1219290
+M1512,Zábrdovice-areál Zbrojovky,1,FALSE,206,-596010,-1159675
+M1513,Zábrdovice-Přadlácká,1,FALSE,210,-596842,-1160023
+M1514,Zadní Újezd-Holubice,2,TRUE,330,-560094,-1096491
+M1515,Zadní Újezd-intravilán,3,NA,280,-559587,-1097451
+M1516,Zadní Újezd-Za humny,2,TRUE,290,-559639,-1097172
+M1517,Záhlinice-intravilán,1,NA,198,-533142,-1156568
+M1518,Záhlinice-U mlýna,2,NA,194,-533420,-1156524
+M1519,Záhorská Bystrica-Devínske jazero,3,TRUE,162,-583038,-1266711
+M1520,Záhorská Bystrica-Dievčí hrádok,2,NA,190,-578248,-1270782
+M1521,Záhorská Bystrica-Krče,3,NA,206,-577206,-1270651
+M1522,Záhorská Bystrica-Mást-Hrachovisko,2,NA,160,-578250,-1268450
+M1523,Záhorská Bystrica-Westpark I,2,NA,264,-578310,-1270390
+M1524,Záhorská Ves-hospodársky dvor JRD,2,TRUE,146,-589645,-1253035
+M1525,Záhorská Ves-JV obce,2,NA,140,-589313,-1252974
+M1526,Zaječí-štěrkovna,2,FALSE,164,-592775,-1200341
+M1527,Zakřany-Padělky u hřbitova,2,TRUE,411,-618761,-1160412
+M1528,Zálesí u Bítova-Kopanina,3,TRUE,432,-660940,-1179695
+M1529,Zástřizly-Luky,3,FALSE,366,-552820,-1169860
+M1530,Zástřizly-Záviška,2,FALSE,340,-552412,-1169096
+M1531,Zborovice-Obora,3,TRUE,340,-551566,-1159951
+M1532,Zbýšov u Oslavan-důl Anna,3,FALSE,322,-617618,-1163927
+M1533,Zdětín na Moravě-Malá strana,2,NA,342,-567052,-1128665
+M1534,Zdounky-Čtvrtě za chobotem,2,TRUE,228,-547274,-1162652
+M1535,Zdounky-Ke Světlé,3,TRUE,310,-546396,-1163363
+M1536,Zellerndorf-Ziegelei Hofstätter,3,TRUE,280,-652228,-1209381
+M1537,Zettlitz-Hofäcker,2,TRUE,488,-677883,-1192745
+M1538,Ziernreith-Lissl,3,TRUE,479,-682912,-1180563
+M1539,Zissersdorf-Käferäcker,2,TRUE,486,-675337,-1192613
+M1540,Zlechov-Díly,3,NA,230,-543202,-1179507
+M1541,Znojmo-Hradiště,3,NA,330,-644071,-1193224
+M1542,Znojmo-Hradiště-Goldberg,2,FALSE,325,-644773,-1193299
+M1543,Znojmo-Hradiště-Velké panské,2,FALSE,351,-645770,-1193135
+M1544,Znojmo-město-Hakenova,1,FALSE,263,-642059,-1194127
+M1545,Znojmo-město-Horní náměstí,2,FALSE,294,-643052,-1193626
+M1546,Znojmo-město-Hradní ul.,2,FALSE,294,-643261,-1193645
+M1547,Znojmo-město-Novosady,1,FALSE,297,-642984.0818,-1192796.099
+M1548,Znojmo-město-Pazderky,3,FALSE,310,-643635,-1191586
+M1549,Znojmo-město-Pazderky II,2,FALSE,300,-643646,-1191888
+M1550,Znojmo-město-U pramenů,2,FALSE,340,-644856,-1191083
+M1551,Zohor-Piesky,3,NA,150,-581975,-1262810
+M1552,Zvole u Zábřeha-stavba silnice,3,NA,286,-569256,-1092214
+M1553,Zwerndorf-,3,TRUE,143,-589793,-1258609
+M1554,Zwerndorf-Dornparz,2,TRUE,144,-590456,-1258856
+M1555,Zwerndorf-Untere Scheibäcker,3,TRUE,144,-590449,-1256806
+M1556,Žabovřesky-Šmejkalova,2,FALSE,215,-600359.2489,-1159033.625
+M1557,Žádovice-Dolní újezd,2,FALSE,228,-558113,-1185149
+M1558,Žarošice-Oulehle,2,NA,260,-573557,-1178607
+M1559,Žarošice-Vrchní mlýn,2,TRUE,222,-573905.7838,-1179473.314
+M1560,Žárovice-Poddubí,2,NA,315,-568107,-1133527
+M1561,Žbánov-Hradisko,2,TRUE,500,-568569,-1133795
+M1562,Žbánov-Terasa nad Hloučelou,2,NA,384,-570243,-1132044
+M1563,Žebětín-Čihadla,2,TRUE,313,-606331.2491,-1157593.612
+M1564,Žebětín-Na Drdi,2,FALSE,326,-606481.2504,-1158015.964
+M1565,Žebětín-Pekárna,2,TRUE,307,-605181,-1158337
+M1566,Žebětín-U křivé borovice,2,FALSE,340,-606543.5218,-1156884.508
+M1567,Želatovice u Přerova-Remíz,3,NA,230,-531099,-1139364
+M1568,Želeč na Hané-Holcasy,NA,NA,275,-562165,-1147036
+M1569,Želeč na Hané-Ondrácko,2,TRUE,320,-562940,-1147073
+M1570,Želeč na Hané-Široké,NA,NA,245,-559899,-1148507
+M1571,Želechovice u Uničova-intavilán,3,NA,236,-553081,-1102963
+M1572,Želechovice u Uničova–obec,2,NA,235,-553141,-1103121
+M1573,Želešice-Dvorecké,2,FALSE,220,-601751,-1169420
+M1574,Želešice-V hojnarkách,2,TRUE,314,-603430,-1168497
+M1575,Železné-Hradisko,2,TRUE,344,-607674,-1140784
+M1576,Železné-Záhomí,2,FALSE,320,-607422,-1141167
+M1577,Žerůvky-intravilán,1,NA,216,-552432,-1126773
+M1578,Žerůvky-Ve starých trávníkách,3,NA,212,-552918,-1126933
+M1579,Žerůvky-Vyškrábané,3,NA,225,-552044,-1126384
+M1580,Židenice-cihelna,2,NA,280,-593945,-1160371
+M1581,Žopy-Hrabí,2,NA,260,-525017,-1152648
+M1582,Žopy-Nad debří,3,TRUE,295,-523815,-1153200
+M1583,Židenice-Táborská,2,NA,210,-595361,-1160988
+M1584,Ždánice-Pašerova bouda,1,NA,370,-567281,-1173671
+M1585,Snovídky-V hlubině,1,NA,336,-563268,-1170781

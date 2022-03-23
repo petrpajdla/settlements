@@ -1,0 +1,2171 @@
+id,orig_id,region,site,site_note,note,in_analysis
+B0001,NA,JC,Bačalky-,NA,NA,TRUE
+B0002,PD-JC-1300; ADC-15728,JC,Bašnice-Potvrzník,"Ppč. 202, 212, 213, 215, 216",NA,TRUE
+B0003,PD-JC-1004,JC,Bašnice-Potvrzník,NA,NA,TRUE
+B0004,P-1224-01250,PH,Bašť-Nová Bašť,NA,NA,TRUE
+B0005,P-1224-01151,A9,Běchovice-V panenkách,NA,NA,TRUE
+B0006,P-1224-01103; P-1224-01106,A9,Běchovice-Nad vodárnou,NA,NA,TRUE
+B0007,P-1224-01096,A9,Běchovice-Za homolí,NA,NA,TRUE
+B0008,P-1224-01157; ADC-12745,A9,Běchovice-pískovna,NA,NA,TRUE
+B0009,SM-10006,SM,Bělá u Turnova-Dvojitá brána,Rohlinsko,NA,TRUE
+B0010,HK-1006; P-1322-00001; P-1322-00043,HK,Benátky-Na Trubačce,"Na ohradách, i k.ú. Želkovice-Na kozách",NA,TRUE
+B0011,ADC-15929; P-1322-00040,HK,Benátky-,NA,NA,TRUE
+B0012,NA,HK,Benátky-Na oborách,NA,BI,TRUE
+B0013,P-1322-00044,HK,Benátky-Za Březinou,NA,NA,TRUE
+B0014,P-1322-00153,HK,Benátky-Na předních stáních,NA,NA,TRUE
+B0015,NA,JC,Bílskou u Hořic-,Ppč. 280/6,NA,TRUE
+B0016,NA,PA,Blato-K Mikulovicím,i k.ú. Mikulovice u P.,NA,TRUE
+B0017,NA,A,Bohnice-U Šípků,Psychiatrická nemocnice,NA,TRUE
+B0018,AA1171,A,Bohnice-sídliště,Hackerova ul.,NA,TRUE
+B0019,NA,A,Bohnice-Zámka,NA,NA,TRUE
+B0020,ADC-15236,PH,Brandýs nad Labem-Královice,NA,NA,TRUE
+B0021,ADC-11394,PH,Brandýs nad Labem-cihelna p. Kejmara,NA,NA,TRUE
+B0022,P-1224-01296,PH,Brandýs nad Labem-Hrušov,NA,NA,TRUE
+B0023,ADC-10899,PH,Brandýs nad Labem-mezi hřbitovy,NA,NA,TRUE
+B0024,NA,PH,Brandýs nad Labem-Sněženková ul.,NA,NA,TRUE
+B0025,P-1224-01415,PH,Brandýs nad Labem-U vodojemu,NA,NA,TRUE
+B0026,P-1313-01140,PH,Brandýs nad Labem-Zápská,NA,NA,TRUE
+B0029,AN – 1023,PH,Brázdim-Veliký Brádim,NA,NA,TRUE
+B0030,NA,MB,Brodce nad Jizerou-,NA,NA,TRUE
+B0031,P-1224-01586,A8,Březiněves-Na Hlavní,NA,NA,TRUE
+B0032,P-0334-00270,MB,Březno u Mladé Boleslavi-Pod vinicí,NA,NA,TRUE
+B0033,PD-JC-1019,JC,Březovice-,"ppč. 140, 143, 145",NA,TRUE
+B0034,PD-JC-1021,JC,Březovice-Mezi řekami,"Parc.č. 156, 178/1,3, 180/1; i k.ú. Chvalina",NA,TRUE
+B0035,ADC-15497,KL,Břežany II-Na statku,NA,NA,TRUE
+B0036,PD-JC-1024,JC,Bříšťany-Na Parkáně,NA,NA,TRUE
+B0037,PD-JC-1023,JC,Bříšťany-,NA,NA,TRUE
+B0038,P-0334-00093,JC,Bukvice-východní okraj obce,NA,NA,TRUE
+B0039,ADC-15524,KL,Bylany u Českého Brodu-Klečky,NA,lokalizace uváděná Vávrou a ni v ADČ neodpovídají popisovaným nálezovým okolnostem ani traťovému názvu,TRUE
+B0040,ADC-30109,KL,Bylany u Českého Brodu-Okrouhlík,NA,NA,TRUE
+B0041,NA,KH,Bylany u Kutné Hory-1,Vykopávky,NA,TRUE
+B0042,NA,KH,Bylany u Kutné Hory-2,Pod hospodou,NA,TRUE
+B0043,NA,KH,Bylany u Kutné Hory-3,U svatého Vojtěcha; Mezi polohou Na obci a Přítokami,NA,TRUE
+B0044,NA,KH,Bylany u Kutné Hory-4,Vysocháj,NA,TRUE
+B0045,NA,KH,Bylany u Kutné Hory-5,"Familky, Na hliništi",NA,TRUE
+B0046,NA,KH,Bylany u Kutné Hory-Nade vsí,NA,NA,TRUE
+B0047,ADC-15172,JC,Bystřice-V bahnech,NA,NA,TRUE
+B0048,ADC-06769,JC,Bystřice-Nad Bahny,NA,NA,TRUE
+B0049,NA,JC,Cerekvice nad Bystřicí-Za Lužním mlýnem,NA,NA,TRUE
+B0050,P-1322-00063,JC,Cerekvice nad Bystřicí-Na kozách,NA,NA,TRUE
+B0051,P-1431-00055,SY,Cerekvice nad Loučnou-,"Nad soutokem Kočinského potoka a Loučné, mezi tratí a silnicí Litomyšl-Vysoké Mýto",NA,TRUE
+B0052,DV8007; P-1431-00275,SY,Cerekvice nad Loučnou-zemědělské družstvo,NA,NA,TRUE
+B0053,KO_OS_5001,KL,Cerhenice-Za dráhou,NA,výzkum ÚAPPSČ,TRUE
+B0054,P-1314-00132,KL,Cernenice-Za oborou,NA,výzkum M Kolín,TRUE
+B0055,P-1431-00275,KL,Cerhenice-U cukrovaru,NA,NA,TRUE
+B0056,NA,KH,Církvice u Kutné Hory-Nad vsí,NA,NA,TRUE
+B0057,KH-MA-1103,KH,Církvice u Kutné Hory-Cihelna,NA,NA,TRUE
+B0058,NA,PA,Černá za Bory-Žižín,NA,NA,TRUE
+B0059,ADC-11005,A9,Čakovice-Kostelecká ul.,NA,NA,TRUE
+B0060,ADC-11693,A9,Čakovice-,NA,NA,TRUE
+B0061,P-1341-00425; P-1341-00414; P-1341-00416,KH,Čáslav-Nový Čeplov,NA,NA,TRUE
+B0062,P-1341-00325,KH,Čáslav-U hřbitova,K Chotusicům,NA,TRUE
+B0063,P-1341-00178,KH,Čáslav-Na skále,NA,NA,TRUE
+B0064,P-1341-00216; KH-MA-1156,KH,Čáslav-Kalabousek,NA,NA,TRUE
+B0065,P-1341-00121,KH,Čáslav-Staré město,Na ostrém rohu,NA,TRUE
+B0066,KH-MA-1149,KH,Čáslav-Ke Koudelovu,U Koudelova,NA,TRUE
+B0067,KH-MA-1154,KH,Čáslav-Svornost,NA,NA,TRUE
+B0068,ADC-30119,KH,Čáslav-Hrádek,NA,NA,TRUE
+B0069,ADC-15774; NA-JT-7207; NA-JT-7208; NA-JT-7209; NA-JT-7300,NA,Čáslavky-,Ppč. 74,NA,TRUE
+B0070,NA-JT-7304; NA-JT-7303,NA,Čáslavky-cihelna,NA,NA,TRUE
+B0071,P-1313-00654,PH,Čelákovice-J.A. Komenského,NA,NA,TRUE
+B0072,P-1313-01235; P-1313-01199,PH,Čelákovice-V Rybníčkách,NA,NA,TRUE
+B0073,P-1313-00614,PH,Čelákovice-býv. Švejdova cihelna,NA,"Stocký, Pravěk I, 166 BI",TRUE
+B0074,P-1313-00615,PH,Čelákovice-S.K. Neumanna,NA,NA,TRUE
+B0075,AN – 1090,PH,Čenkov-kamenolom,NA,M. Zápotocká lokalitu označuje jako Veliká Ves,TRUE
+B0076,P-1322-00106; ADC-15889; ADC-15889; P-1322-00182,HK,Černožice nad Labem-konzervárna,marmeládovna,NA,TRUE
+B0077,OS_HK_7044; P-1322-00366; ADC-15841; HK-1042; HK-1030; HK-1035,HK,Černožice nad Labem-Gen. Svobody,"kulturní dům, Na Stezkách",NA,TRUE
+B0078,HK-1040,HK,Černožice nad Labem-Čáslavky,NA,NA,TRUE
+B0079,HK-1034,HK,Černožice nad Labem-železnice,NA,NA,TRUE
+B0080,NA,A9,Černý Most-jižně od Chlumecké ul.,"Černý most II, dříve k.ú. Kyje",NA,TRUE
+B0081,ADC-16488,KL,Červené Pečky-Parkán,NA,NA,TRUE
+B0082,JV-1031,KL,Červené Pečky-U nádraží,Panské pole pod nádražím,NA,TRUE
+B0083,ADC-16480,KL,Červené Pečky-U panského ovčína,Za ovčínem,NA,TRUE
+B0084,ADC-15516,KL,Český Brod-K Dolankám,"cihelna paní Králové, Na cihelně",NA,TRUE
+B0085,NA,KL,Český Brod-Klímova cihelna,NA,NA,TRUE
+B0086,ADC-30143,JC,Češov-Češovské valy,NA,NA,TRUE
+B0087,P-1322-00163,HK,Číbuz-,NA,NA,TRUE
+B0088,AN/NB – 1007,NB,Čilec-Pískovna J. Kozla,NA,NA,TRUE
+B0089,xy-1129,A8,Čimice-Žalovská ul.,NA,NA,TRUE
+B0090,HK-1044,HK,Čistěves-,NA,NA,TRUE
+B0091,P-1322-00098; ADC-15925,HK,Čistěves-U německého rybníka,NA,"V literatuře uváděna volutová keramika, jde však o nevýrazný soubor vypíchané keramiky",TRUE
+B0092,P-1312-00174,JC,Dětenice-bioplynová stanice,NA,NA,TRUE
+B0093,P-0334-00137; ADC-30175,MB,Dneboh-Hrada,NA,hradiště,TRUE
+B0094,ML-1198,MB,Dobrovice-Losky,Stará cihelna,NA,TRUE
+B0095,NA,HK,Dobřenice-,"parc. č. 154, 155, 683/1, 686/1",NA,TRUE
+B0096,NA,HK,Dobřenice-intravilán,parc. č. 272,NA,TRUE
+B0097,NA,KO,Dobřichov-Pod Třebickou,NA,NA,TRUE
+B0098,P-1322-00238; P-1322-00237,HK,Dohalice-Dohaličky,i k.ú. Mokrovousy,NA,TRUE
+B0099,P-1332-00027,KO,Dolany u Červených Peček-závlaha,NA,NA,TRUE
+B0100,ADC-16512,KO,Dolany u Červených Peček-,NA,NA,TRUE
+B0101,"ADC-16511, P-1332-00028",KO,Dolany u Červených Peček-,poloha III,NA,TRUE
+B0102,JV-1072,KO,Dolany u Červených Peček-Malá Vysoká,NA,NA,TRUE
+B0103,NA,NA,Dolany u Jaroměře-intravilán,NA,NA,FALSE
+B0104,NA-JT-7058,NA,Dolany u Jaroměře-u osady Sebuč,v AMČR jako Chvalkovice,NA,TRUE
+B0105,ADC-15892,NA,Dolany u Jaroměře-Nad silnicí,v AMČR jako Svinišťany,NA,TRUE
+B0106,ADC-16026,PA,Dolany u Pardubic-Břeština,NA,NA,TRUE
+B0107,P-1242-00423,PZ,Dolní Břežany-K Hradišťátku,Za příkopem,ohrazení časný eneolit,TRUE
+B0108,P-1242-00081; P-1242-00024,PZ,Dolní Břežany-Kamínek,SV od rybníka Pazderák,NA,TRUE
+B0109,P-1242-00022; P-1242-00020; P-1242-00018; P-1242-00010; P-1242-00014,PZ,Dolní Břežany-K Hodkovicům,Za pivovarem,NA,TRUE
+B0110,P-1242-00008; PZ1015,PZ,Dolní Břežany-U struh,"Za havránkou, i k.ú Zlatníky u Prahy",NA,TRUE
+B0111,P-1242-00338,PZ,Dolní Jirčany-Nad školkou,NA,NA,TRUE
+B0112,ADC-31095; P-1224-00019,A9,Dolní Počernice-Na vinici,NA,NA,TRUE
+B0113,P-1224-01574,A8,Dolní Chabry-Do rybníčků,NA,NA,TRUE
+B0114,AA1185,A8,Dolní Chabry-Cihelna pana Malinskeho,NA,NA,TRUE
+B0115,PD-JC-1056; PD-JC-1057,JC,Doubrava-Svatogothardská Lhota,i k.ú. Březovice,NA,TRUE
+B0116,NA,KH,Drobovice-křižovníci,Pole p. Havelky z Potěh ppč. 295,NA,TRUE
+B0117,NA,CR,Dřenice,NA,NA,TRUE
+B0118,ADC-11316,PH,Dřevčice u Brandýsa nad Labem-,Oblast Vinořského potoka,NA,TRUE
+B0119,P-1224-00546; P-1224-00547,PH,Dřevčice u Brandýsa nad Labem-Na čtrnácti,NA,NA,TRUE
+B0120,ADC-11332; ADC-12166,PH,Dřevčice u Brandýsa nad Labem-Na paterých,NA,NA,TRUE
+B0121,ADC-11360; AN – 1118,PH,Dřevčice u Brandýsa nad Labem-Za zvonicí,Hypšova cihelna,NA,TRUE
+B0122,ADC-09830,ME,Dřínov-Na provázku,NA,NA,TRUE
+B0123,DN-1018,ME,Dušníky nad Vltavou-Na špalkách,NA,NA,TRUE
+B0124,NA,NB,Dvory u Nymburka-u potoka Liduška,NA,NA,TRUE
+B0125,P-1224-00205; ADC-11001,A8,Ďáblice-Řepná ul.,NA,NA,TRUE
+B0126,NA,A8,Ďáblice-K Letňanům,NA,NA,TRUE
+B0127,ADC-11612; ADC-11632; ADC-11628,A8,Ďáblice-Legionářů,"Mšenská, Batistova cihelna",NA,TRUE
+B0128,P-1224-00972,A8,Ďáblice-Nové Ďáblice,NA,NA,TRUE
+B0129,P-1224-00275,A8,Ďáblice-křižovatka Cínovecká-Kostelecká,NA,NA,TRUE
+B0130,NA,HK,Habřina-Prašivka,NA,NA,TRUE
+B0131,P-1331-00032,KO,Hlaváčova Lhota-u dvora Broučkov,Uváděno jako Třebovle,NA,TRUE
+B0132,P-1332-00072,KH,Hlízov-Močidla,NA,NA,TRUE
+B0133,ADC-16245,KH,Hlízov-,NA,NA,TRUE
+B0134,P-1224-01453; P-1224-01361,A9,Hloubětín-Nepelova,NA,NA,TRUE
+B0135,AA1245,A9,Hloubětín-,Pískovny p. Kejre a p. Felixe,NA,TRUE
+B0136,P-1321-00067,HK,Hlušičky-U Bydžovského,NA,NA,TRUE
+B0137,NA,SM,Hnanice pod Troskami-Těhníkova skála,NA,NA,TRUE
+B0138,P-1322-00140,HK,Hněvčeves-Pod kostelem,NA,NA,TRUE
+B0139,P-1322-00142,HK,Hněčeves-nádraží,NA,NA,TRUE
+B0140,P-1322-00100,HK,Hněvčeves-U březiny,U březinky,NA,TRUE
+B0141,P-1322-00147; HK-7074,HK,Hněčeves-,silnice do Sovětic; i k.ú. Sovětice,NA,TRUE
+B0142,OS_JC_77003; P-0334-00042,JC,Holín-Jandice,i k.ú. Ohaveč,NA,TRUE
+B0143,NA,HK,Holohlavy,NA,NA,TRUE
+B0144,P-1322-00105; P-1322-00002,HK,Holohlavy-severně od obce,Vodojem; 1990,NA,TRUE
+B0145,P-1322-00190,HK,Holohlavy_Na rozcestí,samoobsluha,NA,TRUE
+B0146,P-1322-00086,HK,Holohlavy_teplárna,NA,NA,TRUE
+B0147,P-0334-00032,MB,Horní Bousov-U výkrmny kachen,NA,NA,TRUE
+B0148,NA-JT-1211; NA-JT-5138; NA-JT-7096; NA-JT-1210,NA,Horní Dolce-U kapličky,NA,NA,TRUE
+B0149,NA-JT-1209; NA-JT-7095,NA,Horní Dolce-,NA,NA,TRUE
+B0150,ADC-06767,JC,Horní Lochov-,NA,NA,TRUE
+B0151,NA,JC,Horní Lochov-,NA,NA,TRUE
+B0153,ADC-14538,A,Horní Měcholupy-Na Vartě,NA,NA,TRUE
+B0154,P-1224-01065,A9,Horní Počernice-Na chvalce,NA,NA,TRUE
+B0155,XX-1079; P-1224-01046,A9,Horní Počernice-Na tarase,NA,NA,TRUE
+B0156,NA,UO,Horní Sloupnice,"parc. č. 1593, 1622",NA,TRUE
+B0157,ML-1224,MB,Horní Stakory-U bažantnice,NA,NA,TRUE
+B0158,P-1341-00032,KH,Horušice-Duna,pískovna,NA,TRUE
+B0159,P-1332-00038; ADC-16518,KH,Hořany u Kutné Hory-,NA,NA,TRUE
+B0160,ADC-15535,NB,Hořany u Poříčan-,NA,NA,TRUE
+B0161,P-1322-00119,NA,Hořenice,NA,NA,TRUE
+B0162,NA-JT-1213; ADC-15890,NA,Hořenice-U pískoviště,Dolce,NA,TRUE
+B0163,AN – 1031,PH,Hoštice u Vodochod-Březí,V březím,NA,TRUE
+B0164,AN – 1032,PH,Hoštice u Vodochod-Na rovišťatech,i k.ú. Klíčany,NA,TRUE
+B0165,AN - 1030,PH,Hoštice u Vodochod-Na rovišťatech,NA,NA,TRUE
+B0166,AA7004,A10,Hostivař-K jezeru,NA,NA,TRUE
+B0167,AA5002; AA1011,A10,Hostivař-stará Hostivař,ul. Mezi potoky,NA,TRUE
+B0168,NA,A10,Hostivař-býv. pískovna,NA,pod hradiskem drobné mladé střepy,TRUE
+B0169,P-1324-00222; P-1324-00191; P-1324-00111; P-1324-00034; P-1324-00077; HK-1095;,HK,Hradec Králové-centrum,NA,NA,TRUE
+B0170,NA,SM,Hrubá Skála-Hlavatá skála,NA,NA,TRUE
+B0171,AN – 1036,PH,Husinec u Řeže-,vila a zahrada čp. 9,NA,TRUE
+B0172,NA-JT-7067; NA-JT-7066,NA,Hustířany-Velká Hradečnice,"Malá Hradečnice, U mlýna Podhrad",NA,TRUE
+B0173,NA-JT-1120,NA,Hustířany-Na Merklovém,NA,NA,TRUE
+B0174,NA-JT-5085,NA,Hustířany-Na provázcích,Ppč. 103/1 a 105,NA,TRUE
+B0175,OT-7006,TU,Hvězda-,"Parc.č. 160, 161, 199",NA,TRUE
+B0176,P-1314-00227,NB,Chleby-U Havranska,NA,ohrazení,TRUE
+B0177,NA,MB,Chloumek-Na hrádku,NA,"původně zařazeno jako Vinařice, patrně se ale jedná o k.ú. Chloumek",TRUE
+B0178,ADC-30407,MB,Chloumek-Švédské šance,NA,NA,TRUE
+B0179,DN-1032,ME,Chlumín-Na dymáku,NA,NA,TRUE
+B0180,P-1322-00176,HK,Chlum u Hradce Králové-Na vrších,Na vršku,NA,TRUE
+B0181,NA,KO,Chotouchov-zahrada p. Horáka,NA,NA,TRUE
+B0182,NA,KO,Chotýš,NA,NA,TRUE
+B0183,P-1331-00013,KO,Chotýš-nad úvozovou cestou,NA,NA,TRUE
+B0184,NA,CR,Chrast-K Chrašicícm,pole ppč. 605,NA,TRUE
+B0185,NA,CR,Chrast,NA,NA,TRUE
+B0186,P-1313-01146,KO,Chrášťany u Českého Brodu-bioplynová stanice,NA,ohrazení,TRUE
+B0187,P-1342-00412,CR,Chrudim-Nad železniční zastávkou,NA,NA,TRUE
+B0188,P-1342-00131,CR,Chrudim-Olbrachtova ul,NA,NA,TRUE
+B0189,P-1342-00448,CR,Chrudim-Píšťovy,NA,NA,TRUE
+B0190,NA,CR,Chrudim-Pod křížem,NA,NA,FALSE
+B0191,P-1342-00220; P-1342-00219; ADC-17202; P-1342-00146; OS_CR_77012; ADC-17198,CR,Chrudim-Pod požární zbrojnicí,"Pod hasičskou zbrojnicí, Topolská ul.",NA,TRUE
+B0192,OS_CR_11008; P-1342-00133; ADC-30431,CR,Chrudim-Pumberky,Pumberka,ohrazení,TRUE
+B0193,P-1342-00293; ADC-17178; P-1342-00149,CR,Chrudim-Staré město,NA,NA,TRUE
+B0194,ADC-17308,CR,Chrudim-U kostela Sv. Kříže,NA,Podle AMČR pouze lengyel,TRUE
+B0195,ADC-17157,CR,Chrudim-Wiesnerova továrna,Transporta Chrudim,NA,TRUE
+B0196,NA,HK,Chudonice-,Zadinův písečník,NA,TRUE
+B0197,NA,JC,Chyjice-V lohovicích,NA,NA,TRUE
+B0198,P-1323-00039; P-1323-00032,PA,Chýšť-Vražednice,NA,NA,TRUE
+B0199,P-1341-00075,KH,Jakub-K Novému rybníku,NA,NA,TRUE
+B0200,NA-JT-7319,NA,Jaroměř-Dolní dolce,autobazar,OBERLAUTERBACH,TRUE
+B0201,P-1322-00385; NA-JT-5144; NA-JT-7308; NA-JT-7307; NA-JT-7305; NA-JT-7306,NA,Jaroměř-Dolní Dolce-Zavadilka,Kimberly Clark s.r.o.,NA,TRUE
+B0202,ADC-15796; NA-JT-1261; P-1322-00036,NA,Jaroměř-Na cihelnách,NA,NA,TRUE
+B0203,NA-JT-1279,NA,Jaroměř-Na Vinicích,NA,NA,TRUE
+B0204,AN – 7010; P-1224-00503; ADC-11236; ADC-12163,PH,Jenštejn-Na vartě,Na vartu,NA,TRUE
+B0205,ADC-11251; ADC-11261,PH,Jenštejn-Na Stráni,NA,NA,TRUE
+B0206,P-1224-00031; ADC-11228; ADC-12161,PH,Jenštejn-,Zahrada domova důchodců,ohrazení jordanov,TRUE
+B0207,PD-JC-1101,JC,Jeřice-V Motsečkách,"U mlýna, asi i Duchoňoves",NA,TRUE
+B0208,PD-JC-7004,JC,Jeřice-U studánky,"Za studánkou, Nad obcí",NA,TRUE
+B0209,P-0343-00036,JC,Jičín-nemocnice,NA,NA,TRUE
+B0210,P-1313-00951,PH,Jirny-Na Kaštance,NA,NA,TRUE
+B0211,ADC-10093,ME,Jiřice u Kostelce nad Labem-,NA,NA,TRUE
+B0213,P-0343-00038; P-0343-00039,JC,Kbelnice-Horka,NA,NA,TRUE
+B0214,NA,JC,Kbelnice-úvoz k Bílému mlýnu,NA,NA,TRUE
+B0215,ADC-11721; P-1224-00954; ADC-11717; ADC-11725; ADC-11730,A9,Kbely-cihelna,Ulice Toužimská ppč. 1070,NA,TRUE
+B0216,AA1496,A9,Kbely-,Nádražní ulice,NA,TRUE
+B0217,P-1224-01221; ADC-11713; ADC-11718,A9,Kbely-ZŠ Albrechtická,NA,NA,TRUE
+B0218,P-1224-01401; P-1224-01408,PH,Klecany-Na hradišti,NA,NA,TRUE
+B0219,P-1224-01251,PH,Klecany-zámecká zahrada,NA,NA,TRUE
+B0220,AN – 1047,PH,Klecany-Na skalkách,NA,NA,TRUE
+B0221,NA,KO,Klučov u Českého Brodu-Na ptáčku,NA,NA,TRUE
+B0222,NA,KO,Klučov u Českého Brodu-,Ppč. 55,NA,TRUE
+B0223,NA,A8,Kobylisy-Kobyliské nám.,"Starý dvůr, Nad Šutkou",NA,TRUE
+B0224,AA1479,A8,Kobylisy-U Ženíškovy cihelny,NA,NA,TRUE
+B0225,NA,PA,Kojice-Za domkem,NA,NA,TRUE
+B0226,NA,KO,Kolín-Ve vrbičkách,Kolín I,NA,TRUE
+B0227,NA,KO,Kolín-Šťáralka,NA,podle Dufek et al. 2016 výskyt protolengyelské keramiky. Vypadá jako starý lengyel.,TRUE
+B0228,NA,KO,Kolín-Lučební závody Draslovka,Kutnohorské předměstí,NA,TRUE
+B0229,P-1332-00066; ADC-16501,KO,Kolín-Plynárenská,"Cihelna pánů Kuchaře, Veletovského a Buby",NA,TRUE
+B0230,ADC-16476,KO,Kolín-Syntezia,Ppč. 2758/II,NA,TRUE
+B0231,JV-1196,KO,Kolín-U zálabské Prachárny,Na skále,NA,TRUE
+B0232,NA,KO,Kolín VII,NA,NA,TRUE
+B0233,P-0343-00233,JC,Konecchlumí-U dubu,Na bělidle,NA,TRUE
+B0234,OS_JC_1076,JC,Kopidlno-ČOV,NA,NA,TRUE
+B0235,DV8021,SY,Kornice-Hlavňov,i k.ú. Nedošín,NA,TRUE
+B0236,P-0333-00082,MB,Kosmonosy-,NA,NA,TRUE
+B0237,ADC-10114,ME,Kostelec nad Labem-Blatenská,Cesta pod cukrovarem,NA,TRUE
+B0238,ADC-10106,ME,Kostelec nad Labem-cukrovar,NA,NA,TRUE
+B0239,ADC-10147,ME,Kostelec nad Labem-Na pískách,NA,NA,TRUE
+B0240,P-1413-00027; P-1413-00029,RK,Kostelec nad Orlicí-Hálkova ul.,cihelna,NA,TRUE
+B0241,ADC-30562,NB,Kounice-Na Skále,NA,NA,TRUE
+B0242,P-1331-00145,KO,Kouřim-Molitirov,NA,VK jen ve svrchních vrstvách hliníků LnK,TRUE
+B0243,ADC-16151,KO,Kouřim-U cukrovaru,NA,NA,TRUE
+B0244,ADC-30568,KO,Kouřim-Stará Kouřim,NA,NA,TRUE
+B0245,JV-1217,KO,Kouřim-V Dolnici,NA,NA,TRUE
+B0246,ADC-16148,KO,Kouřim-U svatého Jiří,NA,NA,TRUE
+B0247,NA,NB,Kovanice-intravilán,NA,NA,TRUE
+B0248,P-1323-00049; P-1323-00062;,HK,Kratonohy-Požárský,"pískovna, i k.ú. Obědovice-Na požárce",NA,TRUE
+B0249,NA,A4,Krč-Společenská zahrada,NA,"2 rondely, ohrazení jordanov",TRUE
+B0250,P-1312-00004,NB,Křinec-Za mostem,NA,NA,TRUE
+B0251,P-1341-00333,KH,Krchleby u Čáslavi-Na Lomenici,NA,NA,TRUE
+B0252,P-1331-00015,KO,Krupá u Kostelce nad Černými Lesy-Syneč,Za Panskou zahradou,NA,TRUE
+B0253,P-1331-00017,KO,Krupá u Kostelce nad Černými Lesy-V roklích,Syneč-naleziště B,NA,TRUE
+B0254,P-1331-00018,KO,Krupá u Kostelce nad Černými Lesy-Měchejřík,NA,NA,TRUE
+B0255,P-1242-00408,A,Křeslice-U Fantova mlýna,NA,NA,TRUE
+B0256,P-1313-00120,KO,Kšely-,NA,NA,TRUE
+B0257,JV-1237,KO,Kšely-,NA,NA,TRUE
+B0258,JV-1240,KO,Kšely-Za humny,NA,NA,TRUE
+B0259,ADC-16125,KO,Kšely-stavba kravínů,NA,NA,TRUE
+B0260,JV-1234,KO,Kšely-V červenkách,NA,NA,TRUE
+B0261,ADC-16123,KO,Kšely-dům č.p.7,NA,NA,TRUE
+B0262,HK-1129,HK,Kukleny-škola,NA,NA,TRUE
+B0263,NA,PA,Kunětice,NA,NA,FALSE
+B0264,NA,A,Kunratice-Nový hrad,Nad lomem,NA,TRUE
+B0265,KH-MA-1132,KH,Kutná Hora-Cimburk,Na homoli,NA,TRUE
+B0266,P-1332-00575,KH,Kutná Hora-Karlov,NA,NA,TRUE
+B0267,P-1332-00581,KH,Kutná Hora-Školní ul.,NA,NA,TRUE
+B0268,ADC-30637,KH,Kutná Hora-Dänemark,NA,NA,TRUE
+B0269,P-1332-00216,KH,Kutná Hora-Stará cihelna,NA,NA,TRUE
+B0270,P-1313-00871,PH,Květnice-Za mlýnem,NA,NA,TRUE
+B0271,P-1313-00967,PH,Květnice-Bedrníková ul.,Květnice 1,NA,TRUE
+B0272,NA,PH,Květnice-Na Ladech,NA,NA,TRUE
+B0273,P-1342-00433,CR,Lány u Bylan-Mezi mlýny,i k.ú. Sobětuchy,NA,TRUE
+B0274,P-1342-00435,CR,Lány u Bylan-,NA,NA,TRUE
+B0275,P-1324-00303,PA,Lázně Bohdaneč-Na kozlíčku,NA,NA,TRUE
+B0276,P-1324-00005,PA,Lázně Bohdaneč-Dobrá,NA,NA,TRUE
+B0277,P-1313-00926,PH,Lázně Toušeň-Nad tratí,NA,NA,TRUE
+B0278,ADC-15388; ADC-15389; P-1312-00099,PH,Lázně Toušeň-Na hradisku,NA,NA,TRUE
+B0279,P-1313-00537,PH,Lázně Toušeň-Jandova cihelna,NA,NA,TRUE
+B0280,P-1224-01534,A9,Letňany-Beranových,Tupolevova-Prosecká,NA,TRUE
+B0281,XLS-1121,PZ,Lhota u Dolních Břežan- dům č. 46,NA,NA,TRUE
+B0282,P-1242-00167,PZ,Lhota u Dolních Břežan-Hradiště,Závist,NA,TRUE
+B0283,DUPL_OS_5004; P-1312-00101; P-1312-00067; P-1312-00008,JC,Libáň-,NA,NA,TRUE
+B0284,P-1312-00025; P-1312-00026,JC,Libáň-,ppč. 613/3,NA,TRUE
+B0285,P-1324-00037,HK,Libčany-,Křižovatka na Radíkovice,NA,TRUE
+B0286,HK-1137; HK-1136,HK,Libčany-intravilán,"Parc.č. 128, 129, 136, 134/1",NA,TRUE
+B0287,AA1211,A8,Libeň-Libušák,NA,NA,TRUE
+B0288,AA1221,A8,Libeň-Na Košince,Libeňská sokolovna,NA,TRUE
+B0289,NA,A8,Libeň-Okrouhlík,NA,NA,TRUE
+B0290,AA1225,A8,Libeň-Balabenka,NA,NA,TRUE
+B0291,AA1217,A8,Libeň-Na Žertvách,NA,NA,TRUE
+B0292,P-1332-00319;P-1332-00369;,KO,Libenice-Velký kus,NA,NA,TRUE
+B0293,NA,PH,Líbeznice-obchvat,NA,NA,TRUE
+B0294,P-1222-00050,ME,Libiš-,U křižovatky silnic I/9 a II/101,NA,TRUE
+B0295,ADC-09862,ME,Libiš-,NA,NA,TRUE
+B0296,P-1324-00275; P-1324-00313; P-1324-00274; P-1324-00238; P-1324-00240; P-1324-00239; P-1324-00245; P-1324-00211; P-1324-00217; P-1324-00216; P-1324-00210; P-1324-00171; ADC-15994,PA,Libišany-,NA,NA,TRUE
+B0297,PB-1196,PA,Libišany-Na bahnech,NA,J Doležel uvádí chybnou lokalizaci,TRUE
+B0298,PB-1194,PA,Libišany-,NA,NA,TRUE
+B0299,P-1324-00173; P-1324-00083; P-1324-00129; P-1324-00128,PA,Libišany-Na nivách,Hatě,NA,TRUE
+B0300,P-0334-00274,JC,Libošovice-,NA,NA,TRUE
+B0301,P-1313-00212,KO,Limuzy-,NA,NA,TRUE
+B0302,RK-7054,RK,Lípa nad Orlicí-Písník k Rašovicím,NA,NA,TRUE
+B0303,NA,TU,Litíč-Za kravínem,NA,NA,TRUE
+B0304,P-1322-00075,TU,Litíč-,NA,NA,TRUE
+B0305,OT-7017,TU,Litíč-K Vestci,NA,NA,TRUE
+B0306,P-1322-00102,HK,Lochenice_cihelna,areál JZD,NA,TRUE
+B0307,NA,HK,Lochenice-V polích,letecká stanice,NA,TRUE
+B0308,ADC-15876,HK,Lochenice_rozšiřování trati,NA,lokalizace v AMČR patrně nepřesná,TRUE
+B0309,ADC-15877; ADC-15877;,HK,Lochenice-Za humny k Předměřicícm,sprašová návěj,NA,TRUE
+B0310,NA,HK,Lochenice-intravilán,"čp. 58, 59",NA,TRUE
+B0311,P-1322-00386; P-1322-00255; HK-7024; ADC-15932,HK,Lochenice-Na šancích,Na Hynkově kopci,KGA,TRUE
+B0312,NA,HK,Lochenice-SV okraj obce,dům č. 41,NA,TRUE
+B0313,HK-1151,HK,Lochenice-,"naleziště 8, ppč. 146/1",NA,TRUE
+B0314,P-1322-00088,HK,Lochenice-,naleziště 12a,NA,TRUE
+B0316,NA,NB,Loučeň-,NA,NA,TRUE
+B0317,P-1332-00397,KH,Malín-u vepřína,NA,NA,TRUE
+B0318,JV-1267,KO,Malotice-Za zahradami,směrem ke Lhotkám,NA,TRUE
+B0319,NA,HK,Máslojedy,Ppč. 248,NA,TRUE
+B0320,P-1322-00171,HK,Máslojedy,"parc. č. 124, 129/5, 133/1",NA,TRUE
+B0321,P-1224-01004; AN – 1058,PH,Máslovice-Na dole,Pod hlavní budovou Výzkumného ústavu včelařského a pod Gregrovou vilou,NA,TRUE
+B0322,NA,SM,Mašov u Turnova-Valdštejnsko,NA,NA,TRUE
+B0323,AN/NB – 1134,NB,Mcely-Na Kamenci,NA,NA,TRUE
+B0324,P-1411-00037,RK,Mělčany u Dobrušky-Chlum,NA,NA,TRUE
+B0325,NA,PH,Měšice u Prahy-,NA,NA,TRUE
+B0326,NA,A4,Michle- pískovna,Rennerova pískovna,NA,TRUE
+B0327,NA,PA,Mikulovice u Pardubic,NA,NA,TRUE
+B0328,P-1342-00387,PA,Mikulovice u Pardubic-ul.V loučkách,i k.ú. Blato,studna,TRUE
+B0329,PB-1195,PA,Mikulovice u Pardubic-Kašparova cihelna,NA,NA,TRUE
+B0330,P-1321-00301,JC,Milíčeves-Zámecká zahrada,NA,NA,TRUE
+B0331,P-1321-00180,JC,Milíčeves-intravilán,NA,NA,TRUE
+B0332,ADC-15744; P-1321-00048,JC,Milovice u Hořic-Nad vorlem,Orel,NA,TRUE
+B0333,P-0333-00041,MB,Mladá Boleslav-Jičínská ul.,NA,NA,TRUE
+B0334,P-0333-00122,MB,Mladá Boleslav-u Dolanského statku,NA,NA,TRUE
+B0335,P-0333-00016; P-0333-00024,MB,Mladá Boleslav-Staroměstské nám.,NA,NA,TRUE
+B0336,NA,KO,Mlékovice-zaharada p. Novotného,NA,NA,TRUE
+B0337,P-0333-00044,MB,Mnichovo Hradiště-Nad maliním,NA,NA,TRUE
+B0338,NA,KH,Močovice-U studánky,Na břehu,NA,TRUE
+B0339,KH-MA-1043,KH,Močovice-První Lochovsko,"pole p. Vančury, Brycha a Nováka",NA,TRUE
+B0340,KH-MA-1042,KH,Močovice-Na trnince,Lochovsko,NA,TRUE
+B0341,P-1341-00005,KH,Močovice-Na kopě,Dolík,NA,TRUE
+B0342,NA,A4,Modřany-K vystrkovu,NA,NA,TRUE
+B0343,AA1070,A4,Modřany-Andělova ul.,NA,NA,TRUE
+B0344,P-1313-00070; ADC-15452,PH,Mochov-Na Nehvizdku,NA,NA,TRUE
+B0345,P-1313-00488,PH,Mochov-Nad domkem,NA,NA,TRUE
+B0346,P-1313-00486,PH,Mochov-obecní pískovna u Obory,NA,NA,TRUE
+B0347,P-1224-01393,PH,Mratín-Nový Mratín,NA,NA,TRUE
+B0348,P-1313-00055; P-1313-00714; ADC-15505,KO,Mrzky-Nad vsí,NA,NA,TRUE
+B0349,JV-1269,KO,Mrzky-U kamenného kříže,NA,NA,TRUE
+B0351,P-0334-00343,JC,Nadslav-Na vrších,NA,NA,TRUE
+B0352,NA-JT-1156,NA,Nahořany nad Metují-,Za statkem pana Rýdla,NA,TRUE
+B0353,ADC-16508; ADC-16503,KO,Nebovidy-Zádušní pole,NA,NA,TRUE
+B0354,NA,KO,Nebovidy-,Kolín X,NA,TRUE
+B0355,ADC-09871,ME,Neratovice-Spolana,NA,NA,TRUE
+B0356,P-1321-00154,JC,Nevratice-Na Zádušníku,NA,NA,TRUE
+B0357,NA-JT-7070,NA,Neznášov,parc. č. 138,NA,TRUE
+B0358,ADC-15780,NA,Neznášov,u mlýna Skořípka,NA,TRUE
+B0359,ADC-16467,KO,Nová Ves I-Ohrada,"V hliňáku, Pískovna pana Mrzeny",NA,TRUE
+B0360,NA,KO,Nová Ves I-S od obce pri polni ceste k Labi,NA,NA,TRUE
+B0361,ADC-15706,KO,Nová Ves I-zahrada domu č.p. 25,NA,NA,TRUE
+B0362,ADC-15705,KO,Nová Ves I-obecní hliník,NA,NA,TRUE
+B0363,P-1332-00233,KH,Nové Dvory u Kutné Hory-V bojišti,NA,NA,TRUE
+B0364,P-1332-00044,KH,Nové Dvory u Kutné Hory-V prostředních lukách,NA,NA,TRUE
+B0365,NA,HK,Nový Bydžov-severní úpatí Chlumu,NA,NA,TRUE
+B0366,P-1321-00068,HK,Nový Bydžov-Schnablova cihelna,Sportovní ul.,NA,TRUE
+B0367,P-1321-00204,HK,Nový Bydžov-Mlýniště,NA,NA,TRUE
+B0368,P-1314-00337; P-1314-00265; P-1314-00267; AN/NB – 5002; P-1314-00037; AN/NB – 1164; AN/NB – 1372,NY,Nymburk-Kostelní nám.,"Palackého třída, nám. Přemyslovců",NA,TRUE
+B0369,NA,NY,Nymburk-,NA,NA,TRUE
+B0370,P-1314-00205,NY,Nymburk-Velké valy,NA,NA,TRUE
+B0371,AN/NB – 1158,NY,Nymburk- seřazovací nádraží,U sv. Vojtěcha,NA,TRUE
+B0372,NA,MB,Obruby-,NA,NA,TRUE
+B0373,P-1222-00293,ME,Obříství-U Talicha,NA,NA,TRUE
+B0374,P-1222-00034,ME,Obříství-Svatopluka Čecha,NA,NA,TRUE
+B0375,NA,ME,Obříství-Na Tarase,NA,NA,TRUE
+B0376,AN – 1173,PH,Odolena Voda-Velký háj,NA,NA,TRUE
+B0377,PD-JC-1153,JC,Ohaveč-,NA,NA,TRUE
+B0378,P-1242-00121,PZ,Ohrobec-Nad Úvozem,NA,NA,TRUE
+B0379,ML-1180,MB,Olšina-Kurovodice,Pod tvrzí,NA,TRUE
+B0380,NA,PA,Opatovice nad Labem,NA,NA,FALSE
+B0381,NA,PA,Opatovice nad Labem-V Dílcích,NA,NA,TRUE
+B0382,ADC-30945,NB,Opolánky-Staré Badry,NA,NA,TRUE
+B0383,NA,PZ,Osnice-U Herinku,NA,"Sídliště s LnK, VpK jen ojediněle",TRUE
+B0384,ADC-14781; P-1242-00033; ADC-14782,PZ,Osnice-Na Vrbici,NA,NA,TRUE
+B0385,P-1321-00187; P-1321-00160; P-1321-00138,JC,Ostroměř-Starohorská ul.,NA,NA,TRUE
+B0386,P-1321-00019,JC,Ostrov v Podkrkonoší,NA,NA,TRUE
+B0387,P-1321-00027,JC,Ostrov v Podkrkonoší-Pod kazatelnou,"Na těžké, i k.ú. Třebnouševes",NA,TRUE
+B0388,PB-1077,PA,Pardubice-V úzkém,NA,NA,TRUE
+B0389,NA,KO,Pašinka-U hřiště,NA,NA,TRUE
+B0390,JV-1281,KO,Pašinka-Na stráních,Pole SZ od železničního mostu,NA,TRUE
+B0391,P-1332-00151,KH,Perštejnec,NA,NA,TRUE
+B0392,OS_P0_77007; P-1242-00061; P-1242-00062,A,Petrovice-Dobrá Voda,NA,NA,TRUE
+B0393,NA,A,Pitkovice-Nové Pitkovice,NA,NA,TRUE
+B0394,JV-1283,KO,Plaňany-U cukrovaru,NA,NA,TRUE
+B0395,JV-1284,KO,Plaňany-Na skřipci,NA,NA,TRUE
+B0396,NA,KO,Plaňany-Na melounici,lom,NA,TRUE
+B0397,NA,KO,Plaňany-V lukách,obchvat,NA,TRUE
+B0398,NA,HK,Plotiště nad Labem_mezi Součkovou a výzkumem,NA,NA,TRUE
+B0399,NA,HK,Plácky-písečník_Marela,NA,NA,TRUE
+B0400,NA,HK,Plotiště nad Labem_rondel,NA,NA,TRUE
+B0401,NA,HK,Plácky-šutrovník-Holecká,NA,NA,TRUE
+B0402,NA,HK,Plotiště nad Labem_za hospodářskými budovami,NA,NA,TRUE
+B0403,NA,HK,Plácky-U zabitého,NA,NA,TRUE
+B0404,NA,HK,Plotiště nad Labem-Plácky_Kydlinov,NA,NA,TRUE
+B0405,NA,HK,Plotiště nad Labem-Součkova cihelna,NA,NA,TRUE
+B0406,NA,HK,Plotiště nad Labem-Vozelnikův mlýn,NA,NA,TRUE
+B0407,NA,HK,Plotiště nad Labem-U předměřické cihelny,výzkum 1960_1971,VpK IV ohrazení,TRUE
+B0408,NA,KO,Pňov-Kobylnice,i k.ú. Velim,NA,TRUE
+B0409,AN/NB – 1217,KO,Pňov-Doubice,NA,NA,TRUE
+B0410,ADC-16216,KO,Poboří-,pozemek p. Růžičky,NA,TRUE
+B0411,JV-1293,KO,Poboří-,"pozemek p. Dvořáka, ppč. 115/1",NA,TRUE
+B0412,NA,JC,Podhradí-Veliš,NA,NA,TRUE
+B0413,PD-JC-1324,JC,Podkost-Velký Poráň,NA,NA,TRUE
+B0414,ADC-16494,KO,Polepy u Kolína-,Pole pana Holečka,NA,TRUE
+B0415,ADC-16489,KO,Polepy u Kolína-,Pole paní Dostalové a pana Chrousta,NA,TRUE
+B0416,KH-MA-1049,KH,Poličany-,NA,NA,TRUE
+B0417,ADC-15534; P-1313-00034,KO,Poříčany-pískovna Černá obora,NA,NA,TRUE
+B0418,P-1313-00009,KO,Poříčany-V rolcích,dálnice D11,NA,TRUE
+B0419,NA,KO,Poříčany-Na seňarku,NA,NA,TRUE
+B0420,P-1222-00222; P-1222-00237,ME,Postřižín-ul. Pod Topolákem,NA,NA,TRUE
+B0421,P-1324-00127,HK,Praskačka-Na pískách,NA,NA,TRUE
+B0422,P-1323-00043,PA,Pravy-Za humny,NA,NA,TRUE
+B0423,P-1324-00143,HK,Pražské Předměstí-Hořická ul.,NA,NA,TRUE
+B0424,NA,KO,Přebozy-u dvora,NA,NA,TRUE
+B0425,NA,HK,Předmeřice nad Labem-písečník V. Petra,NA,NA,TRUE
+B0426,P-1322-00110; P-1322-00109; ADC-15880; HK-7056; P-1322-00109; HK-1223; ADC-15875,HK,Předměřice nad Labem-U zahrad,"JZD, plynovod",NA,TRUE
+B0427,HK-1228,HK,Předměřice nad Labem-pískovna u nádraží,NA,NA,TRUE
+B0428,HK-1222,HK,Předměřice nad Labem-Za drůbežárnou,NA,NA,TRUE
+B0429,HK-5012,HK,Předměřice nad Labem-cihelna cukrovaru,NA,J. Doležel uvádí k.ú. Plotiště n.L.,TRUE
+B0430,HK-7058; ADC-15872; HK-1221,HK,Předměřice nad Labem-Honkeho cihelna,NA,NA,TRUE
+B0431,HK-7057,HK,Předměřice nad Labem-Slavoj,NA,NA,TRUE
+B0432,P-1224-01402,PH,Přemyšlení-Na Brnky,NA,NA,TRUE
+B0433,AN – 7003,PH,Přemyšlení-U Cihelny,V Remízkách,NA,TRUE
+B0434,AN – 1021,PH,Přemyšlení-Veltěžská,NA,NA,TRUE
+B0435,AN/NB – 1256,NB,Přerov nad Labem-,NA,NA,TRUE
+B0436,NA,KO,Přistoupim-,"J od obce,cca 100m Z od uzlabiny potucku",NA,TRUE
+B0437,ADC-15486,KO,Přišimasy-kravín,NA,NA,TRUE
+B0438,NA,KO,Přišimasy-S okraj obce,NA,NA,TRUE
+B0439,JV-1301,KO,Pučery-Panské pole,NA,NA,TRUE
+B0440,P-1411-00028,RK,Pulice-Poříčí,NA,NA,TRUE
+B0441,HK-1198,HK,Račice nad Trotinou-Záložnice,NA,NA,TRUE
+B0442,HK-1199,HK,Račice nad Trotinou-Frantov,NA,NA,TRUE
+B0443,JV-1333,KO,Radim u Kolína-,NA,NA,TRUE
+B0444,ADC-15696,KO,Radim u Kolína-,východně od dráhy,NA,TRUE
+B0445,NA,KO,Radim u Kolína-,NA,NA,TRUE
+B0446,ADC-11806,PH,Radonice u Prahy-V obůrkách,NA,NA,TRUE
+B0447,P-1332-00497,KO,Radovesnice I-Za školou,"parc. č. 94/10, 100/13",NA,TRUE
+B0448,ADC-16223,KO,Radovesnice I-dvorek domu čp. 95,NA,NA,TRUE
+B0449,ADC-16470; ADC-16469,KO,Ratboř-V cukrovaru u staré školy,NA,NA,TRUE
+B0450,P-1314-00083,KO,Ratenice-Nad Loučkama,NA,NA,TRUE
+B0451,P-1322-00248,HK,Rodov-Trotina,NA,NA,TRUE
+B0452,P-1341-00016,KH,Rohozec u Žehušic-Za humny na obíckách,NA,NA,TRUE
+B0453,NA,PA,Rosice nad Labem-cihelna,Salavcova ul.,NA,TRUE
+B0454,P-1342-00121,CR,Rosice u Chrasti-Za školou,NA,NA,TRUE
+B0455,DVS-898; ADC-17393,CR,Rosice u Chrasti-tvrziště,NA,NA,TRUE
+B0456,ADC-17391; ADC-17390,CR,Rosice u Chrasti-cihelna,i k.ú. Chrast,NA,TRUE
+B0457,NA,HK,Rosnice u Všestar,NA,NA,FALSE
+B0458,NA,JC,Rožďalovice-u školy,dům p. Mikuláše,NA,TRUE
+B0459,NA,NA,Rtyně-,NA,NA,TRUE
+B0460,P-1322-00019,NA,Rtyně-,NA,NA,FALSE
+B0461,NA,MB,Řepov-průmyslová zóna,NA,NA,TRUE
+B0462,ML-7044,MB,Řepov-u hřbitova,NA,NA,TRUE
+B0463,ADC-14633,PH,Říčany u Prahy-Pískovna pod hradem,NA,NA,TRUE
+B0464,AN/NB – 1288,NB,Sány-,Pole mezi pískovnou a tokem Bačovky,NA,TRUE
+B0465,NA,NB,Sány-ul. Dlouhá,pole p. Holce  a Koníčka,NA,TRUE
+B0466,P-1321-00250; P-1321-00113,JC,Sběř-,i k.ú. Vysoké Veselí,NA,TRUE
+B0467,ADC-16396,KH,Sedlec u Kutné Hory-Mokřiny,Ústav nerostných surovin,NA,TRUE
+B0468,P-1312-00068,MB,Semčice-U Okálů,NA,NA,TRUE
+B0469,ADC-15791; ADC-15792,NA,Semonice_trasa silnice,NA,J. Doležel uvádí k.ú. Černožice,TRUE
+B0470,ADC-15790; NA-JT-7101,NA,Semonice_vodovod,NA,NA,TRUE
+B0471,P-1313-00180,PH,Sibřina-,NA,NA,TRUE
+B0472,HK-7064,HK,Skřivany-Malátova,písečník p. Horáka,NA,TRUE
+B0473,NA,JC,Slatiny-Slatinky,NA,NA,TRUE
+B0474,OS_JC_11006,JC,Slavhostice-U Vraždy,NA,NA,TRUE
+B0475,P-1321-00141,JC,Slavhostice-U studeného lesa,NA,KGA,TRUE
+B0476,P-1321-00156,JC,Slavhostice-Nad dvorem,NA,NA,TRUE
+B0477,P-1322-00335; HK-1268,HK,Smiřice-Zbuzany,Technické dílny Čs. státních statků,NA,TRUE
+B0478,HK-7073; P-1322-00017,HK,Smiřice_nádraží,i k.ú. Holohlavy,NA,TRUE
+B0479,HK-1266; HK-1269,HK,Smiřice-Za cihelnou,NA,NA,TRUE
+B0480,P-1322-00158; HK-7071,HK,Smiřice-Zderaz,NA,NA,TRUE
+B0481,NA,JC,Sobčice-Bezděkov,NA,NA,TRUE
+B0482,PD-JC-1326,JC,Sobčice-U svatého Jana,NA,NA,TRUE
+B0483,PD-JC-1184,JC,Sobčice-U lomu,písečník pana Nádvorníka,NA,TRUE
+B0484,P-0343-00130,JC,Soběraz-Červenice,NA,NA,TRUE
+B0485,P-0343-00143,JC,Soběraz-Pod trním,NA,NA,TRUE
+B0486,P-0334-00198,JC,Sobotka-U křížku,i k.ú. Čálovice,NA,TRUE
+B0487,P-0334-00266,MB,Solec-Mezi Solci,NA,NA,TRUE
+B0488,NA,HK,Sovětice-Skalka,NA,NA,TRUE
+B0489,P-1342-00666; P-1342-00644,PA,Staré Jesenčany-Kopanina,NA,NA,TRUE
+B0490,HK-7076,HK,Starý Bydžov-Obecní písník u kóty 287,pískovna Na Kamenci,NA,TRUE
+B0491,JV-1356,KO,Starý Kolín-u hřbitova,NA,NA,TRUE
+B0492,P-1324-00060,HK,Stěžery-,"parc. č. 605/1,4",NA,TRUE
+B0493,HK-1272,HK,Stěžery-U cihelny,parc.č. 193/2,NA,TRUE
+B0494,HK-1275,HK,Stěžery-U hřbitova,NA,NA,TRUE
+B0495,P-1342-00192,CR,Stíčany-Za sady,parc. č. 76-80; i k.ú. Vejvanovice,NA,TRUE
+B0496,NA,NB,Straky-severní okraj obce,NA,NA,TRUE
+B0497,P-1313-01165; P-1313-01164; P-1313-01072,PH,Stránka u Brandýsa nad Labem-,NA,NA,TRUE
+B0498,AA1023,A,Strašnice-pískovny pod Bohdalcem,NA,NA,TRUE
+B0499,P-0334-00345,JC,Střevač-U Jordánu,NA,NA,TRUE
+B0501,P-1341-00381,KH,Svatý Mikuláš-U studánky,NA,NA,TRUE
+B0502,NA-JT-7083,NA,Svinišťany-intravilán,NA,NA,TRUE
+B0503,NA-JT-1149,NA,Svinišťany-Muka,NA,NA,TRUE
+B0504,NA,KO,Svojšice u Kouřimi-u cukrovaru,NA,NA,TRUE
+B0506,NA,A,Šeberov-Na proutcích,NA,NA,TRUE
+B0507,P-1313-01249; P-1313-00874,PH,Škvorec-ul. Za Zahradami,NA,NA,TRUE
+B0508,P-1313-00176,PH,Škvorec-,NA,NA,TRUE
+B0509,NA,KO,Štítary u Kolína-V šornici,PIII,NA,TRUE
+B0510,P-1332-00386; ADC-16474,KO,Štítary u Kolína-Za Dvorem,Za školou,NA,TRUE
+B0511,ADC-16473,KO,Štítary u Kolína-Na stráni,pole p. Tahala,NA,TRUE
+B0512,ADC-31378,KO,Štolmíř-,NA,NA,TRUE
+B0513,JV-1387,KO,Štolmíř-kravín,NA,NA,TRUE
+B0514,AN/NB – 1317,KO,Tatce-V dolních čtverých,Na háji,NA,TRUE
+B0515,P-1313-00099; ADC-31395; ADC-15491,KO,Tismice-západní hranice katastru,NA,NA,TRUE
+B0516,JV-1393,KO,Tismice-Za školou,Husánek,NA,TRUE
+B0517,P-1431-00109,UO,Tisová u Vysokého Mýta-nad osadou Bžundov,"Tisová 18, Tisová 20.",NA,TRUE
+B0518,ADC-31402,CR,Topol-Na hradě,Hradiště,ohrazení,TRUE
+B0519,P-1342-00465,CR,Topol-Na skále,NA,NA,TRUE
+B0520,PB-1259,PA,Trnová-,písečná duna u trati,NA,TRUE
+B0521,P-1313-00004; ADC-15536,NB,Třebestovice-Na struhách,NA,NA,TRUE
+B0522,AN/NB – 1325,NB,Třebestovice- U bažantnic,NA,NA,TRUE
+B0523,P-1341-00110; KH-MA-1071,KH,Třebešice-,NA,NA,TRUE
+B0524,P-1321-00023,JC,Třebnouševes-Na střebovským,NA,NA,TRUE
+B0525,P-1342-00653; P-1342-00642,PA,Třebosice-Kamenec,NA,NA,TRUE
+B0526,P-1342-00045,PA,Třebosice-Hlinecké,NA,NA,TRUE
+B0527,PD-JC-7006,JC,Třebovětice-V Blatečkách,Nad Blatečky,NA,TRUE
+B0528,PD-JC-1219,JC,Třebovětice-Na průhonku,NA,NA,TRUE
+B0529,PD-JC-1220,JC,Třebovětice-Za rašovkami,NA,NA,TRUE
+B0530,ADC-16137,KO,Třebovle-U Sázavského dvora,U Broučkova za dvorem,NA,TRUE
+B0531,NA,CR,Třibřichy-býv. Cihelna,NA,NA,TRUE
+B0532,NA,KO,Tuchoraz-Na Pařezu,NA,NA,TRUE
+B0533,P-1331-00127,KO,Tuchoraz-Na Vápeníkovým,NA,NA,TRUE
+B0534,ADC-16114,KO,Tuchoraz-JZD,Panské stodoly,NA,TRUE
+B0535,P-1342-00017,CR,Tuněchody-u žst.,NA,NA,TRUE
+B0536,ADC-17236; P-1342-00627,CR,Tuněchody-cihelna,i k.ú. Úhřetice,NA,TRUE
+B0537,P-1342-00667,CR,Tuněchody-Ruzkovské pole,NA,NA,TRUE
+B0538,ADC-16983,KH,Tupadly u Čáslavi-,NA,NA,TRUE
+B0539,SM-10161,TU,Turnov-Maškovy zahrady,NA,NA,TRUE
+B0540,P-1342-00393,CR,Úhřetice-,NA,NA,TRUE
+B0541,NA,CR,Úhřetice-,NA,NA,FALSE
+B0542,P-1342-00395; P-1342-00395; P-1342-00139; P-1342-00140;,CR,Úhřetice-Kopistova a Slavíkova cihelna,NA,NA,TRUE
+B0543,PB-1122,PA,Úhřetická Lhota-,Hrana srázu nad říčkou Novohradkou,NA,TRUE
+B0544,AA1500,A9,Újezd nad Lesy-Blatov,NA,NA,TRUE
+B0545,JM-DN-7020,CR,Vejvanovice-Na červené hůrce,NA,NA,TRUE
+B0546,P-1321-00151; P-1321-00106,JC,Velešice-,NA,NA,TRUE
+B0547,NA,NA,Velichovky-Pod kopcem,NA,NA,TRUE
+B0548,NA,KO,Velim-K sídlišti,NA,NA,TRUE
+B0549,P-1314-00263,KO,Velim-Dolní Nouzov,NA,NA,TRUE
+B0550,ADC-15703,KO,Velim-cukrovar,Karbusického pole,NA,TRUE
+B0551,P-0334-00152,JC,Veliš u Jičína-,NA,KGA?,TRUE
+B0552,AN/NB – 1330,NB,Velké Zboží-pískovna,NA,NA,TRUE
+B0554,P-0334-00250,JC,Vesec u Sobotky-U křížku,NA,NA,TRUE
+B0555,ADC-31501,JC,Vesec u Sobotky-Poráň,NA,NA,TRUE
+B0556,AN/NB – 1334,NB,Vestec nad Mrlinou-Hliňák,NA,NA,TRUE
+B0557,P-1342-00079,CR,Vestec u Chrudimi-,NA,NA,TRUE
+B0558,NA-JT-7063,NA,Vestec u Jaroměře-,NA,NA,TRUE
+B0559,P-1322-00076,NA,Vestec u Jaroměře-Amerika,NA,NA,TRUE
+B0560,AN – 1099,PH,Větrušice u Klecan-Mezi cestami,NA,NA,TRUE
+B0561,P-1341-00104,KH,Vinaře-Před Drbohlavem,NA,NA,TRUE
+B0562,NA,MB,Vinařice u Dobrovice-Na kroužku,NA,J. Doležel uvádí k.ú. Chloumek,TRUE
+B0563,ADC-11760; ADC-11773; ADC-11769; P-1224-00077,A9,Vinoř-Bohdanečská ul.,NA,NA,TRUE
+B0564,P-1224-00992; P-1224-00222; P-1224-00213; ADC-11789,A9,Vinoř-Kamenný stůl,NA,NA,TRUE
+B0565,NA,A9,Vinoř-V Obůrkách,NA,rondel,TRUE
+B0566,NA,A9,Vinoř-hřbitov,NA,NA,TRUE
+B0567,ADC-11773; P-1224-00150,A9,Vinoř-Mladoboleskavská,za býv. cihelnou,NA,TRUE
+B0568,P-1224-01413,A9,Vinoř-U cukrovaru,NA,NA,TRUE
+B0569,MK-2017-002,A9,Vinoř-Lohenická,NA,NA,TRUE
+B0570,NA,A9,Vinoř-Štěpánovská,NA,NA,TRUE
+B0571,P-1331-00119,KO,Vitice-K Močedníku,i k.ú. Chotýš,NA,TRUE
+B0572,P-1331-00010,KO,Vitice-K Synči,NA,NA,TRUE
+B0573,P-0343-00239; P-0343-00049,JC,Vitiněves-,NA,KGA,TRUE
+B0574,P-0343-00294,JC,Vitiněves-,NA,NA,TRUE
+B0575,P-1342-00436,CR,Vlčnov u Chrudimi-U Presů,NA,NA,TRUE
+B0576,P-1321-00255,JC,Vlhošť-,NA,NA,TRUE
+B0578,AN – 1100,PH,Vodochody u Prahy-,NA,NA,TRUE
+B0579,PD-JC-7005,JC,Votuz-Třešňovka,i k.ú. Jeřice,NA,TRUE
+B0580,ADC-15547,KO,Vrbčany-Cihelna na Kubšovce,NA,NA,TRUE
+B0581,JV-1428,KO,Vrbčany-Na křemencích,NA,NA,TRUE
+B0582,P-1312-00019,JC,Vršce-,NA,NA,TRUE
+B0583,AA7006,A10,Vršovice-bývalá Rennerova pískovna,NA,NA,TRUE
+B0584,NA,A9,Vysočany-býv. pískovna,Zbuzkova ul.,NA,TRUE
+B0585,P-1431-00048; DV1056,UO,Vysoké Mýto-Na Krétě,NA,NA,TRUE
+B0586,P-1431-00169,UO,Vysoké Mýto-Průhony,Vřesová ul.,NA,TRUE
+B0587,P-1313-00825,PH,Vyšehořovice-,NA,NA,TRUE
+B0588,P-1313-00510,PH,Vyšehořovice-lupkové doly,NA,NA,TRUE
+B0589,P-1224-01376,A,Záběhlice-Práčská ul.,i k.ú. Hostivař,NA,TRUE
+B0590,P-1313-00677,PH,Záluží u Čelákovic-Límanova cihelna,NA,NA,TRUE
+B0591,NA,NB,Zámostí u Rožďalovic,NA,NA,TRUE
+B0592,P-1313-01111; P-1313-01074,PH,Zápy-,NA,NA,TRUE
+B0593,P-1313-01139,PH,Zápy-Průmyslová ul.,OD Tesco,NA,TRUE
+B0594,P-1313-00435,PH,Zápy-,NA,NA,TRUE
+B0595,P-1313-00976,PH,Zápy-Velká strana,NA,NA,TRUE
+B0596,P-1313-00445; AN – 1114; ADC-15306,PH,Zápy-intravilán,NA,"úplně si nejsem jistý lokalizací ml. VK do intravilánu, viz Stocký Pravěk I, 170",TRUE
+B0597,ADC-15350,PH,Zápy-Na příčce,NA,NA,TRUE
+B0598,ADC-15335,PH,Zápy-,NA,NA,TRUE
+B0599,JV-1433,KO,Zásmuky-Za pivovarem,NA,NA,TRUE
+B0600,NA,PH,Zdiby-Na Brnky,i k.ú. Přemyšlení,NA,TRUE
+B0601,P-1313-00815,PH,Zeleneč-K potoku,NA,NA,TRUE
+B0602,P-1242-00052,PZ,Zlatníky u Prahy-Za zahradami,NA,NA,TRUE
+B0603,PD-JC-1338,JC,Zliv u Libáně-,NA,NA,TRUE
+B0604,ADC-10046,ME,Zlončice-Nad hájem,NA,NA,TRUE
+B0605,ADC-10049,ME,Zlončice-Mezi dubci,NA,NA,TRUE
+B0606,ADC-10050,ME,Zlončice-,NA,NA,TRUE
+B0607,ADC-16214,KO,Žabonosy-Za dvorem,U svatého Jana,NA,TRUE
+B0608,JV-1443,KO,Ždánice u Kouřimi-U dvora Běšínova,NA,NA,TRUE
+B0609,P-1341-00013,KH,Žehušice-Hlavní ul.,NA,NA,TRUE
+B0610,P-0334-00326; P-0334-00364,MB,Židněves-,S okraj obce,KGA,TRUE
+B0611,P-1341-00280,KH,Žleby-kamenolom,NA,NA,TRUE
+B0612,,MB,Týnec u Dobrovice-U Ctiměřic,NA,NA,TRUE
+B0613,,NA,Jaroměř-Přední Dolce,,NA,TRUE
+B0614,,UO,Vysoké Mýto-Za pivovarem,,,TRUE
+M0001,24-24-16/47,PV,Alojzov u Prostějova-Frolinková,NA,NA,TRUE
+M0002,24-24-16/46,PV,Alojzov u Prostějova-Horní Golštýn,NA,https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj7pYjjnrDRAhXHcRQKHQWDA5AQFggcMAA&url=http%3A%2F%2Fwww.alojzov.cz%2FVismoOnline_ActionScripts%2FFile.ashx%3Fid_org%3D17470%26id_dokumenty%3D1699&usg=AFQjCNEV8ig5_MDveDR_1qAWr0kaWcWHTQ&sig2=bnyEl7Ot227BkoYteG6GCA,TRUE
+M0003,NA,PV,Alojzov u Prostějova-Malý Mitrov,NA,https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj7pYjjnrDRAhXHcRQKHQWDA5AQFggcMAA&url=http%3A%2F%2Fwww.alojzov.cz%2FVismoOnline_ActionScripts%2FFile.ashx%3Fid_org%3D17470%26id_dokumenty%3D1699&usg=AFQjCNEV8ig5_MDveDR_1qAWr0kaWcWHTQ&sig2=bnyEl7Ot227BkoYteG6GCA,TRUE
+M0004,24-24-16/49,PR,Alojzov u Prostějova-mezi intravilánem a lesem,NA,https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj7pYjjnrDRAhXHcRQKHQWDA5AQFggcMAA&url=http%3A%2F%2Fwww.alojzov.cz%2FVismoOnline_ActionScripts%2FFile.ashx%3Fid_org%3D17470%26id_dokumenty%3D1699&usg=AFQjCNEV8ig5_MDveDR_1qAWr0kaWcWHTQ&sig2=bnyEl7Ot227BkoYteG6GCA,TRUE
+M0005,180,MI,Altmanns-Untern Stein,NA,NA,TRUE
+M0006,412,MI,Altruppersdorf-,NA,KGA,TRUE
+M0007,642,GF,Angern an der March-Felbergau,Schaffering,NA,TRUE
+M0008,534,GF,Angern an der March-Marchfeld,NA,NA,TRUE
+M0009,24-43-20/1,HO,Archlebov-Maliny,Horní Maliny,NA,TRUE
+M0010,836,MI,Asparn an der Zaya-Schwaze Lacke,Ladenbrunner Wald,NA,TRUE
+M0013,NA,OC,Babice u Šternberka-Dlouhé,NA,NA,TRUE
+M0014,FT9,TR,Bačice-Padělky,"Bačice II, Naproti lomu",NA,TRUE
+M0015,24-33-16/4,TR,Bačice-Pode vsí,"Naproti kamenolomu, Bačice I",NA,TRUE
+M0016,FT438,TR,Bačkovice-Za mlýnem,NA,NA,TRUE
+M0017,NA,UH,Bánov-U Zbela,NA,NA,TRUE
+M0018,FT156,ZN,Bantice-Am Berg,NA,NA,TRUE
+M0019,650,GF,Baumgarten an der March-Bienenstand,NA,NA,TRUE
+M0020,13,GF,Baumgarten an der March-Kirchenfeld,Kirchfeld,NA,TRUE
+M0021,24-24-13/3,PV,Bedihošť-cukrovar,NA,NA,TRUE
+M0022,24-24-13/5,PV,Bedihošť-Dolní padělky,"Padělky, Horní padělek",NA,TRUE
+M0023,24-24-13/4,PV,Bedihošť-Václavovice,"Lavkovy, areál ZD",NA,TRUE
+M0024,FT282,BO,Bedřichovice-Malé pole,autodíly Hájek,Šlapanice?,TRUE
+M0025,FT191,BO,Bedřichovice-Zlámaniny,NA,NA,TRUE
+M0026,34-11-02/2,ZN,Běhařovice-Za kostelem,U kostela,NA,TRUE
+M0027,34-11-02/2,ZN,Běhařovice-Za kostelem II,stavba silnice,NA,TRUE
+M0028,NA,ZL,Bělov-Horní pole,NA,NA,TRUE
+M0029,NA,PR,Beňov-Dolní újezd,NA,NA,TRUE
+M0030,NA,MI,Bernahardsthal- Aulüssen,NA,NA,FALSE
+M0031,373,MI,Bernhardsthal-Aulüssen,NA,NA,TRUE
+M0032,397,MI,Bernhardsthal-Sandgrube,NA,NA,TRUE
+M0033,334,MI,Bernhardsthal-Werlehen,NA,NA,TRUE
+M0034,25-31-06/4,KM,Bezměrov-hliník,Měřičný u potoka,NA,TRUE
+M0035,NA,KM,Bezměrov-Hrubé teruty,NA,NA,TRUE
+M0036,25-13-25/1,KM,Bílavsko-Chlum,NA,NA,TRUE
+M0037,25-13-25/4,KM,Bílavsko-Nový trávník,"Polámaná, SZ okraj intravilánu",NA,TRUE
+M0038,24-41-16/4,BO,Bílovice nad Svitavou-Hradisko,Hradiště,NA,TRUE
+M0039,24-23-05/3,PV,Bílovice u Prostějova-Hrad u Bílovic,Na hradě,NA,TRUE
+M0040,24-24-01/18,PV,Bílovice u Prostějova-Meziluží,U splavu,NA,TRUE
+M0041,NA,PV,Bílovice u Prostějova-Padělek,Padělky,NA,TRUE
+M0042,NA,UH,Bílovice u Uherského Hradiště-Padělky u boru,NA,NA,TRUE
+M0043,24-21-07/3,SY,Biskupice u Jevíčka-U zastávky,NA,NA,TRUE
+M0044,FT453,ZN,Bítov-Pískoviště u borovic,Soutok Želetavky a Dyje,"+Bartík 2015, DP",TRUE
+M0045,FT410,ZN,Blanné I,NA,NA,TRUE
+M0046,24-24-04/2,OC,Blatec-cihelna U Kocandy,"Jungmannova cihelna, cihelna MNV",NA,TRUE
+M0047,23-44-23/2,TR,Blatnice IV,Blatnice IV,NA,TRUE
+M0048,NA,HO,Blatnice pod Svatým Antonínkem-Sv. Antoníček,NA,NA,TRUE
+M0049,23-44-23/3,TR,Blatnice-Padělky,Blatnice VI,NA,TRUE
+M0050,23-44-23/1,TR,Blatnice-U lesa Ochoz,Blatnice I.,NA,TRUE
+M0051,23-44-24/32,TR,Blatnice-U spálených padělků,Blatnice V,NA,TRUE
+M0052,FT91,KM,Blišice-Přídanky,Kraví hora; Koryčany-,NA,TRUE
+M0053,24-34-25/7,BO,Blučina-Cezavy,Výhon,"NZ č.j.2238/58, B. Novotný, materiál v MZM, viděl, 119292, 11296-297",TRUE
+M0054,24-34-20/16,BO,Blučina-Dlouhé,NA,NA,TRUE
+M0055,FT90,BO,Blučina-Spodní Kolberky,"Přídanky u Piškouse, Přidánky u Rybárny",NA,TRUE
+M0056,24-34-25/13,BO,Blučina-Štumberky,NA,NA,TRUE
+M0057,24-34-04/24,BM,Bohunice-Kamenice,ul. Kamenice,NA,TRUE
+M0058,24-44-22/20,HO,Bohuslavice u Kyjova-Na skalách,Písky,Povrchové sběry v letech 1997 - 1999 provedli M. Hložek a P. Goldman; patrně totéž co lokalita Bohuslavice- Písky v MZM,TRUE
+M0059,FT150,HO,Bohuslavice u Kyjova-Šotnery,Darov,NA,TRUE
+M0060,24-44-22/3,HO,Bohuslavice u Kyjova-U tvrze,"Tvrza, Pod Tvrzí",NA,TRUE
+M0061,FT29,TR,Bohušice-Bohušický rybník,NA,NA,TRUE
+M0062,FT240,TR,Bohušice-návrší nad Rokytkou,bezejmenná trať,NA,TRUE
+M0063,23-44-19/6,TR,Bohušice-U Blatnické křižovatky,Bohušice III,NA,TRUE
+M0064,23-44-18/1,TR,Bohušice-U lomu,Bohušice IV,NA,TRUE
+M0065,FT411,TR,Bohušice-U Ouvaru,"Ouvar, Bohušice II",NA,TRUE
+M0066,FT220,ZN,Bohutice-za zámkem,NA,NA,TRUE
+M0067,FT494,ZN,Bojanovice u Znojma-Kněžské,NA,NA,TRUE
+M0068,33-22-15/4,ZN,Bojanovice u Znojma-Vesky,U pily,NA,TRUE
+M0069,34-21-08/4,BV,Boleradice-Kopanina,NA,NA,TRUE
+M0070,FT61,BV,Boleradice-U chaty,Žleby,RMM A 22492-22609 – viděl,TRUE
+M0071,24-43-23/4,BV,Borkovany-Veselá hora,"Padělky od Klobouk, Pole od Klobouk",NA,TRUE
+M0072,34-13-04/1,ZN,Borotice nad Jevišovkou-Nad dvorem,"U stohu, mohylník DB",NA,TRUE
+M0073,24-44-20/5,UH,Boršice u Buchlovic-Močidla,označeno jako Stříbrnice,NA,TRUE
+M0074,24-14-19/13,BK,Bořitov-Na křibě,NA,NA,TRUE
+M0075,24-14-14/11,BK,Bořitov-Perná,Mezichlumí,NA,TRUE
+M0076,24-14-14/13,BK,"Bořitov-Perná, sad",sad,NA,TRUE
+M0077,24-14-14/6,BK,Bořitov-Písky,NA,NA,TRUE
+M0078,24-14-19/15,BK,Bořitov-U dálnice,"Hodoňovec, Dílnice",NA,TRUE
+M0079,24-14-19/17,BK,Bořitov-U hliníku,Hliník,+ sdělení Z. Jarůšková,TRUE
+M0080,NA,BK,Boskovice-Mánesova,NA,NA,TRUE
+M0081,24-14-10/28,BK,Boskovice-Masarykovo nám.,historické jádro,NA,TRUE
+M0082,24-14-10/7,BK,Boskovice-Na dlouhých,NA,NA,TRUE
+M0083,24-23-01/3,BK,Boskovice-Pod lipníky,"též Sudice-Pod lipníky, Panina louka",NA,TRUE
+M0084,33-22-10/2,ZN,Boskovštejn-K nové louce,NA,NA,TRUE
+M0085,FT397,ZN,Boskovštejn-Písařovicovo pole nad rybníkem,Boskovštejn I,NA,TRUE
+M0086,FT463,ZN,Boskovštejn-Pod zahradama,Hlubovský,NA,TRUE
+M0087,33-22-10/1,ZN,Boskovštejn-Smoha,NA,NA,TRUE
+M0088,33-22-09/6,ZN,Boskovštejn-Výhon,"Boskovštejn II, Na zahradě, dům č. 44, č.p. 132","Kazdová 1998, Podborský 1972",TRUE
+M0089,24-34-03/19,BM,Bosonohy-Cihelna,Cihelna Gustava Klimenta,NA,TRUE
+M0090,24-34-03/20,BM,Bosonohy-Dlouhý padělky,Pod hradiskem,NA,TRUE
+M0091,24-34-03/21,BM,Bosonohy-Hradisko,NA,NA,TRUE
+M0092,24-43-23/9,BV,Bošovice-Galaše,Na Galášech,"NZ č.j. 564/47, Poulík, 1947,",TRUE
+M0093,24-43-23/12,BV,Bošovice-Příděl u háječka,NA,NA,TRUE
+M0094,34-13-05/2,ZN,Božice u Znojma- Kolonie u dvora,"č.p. 15, dříve č.p. 281",depot,TRUE
+M0095,NA,ZN,Božice-Na ostrůvku,NA,NA,TRUE
+M0096,24-44-07/22,VY,Brankovice-Kyniska,"Díly, Díly pod drahou",NA,TRUE
+M0097,24-44-07/17,VY,Brankovice-u železniční stanice,NA,NA,TRUE
+M0098,FT197,BO,Bratčice-Půllány k Mělčanům,Na kopcích-asi nějak omylem,NA,TRUE
+M0099,NA,BO,Bratčice-Půllány k Mělčanům (KNP),NA,NA,TRUE
+M0100,FT324,BM,Brněnské Ivanovice-Panský lán,Holásky-Vysoudilka,"lokalizace podle H. Čižmářová, DP, tab. 11",TRUE
+M0101,FT52,BM,Brněnské Ivanovice-U lišek,NA,zjistit dataci v MZM,TRUE
+M0102,14-44-18/1,SU,Brníčko u Zábřeha-Gartenanger,"Pirnik, intravilán, cihelna, zahrady, Brníčko 2",NA,TRUE
+M0103,14-44-18/1,OC,Brníčko-intravilán,Brníčko 1,NA,TRUE
+M0104,14-44-18/1,OC,Brníčko-obec,Gartenanger,NA,TRUE
+M0105,24-34-04/3,BM,Brno-Město-Bašty,ul. Bašty,NA,TRUE
+M0106,24-34-04/3,BM,Brno-Město-Dvořákova,ul. Dvořákova,NA,TRUE
+M0107,34-12-23/1,BV,Brod nad Dyjí-Krátké loučky,Hartinger,NA,TRUE
+M0108,FT239,BV,Brod nad Dyjí-Pod silnicí,U Dyje za čističkou,NA,TRUE
+M0109,24-42-02/19,PV,Brodek u Prostějova-Hájek,NA,NA,TRUE
+M0110,24-42-02/21,PV,Brodek u Prostějova-Hůrka,NA,NA,TRUE
+M0111,24-24-22/11; 24-24-22/13,PV,Brodek u Prostějova-Lískovec,NA,NA,TRUE
+M0112,NA,PV,Brodek u Prostějova-Za zámkem,NA,NA,TRUE
+M0113,NA,BV,Brumovice-Brumovické úlehle,Úlehle,NA,TRUE
+M0114,34-23-14/19,BV,Břeclav-Přední čtvrtky,NA,NA,TRUE
+M0116,FT268,TR,Březník-Klínky,Šafranice,NA,TRUE
+M0117,FT302,TR,Březník-Kosův brodek,NA,NA,TRUE
+M0118,FT412,TR,Březník-Nad Výhonem,Na výhonu,NA,TRUE
+M0119,FT267,TR,Březník-Střední hon,Voko: Přední hon,NA,TRUE
+M0120,FT161,TR,Březník-Zadní hon,"Březník II, Půllány",NA,TRUE
+M0121,NA,UH,Březolupy-Čertoryje,NA,NA,TRUE
+M0122,NA,UH,Březolupy-Pastvisko,NA,NA,TRUE
+M0123,FT413,ZN,Břežany u Znojma-Sporná pole,Na sporném,NA,TRUE
+M0124,24-34-16/2,BO,Budkovice-Myslivárna,"Záhumenice, hradiště Budkovice I",NA,TRUE
+M0125,FT199,BO,Budkovice-Na zadních,NA,"souřadnice podle Nerudová 2008, PA",TRUE
+M0126,24-34-16/8,BO,Budkovice-Pod Holým kopcem,Pod kopcem,NA,TRUE
+M0127,25-11-11/16,OC,Bukovany u Olomouce-Ohrady,NA,i sídliště s LnK,TRUE
+M0128,34-23-02/2,BV,Bulhary-Au Äcker,"Podyjí, Quacker",NA,TRUE
+M0129,34-23-07/3,BV,Bulhary-Gajdošova cihelna,"Přední díly, Čapkova cihelna",viz poznámky v sešitu,TRUE
+M0130,34-23-02/7,BV,Bulhary-Nad sklepy,"Syslí kopec, Záhumenkové vinohrady, Kirchberg",NA,TRUE
+M0131,3,MI,Bullendorf-Wiesental,NA,NA,TRUE
+M0132,24-14-19/1,BK,Býkovice-Příčníky,(Bořitov-Býkovky),NA,TRUE
+M0133,FT392,BK,Býkovice-U obrázku,NA,ÚAPP Brno,TRUE
+M0134,FT280,BM,Bystrc-Na pile,NA,NA,TRUE
+M0135,24-32-23/16,BM,Bystrc-Rakovec,Kotoulky,NA,TRUE
+M0136,FT11,BM,Bystrc-U buku,NA,NA,TRUE
+M0137,24-32-23/17,BM,Bystrc-Zadní dlouhé,NA,NA,TRUE
+M0138,24-24-03/3,OC,Bystročice-nový kravín,NA,NA,TRUE
+M0139,24-22-23/12,OC,Bystročice-U Topolánků,NA,NA,TRUE
+M0140,NA,KM,Cetechovice-okraj obce,NA,NA,TRUE
+M0141,FT369,ZN,Ctidružice-Stejskalovo pole,NA,NA,TRUE
+M0142,FT399,ZN,Ctidružice-U kříže k Pavlicím,Ctidružice III,NA,TRUE
+M0143,33-22-03/3,TR,Častohostice-Nivky,NA,NA,TRUE
+M0144,33-22-03/7,TR,Častohostice-Stráž,NA,NA,TRUE
+M0145,24-24-07/5,PV,Čechovice-Díly u Hloučely,i k.ú. Smržice,NA,TRUE
+M0146,24-24-07/23,PV,Čechovice-Pololání,NA,NA,TRUE
+M0147,24-24-11/16,PV,Čechovice-Záhoří-Čechovsko,Na Čechovsku,NA,TRUE
+M0148,24-24-08/12; 24-24-08/8; 24-24-08/11,PV,Čechůvky-Kopaniny,"Čtyry, Za olomouckou bránou, Hliníky, Kralice na Hané-Trněnka",NA,TRUE
+M0149,24-22-21/6,PV,Čechy pod Kosířem-Pod Brusem,V lukách,NA,TRUE
+M0150,24-21-25/5,PV,Čechy pod Kosířem-U Hluchova,U vazu,NA,TRUE
+M0151,24-21-25/5,PV,Čechy pod Kosířem-U vazu,"Suchý trávník, Nad rybníkem",NA,TRUE
+M0152,24-22-21/25,PV,Čechy pod Kosířem-Za dvorem,NA,NA,TRUE
+M0153,NA,PR,Čekyně-Žalkov,NA,NA,TRUE
+M0154,24-24-18/7,PV,Čelčice-Louky,NA,NA,TRUE
+M0155,24-14-19/34,BK,Černá Hora-intravilán,okolí kostela,NA,TRUE
+M0156,24-14-20/15,BK,Černá Hora-Porčův mlýn,"Široký II, U vodojemu",NA,TRUE
+M0157,24-14-19/32,BK,Černá Hora-Selkov,NA,NA,TRUE
+M0158,24-14-19/29,BK,Černá Hora-Zaryplovy,Široký I,NA,TRUE
+M0159,FT247,ZN,Černín-Nad silnicí,NA,NA,TRUE
+M0160,24-32-14/1,BO,Česká-Vrbky,NA,NA,TRUE
+M0161,FT357,BO,Čučice-Milošov,NA,NA,TRUE
+M0162,FT235,TR,Dalešice-U dominka,NA,NA,TRUE
+M0163,24-43-24/12,HO,Dambořice-Kluče,NA,NA,TRUE
+M0164,NA,HO,Dambořice-Spálený,NA,"kostry bez hrobových přídavků, ojediněle ŠI !!!",TRUE
+M0165,24-43-24/13,HO,Dambořice-Vysoká,NA,NA,TRUE
+M0166,NA,HO,Dambořice-Za dvorem,NA,NA,TRUE
+M0167,24-41-10/7,VY,Dědice u Vyškova-cihelna,i. k.ú. Opatovice u Vyškova,NA,TRUE
+M0168,24-41-10/2,VY,Dědice u Vyškova-Kozí horka,NA,NA,TRUE
+M0169,24-41-15/10,VY,Dědice u Vyškova-Legerní pole,Za parkem,NA,TRUE
+M0170,24-41-15/11,VY,Dědice u Vyškova-Letní pole,Sídliště Osvobození,NA,TRUE
+M0171,24-41-15/10,VY,Dědice u Vyškova-Za parkem,NA,NA,TRUE
+M0172,24-42-11/3,VY,Dědice u Vyškova-Za zbrojovkou,Tovární ul.,NA,TRUE
+M0173,14-44-11/17,OC,Dědinka-U lípy,NA,NA,TRUE
+M0174,FT439,TR,Dešov-Příčný,U nového rybníka,NA,TRUE
+M0175,NA,TR,Dešov-Řepták,NA,NA,TRUE
+M0176,NA,TR,Dešov-U Vlčáku,NA,NA,TRUE
+M0177,24-24-17/21,PV,Dětkovice u Prostějova-Skaličníky,NA,NA,TRUE
+M0178,24-24-17/26,PV,Dětkovice u Prostějova-Široké šiborovice,i k.ú. Určice,P.K. uvádí na katastru Vincencova,TRUE
+M0179,24-24-17/24,PV,Dětkovice u Prostějova-Za zahradami,NA,NA,TRUE
+M0180,NA,BA,Devínska Nová Ves-Kaštieľ,NA,NA,TRUE
+M0181,NA,BA,Devínska Nová Ves-Útočnica,Útočnice,"1:50000 Bratislava-vidiek, juh, 808:890mm",TRUE
+M0182,34-21-07/4,BV,Diváky-Burberk,Přední kout,NA,TRUE
+M0183,34-21-08/5,BV,Diváky-Díly v zelách,Díly v zelích,A 9516-A 9537,TRUE
+M0184,FT326,BV,Diváky-Nedánov,NA,"inv.č. A 8234-8240,",TRUE
+M0185,34-21-02/3,BV,Diváky-Nivy pod Svárovem,"Svárov, Svárov za nivama",inv.č. A 9187-9190,TRUE
+M0186,FT328,BV,Diváky-Polejtně,"Polejtní, Zadní díly, Zadní díly nad Polejtně",NA,TRUE
+M0187,FT330,BV,Diváky-Porgartně,Padělky nad humny,inv.č. A 7837-7903,TRUE
+M0188,FT477,BV,Diváky-Stará hora,Staré hory,NA,TRUE
+M0189,FT478,BV,Diváky-U kravína,NA,"Sbírky RMM, inv.č. A 7910-7959",TRUE
+M0190,NA,KM,Divoky-Žernová,NA,NA,TRUE
+M0191,25-13-12/6,PR,Dluhonice-Dolní újezd,Dluhonice II.,NA,TRUE
+M0192,24-24-22/18,PV,Dobrochov-Pod širokou,Úzké,NA,TRUE
+M0193,NA,KM,Dobrotice-Příčky od souhrad,"Za humny, Končiny",NA,TRUE
+M0194,NA,ZN,Dobšice u Znojma-Léry,NA,NA,TRUE
+M0195,FT55,ZN,Dobšice u Znojma-Mezi potoky,NA,střepy Lnk v objektech VpK,TRUE
+M0196,NA,ZN,Dobšice u Znojma-V od obce,obchvat,NA,TRUE
+M0197,NA,SI,Dojč-Jasenové,NA,NA,TRUE
+M0198,NA,OC,Dolany u Olomouce-kostel sv. Matouše,NA,NA,TRUE
+M0199,24-22-10/8,OC,Dolany u Olomouce-Za Benešovo,Za brankou,NA,TRUE
+M0200,FT336,ZN,Dolní Dubňany-Na čtvrtích,"Na čtvrtkách, Čtvrtě","Muzeum Ivančice?, dále info z Pravěku Znojemska",TRUE
+M0201,NA,UH,Dolní Němčí-Kráčinky,"Kráčina za kapličkou, Průhon",NA,TRUE
+M0202,NA,UH,Dolní Němčí-Záhumní,"Padělky, Dílce",NA,TRUE
+M0203,14-44-13/3,OC,Dolní Sukolom-cihelna,NA,NA,TRUE
+M0204,14-44-13/4,OC,Dolní Sukolom-obec,NA,NA,TRUE
+M0205,14-44-13/3,OC,Dolní Sukolom-Pirnikberg,NA,Lokalita v SASu ztotožněná s Dolní Sukolomí - cihelnou,TRUE
+M0206,14-44-13/6,OC,Dolní Sukolom-V lukách,"Padělky, i k.ú. Horní Sukolom",NA,TRUE
+M0207,NA,ZL,Dolní Ves-Za Suhým,NA,NA,TRUE
+M0208,FT57,BV,Dolní Věstonice-JZD,Horní Věstonice-U kříže,NA,TRUE
+M0209,34-12-20/2,BV,Dolní Věstonice-Na pískách,"Písky, Auf dem Sand, Sand, Am Sand","+ citovat Podborský 1970, SlA",TRUE
+M0210,34-21-21/3,BV,Dolní Věstonice-Nad silnicí,NA,NA,TRUE
+M0211,34-12-25/8,BV,Dolní Věstonice-štěrkovna,U Dyje,NA,TRUE
+M0212,34-21-21/1,BV,Dolní Věstonice-Věstonická brána,NA,NA,TRUE
+M0213,NA,HO,Domanín-Domanínský kopec,NA,NA,TRUE
+M0214,FT72,ZN,Domčice-intravilán,obec,JMZ,TRUE
+M0215,NA,VY,Doubrava u Březiny-Valy,Valy u Rychtářova,NA,TRUE
+M0216,14-43-25/8,SU,Doubravice nad Moravou-Kouřilka,"Na plachtě, u osady Mitrovice; i k.ú. Palonín",NA,TRUE
+M0217,24-14-15/12,BK,Doubravice nad Svitavou-intravilán,náhon u mlýna,AÚ – nic,TRUE
+M0218,24-22-22/24,OC,Drahanovice-U Lusthózu,NA,NA,TRUE
+M0219,24-32-03/7,BO,Drásov-Díly pod Horkami II,JV od trati Dily pod Horkami,NA,TRUE
+M0220,24-32-03/4,BO,Drásov-Keblány,NA,NA,TRUE
+M0221,34-12-23/3,BV,Drnholec-Holenická pole,Roviny,NA,TRUE
+M0222,NA,BV,Drnholec-Lidická ul.,NA,NA,TRUE
+M0223,34-12-23/4,BV,Drnholec-Malé hajdy,U hájenky,př.č.53/89,TRUE
+M0224,NA,BV,Drnholec-Mrchoviště,NA,NA,TRUE
+M0225,24-41-15/5,VY,Drnovice u Vyškova-Adlerova mez,NA,NA,TRUE
+M0226,24-41-15/3,VY,Drnovice u Vyškova-Budonická louka,Budonice,NA,TRUE
+M0227,24-41-15/30,VY,Drnovice u Vyškova-Horka,Za Horkou,NA,TRUE
+M0228,24-41-15/2,VY,Drnovice u Vyškova-Kněží háj,NA,NA,TRUE
+M0229,24-41-15/4,VY,Drnovice u Vyškova-Končiny,NA,NA,TRUE
+M0230,24-41-15/6,VY,Drnovice u Vyškova-Kopaniny u lomu,NA,NA,TRUE
+M0231,24-41-15/43,VY,Drnovice u Vyškova-Křivda,NA,NA,TRUE
+M0232,24-41-15/33,VY,Drnovice u Vyškova-Podsedky,NA,NA,TRUE
+M0233,24-41-15/29,VY,Drnovice u Vyškova-Přídanky,NA,NA,TRUE
+M0234,24-41-15/23,VY,Drnovice u Vyškova-Za Lesní správou,NA,NA,TRUE
+M0235,542,GF,Drösing-Apfering,NA,NA,TRUE
+M0236,86,GF,Drösing-Hutmannsdorf,NA,NA,TRUE
+M0237,543,GF,Drösing-Meierheide,Mayrhaide,NA,TRUE
+M0238,547,GF,Drösing-Röhringseewiesen,NA,NA,TRUE
+M0239,548,GF,Drösing-Röhringseewiesen,NA,NA,TRUE
+M0240,"544, 545",GF,Drösing-Steinafurth,NA,NA,TRUE
+M0241,552,GF,Drösing-Unteres inneres Feld,NA,NA,TRUE
+M0242,24-42-01/17,VY,Drysice-Dolní Radlikus,Radlice,NA,TRUE
+M0243,24-42-01/16,VY,Drysice-Na kopaninách,Kopaniny,NA,TRUE
+M0244,NA,PV,Držovice na Moravě-Bezděkov,Bezděkovy,NA,TRUE
+M0245,24-24-08/3,PV,Držovice na Moravě-Díly odvrahoviční,NA,NA,TRUE
+M0246,24-24-08/4,PV,Držovice na Moravě-Háj,"Hrubý háj, Zácestek",NA,TRUE
+M0247,24-24-07/15,PV,Držovice na Moravě-Horka,NA,NA,TRUE
+M0248,24-24-07/20,PV,Držovice na Moravě-Loučky,Tesco,NA,TRUE
+M0249,24-24-07/16,PV,Držovice na Moravě-Panský díl,"Panské díly, Pastviska",NA,TRUE
+M0250,24-24-07/17,PV,Držovice na Moravě-Pastviska,NA,NA,TRUE
+M0251,24-24-08/3,PV,Držovice na Moravě-U hřbitova,NA,NA,TRUE
+M0252,NA,PV,Držovice na Moravě-Vinohrádky,NA,NA,TRUE
+M0253,24-42-08/4,PV,Dřevnovice-intravilán,NA,NA,TRUE
+M0254,NA,PR,Dřevohostice-cihelna,NA,NA,TRUE
+M0255,25-13-14/9,PR,Dřevohostice-Pláňava,Pod Dřevohostickým lesem; i k.ú Nahošovice,NA,TRUE
+M0256,NA,OC,Dub nad Moravou-Farská zahrada,NA,NA,TRUE
+M0257,24-24-10/5,OC,Dub nad Moravou-obec,NA,NA,TRUE
+M0258,24-24-10/3,OC,Dub nad Moravou-Tučapy,NA,NA,TRUE
+M0259,24-24-03/5,PV,Dubany na Hané-Vršiny,NA,NA,TRUE
+M0260,34-22-12/16,HO,Dubňany-Jarohněvický rybník,NA,NA,TRUE
+M0261,34-22-12/10,HO,Dubňany-Kostelisko,"Zadní louky, Louky od Valů",Ověřit ještě jednou,TRUE
+M0262,34-22-12/5,HO,Dubňany-Nivky,NA,Mikulčice,TRUE
+M0263,NA,SI,Dubovce-Pod Otrč horou,NA,NA,TRUE
+M0264,NA,BA,Dúbravka-Veľá lúka,NA,NA,TRUE
+M0265,FT97,TR,Dukovany-Pařezy,Pařezí,MZM,TRUE
+M0266,NA,GF,Dürnkrut-Am Mühlgraben,NA,NA,TRUE
+M0267,554,GF,Dürnkrut-Neue Wiesen,Beim Wald,NA,TRUE
+M0268,34-13-02/23,ZN,Dyje-bezejmenná ostrožna,NA,"Kovárník 1993, PV 1990",TRUE
+M0269,34-13-02/15,ZN,Dyje-Sad u nádraží,Za cihelnou,NA,TRUE
+M0270,FT340,ZN,Džbánice-Marhulky,"Ve žlebě, Žleby",NA,TRUE
+M0271,FT341,ZN,Džbánice-Zahrady pod hájem,Zahrady pod hájem,NA,TRUE
+M0272,679,MI,Ebendorf-Edel Äcker,Edelwiesen,"sloupový dům, masový hrob",TRUE
+M0273,30,MI,Ebendorf-Hühnerkratzer,Gemeindesandgrube,NA,TRUE
+M0274,"932, 945",MI,Ebendorf-Schellenberg,"Schellenbergen, Schotterbergen",NA,TRUE
+M0275,14,MI,Eichenbrunn-Erntdankkreuz,NA,NA,TRUE
+M0276,A12,HORN,Elsern-Wartlüß,NA,NA,TRUE
+M0277,794,MI,Falkenstein-Burgberg,NA,"Bl. 24, O 8 mm, N 56 mm",TRUE
+M0278,726,MI,Falkenstein-Schanzboden,Buchbrünn,NA,TRUE
+M0279,"276, 277",MI,Friebritz-Fallehergraben,NA,KGA,TRUE
+M0280,76,MI,Friebritz-Frauenberg,Süd,KGA,TRUE
+M0281,190,MI,Friebritz-westlich Teichbreite,NA,NA,TRUE
+M0282,336,HORN,Fronsburg-Entersgraben,Brünndläcker,NA,TRUE
+M0283,336,HORN,Fronsburg-Hinterfeld,NA,NA,TRUE
+M0284,"811, 841",HORN,Fugnitz-Geraser Feld,NA,NA,TRUE
+M0285,"68, 69",GF,Gaiselberg-Hausberg,NA,NA,TRUE
+M0286,972,GF,Gaiselberg-Nr. 80,NA,NA,TRUE
+M0287,NA,MA,Gajary-Bystrá II,NA,NA,TRUE
+M0288,NA,MA,Gajary-Jazierkové,NA,NA,TRUE
+M0289,NA,MA,Gajary-Pod lipou,NA,NA,TRUE
+M0290,NA,MA,Gajary-Prašivá,NA,NA,TRUE
+M0291,NA,MA,Gajary-Radlica,NA,NA,TRUE
+M0292,NA,MA,Gajary-Veselé,NA,NA,TRUE
+M0293,219,MI,Gaubitsch-Alpenberg,Urteilfeld,NA,TRUE
+M0294,94,MI,Gaubitsch-Hanfthal,NA,NA,TRUE
+M0295,319,MI,Gaubitsch-Reifling,NA,NA,TRUE
+M0296,A9,MI,Gaubitsch-südlich Ort,NA,NA,TRUE
+M0297,510,GF,Gaweinstal-Junggebirge,In Wiesen,obsidián,TRUE
+M0298,19,MI,Gnadendorf-Im Vorrain,NA,NA,TRUE
+M0299,416,MI,Gnadendorf-südwestlich hinter der Ortschaft,NA,KGA,TRUE
+M0300,240,MI,Grafensulz-Haltergarten,NA,NA,TRUE
+M0302,33-22-09/8,ZN,Grešlové Mýto-Mírovec,"Mírovec, Grešlové Mýto I",NA,TRUE
+M0303,FT483,ZN,Grešlové Mýto-Pode mlýnem,intravilán,NA,TRUE
+M0304,33-22-09/7,ZN,Grešlové Mýto-V sazích u kapličky,V sazích,NA,TRUE
+M0305,754,GF,Großschweinbarth-,NA,NA,TRUE
+M0306,755,GF,Großschweinbarth-Freibergen,NA,NA,TRUE
+M0307,NA,GF,Grub an der March-Äußere Wiesenäcker,"westlich des Skodateiches, Unterhaspel; i k.ú. Stillfried",NA,TRUE
+M0308,35,GF,Grub an der March-Haspelberg,Ziegelei,NA,TRUE
+M0309,NA,GF,Grub an der March-Unterhaspel,NA,NA,TRUE
+M0310,795,MI,Guttenbrunn-Sauberg,NA,NA,TRUE
+M0311,24-41-19/12,VY,Habrovany-Blatice,"Blatice, Rovněž Nemojany Blatice",NA,TRUE
+M0312,24-41-24/23,VY,Habrovany-Díly za dráhou,NA,NA,TRUE
+M0313,24-41-24/1,VY,Habrovany-u zámku,NA,NA,TRUE
+M0315,806,MI,Hagenberg-Hinter der Zeil,NA,Ši k analýze,TRUE
+M0316,862,MI,Hanfthal-Walkenhübel,Sebenfeld,"Bl. 24, W 37mm, N 66 mm, 48°42'19,1''N, 16°21'39,2''E",TRUE
+M0317,NA,OC,Haňovice-Dolní konec,p. č. 202/23,NA,TRUE
+M0318,274,GF,Hauskirchen-Unterfeld,Mühläcker; i k.ú Prinzendorf an der Zaya,NA,TRUE
+M0319,35-11-05/12,UH,Havřice-Nad zahrádky,"Nad stavem, i k.ú. Uherský Brod",NA,TRUE
+M0320,24-22-19/11,OC,Hejčín-Mrštíkovo náměstí,NA,NA,TRUE
+M0321,949,MI,Herrnbaumgarten-Auf der Breiten,NA,"OK 25, W 128 mm, N 147 mm,",TRUE
+M0322,948,MI,Herrnbaumgarten-Buchholzacker,Parz.Nr. 3060,"Parcela lokalizovaná podle stabilního katastru, v současnosti neexistuje",TRUE
+M0323,924,MI,Herrnbaumgarten-Tennauwald,NA,NA,TRUE
+M0324,NA,SI,Hlboké-Padzelky,NA,NA,TRUE
+M0325,NA,SI,Hlboké-Sochorovské,i k.ú. Osuské,NA,TRUE
+M0326,25-13-09/14,PR,Hlinsko-Nad Zbružovým,NA,NA,TRUE
+M0327,25-13-09/16,PR,Hlinsko-Podhůra,Kouty,Šmíd 1994; Janák 1975-76,TRUE
+M0328,25-13-09/15,PR,Hlinsko-U větrného mlýna,Za Mlynářovým,NA,TRUE
+M0329,25-13-09/15,PR,Hlinsko-Za mlynářovým,U větrného mlýna,NA,TRUE
+M0330,NA,OC,Hlivice-U vepřína,NA,NA,TRUE
+M0331,FT343,ZN,Hluboké Mašůvky-Hradisko,Může být totožné s Kravsko-Plenkovice-Hejtmanky podle Kazdová 1984?,NA,TRUE
+M0332,34-11-16/1,ZN,Hluboké Mašůvky-Nivky,"Niva, Padělky+intravilán","není jasný vztah VK k MMK, resp. neví se nic o kontextuálním původu VK",TRUE
+M0333,24-23-05/13,PV,Hluchov-Podkahance,NA,NA,TRUE
+M0334,NA,PV,Hluchov-Zadní stříbrné,Končiny,„jordanov/nejordanov“,TRUE
+M0335,35-11-08/5,HO,Hluk-Paligr,"Panský Paligr, Zelnice",NA,TRUE
+M0336,NA,ZN,Hnanice IV,"Kóta 308,9",NA,TRUE
+M0337,FT294,ZN,Hnanice-Hraběcí hora,Hnanice III,NA,TRUE
+M0338,33-24-10/2,ZN,Hnanice-U roty,"Fládnická, Knížecí vrch, Hnanice I",NA,TRUE
+M0339,24-22-23/2,OC,Hněvotín-Nový trávník,i .k. ú. Lutín,NA,TRUE
+M0340,24-22-23/3,OC,Hněvotín-U struhy,U Blaty,NA,TRUE
+M0341,14-44-24/1,OC,Hnojice-Mošťanky,NA,NA,TRUE
+M0342,591,MI,Hobersdorf-Schloßäcker,NA,"Lengyel na lokalitě autor nezmiňuje, ale podle vyobrazení je jeho přítomnost zřejmá",TRUE
+M0343,34-13-03/1,ZN,Hodonice-Loydova cihelna,NA,NA,TRUE
+M0344,FT282,ZN,Hodonice-Na vinici,ul. Na vinici,NA,TRUE
+M0345,872,GF,Hohenau-,NA,NA,TRUE
+M0346,926,GF,Hohenau-,NA,NA,TRUE
+M0347,950,GF,Hohenau-Föhrenhügel,NA,NA,TRUE
+M0348,558,GF,Hohenau-Gestüt Wiese,NA,NA,TRUE
+M0349,559,GF,Hohenau-Gestüt Wiese,NA,NA,TRUE
+M0350,896,GF,Hohenau-Hochleiten,Hochstetten,NA,TRUE
+M0351,560,GF,Hohenau-Hrutka,NA,NA,TRUE
+M0352,24-34-10/16,BM,Holásky-Písníky,"štěrkovna, U Tuřan, zasahuje i na k.ú. Tuřany",MZM Jordanov=NZ č.j. 614/55,TRUE
+M0353,24-43-03/6,VY,Holubice-Pod Holubskou,Holubice III,NA,TRUE
+M0354,24-41-22/22,BO,Horákov-Čtvrtky,"Nad humny, Půllány, Čtvrtě",NA,TRUE
+M0355,24-41-21/6,BO,Horákov-Horka,Horákovský hrad,"za hradem před valem, Horka., lengyel obecně",TRUE
+M0356,24-41-22/16,BO,Horákov-Macocha,Příčky,NA,TRUE
+M0357,24-41-22/26,BO,Horákov-Ořechová seč,NA,NA,TRUE
+M0358,24-41-22/24,BO,Horákov-Remíse,NA,lengyel,TRUE
+M0359,1027,MI,Hörersdorf-Gaisstall,NA,NA,TRUE
+M0360,24-22-14/5,OC,Horka nad Moravou-Spodní kaluhy,NA,NA,TRUE
+M0361,NA,PV,Horky u Stínavy-Na Křemeli,"Chybně k.ú, Hamry",NA,TRUE
+M0362,FT120,ZN,Horní Dunajovice-Kuchyňkova cihelna,Stínadla,"JMZ, dále informace z E. Kazdová, habilitace, a Pravěk Znojemska",TRUE
+M0363,FT346,ZN,Horní Dunajovice-Na vinohradské,NA,"AÚ-materiál jsem viděl v depu, inv.č.:514-468/69",TRUE
+M0364,FT345,ZN,Horní Dunajovice-Na záhumenicích,u školy,NA,TRUE
+M0365,14-44-13/8,OC,Horní Sukolom-Lihovarské,NA,NA,TRUE
+M0366,23-44-08/3,TR,Horní Újezd u Třebíče-Mejtnice,"u lesa Mejtnice, Pod Žákem, Na klínu",NA,TRUE
+M0367,FT391,TR,Horní Újezd u Třebíče-Panské,NA,Západomoravské muzeum v Třebíči,TRUE
+M0368,34-12-25/9,BV,Horní Věstonice-Na Lukách,NA,"E. Kazdová, habilitace",TRUE
+M0369,FT346,ZN,Hostěradice na Moravě-JV obce,NA,NA,TRUE
+M0370,33-22-04/1,ZN,Hostim-Amerika,Hostim II.,NA,TRUE
+M0371,33-22-04/3,ZN,Hostim-pole nad Radkovským mlýnem,Hostim IV.,NA,TRUE
+M0372,23-44-24/5,ZN,Hostim-Těchovec,Hostim I. - Těchovec,NA,TRUE
+M0373,33-22-04/4,ZN,Hostim-Za Ovčínem,"Suchomelka, Za ovčírnou","Houšťová 1960 FAP3, Kultura nálevkovitých pohárů na Moravě",TRUE
+M0374,34-22-11/9,HO,Hovorany-Újezdy,"u FVE, Nivky",NA,TRUE
+M0375,24-42-02/12,PV,Hradčany u Prostějova-Nad mlýnem,NA,NA,TRUE
+M0376,24-32-07/8,BO,Hradčany u Tišnova-Pod horkou,NA,NA,TRUE
+M0377,NA,UH,Hradčovice-Újezdy,NA,NA,TRUE
+M0378,25-31-06/2,KM,Hradisko-Hradisko,NA,NA,TRUE
+M0379,24-33-17/1,TR,Hrotovice-Mstěnice,"Mstivá, U černého mostu","a Kuča, Nývltová Fišáková, Škrdla, Vokáč 2012",TRUE
+M0380,FT162,TR,Hrotovice-Na panské nivě,Panská niva,"a Kuča, Nývltová Fišáková, Škrdla, Vokáč 2013",TRUE
+M0381,24-33-12/4,TR,Hrotovice-Votavova cihelna,Cihelna,NA,TRUE
+M0382,35-11-17/2,HO,Hroznová Lhota-Čtvrtky,"Radošiny, Pod Radošovem; i k.ú. Veselí-Předměstí a Lipov",NA,TRUE
+M0383,24-24-13/15,PV,Hrubčice-Košíky,(býv.cihelna),NA,TRUE
+M0384,24-24-13/16,PV,Hrubčice-Nebnahy,NA,NA,TRUE
+M0385,24-33-20/2,BO,Hrubšice-intravilán,NA,Muzeum Ivančice,TRUE
+M0386,FT415,BO,Hrubšice-Nad řekou,NA,NA,TRUE
+M0387,NA,PR,Hruška-Nivky,NA,NA,TRUE
+M0388,24-34-24/9,BO,Hrušovany u Brna-SV intravilán,NA,NA,TRUE
+M0389,NA,BO,Hrušovany u Brna-U tří mostů,NA,NA,TRUE
+M0390,NA,KM,"Hulín-Padělky, pískovna",NA,NA,TRUE
+M0391,25-31-07/1,KM,Hulín-U Isidorka,NA,NA,TRUE
+M0392,25-31-08/10,KM,Hulín-U obrázku,I k.ú. Pravčice,NA,TRUE
+M0393,25-31-08/2,KM,Hulín-Višňovce,i k.ú. Pravčice,NA,TRUE
+M0394,34-21-06/5,BV,Hustopeče u Brna-Příčky,NA,MM Brno,TRUE
+M0395,NA,BV,Hustopeče-dálniční nájezd,NA,"RMM, sbírka L. Měšťana a J. Týma, př.č. xy/78",TRUE
+M0396,NA,UH,Huštěnovice-Tegly,"Tegle, Dvořiště",NA,TRUE
+M0397,FT12,BO,Hvozdec u Veverské Bitýšky-Proti skalce,(Kuča: Klínek),NA,TRUE
+M0398,24-24-21/12,VY,Chaloupky u Otaslavic-Obrova noha,NA,NA,TRUE
+M0399,24-24-16/1,VY,Chaloupky u Otaslavic-Žákovec,NA,NA,TRUE
+M0400,34-23-13/2,BV,Charvátská Nová Ves-Líbivá,"Lubeš, Rohatá",MMG Břeclav,TRUE
+M0401,"24-24-04/8, 19",OC,Charváty-hliník,Malý trávník,NA,TRUE
+M0402,NA,OC,Cholina-Horní farské,NA,NA,TRUE
+M0403,24-22-06/3,OC,Cholina-školní zahrada,NA,NA,TRUE
+M0404,24-21-01/13; 24-21-01/12,SY,Chornice 2c,i k.ú. Lázy,NA,TRUE
+M0405,24-21-06/21,SY,Chornice-Kelinky,Chornice 23,NA,TRUE
+M0406,24-21-06/1,SY,Chornice-Pod hušákem,"U dálnice, Chornice 4",NA,TRUE
+M0407,24-22-02/5,OC,Chořelice-Nad hliníkem,NA,NA,TRUE
+M0408,24-22-02/1,OC,Chořelice-za Teslou,Na Pískách,NA,TRUE
+M0409,24-14-05/22,BK,Chrudichromy-Čtvrti,NA,+informace M. Přichystala o LnK,TRUE
+M0410,FT155,BO,Chudčice-intavilán,"č.p. 161, nálezy z kopání studny, majitel Navrátil",NA,TRUE
+M0411,FT14,BO,Chudčice-U dubu,NA,NA,TRUE
+M0412,33-22-12/1,ZN,Chvalatice-Růžový kopec,NA,NA,TRUE
+M0413,24-24-19/15,PV,Ivaň na Hané-Nivky,"Dolní Podblatí, i k.ú. Oplocany",NA,TRUE
+M0414,24-34-11/10,BO,Ivančice-cihelna,NA,NA,TRUE
+M0415,FT350,BO,Ivančice-Dolní Špýry,Na Mariánce,Katalog NM,TRUE
+M0416,NA,BO,Ivančice-Knížecí les,Knížák,NA,TRUE
+M0417,NA,BO,Ivančice-Loučky,za školním statkem,NA,TRUE
+M0418,NA,BO,Ivančice-Mřenková ul.,Na židovských hrobech,NA,TRUE
+M0419,FT295,BO,Ivančice-Nové hory,NA,Ivančice,TRUE
+M0420,FT98,BO,Ivančice-Panovského cihelna,Cihelna,NA,TRUE
+M0421,24-42-12/15,VY,Ivanovice na Hané-Padělky za cihelnou,"Padělky od Medlovic, Ivanovice 3",NA,TRUE
+M0422,24-42-07/15,VY,Ivanovice na Hané-Spravedlnost,NA,NA,TRUE
+M0423,NA,VY,Ivanovice na Hané-U Chvalkovic,NA,NA,TRUE
+M0424,24-42-12/17,VY,Ivanovice na Hané-Za střediskem,NA,NA,TRUE
+M0425,24-32-19/9,BM,Ivanovice-Pod Habřím,"Na dílech, Globus",NA,TRUE
+M0426,24-14-10/25,BK,Jabloňany-kravín,areal ZD,NA,TRUE
+M0427,24-14-15/9,BK,Jabloňany-Sedliska,"Velké Lopaty, Čtvrtě, Široký",NA,TRUE
+M0428,NA,MA,Jakubov-Pri starom mlyne,NA,NA,TRUE
+M0429,NA,MA,Jakubov-Prostredné pole,NA,NA,TRUE
+M0430,NA,TR,Jamolice-Čertova hráz,NA,"VOKÁČ, Milan. Nové výšinné a opevněné lokality z eneolitu na jihozápadní Moravě. In Otázky neolitu a eneolitu našich zemí. Praha: Ústav archeologické památkové péče středních Čech, 2004. s. 257-270",TRUE
+M0431,FT353,TR,Jamolice-Hájky,V Hájcích,Moravský Krumlov,TRUE
+M0432,NA,KM,Jarohněvice-Rozdíly,NA,NA,TRUE
+M0433,23-44-19/5,TR,Jaroměřice nad Rokytnou-Kopanina,NA,NA,TRUE
+M0434,23-44-19/4,TR,Jaroměřice nad Rokytnou-Niva pod dráhou,"Kerchůvky, Panská niva",NA,TRUE
+M0435,FT355,TR,Jaroměřice nad Rokytnou-Spolek,"XII., u rybníka Janák",NA,TRUE
+M0436,23-44-14/7,TR,Jaroměřice nad Rokytnou-Štěpánovská trať,"U rybnika Troubsky a u silnice do Boňova, Štěpánovská trať",NA,TRUE
+M0437,23-44-14/1,TR,Jaroměřice nad Rokytnou-V košíkovém,"V kosikovem, u hrbitova, Jaroměřice VIII","viděl v MZM, i.č. 13984-9, 13991-7",TRUE
+M0438,23-44-19/4,TR,Jaroměřice nad Rokytnou-Za forotou,Jaroměřice X; halštatské hradiště,NA,TRUE
+M0439,FT123,TR,Jaroměřice nad Rokytnou-Žabík,NA,+ Pravěk Třebíčska,TRUE
+M0440,24-21-12/7,SY,Jaroměřice-Čtvrtě pod hájky,"1a, 1b, 1c, 1d",NA,TRUE
+M0441,24-21-12/2; 24-21-12/5,SY,Jaroměřice-Na hójezdech,Jaroměřice 2a,NA,TRUE
+M0442,564; 635,GF,Jedenspeigen-Bahnfeld,Dammfeld,NA,TRUE
+M0443,NA,GF,Jedenspeigen-Dammfeld,NA,NA,TRUE
+M0444,0,GF,Jedenspeigen-Östlich des Dammfeldes,NA,NA,TRUE
+M0445,567,GF,Jedenspeigen-Schafhofbreiten,NA,NA,TRUE
+M0446,NA,GF,Jedenspeigen-Schafhofbreiten,NA,NA,TRUE
+M0447,NA,GF,Jedenspeigen-Wimmerauwiesen,NA,NA,TRUE
+M0448,NA,TR,Jemnice-Nad Jandovem,NA,NA,TRUE
+M0449,33-21-04/4,TR,Jemnice-Nad Týnicí,Tejnice,+Bartík DP,TRUE
+M0450,NA,TR,Jemnice-Padělky za šibenicí,NA,NA,TRUE
+M0451,NA,TR,Jemnice-Široké,NA,NA,TRUE
+M0452,24-14-20/12,BK,Jestřebí-Hrubé dílce,NA,NA,TRUE
+M0453,583,HL,Jetzelsdorf-Fundstelle 1,i k.ú. Peigarten,NA,TRUE
+M0454,589,HL,Jetzelsdorf-Rabenberg,i k.ú. Ragelsdorf,NA,TRUE
+M0455,NA,SY,Jevíčko-předměstí 19,NA,NA,TRUE
+M0456,FT475,ZN,Jevišovice-Na příčných,Jevišovice II,NA,TRUE
+M0457,NA,BV,Jevišovka-Nová ul.,NA,NA,TRUE
+M0458,24-44-24/11,HO,Ježov-Díly,NA,Při terasování svahu Z od vesnice byly narušeny slovanské hroby a objekty kultury s MMK.,TRUE
+M0459,FT278,BO,Jinačovice-Klínky,NA,NA,TRUE
+M0460,FT138,BO,Jinačovice-Za sýčkami,NA,NA,TRUE
+M0461,33-22-04/16,ZN,Jiřice u Moravských Budějovic-Na širokých,Jiřice I,NA,TRUE
+M0462,33-22-04/15,ZN,Jiřice u Moravských Budějovic-Pod Borovým,"Jirice V., jindy zase Jiřice IV.",NA,TRUE
+M0463,24-43-02/57,VY,Jiříkovice-Díly,Na Dílech,"Šlapanice, viděl v MZM, Pa 12638/40",TRUE
+M0464,24-32-24/19,BM,Jundrov-Optátova,"Lelkova, Prašnice",NA,TRUE
+M0465,24-32-23/15,BM,Jundrov-U jezírka,NA,NA,TRUE
+M0466,FT396,ZN,Kadov-zahrada J. Šidla,NA,"viděl v MZM, i.č. 165668-671",TRUE
+M0468,NA,TR,Kdousov-U Cihelny,Cihelna,NA,TRUE
+M0469,NA,TR,Kdousov-U Křížku,NA,NA,TRUE
+M0470,NA,VS,Kelč-Staré Město-Pod Šibenky,NA,NA,TRUE
+M0471,685,MI,Kettlasbrunn-Mistelbacher Breiten,NA,NA,TRUE
+M0472,759,MI,Kettlasbrunn-Opersdorferfeld,NA,NA,TRUE
+M0473,24-33-08/3,TR,Kladeruby nad Oslavou-Na vlčinském,"Padělky, Na pláňkách, Kuroslepská trať, u lesa Košátek",NA,TRUE
+M0474,25-13-09/12,PR,Kladníky-Záhumenky,"Kladníky I.,Nad humny",NA,TRUE
+M0475,246,MI,Kleinhadersdorf-Bockfeld,südlich des Ortsfriedhofs,NA,TRUE
+M0476,1045,MI,Kleinhadersdorf-In Gründen,Grundern,NA,TRUE
+M0477,450,HL,Kleinhöflein-Kühlüssen,NA,NA,TRUE
+M0478,495,HL,Kleinsierndorf-Ratscherberg,Baumgartschlössel,NA,TRUE
+M0479,24-24-19/8,PV,Klenovice na Hané-Kolečkářky,NA,NA,TRUE
+M0480,24-24-19/5,PV,Klenovice na Hané-Louky za Ovčinou,NA,NA,TRUE
+M0481,24-24-19/7,PV,Klenovice na Hané-Noviny,"Staré podíly, Trávník",NA,TRUE
+M0482,24-24-19/6,PV,Klenovice na Hané-Zábraní,NA,NA,TRUE
+M0483,FT362,BV,Klentnice- Länger Acker,"Die Langaecker, U kapličky",RMM,TRUE
+M0484,34-12-25/16,BV,Klentnice-Hirschwald,NA,NA,TRUE
+M0485,NA,BV,Klentnice-Stará hora,Hladové,NA,TRUE
+M0486,34-14-05/12,BV,Klentnice-Za kovárnou,Die Steinaecker,"RMM, MZM",TRUE
+M0487,FT234,VY,Kloboučky-Padělky za humny,Pullany za brankou,NA,TRUE
+M0488,24-44-06/11,VY,Kloboučky-Za školou,NA,NA,TRUE
+M0489,34-21-08/1,BV,Klobouky u Brna-Hradisko,"Díly pod Ochůzky, Díly pod Plunary",viděl,TRUE
+M0490,FT69,BV,Klobouky u Brna-Novosady,NA,NA,TRUE
+M0491,FT68,BV,Klobouky u Brna-Za psinky,Za psinkami,viděl,TRUE
+M0492,14-44-06/1,SU,Klopina-Na lánech,NA,NA,TRUE
+M0493,NA,SU,Klopina- U Křemelice,NA,NA,TRUE
+M0494,FT39,BM,Kniníčky-Sokolské koup.,Hrázní ul.,NA,TRUE
+M0495,24-32-18/5,BM,Kniníčky-U luhu,NA,NA,TRUE
+M0496,FT28,BM,Kniníčky-U tří křížů,Obora,NA,TRUE
+M0497,24-43-19/4,VY,Kobeřice u Brna-Čtvrtě,NA,Slavkov,TRUE
+M0498,24-43-19/1,VY,Kobeřice u Brna-Nová pole,V nových polích,NA,TRUE
+M0499,24-24-22/27,PV,Kobeřice-Padělky,NA,NA,TRUE
+M0500,34-21-13/6,BV,Kobylí na Moravě-Lumperky,Vigrunty,"Sbírky RMM, př.č. 4/07",TRUE
+M0501,34-21-14/12,BV,Kobylí na Moravě-U jezera,NA,"viděl v MZM, i.č. 42046",TRUE
+M0502,24-43-07/13,BO,Kobylnice u Brna-Rozdíly,NA,"viděl v MZM, i.č. 165668-671",TRUE
+M0503,NA,BO,Kobylnice u Brna-Rybníky,NA,NA,TRUE
+M0504,NA,VY,Kobylničky-Kozlének,"Prelátsko, i k.ú. Chaloupky u Otaslavic",NA,TRUE
+M0505,FT112,BM,Kohoutovice-Na široké,Na širokých,NA,TRUE
+M0506,FT441,TR,Kojatice-Smilová,NA,NA,TRUE
+M0507,NA,PR,Kojetín-Babiny,NA,NA,TRUE
+M0508,NA,PR,Kojetín-Kroměřížská,NA,NA,TRUE
+M0509,24-42-05/4,PR,Kojetín-Nad Křenovskou lávkou,Panské pole,MZM,TRUE
+M0510,25-13-06/4,PR,Kokory-Zákostelky,NA,NA,TRUE
+M0511,NA,KM,Količín-Šeblínek,NA,NA,TRUE
+M0512,NA,KM,Količín-Újezd,Panské Újezdy,"v SASu špatná lokalizace, zde lokalizováno podle popisu P.K. a podle stabilního katastru",TRUE
+M0513,24-32-19/1,BM,Komín-Kouty,"Na koutech, i Medlánky-",NA,TRUE
+M0514,24-32-24/17,BM,Komín-Luhy,OBI,NA,TRUE
+M0515,24-32-24/7,BM,Komín-Nivy,"Niva, Na předním padělku, Absolonova ul., Kouty",NA,TRUE
+M0516,24-32-19/3,BM,Komín-Padělky u Medlánek,NA,NA,TRUE
+M0517,24-32-24/9,BM,Komín-Pod vinohrady,NA,NA,TRUE
+M0518,FT283,VY,Komořany na Moravě-U cihelny,NA,Lnk v MZM Pa53/93,TRUE
+M0519,24-33-23/6,ZN,Kordula-Na jitrech,Rešice,NA,TRUE
+M0520,NA,UH,Kostelany nad Moravou-Roztoky,NA,NA,TRUE
+M0521,24-24-01/26,PV,Kostelec na Hané-K Čelechovicím,Kozí Brada,NA,TRUE
+M0522,24-24-01/26,PV,Kostelec na Hané-Kozí brada,"Trnka, Trněnka, 1, Palackého ul.",NA,TRUE
+M0523,"24-24-01/8,10",PV,Kostelec na Hané-Niva,3,NA,TRUE
+M0524,24-24-01/21,PV,Kostelec na Hané-Prostřední pololány,NA,NA,TRUE
+M0525,NA,PV,Kostelec na Hané-Srážka,NA,NA,TRUE
+M0526,"24-24-02/7, 24-24-02/8",PV,Kostelec na Hané-Trnka,"Kozí Brada, Trněnka",NA,TRUE
+M0527,24-24-01/22,PV,Kostelec na Hané-Za cihelnou,"Rolnická cihelna, Záhumení, Za branou",NA,TRUE
+M0528,FT73,BV,Kostice-Louky u lesa,NA,NA,TRUE
+M0529,33-21-15/4,TR,Kostníky-Jezevčiny,"Brindlmajs, U suché máje, Na panské nivě u Bründelmaisů,",NA,TRUE
+M0530,33-21-10/5,TR,Kostníky-Sedliště,NA,NA,TRUE
+M0531,NA,MA,Kostolište-Piesočné,NA,NA,TRUE
+M0532,24-42-01/21,VY,Kotáry-Chochola,Podivice-Chochola,P.K. uvádí katastr Podivice,TRUE
+M0533,24-42-01/15,VY,Kotáry-Melice,NA,P.K. i SAS chybně lokalizují katastr,TRUE
+M0534,FT181,BO,Kounické Předměstí-Réna,Ivančice-,NA,TRUE
+M0536,NA,SI,Koválov-Chrasci,Chrasť,NA,TRUE
+M0537,NA,SI,Koválov-Koválovca,NA,NA,TRUE
+M0538,NA,SI,Koválov-Okrušky od Unína,NA,NA,TRUE
+M0539,NA,SI,Koválov-Vinohrádky,NA,NA,TRUE
+M0540,FT222,BO,Kovalovice-Díly,NA,NA,TRUE
+M0541,24-43-03/1,BO,Kovalovice-Na rovinách,NA,Ivančice,TRUE
+M0542,24-33-02/2,TR,Kozlany-Hošťálky,"Díly dolní, (též Třesov)",NA,TRUE
+M0543,24-24-08/6,PV,Kralice na Hané-Kralický háj,NA,NA,TRUE
+M0544,NA,PV,Kralice na Hané-Noviny,NA,NA,TRUE
+M0545,FT270,TR,Kralice nad Oslavou-Klínky,NA,+ústní sdělení M. Kuča,TRUE
+M0546,FT271,TR,Kralice nad Oslavou-Pivovárky,NA,NA,TRUE
+M0547,FT269,BK,Kralice nad Oslavou-Posměch,NA,NA,TRUE
+M0548,14-44-16/1,OC,Králová-kóta 272,I k.ú. Hlivice,výskyt KNP v objektech KLPP,TRUE
+M0549,14-44-16/2,OC,Králová-u silnice do Benkova,NA,NA,TRUE
+M0550,24-32-24/2,BM,Královo Pole-Božetěchova,FIT,+ SAS,TRUE
+M0551,FT325,BM,Královo Pole-Kulhan,NA,Ševčíková – reference jen k VK,TRUE
+M0552,24-41-23/11,VY,Královopolské Vážany-Horka,NA,NA,TRUE
+M0553,24-33-08/5,TR,Kramolín-Babské díly,NA,Západomoravské muzeum v Třebíči,TRUE
+M0554,24-33-07/4,TR,Kramolín-Hradisko,NA,VK v MZM 43384,TRUE
+M0555,24-24-11/15,PV,Krasice-Kopaniny,Kopaninky,NA,TRUE
+M0556,24-24-12/14,PV,Krasice-U hřbitova,"Krasická ulice, kostel sv. Petra",NA,TRUE
+M0557,FT125,ZN,Kravsko-Hradiště,Hradisko,NA,TRUE
+M0558,33-22-20/1,ZN,Kravsko-Mastník,NA,NA,TRUE
+M0559,NA,KM,Kroměříž-Kotojedská,NA,NA,TRUE
+M0560,25-31-06/12,KM,Kroměříž-Újezd u svatého Františka,NA,NA,TRUE
+M0561,NA,KM,Kroměříž-Velehradská,"Rybalkova kasárna, Pekelce",NA,TRUE
+M0562,24-24-11/4,PV,Krumsín-Kněží hora,NA,NA,TRUE
+M0563,24-23-15/10,PV,Krumsín-Na Mokři,Mokř,NA,TRUE
+M0564,24-22-18/7,OC,Křelov-Za chaloupkami,NA,NA,TRUE
+M0565,14-43-14/5,SU,Křemačov-Strinberg,"Kamenná, Na hruškách, i k.ú. Květín",NA,TRUE
+M0566,24-21-19/8,PV,Křemenec-Pod dědinou,Nad dědinou,NA,TRUE
+M0567,24-42-10/1,PR,Křenovice u Kojetína-Hradisko,(předpolí hradiska),NA,TRUE
+M0568,24-42-10/2,PR,Křenovice u Kojetína-Koráb,NA,NA,TRUE
+M0569,NA,PR,Křenovice u Kojetína-Vinice,NA,NA,TRUE
+M0570,24-43-08/9,VY,Křenovice u Slavkova-Dolní nádr.,U východního nádraží,MZM,TRUE
+M0571,24-43-08/21,VY,Křenovice u Slavkova-u trati,podél železniční trati,NA,TRUE
+M0572,24-43-08/5,VY,Křenovice u Slavkova-Zelnice,"Adrysíkova cihelna, Misákova cihelna",NA,TRUE
+M0573,34-21-01/9,BV,Křepice u Hustopečí-intravilán,středověké a novověké jádro,"+sbírky RMM, inv.č. A22430-A22491",TRUE
+M0574,34-21-01/11,BV,Křepice u Hustopečí-Záhumenice,NA,A 9516-A 9537,TRUE
+M0575,FT126,ZN,Křepice-Čtvrtky,NA,NA,TRUE
+M0576,34-11-07/1,ZN,Křepice-Hradisko,NA,MZM; Šmíd 1994,TRUE
+M0577,FT418,ZN,Křepice-Za hájkem,NA,NA,TRUE
+M0578,24-43-10/7,VY,Křižanovice u Bučovic-Padělky,Přední padělky,AÚ-depo?,TRUE
+M0579,NA,VY,Křižanovice u Bučovic-Padělky nad hliníkem,NA,NA,TRUE
+M0580,NA,VY,Křižanovice u Vyškova-,NA,NA,TRUE
+M0581,FT360,ZN,Kubšice-U vedrovických hranic,NA,Moravský Krumlov,TRUE
+M0582,NA,UH,Kudlovice-Zámeza,Lípí,NA,TRUE
+M0583,FT127,ZN,Kuchařovice-Dolní Kasperek,NA,NA,TRUE
+M0584,NA,SI,Kunov-Horekončie,NA,NA,TRUE
+M0585,NA,SI,Kunov-Medzikružie,Medzi kružím,NA,TRUE
+M0586,NA,SI,Kunov-Nádemenice,Nadmlynice,NA,TRUE
+M0587,NA,SI,Kunov-Starý cintorín,Diely za cintorínom,NA,TRUE
+M0588,NA,SI,Kunov-zahrada domu č. 57,p. Jamárik,NA,TRUE
+M0589,NA,SI,Kunov-Záhrobné diely,Koncové diely,NA,TRUE
+M0590,NA,SI,Kunov-Záchrastie,Podborie,NA,TRUE
+M0591,25-33-22/5,UH,Kunovice u Uherského Hradiště-Let,NA,NA,TRUE
+M0592,NA,UH,Kunovice u Uherského Hradiště-Nedbalova cilhelna,NA,NA,TRUE
+M0593,NA,UH,Kunovice u Uherského Hradiště-Nová Čtvrť,NA,"Hanák, K. 1931: Pohled do pravěkých sídlišť, pohřebišť a hradišť ve Starém Městě u Uherského Hradiště, Sborník Velehradský NŘ 2, 8-14.",TRUE
+M0594,NA,VS,Kunovice-Ve Slínech,NA,NA,TRUE
+M0595,FT69,BV,Kurdějov-Holý vrch,NA,RMM 72/83,TRUE
+M0596,NA,BO,Kuřim-Blanenská,NA,NA,TRUE
+M0597,24-32-13/10,BO,Kuřim-Křivé,Knínická 1577,NA,TRUE
+M0598,24-32-09/21,BO,Kuřim-Na zahrádkách,"ul. Na zahrádkách, Bezručova čtvrť",NA,TRUE
+M0599,24-32-08/9,BO,Kuřim-Nad nivkami pod Zlobicí,Nad nivkami pod Zlobici,NA,TRUE
+M0600,24-32-09/11,BO,Kuřim-Pod Toskou,"Za zahradou u rybníka, Rybník za Zárubou","Šlapanice, Detailní chronologie dle PV 39, s. 296",TRUE
+M0601,24-32-09/8,BO,Kuřim-Rybníky,"Bělč, Německý hřbitov, Rybníky",NA,TRUE
+M0602,24-32-09/9,BO,Kuřim-U kopečku,Záhoří do klínů,NA,TRUE
+M0603,NA,BO,Kuřim-U Marušky,NA,NA,TRUE
+M0604,NA,BO,Kuřim-Ve vedlejších,NA,NA,TRUE
+M0605,FT232,BO,Kuřim-Za kostelem,Klín u Jinačovic,NA,TRUE
+M0606,24-32-14/7,BO,Kuřim-Za sv. Jánem,NA,Datace dle SAS,TRUE
+M0607,24-32-08/10,BO,Kuřim-Za Špihlíkem,NA,NA,TRUE
+M0608,24-32-09/15,BO,Kuřim-Záruba,NA,NA,FALSE
+M0609,35-11-02/4,UH,Kvačice-Chylický rybník,Chylický rybník,NA,TRUE
+M0610,25-31-24/1,ZL,Kvítkovice u Otrokovice-Přední mezicestí,NA,NA,TRUE
+M0611,NA,HO,Kyjov-komín sklárny,NA,NA,TRUE
+M0612,NA,HO,Kyjov-Újezd,NA,NA,TRUE
+M0613,34-11-18/4,ZN,Kyjovice-Nad silnicí,NA,NA,TRUE
+M0614,34-11-18/9,ZN,Kyjovice-Sutny,NA,NA,TRUE
+M0615,FT157,ZN,Kyjovice-Zahrada F. Krejčího,NA,Moravský Krumlov,TRUE
+M0616,863,MI,Laa an der Thaya-Inneres Gerichtsfeld,NA,NA,TRUE
+M0617,NA,MA,Láb-Pálenice,NA,NA,TRUE
+M0618,NA,MA,Láb-Tri tále,NA,NA,TRUE
+M0619,24-44-24/12,HO,Labuty-Juřičkův kopec,NA,NA,TRUE
+M0620,24-44-24/10,HO,Labuty-Újezd za humny,NA,NA,TRUE
+M0621,NA,SE,Lakšárska Nová Ves-kravíny JRD,NA,NA,TRUE
+M0622,NA,BA,Lamač-Jamy 2,NA,NA,TRUE
+M0623,FT476,ZN,Lančov-Za kapličkou,Bachstelzenfeld,NA,TRUE
+M0624,710,MI,Lanzendorf-Sandgrube,NA,NA,TRUE
+M0625,34-23-20/3,BV,Lanžhot-Podsedky,NA,RMM a AÚ,TRUE
+M0626,24-22-16/8,PV,Laškov - Na příčkách,NA,NA,TRUE
+M0627,24-22-16/6,PV,Laškov-Na kuse,Na kuse I.,i LgK Iia,TRUE
+M0628,33-22-02/3,TR,Láz u Nových Syrovic-U nového rybníka,NA,NA,TRUE
+M0629,14-44-12/3,OC,Lazce u Troubelic-U staré matky,Pod Vystříbrem; I k.ú. Medlov,NA,TRUE
+M0630,14-44-12/4,OC,Lazce u Troubelic–Vystříbro,i k.ú. Medlov a Troubelice,NA,TRUE
+M0631,24-21-01/3,SY,Lázy-říšská dálnice,RAB,NA,TRUE
+M0632,34-23-07/9,BV,Lednice na Moravě-Nejdecké roviny,"Hoselochy, Zelinářský hon",NA,TRUE
+M0633,34-23-08/2,BV,Lednice na Moravě-Podholmy,Bohnhalmaecker,"sbírky RMM, A/M 1032",TRUE
+M0634,NA,KM,Lechotice-Podlesí,NA,NA,TRUE
+M0635,NA,ZN,Lechovice-parcela 424/21,NA,NA,TRUE
+M0636,24-32-14/2,BO,Lelekovice-hrad,NA,NA,TRUE
+M0637,24-32-14/3,BO,Lelekovice-intravilán,NA,NA,TRUE
+M0638,A36,HL,Leodagger-Lange Vierteln,NA,NA,TRUE
+M0639,NA,ZN,Lesná u Znojma-Horní prátna,NA,NA,TRUE
+M0640,NA,ZN,Lesná u Znojma-U lihovaru,NA,NA,TRUE
+M0641,34-11-05/5,ZN,Lesonice u Moravského Krumlova-Močidla,Klínky,Moravský Krumlov,TRUE
+M0642,23-44-13/8,TR,Lesůňky-cihlena,"Hloušek, Lesůňky VII (Kovárník), Lesůňky III (Vokáč)",NA,TRUE
+M0643,FT489,TR,Lesůňky-Loch,"Záhumenice, za drůbežárnou",NA,TRUE
+M0644,23-44-13/4,TR,Lesůňky-nad soutokem,"Lesůňky IV, resp. Lesůňky XI, i k.ú. Milatice",NA,TRUE
+M0645,23-44-13/22,TR,Lesůňky-Tvrz,Lesůňky VI,NA,TRUE
+M0646,23-44-13/1,TR,Lesůňky-U boroví,Lesůňky II,NA,TRUE
+M0647,23-44-13/2,TR,Lesůňky-U dubu,Lesůňky VIII,NA,TRUE
+M0648,23-44-13/7,TR,Lesůňky-U tvrze,Lesůňky V,NA,TRUE
+M0649,24-24-06/43,PV,Lešany u Prostějova-Na dluhošticích,NA,NA,TRUE
+M0650,24-24-06/26,PV,Lešany u Prostějova-U doubku,švestkový sad,NA,TRUE
+M0651,24-24-01/1,PV,Lešany u Prostějova-V Syrovátkách,Na syrovátkách,NA,TRUE
+M0652,24-24-06/35,PV,Lešany u Prostějova-Za Hemerkovým,"Za Hemerským, Nad hájem, Vinohrádky",NA,TRUE
+M0653,24-34-11/12,BO,Letkovice-intravilán,NA,Ivančice,TRUE
+M0654,FT122,BO,Letkovice-Pod kolibkami,NA,NA,TRUE
+M0655,24-43-05/2,VY,Letonice-Mezi hájky,Bandekybl,"MZM, viděl",TRUE
+M0656,24-44-07/7,VY,Letošov-cihlelna,NA,NA,TRUE
+M0657,FT172,VY,Letošov-Půllány,Půllány od Nevojic,NA,TRUE
+M0658,FT310,TR,Lhánice-Černice,Díly,"Materiál v NM, lokalita = Lhánice-při cestě do Senorad",TRUE
+M0659,FT206,TR,Lhánice-Kolonie,"Hříbek, Hřezek",NA,TRUE
+M0660,FT42,TR,Lhánice-Kopanina,"Kopaniny, Na peklích",NA,TRUE
+M0661,24-33-14/4,TR,Lhánice-Na hrádku,Na peklích,NA,TRUE
+M0662,24-33-14/8,TR,Lhánice-Vodavek,Záhumenice,NA,TRUE
+M0663,24-33-14/7,TR,Lhánice-zemědělské družstvo,NA,NA,TRUE
+M0664,25-13-10/7,PR,Lhota u Lipníka nad Bečvou-Dlouhé hony,"u ZD, pravý břeh Šišemky",NA,TRUE
+M0665,NA,PR,Lhota u Lipníka nad Bečvou-Dlouhé hony,Lhota II.,NA,TRUE
+M0666,FT27,TR,Lhotice u Jemnice-Široké,NA,NA,TRUE
+M0667,25-31-21/4,KM,Lhotka u Kroměříže-Padělky od Zelinky,NA,NA,TRUE
+M0668,14-43-14/1,SU,Líbivá-u nadjezdu nad dráhou,NA,NA,TRUE
+M0669,NA,HO,Lipov-Padělky,NA,NA,TRUE
+M0670,24-32-04/6,BK,Lipůvka-Klíny,NA,NA,TRUE
+M0671,24-32-04/7,BK,Lipůvka-Nad cihelnou,NA,NA,TRUE
+M0672,24-32-04/8,BK,Lipůvka-Pod habřím,NA,NA,TRUE
+M0673,24-32-09/7,BK,Lipůvka-Pod Maňůvkou u Trojice,NA,NA,TRUE
+M0674,NA,KM,Lísky-Za Hrubou loukou,NA,NA,TRUE
+M0675,FT135,BM,Líšeň-Breitcetlova,Breitcetlova ul.,NA,TRUE
+M0676,24-41-21/5,BM,Líšeň-Čihadlo,Staré zámky,MZM Pa 112-114/88,TRUE
+M0677,NA,BM,Líšeň-Dlouhý kus,NA,NA,TRUE
+M0678,24-41-21/9,BM,Líšeň-Klicperova ul.,NA,NA,TRUE
+M0679,24-41-21/8,BM,Líšeň-Křížová zmola,"ul. Popelákova, Za Klášterem",MM Brno,TRUE
+M0680,24-41-21/11,BM,Líšeň-Zadní kostelíček,Na kostelíčku,NA,TRUE
+M0681,24-24-20/3,PR,Lobodice-Niva u Cvrčova,NA,NA,TRUE
+M0682,NA,SU,Loštice-Náměstí Míru,Hradská ul.,NA,TRUE
+M0683,24-43-18/4,VY,Lovčičky-Cihelna,NA,NA,TRUE
+M0684,24-43-18/10,VY,Lovčičky-Dlouhé,Dlouhý,NA,TRUE
+M0685,FT361,VY,Lovčičky-Nádlese,Široký nad lesy,NA,TRUE
+M0686,FT236,VY,Lovčičky-Široké,Široký nad lesy,NA,TRUE
+M0687,24-43-18/5,BO,Lovčičky-Žleby,NA,NA,TRUE
+M0688,FT408,TR,Lovčovice-Na kopci,Vokáč: Menhartice-Nad areálem ZD,NA,TRUE
+M0689,NA,ZN,Lubnice-Černá pole,NA,NA,TRUE
+M0690,NA,ZN,Lubnice-Dvorské Díly,NA,NA,TRUE
+M0691,NA,ZN,Lubnice-Na kopci,NA,NA,TRUE
+M0692,NA,ZN,Lubnice-Uherčická pole,i k.ú.Korolupy,NA,TRUE
+M0693,NA,OC,Ludéřov-U smrku,NA,NA,TRUE
+M0694,24-22-16/18,OC,Ludéřov-U Zlaté stružky,Kniníčky (nemají k.ú.),NA,TRUE
+M0695,NA,OC,Ludéřov-západně od Švédských šancí,NA,NA,TRUE
+M0696,33-24-04/2,ZN,Lukov nad Dyjí-Ostroh,Lukov I,NA,TRUE
+M0697,23-44-18/14,TR,Lukov u Moravských Budějovic-Týnské,NA,povrchový sběr L.Prokeš,TRUE
+M0698,23-44-18/6,TR,Lukov u Moravských Budějovic-Za bažantnicí,NA,NA,TRUE
+M0699,FT271,BO,Lukovany-Za pazourkovým,NA,NA,TRUE
+M0700,24-41-19/8,VY,Luleč u Vyškova-sv. Martin,NA,NA,TRUE
+M0701,"24-41-19/4,5",VY,Luleč-intravilán,NA,NA,TRUE
+M0702,24-22-23/2,OC,Lutín-Nový trávník,i k.ú. Hněvotín,NA,TRUE
+M0703,24-24-01/13,OC,Lutotín-intravilán,parcela č. 104 a 105,"Šmíd zmiňuje žárové hrob, sídliště nejisté",TRUE
+M0704,"24-24-01/5, 24-24-01/6",PV,Lutotín-Jestřábí rokle,Zlámamé,NA,TRUE
+M0705,24-24-01/13,PV,Lutotín-obec,pozemek M.Holáska,NA,TRUE
+M0706,34-24-02/1,HO,Lužice u Hodonína-Kratiny,NA,NA,TRUE
+M0707,34-24-01/10,HO,Lužice u Hodonína-U starého,NA,NA,TRUE
+M0708,25-13-07/8,PR,Lýsky-intravilán,čistička,NA,TRUE
+M0709,NA,PR,Lýsky-Nad struhou,NA,NA,TRUE
+M0710,NA,PR,Lýsky-Padělky u Lýsek,NA,NA,TRUE
+M0711,25-31-24/2,ZL,Malenovice u Zlína-Jarolímkovo nám.,fara,NA,TRUE
+M0712,25-31-24/1,ZL,Malenovice u Zlína-Mezicestí,NA,NA,TRUE
+M0713,NA,ZL,Malenovice u Zlína-Švermova,NA,NA,TRUE
+M0714,24-32-08/7,BO,Malhostovice-Jezera,NA,NA,TRUE
+M0715,24-32-09/1,BO,Malhostovice-Na jezerách nad Koudelkami,NA,NA,TRUE
+M0716,24-32-03/21,BO,Malhostovice-Paní hora,Paní hora Malhostovská,NA,FALSE
+M0717,24-32-03/16,BO,Malhostovice-Pod Brabinkou,U Brabinky,NA,TRUE
+M0718,24-32-09/4,BO,Malhostovice-Polovy žleby,NA,NA,TRUE
+M0719,24-32-08/6,BO,Malhostovice-U bílého kamene,"Husté březí, V kolébkách, Březka, Žalvíř, Pod Hustou březou, Malhostovice IV",NA,TRUE
+M0720,24-32-03/25,BO,Malhostovice-U Nuzířova,NA,NA,TRUE
+M0721,24-32-03/18,BO,Malhostovice-U Pluštaru,Na Podsedkách,NA,TRUE
+M0722,24-32-08/8,BO,Malhostovice-Zlámaniny,"Padělky pod kříbem, Malhostovice VII",NA,TRUE
+M0723,24-32-03/14,BO,Malhostovice-Žalvíř,NA,NA,TRUE
+M0724,520,HL,Mallersbach-Schindberg,Kote 448,NA,TRUE
+M0725,FT114,BM,Maloměřice-Holý kopec,NA,"viděl v MZM, Pa 15187-189/42",TRUE
+M0726,NA,BM,Maloměřice-U stavu,"Obřanská ul., nákladní nádraží",NA,TRUE
+M0727,231,GF,Mannersdorf-Auhagen,"Auchaggen, Rochusberg, Kellerberg, Wutzelburg",NA,TRUE
+M0728,17,GF,Mannersdorf-Dammäcker,Marchfeld,NA,TRUE
+M0729,FT365,VY,Marefy-Čtvrtě od Letonic,Čtrvrti od Letonic,NA,TRUE
+M0730,FT367,VY,Marefy-intravilán,NA,"MZM, viděl, i.č. 627-646",TRUE
+M0731,FT366,VY,Marefy-Průtnice,Průtně,NA,TRUE
+M0732,654,GF,Marchegg-Lange Lüsse,NA,NA,TRUE
+M0733,653,GF,Marchegg-Ochsenweide,NA,NA,TRUE
+M0734,24-34-22/13,ZN,Maršovice-Na kocourkách,NA,NA,TRUE
+M0735,NA,UH,Mařatice-Štanclova cihelna,Kellerberg/Wutzelburg,NA,TRUE
+M0736,FT56,ZN,Mašovice u Znojma-Malé poloúdělí,"Malé poloúdělí, rovněž na katastru Bezkov",NA,TRUE
+M0737,FT57,ZN,Mašovice u Znojma-Mezicestí,NA,NA,TRUE
+M0738,33-22-25/7,ZN,Mašovice u Znojma-Pšeničné,NA,NA,TRUE
+M0739,FT298,BM,Medlánky-Za Bomberkem,ul. Hujíčkova,MZM,TRUE
+M0740,14-44-11/19,OC,Medlov u Uničova-cihelna,NA,NA,TRUE
+M0741,14-44-11/9,OC,Medlov u Uničova-důl Barbora,NA,NA,TRUE
+M0742,14-44-11/10,OC,Medlov u Uničova-parcela 411,NA,NA,TRUE
+M0743,NA,OC,Medlov u Uničova-U Pískoviště,NA,NA,TRUE
+M0744,24-42-12/14,VY,Medlovice-Za Hanou,NA,NA,TRUE
+M0745,NA,TR,Menhartice-Na pastvišťatech,NA,NA,FALSE
+M0746,NA,KM,Měrovice nad Hanou-Přední díly,NA,NA,TRUE
+M0747,33-22-03/2,ZN,Městys Blížkovice-u Mácova rybníka,NA,"JMZ, ověřit lokalizaci, v NZ nic",TRUE
+M0748,FT409,ZN,Mešovice-Pod dančovickou silnicí,"u lesa Borovina, Mešovice I",+Bartík 2015 DP,TRUE
+M0749,NA,OC,Mezice-Za kovárnou,NA,NA,TRUE
+M0750,24-22-07/4,OC,Mezice-Za kovárnou,NA,NA,TRUE
+M0751,NA,MI,Michelstetten-,Gst. n.  2336,NA,TRUE
+M0752,201,MI,Michelstetten-,NA,NA,TRUE
+M0753,202,MI,Michelstetten-,NA,NA,TRUE
+M0754,203,MI,Michelstetten-,NA,NA,TRUE
+M0755,205,MI,Michelstetten-,NA,NA,TRUE
+M0756,206,MI,Michelstetten-,NA,NA,TRUE
+M0757,480,MI,Michelstetten-Am Sand,Sand,KGA,TRUE
+M0758,NA,MI,Michelstetten-Bei der Feldmühle,Gst. n. 2614-2616,NA,TRUE
+M0759,"204, 205",MI,Michelstetten-Zeiselberg,NA,NA,TRUE
+M0760,NA,UH,Míkovice nad Olšavou-Na Drahách,Záhumenice,NA,TRUE
+M0761,34-24-06/14,HO,Mikulčice-Podbřežníky,NA,NA,TRUE
+M0762,34-14-05/1,BV,Mikulov na Moravě-Jelení louka,NA,NA,TRUE
+M0763,34-14-10/7,BV,Mikulov na Moravě-Kamenné,NA,NA,TRUE
+M0764,34-14-10/6,BV,Mikulov na Moravě-Turold,NA,NA,TRUE
+M0765,FT359,ZN,Mikulovice u Znojma-cihelna,NA,"MZM, JMZ",TRUE
+M0766,FT71,TR,Mikulovice-Rohlík,NA,NA,TRUE
+M0767,23-44-13/3,TR,Milatice-Hekrle,NA,NA,TRUE
+M0768,FT35,BV,Milovice u Mikulova-intravilán,č.p. 62,NA,TRUE
+M0769,34-21-21/9,BV,Milovice u Mikulova-Klíny,areál JZD,NA,TRUE
+M0770,FT473,BV,Milovice u Mikulova-Mikulovské terasy,Ober Eichberge,MZM,TRUE
+M0771,34-21-21/7,BV,Milovice u Mikulova-Na pískách,Na hroudě,NA,TRUE
+M0772,34-21-21/8,BV,Milovice u Mikulova-Prostřední pole,"Hausäcker, Das Mitterfeld, Kurzäcker",AÚ,TRUE
+M0773,34-23-01/5,BV,Milovice u Mikulova-Spitzhübel,"Auf dem Spitzhübel, Špičák",NA,TRUE
+M0774,FT472,BV,Milovice u Mikulova-Velké díly,Oberfeld,NA,TRUE
+M0775,25-31-06/14,KM,Miňůvky-Křivky,NA,NA,TRUE
+M0776,34-11-15/6,ZN,Miroslav-nám. Svobody,Husova ul.,Moravský Krumlov,TRUE
+M0777,FT356,ZN,Miroslav-Přední farské,NA,NA,TRUE
+M0778,34-11-10/2,ZN,Miroslavské Knínice-U cihelny,NA,"Viděl v MZM, nálezy bez i.č., Moravský Krumlov",TRUE
+M0779,FT110,HO,Mistřín-Vadasova pískovna,NA,"lokalizace podle sdělení J. Šmerdy, E. Kazdová zmiňuje 1 střep, M. Zápotocká alespoň 3",TRUE
+M0780,521,HL,Mitterretzbach-Hofäcker,NA,vydáno v St. Pölten,TRUE
+M0781,24-14-10/20,BK,Mladkov u Boskovic-Mezicestí,NA,NA,TRUE
+M0782,NA,TR,Mladoňovice na Moravě-Kozlovce,Velké Kozlovce,NA,TRUE
+M0783,33-21-05/7,TR,Mladoňovice na Moravě-Sedliska,Sedliště,+ Bartík 2015,TRUE
+M0784,33-21-05/6,TR,Mladoňovice na Moravě-U Gottharda,NA,+ Bartík 2015,TRUE
+M0785,FT364,TR,Mladoňovice na Moravě-Záhumenice ke Slavíkovicím,NA,+ Bartík 2015,TRUE
+M0786,NA,UH,Modrá u Velehradu-Orlová,i k.ú. Velehrad,NA,TRUE
+M0787,24-34-10/1,BO,Modřice-Lány,"Fruta, býv. Cukrovar","Přichystal 2017, zmínka o LgK",TRUE
+M0788,NA,BO,Modřice-Primál,NA,NA,TRUE
+M0789,24-34-15/28; 24-34-15/6,BO,Modřice-Sádky,NA,"smazána trať Rybníky, integrováno do této",TRUE
+M0790,NA,BO,Modřice-U humusárny,Rybníky,NA,TRUE
+M0791,24-34-15/5,BO,Modřice-Za humny,"Prusinovského ul., Rybníky",NA,TRUE
+M0792,14-43-20/10,SU,Mohelnice-Bartošovo pole,NA,NA,TRUE
+M0793,14-43-15/11,SU,Mohelnice-Kernerovo pole,NA,P.K. uvádí chybné číslo v SASu,TRUE
+M0794,14-43-15/2,SU,Mohelnice-Nadjezd,NA,NA,TRUE
+M0795,14-43-19/2,SU,Mohelnice-Náměstí Svobody,"S.K. Neumanna, Třebovská, Třída Rudé armády (=Olomoucká)",NA,TRUE
+M0796,14-43-14/7,SU,Mohelnice-park,Za parkem,P.K. uvádí chybné číslo v SASu,TRUE
+M0797,14-43-19/17,SU,Mohelnice-škrobárna,"za SZTŠ, garáže ČSAD",NA,TRUE
+M0798,14-43-20/11,SU,"Mohelnice-štěrkovna, u bývalého cukrovaru",NA,Výzkum R. Tichého,TRUE
+M0799,14-43-14/3,SU,Mohelnice-U Křemačovského rybníka,U splavu,PV1972,TRUE
+M0800,14-43-15/3,SU,Mohelnice-U splavu,NA,NA,TRUE
+M0801,NA,SU,Mohelnice-Ul. 1. máje,OD Tesco,NA,TRUE
+M0802,14-43-14/2,SU,Mohelnice-Za parkem,Kukuk,NA,TRUE
+M0803,14-43-15/9,SU,Mohelnice-Za sídlištěm,NA,NA,TRUE
+M0804,NA,SU,Mohelnice-Zückova cihlena,NA,lokalizace podle informací z googlu,TRUE
+M0805,24-33-13/4,TR,Mohelno-Dlouhý,NA,NA,TRUE
+M0806,24-33-14/1,TR,Mohelno-Na boleniskách,i k.ú Senorady,NA,TRUE
+M0807,FT276,TR,Mohelno-Na šibenici,"Na žlíbcích, Nad panským žlíbkem, Tály ke Kladerubům, Pod šibenicí",+ Knotková 2011,TRUE
+M0808,FT275,TR,Mohelno-Nad tlustým,NA,NA,TRUE
+M0809,NA,TR,Mohelno-Padělky,Padělek,NA,TRUE
+M0810,NA,TR,Mohelno-Plevovce,NA,NA,TRUE
+M0811,24-33-09/4,TR,Mohelno-Skřipina,Na hradiskách,NA,FALSE
+M0812,24-33-09/4,TR,Mohelno-Skřipina,Na hradiskách,NA,TRUE
+M0813,FT152,TR,Mohelno-Staré Hory,NA,NA,TRUE
+M0814,NA,TR,Mohelno-Suchánek,NA,NA,TRUE
+M0815,FT423,TR,Mohelno-Šibenice,NA,NA,TRUE
+M0816,FT250,TR,Mohelno-Za netřeskem,NA,NA,TRUE
+M0817,FT424,TR,Mohelno-Žebrák,Žebráky,NA,TRUE
+M0818,FT36,TR,Mohleno-Za chobotem,"Za velkými, U remízku",NA,TRUE
+M0820,24-41-22/2,BO,Mokrá u Brna-Hrnčířské pole,NA,lengyel obecně,TRUE
+M0824,24-41-17/33,BO,Mokrá u Brna-Spalená seč,Mokra-lom VII,NA,TRUE
+M0825,FT253,BO,Mokrá u Brna-Široké,V koutech,NA,TRUE
+M0826,NA,BO,Mokrá u Brna-U obrázku,Mokerský les,NA,TRUE
+M0827,NA,BO,Mokrá u Brna-Úzké,NA,NA,TRUE
+M0828,FT252,BO,Mokrá u Brna-Vlašňovské údolí,Vlašňovy,"hodně ŠI, obsidián, radiolarit, málo keramiky",TRUE
+M0829,NA,BO,Moravany u Brna-Horka,NA,NA,TRUE
+M0830,14-43-20/3,SU,Moravičany-Dílečky,"Na dílečcích, Kravín, sušička",NA,TRUE
+M0831,14-43-20/2,SU,Moravičany-Dlouhý Díleček,Dlouhé díly,NA,TRUE
+M0832,NA,SU,Moravičany-dům č. 206,NA,NA,TRUE
+M0833,14-43-20/4,SU,Moravičany-hřbitov,Soutok,NA,TRUE
+M0834,14-43-20/8,SU,Moravičany-kaple sv. Rocha,NA,Vlastivěda Šumperského okresu,TRUE
+M0835,NA,SU,Moravičany-Široké Díly,NA,NA,TRUE
+M0836,14-43-20/7,SU,Moravičany-U vody,Příčky k Lošticím,NA,TRUE
+M0837,34-24-06/26,BV,Moravská Nová Ves-intravilán,NA,NA,TRUE
+M0838,34-24-06/4,BV,Moravská Nová Ves-Padělky od vody,NA,NA,TRUE
+M0839,34-24-06/8,BV,Moravská Nová Ves-štěrkovna,NA,ARUB,FALSE
+M0840,FT211,BO,Moravské Bránice-Ve starých,NA,NA,TRUE
+M0841,NA,TR,Moravské Budějovice-Náměstí Míru,NA,NA,TRUE
+M0842,23-44-23/6,TR,Moravské Budějovice-Pod heřmanským kopcem,Moravské Budějovice I,NA,TRUE
+M0843,23-44-23/4,TR,Moravské Budějovice-u lesa Ochoz,"blizko lesa Ochoz, Moravské Budějovice III",NA,TRUE
+M0844,FT129,BO,Moravské Knínice-Čihadla,"Poloúdělí, Ocasov, U kaple","podle MPVN i LNK, Pa 137/35 MZM",TRUE
+M0845,FT130,BO,Moravské Knínice-U kaple,NA,NA,TRUE
+M0846,FT371,BO,Moravské Knínice-U panských luk,Dálnice,"datace Kazdová, habilitace, MZM",TRUE
+M0847,24-32-13/2,BO,Moravské Knínice-V újezdech,"Újezdy, Ocasov","Viděl LnK v MZM, Pa 137/35",TRUE
+M0848,FT467,ZN,Moravský Krumlov-Dlouhá louka,Rakšice-Dlouhá louka,NA,TRUE
+M0849,24-33-25/4,ZN,Moravský Krumlov-Horní Novosady,Vrabčí hájek,NA,TRUE
+M0850,FT286,ZN,Moravský Krumlov-Na slatinách,Pastvisko na slatinách,JMZ,TRUE
+M0851,FT164,ZN,Moravský Krumlov-Nad Haltýřem,Hříbek,NA,TRUE
+M0852,FT468,ZN,Moravský Krumlov-Obory,NA,NA,TRUE
+M0853,FT470,ZN,Moravský Krumlov-okolí těžebního revíru I,NA,NA,TRUE
+M0854,FT469,ZN,Moravský Krumlov-okolí těžebního revíru VI,NA,NA,TRUE
+M0855,FT335,ZN,Moravský Krumlov-U boudy,NA,NA,TRUE
+M0856,FT242,ZN,Moravský Krumlov-u žst. Rakšice,NA,NA,TRUE
+M0857,24-34-21/4,ZN,Moravský Krumlov-Vysoká hora,"Kóta 341, Moravský Krumlov II",NA,TRUE
+M0858,35-11-01/2,HO,Moravský Písek-pískovna,Stará pískovna,NA,TRUE
+M0859,NA,UH,Moravský Písek-Pod Kladichovem,Podluží,NA,TRUE
+M0860,NA,SI,Moravský Svätý Ján-Dlhé lúky,NA,NA,TRUE
+M0861,NA,SI,Moravský Svätý Ján-Na hrudoch,Hrúdy,"sbírka Š. Janšáka; uváděna lokalizace Mor.Sv. Ján, spíše se jedná o k.ú. Sekule",TRUE
+M0862,24-42-08/13,PV,Mořice-Pololány u můstku,NA,NA,TRUE
+M0863,24-42-09/2,PV,Mořice-Pololány u Studánky,zemědělské družstvo,NA,TRUE
+M0864,24-42-09/4,PV,Mořice-U obrázku,NA,NA,TRUE
+M0865,24-24-06/24,PV,Mostkovice-mezi Hloučelou a silnicí do Smržic,NA,NA,TRUE
+M0866,24-24-11/36,PV,Mostkovice-Pod vinohrady,Pod vinohrádky,NA,TRUE
+M0867,NA,PV,Mostkovice-silnice u hřbitova,NA,NA,TRUE
+M0868,NA,PV,Mostkovice-U vrbiček,NA,NA,TRUE
+M0869,24-24-11/8,PV,Mostkovice-Vysoudilka,cihelna,NA,TRUE
+M0870,NA,ZN,Mramotice-Kasárna,NA,NA,TRUE
+M0871,34-12-19/16,BO,Mušov-Mühläcker,U dunajovických luk,NA,TRUE
+M0872,34-12-19/19,BO,Mušov-Neurissen I,"Neurissaeckern, U Betléma, Ivaňsko, Kohlstdatt",Lokalita označená i jako k.ú. Ivaň v NZ,TRUE
+M0873,34-12-19/23,BO,Mušov-Neurissen II,"Obenausaecken, Areál snů",NA,TRUE
+M0874,34-12-24/6,BO,Mušov-Sandäcker,štěrkovna st. Statku,AÚ?,TRUE
+M0875,34-12-19/14,BO,Mušov-Tuchna,"Obenausaecker, Obenaus, Za tuchnou",NA,TRUE
+M0876,34-12-24/7,BO,Mušov-U sv. Jana,"Brunlaecker, Bruckaecker","tenkostěnná nádobka s červenou malbou, může být i starší LgK",TRUE
+M0877,34-12-19/3,BO,Mušov-U vodárny,NA,NA,TRUE
+M0878,34-22-16/26,HO,Mutěnice-Hraničky,Nivky na hraničkách,NA,TRUE
+M0879,34-22-21/13,HO,Mutěnice-Zbrod,NA,NA,TRUE
+M0880,24-24-16/8,PV,Myslejovice-Díly,NA,NA,TRUE
+M0881,24-24-16/16,PV,Myslejovice-Kluče od Kozylky,NA,NA,TRUE
+M0882,???,PV,Myslejovice-Kopaniny,"Nebesa, Nebesová",prostorová identifikace P.K. neodpovídá ID v SASu,TRUE
+M0883,24-24-16/24,PV,Myslejovice-Křéba,NA,"Šmíd 1993,  PV1991",TRUE
+M0884,24-24-16/27,PV,Myslejovice-Mitrovy,NA,P.K. uvádí na katastru Určic,TRUE
+M0885,24-24-16/14,PV,Myslejovice-Úzké,NA,NA,TRUE
+M0886,NA,TR,Myslibořice-Hrušovec,NA,NA,TRUE
+M0887,24-22-16/4,OC,Náměšť na Hané-Dlouhá niva,NA,V hrobu KNP nalezeny lengyelské výčnělky interpretované jako milodary,TRUE
+M0888,24-22-16/22,OC,Náměšť na Hané-Džbán,NA,NA,TRUE
+M0889,24-22-16/2,OC,Náměšť na Hané-Křemela I,NA,NA,TRUE
+M0890,24-22-16/1,PV,Náměšť na Hané-Rmíz u Laškova,"Rmíz u Laškova, Remíz, Valy",NA,TRUE
+M0891,24-22-17/2,OC,Náměšť na Hané-Válník,"ul. Lomená, ul. Jiráskova",NA,TRUE
+M0892,24-22-16/20,OC,Náměšť na Hané-Za hřbitovem,NA,NA,TRUE
+M0893,NA,OC,Nasobůrky-Cholinka,NA,NA,TRUE
+M0894,NA,UH,Nedakonice-Padělky,"nádraží, Sádky",NA,TRUE
+M0895,24-44-22/15,HO,Nechvalín-Měřiny,Bukovany,NA,TRUE
+M0896,24-44-22/1,HO,Nechvalín-Nivky,Homole,materiál prohlédnut,TRUE
+M0897,34-23-07/10,BV,Nejdek u Lednice-Czuczkova cihlena,"Step, Závlaha, Lamplova cihlena",NA,TRUE
+M0898,34-23-07/9,BV,Nejdek u Lednice-Nejdecké roviny,"Hoselochy, Zelinářský hon",A/M 190,TRUE
+M0900,"24-42-04/4, 24-42-04/6",PV,"Němčice nad Hanou-cukrovar, nádraží",NA,NA,TRUE
+M0901,24-42-03/17,PV,Němčice nad Hanou-Daňka,i k.ú. Víceměřice,NA,TRUE
+M0902,24-42-04/3,PV,Němčice nad Hanou-městečko,NA,NA,TRUE
+M0903,24-42-04/11,PV,Němčice nad Hanou-Nadloučí,i k.ú. Hruška,NA,TRUE
+M0904,24-42-04/5; 24-42-04/6,PV,Němčice nad Hanou-Svorka,NA,NA,TRUE
+M0905,FT102,BO,Němčice u Ivančic-Široké u Komana,"Záhumenice, Koman",Ivančice,TRUE
+M0906,34-11-12/7,ZN,Němčičky nad Jevišovkou-Horní kusy,NA,NA,TRUE
+M0907,24-34-23/9,BO,Němčičky-Nad drůbežárnou,IIIa,NA,TRUE
+M0908,NA,OC,Nemilany-intravilán,"Kožušanská, Rudolfa Chorého",NA,TRUE
+M0909,24-22-24/6,OC,Nemilany-Kapitulní,"Na zákopě, Na kopci",NA,TRUE
+M0910,24-41-19/1,VY,Nemojany-Horka,SV od vrchu Horka a údolí,NA,TRUE
+M0911,24-41-19/1,VY,Nemojany-Na hřeblech,SV od vrchu Horka,NA,TRUE
+M0912,24-41-19/7,VY,Nemojany-Podhoří,NA,NA,TRUE
+M0913,24-41-19/18,VY,Nemojany-Račková,údolí mezi Horkou a hájovnou Blatice,NA,TRUE
+M0914,24-41-19/20; 24-41-19/10,VY,Nemojany-Zahrady,"Důlky, Fortna, Důlky nad cestou a Přední padělky",NA,TRUE
+M0915,24-44-07/15,VY,Nemotice-Díly u dvora,za st. Statkem,NA,TRUE
+M0916,NA,OC,Neředín-letiště,NA,NA,TRUE
+M0917,24-22-19/1,OC,Neředín-Mýlina,"Dlouhé díly, hřbitov, Lomená ulice, Krematorium",NA,TRUE
+M0918,NA,BO,Neslovice-Domky,Škrábky,NA,TRUE
+M0919,NA,BO,Neslovice-Hlavní ul.,NA,NA,TRUE
+M0920,FT214,BO,Neslovice-Kaliště,NA,Ivančice,TRUE
+M0921,24-34-06/9,BO,Neslovice-Nivky,NA,NA,TRUE
+M0922,226,MI,Neudorf-Schmalzberg,NA,NA,TRUE
+M0923,24-42-08/18,PV,Nezamyslice nad Hanou-Čtvrtě od Mořic,NA,NA,TRUE
+M0924,24-42-08/17,PV,Nezamyslice nad Hanou-Čtvrtě od Tištína,NA,NA,TRUE
+M0925,24-42-08/6,PV,Nezamyslice nad Hanou-Končiny,NA,NA,TRUE
+M0926,NA,MI,Niederleis-Altstadt,NA,NA,TRUE
+M0927,NA,MI,Niederleis-Leiser Berge,NA,NA,TRUE
+M0928,339,MI,Niederleis-Rotengern,NA,NA,TRUE
+M0929,1018,GF,Niedersulz-Fünfvierteläcker,NA,NA,TRUE
+M0930,35-11-15/7,UH,Nivnice-Nivnické čtvrtky,NA," Archeologické nálezy a výzkumy za rok 1967 muzea J.A. Komenského v Uh. Brodě, PV 1967",TRUE
+M0931,35-11-10/3,UH,Nivnice-severně kóty 278,NA,NA,TRUE
+M0932,14-44-12/11,OC,Nová Dědina-Valcha,NA,NA,TRUE
+M0933,14-44-07/6,OC,Nová Hradečná-Hradisko,NA,NA,TRUE
+M0934,24-33-15/4,BO,Nová Ves u Oslavan-Kopaniny,Karáskovo pole,materiál i v NM,TRUE
+M0935,FT154,BO,Nová Ves u Oslavan-Roveň,Rovná,NA,TRUE
+M0936,24-34-17/24,BO,Nové Bránice-Chajda,"U Chajdy, Nádavky",NA,TRUE
+M0937,24-34-17/26,BO,Nové Bránice-u lesa,NA,NA,TRUE
+M0938,FT54,BV,Novosedly na Moravě-Louky,NA,NA,TRUE
+M0939,24-34-04/24,BM,Nový Lískovec-Klíny,"Dolní Rybníčky, Pod Kamenným vrchem, Nebosady; i k. ú. Starý Lískovec a Bohunice",NA,TRUE
+M0940,24-34-04/7,BM,Nový Lískovec-Plachty,"ul. Plachty, Nový Lískovec II, Petra Křivky",NA,TRUE
+M0941,NA,ZN,Nový Šaldorf-U Atlanty,NA,NA,TRUE
+M0942,24-32-03/33,BO,Nuzířov-Rybníčky,NA,NA,TRUE
+M0943,891,HL,Obermarkersdorf-Sandgrube Diem,NA,NA,TRUE
+M0944,305,HORN,Obermixnitz-Hermannsdorf,NA,NA,TRUE
+M0945,699,HL,Obernalb-Parz. N. 1330/1,NA,NA,TRUE
+M0946,619,HL,Obernalb-Urteln,"Örteln, Gollitsch",NA,TRUE
+M0947,523,HL,Oberretzbach-Ried Eben,NA,NA,TRUE
+M0948,868,GF,Obersulz-Leimgrube,Parz. 2502,NA,TRUE
+M0949,767,HORN,Oberthürnau-Daßing,"Daßing II, Dasing, Brunnleithen",NA,TRUE
+M0950,856,HORN,Oberthürnau-Obenaus,Frattingerfeld,NA,TRUE
+M0951,A22,HORN,Oberthürnau-Ostteil des Ortes,NA,NA,TRUE
+M0952,"647, 648",GF,Oberweiden-,NA,NA,TRUE
+M0953,34-13-02/21,ZN,Oblekovice-Na Palici,Znojmo - Nesachleby II.,NA,TRUE
+M0954,34-13-02/1,ZN,Oblekovice-Závlaha,"U výzkumky, Areál bývalé STS,Vídeňská ul., K Závlaze",NA,TRUE
+M0955,24-14-15/10,BK,Obora u Boskovic-Sedliska,NA,NA,TRUE
+M0956,FT435,BM,Obřany-Líchy,"Draslavá, Pastýřský, Kopaniny",NA,TRUE
+M0957,24-32-20/6,BM,Obřany-Soběšské,"Soběšská, Výpustky",NA,TRUE
+M0958,FT117,BM,Obřany-Újezdy,Novosady,"viděl v MZM, i.č. 154685-692",TRUE
+M0959,NA,OC,Odrlice - Na dílech,NA,NA,TRUE
+M0960,FT173,TR,Ohrazenice na Moravě-Chobot,IX.,NA,TRUE
+M0961,23-44-24/26,TR,Ohrazenice na Moravě-Šebestka,XII.,NA,TRUE
+M0962,23-44-24/12,TR,Ohrazenice na Moravě-U doubí,II.,NA,TRUE
+M0963,23-44-24/13,TR,Ohrazenice na Moravě-U lesa Chvojníka,"I., U Šebestiána",NA,TRUE
+M0964,NA,TR,Ohrazenice-U Doubí,NA,NA,FALSE
+M0965,24-24-06/6,PV,Ohrozim-Čubernice,Kobylí hlava,NA,TRUE
+M0966,NA,PV,Ohrozim-obec,NA,NA,TRUE
+M0969,FT425,TR,Okarec-bezejmenná trať,NA,NA,TRUE
+M0970,24-22-11/2,OC,Olbramice u Vilémova-silnice,NA,NA,TRUE
+M0971,34-12-01/11,ZN,Olbramovice u Moravského Krumlova-Leskoun,NA,NA,TRUE
+M0972,FT416,ZN,Oleksovice-bezejmenná poloha,Oleksovice I,NA,TRUE
+M0973,NA,MI,Olgersdorf-Am Wald,Schoppenberg,NA,TRUE
+M0974,24-22-19/14,OC,Olomouc-město-Náměstí Republiky,Dómské návrší; Křížkovského,NA,TRUE
+M0975,24-22-19/14,OC,Olomouc-město-Olomoucký kopec,Václavské nám.,NA,TRUE
+M0976,NA,OC,Olomouc-město-ulice 8. května,NA,NA,TRUE
+M0977,24-24-03/1,PV,Olšany u Prostějova-Lánský kříž,NA,NA,TRUE
+M0978,24-22-23/7,PV,Olšany u Prostějova-Zlatniska,NA,NA,TRUE
+M0979,24-42-02/13,PV,Ondratice-Díly,NA,NA,TRUE
+M0980,24-42-02/18,PV,Ondratice-Podsedky,NA,NA,TRUE
+M0981,"24-41-15/9, 35",VY,Opatovice u Vyškova-Podsedky,areál zemědělského družstva,NA,TRUE
+M0982,NA,PR,"Oplocany - hliník, Svárov",NA,NA,TRUE
+M0983,FT442,TR,Oponešice-Ve Chmelníku,Malé Frejmarky,NA,TRUE
+M0984,NA,VY,Orlovice-Lysá hora,NA,NA,TRUE
+M0985,FT132,BO,Ořechov-Kabáty,Zahrádky,"MZM, Olomouc, Drmola-Klíma, Wien",TRUE
+M0986,FT350,BO,Ořechov-U spáleného-Hradisko,"U spáleného, Líchy",Materiál v NM,TRUE
+M0987,NA,PR,Osek nad Bečvou - levý břeh Bečvy,Za vodou,NA,TRUE
+M0988,FT132,BO,Oslavany-Čučická,ul. Čučická 701,NA,TRUE
+M0989,24-33-10/2,BO,Oslavany-Dvorek,"V zaražených, Zaraženský dvorek",NA,TRUE
+M0990,FT219,BO,Oslavany-Koblih,NA,"Ivančice, viděl v MZM",TRUE
+M0991,FT103,BO,Oslavany-Na Lužích,Luže,NA,TRUE
+M0992,24-33-10/3,BO,Oslavany-Náporky,NA,NA,TRUE
+M0993,FT104,BO,Oslavany-Stará hora,NA,NA,TRUE
+M0994,FT22,BO,Ostrovačice-Padělky,"Díl, Na Prutně",NA,TRUE
+M0995,FT464,BO,Ostrovačice-Prostřední Prutny,Drekonty,NA,TRUE
+M0996,24-44-22/11,HO,Ostrovánky-Nádědíny,"Bílé hlíny, i k.ú. Nechvalín",M. Hložek má u sebe i Lnk????,TRUE
+M0997,NA,UH,Ostrožská Lhota-Chylické,Chylecké,NA,TRUE
+M0998,NA,UH,Ostrožská Nová Ves-Koruny,NA,NA,TRUE
+M0999,35-11-02/2,UH,Ostrožská Nová Ves-Padělky,NA,NA,TRUE
+M1000,24-24-21/1; 24-24-21/8,PV,Otaslavice-Homole,"Svodnice, Gloze",NA,TRUE
+M1001,24-24-22/6,PV,Otaslavice-Horní Otaslavice (obec),NA,NA,TRUE
+M1002,24-24-21/3,PV,Otaslavice-Kopaniny,NA,NA,TRUE
+M1003,24-24-22/8,PV,Otaslavice-Stany,NA,NA,TRUE
+M1004,24-24-22/12,PV,Otaslavice-Zámecká trať,NA,"P.K. Lokalizuje na k.ú. Brodku u Prostějova, ale popis lokality odpovídá k.ú. Otaslavic",TRUE
+M1005,24-24-22/1,PV,Otaslavice-Žleb,NA,NA,TRUE
+M1006,25-31-23/20,ZL,Otrokovice-Bahňák,břeh Moravy,NA,TRUE
+M1007,14-43-25/6,SU,Palonín-Dolnica,levý břeh potoka Nivka,NA,TRUE
+M1008,14-43-25/4,SU,Palonín-západně od Kouřilky,NA,NA,TRUE
+M1009,1015,GF,Palterndorf-,NA,NA,TRUE
+M1010,FT20,BV,Pasohlávky-Dlouhé louky,"Obere Wiesen, Trenk Wiesen, Louky u Dyje",NA,TRUE
+M1011,FT105,ZN,Pavlice-U Blažkovského rybníka,"U Blažkovského, Na kačence","viděl v MZM, Pa 18/24",TRUE
+M1012,34-21-21/10,BV,Pavlov u Dolních Věstonic-Dolní pole,Dolní pole I,NA,TRUE
+M1013,34-21-21/17,BV,Pavlov u Dolních Věstonic-Hliník,"Na kopečku, hliník n.p. Ingstav",NA,TRUE
+M1014,34-21-21/23,BV,Pavlov u Dolních Věstonic-Horní pole,Horní pole I,NA,TRUE
+M1015,34-12-25/18,BV,Pavlov u Dolních Věstonic-Pod Děvínem,Paroh,NA,TRUE
+M1016,25-13-09/9,PR,Pavlovice u Přerova-Dílce,NA,NA,TRUE
+M1017,24-22-16/9,PV,Pěnčín na Moravě-U Jána,NA,NA,TRUE
+M1018,24-22-21/27,PV,Pěnčín na Moravě-Za humny,NA,NA,TRUE
+M1019,FT495,TR,Petrůvky-Padělek u žlebu,NA,NA,TRUE
+M1020,874,HORN,Pfaffenreith-Hintenausäcker,NA,NA,TRUE
+M1021,44-41-14/1,VY,"Pístovice-Zádvorčí, Za dvorkem",NA,NA,TRUE
+M1022,517,HL,Platt-Brunnfeld,NA,NA,TRUE
+M1023,NA,HL,Platt-Reitlüsse,NA,NA,TRUE
+M1024,NA,MA,Plavecký Mikuláš-Dzeravá skala,Pálffyho jaskyňa,NA,TRUE
+M1025,34-11-12/5,ZN,Plaveč-Na tarase,NA,NA,TRUE
+M1026,34-11-11/7,ZN,Plaveč-Šance,Na šancích,NA,TRUE
+M1027,NA,HL,Pleissing-Holzfeld,NA,NA,TRUE
+M1028,FT351,ZN,Plenkovice-Horní poloúdělí,"Horní polodíly, Na dlouhých",Materiál v NM,TRUE
+M1029,34-11-11/10,ZN,Plenkovice-Na záhumení,"Plenkovice X., asi Na záhumení",NA,TRUE
+M1030,24-24-06/12,PV,Plumlov-Roudník,NA,NA,TRUE
+M1031,24-24-11/5,PV,Plumlov-ředitelství vojenských lesů,NA,NA,TRUE
+M1032,34-23-03/3,BV,Podivín-Kopce,Kopce a zahrady,NA,TRUE
+M1033,33-24-10/3,ZN,Podmolí-Šobes,Šobes,NA,TRUE
+M1034,NA,UH,Podolí nad Olšavou-Strážné,NA,NA,TRUE
+M1035,24-43-01/6,BO,Podolí u Brna-Palouky,"Nad paloukem, Kandie, Vysoudilky",NA,TRUE
+M1036,FT106,BO,Podolí u Brna-Pololány,"Půllány, Pololání",NA,TRUE
+M1037,24-41-22/33,BO,Podolí u Brna-U remízku,NA,NA,TRUE
+M1038,NA,BO,Podolí u Brna-V hlavách,NA,NA,TRUE
+M1039,NA,SU,Podolí u Mohelnice- východní cíp katastru,na polích k Újezdu,NA,TRUE
+M1040,NA,VS,Podolí u Valašského Meziříčí-Skalka,NA,NA,TRUE
+M1041,34-12-14/2,BO,Pohořelice nad Jihlavou-Klášterka,NA,NA,TRUE
+M1042,NA,BO,Pohořelice nad Jihlavou-Nová louka,NA,v článku rozpor zda je to KNP nebo KKK,TRUE
+M1043,NA,BO,Pohořelice nad Jihlavou-Velký Dvůr,při zakládání sádky na ryby u rybníku,NA,TRUE
+M1044,NA,ZL,Pohořelice u Napajedel-Březí,NA,NA,TRUE
+M1045,NA,UH,Polešovice-Nivy,Torštot,NA,TRUE
+M1046,NA,TR,Police u Jemnice-Belka,Pastviště,NA,TRUE
+M1047,FT175,TR,Police u Jemnice-Filipskovo pole,NA,NA,TRUE
+M1048,NA,TR,Police u Jemnice-Horní Osík,Haláskovo pole,NA,TRUE
+M1049,33-21-10/6,TR,Police u Jemnice-Novomlýnská,"Novomlýnska, Nad Novým mlýnem",NA,TRUE
+M1050,NA,TR,Police u Jemnice-U Dubu,NA,NA,TRUE
+M1051,14-43-10/3,SU,Police-Polanka I,U Dubiny,NA,TRUE
+M1052,14-43-10/7,SU,Police-Polanka II,Na Žbánově,NA,TRUE
+M1053,24-24-24/10,PR,Polkovice – Ostrovy,"Trávníky, Apatyky",NA,TRUE
+M1054,23-44-13/5,TR,Popovice nad Rokytnou-U borovice,"Lesůňky-U borovice, Lesůňky VII, U dráhy",NA,TRUE
+M1055,FT176,TR,Popovice nad Rokytnou-U habřiny,Lesůňky IX,NA,TRUE
+M1056,25-13-07/6,PR,Popovice u Přerova-Za Drahou,Popovice II.,NA,TRUE
+M1057,24-34-15/12,BO,Popovice u Rajhradu-Na nivách,Nivy,NA,TRUE
+M1058,NA,UH,Popovice u Uherského Hradiště-Milonín,NA,NA,TRUE
+M1059,23-44-13/6,TR,Popovice-Nad potokem,NA,NA,TRUE
+M1060,FT1,TR,Popůvky nad Jihlavou-Beranovo,NA,NA,TRUE
+M1061,FT123,TR,Popůvky nad Jihlavou-Sedlecký dvůr,NA,NA,TRUE
+M1062,NA,BO,Popůvky u Brna-Bukovanské louky,NA,NA,TRUE
+M1063,NA,BO,Popůvky u Brna-Náves,NA,NA,TRUE
+M1064,24-34-03/24,BO,Popůvky u Brna-Panské nivy,NA,NA,TRUE
+M1065,24-34-03/15,BO,Popůvky u Brna-Pod Šípem/Panské Nivy,NA,"Šlapanice, citovat Palečkovou",TRUE
+M1066,FT6,BO,Popůvky u Brna-Sádky,Padělky,NA,TRUE
+M1067,24-34-03/25,BO,Popůvky u Brna-ul. Nová,"intravilán, ul. Nová, Pod hájkem?, Pod dědinou",NA,TRUE
+M1068,24-42-10/3,PR,Popůvky u Kojetína-U křižovatky,NA,NA,TRUE
+M1069,14-41-24/7,SU,Postřelmov-U Františka,U městské cesty,NA,TRUE
+M1070,34-23-18/1,BV,Poštorná-Boří les,NA,NA,TRUE
+M1071,NA,OC,Povel-Jeremiášova,Janského,NA,TRUE
+M1072,664,MI,Poysbrunn-Autobahn,NA,NA,TRUE
+M1073,800,MI,Poysbrunn-Bittenau,Büttenau,NA,TRUE
+M1074,1166,MI,Poysbrunn-Ziegelei Weinmann,NA,"lokalizace podle stabilního katastru, trochu nejisté",TRUE
+M1075,1060,MI,Poysdorf-beim Huscharlkreuz,Hutscharenkreuz,NA,TRUE
+M1077,247,MI,Poysdorf-Bürsting,NA,NA,TRUE
+M1078,1059,MI,Poysdorf-Hermannschachner,Hörmannstschachern,NA,TRUE
+M1079,960,MI,Poysdorf-Steinberg,NA,NA,TRUE
+M1080,NA,MI,Poysdorf-Winzerstrase,NA,NA,TRUE
+M1081,24-41-23/5,BO,Pozořice-Hlásnica,NA,"do r. 1942 obec Jezera, potom sloučení s Pozořicemi.",TRUE
+M1082,24-41-23/7,BO,Pozořice-Maršíky,"Poustka, i k.ú. Kovalovice",NA,TRUE
+M1083,24-41-23/2,BO,Pozořice-Rékoví,"Rejkové, Prostřední kopec",NA,TRUE
+M1084,NA,KM,Pravčice-Podsedky,Podsedka,NA,TRUE
+M1085,25-31-08/10,KM,Pravčice-U obrázku,"Nivky; i k.ú. Hulín, Hulín-Pravčice 2",NA,TRUE
+M1086,FT221,BO,Pravlov-Hájky,NA,Ivančice,TRUE
+M1087,FT107,BO,Pravlov-rokle,NA,NA,TRUE
+M1088,25-13-08/1,PR,Prosenice-Nadloučí,Prosenice II.,NA,TRUE
+M1089,FT339,ZN,Prosiměřice-U Kyjovic,NA,NA,TRUE
+M1090,24-24-12/6,PV,Prostějov-městská jatka,NA,NA,TRUE
+M1091,24-24-12/8,PV,"Prostějov-Určická, Okružní ul.",NA,NA,TRUE
+M1092,24-24-07/14,PV,Prostějov-Za kovárnou,NA,NA,TRUE
+M1093,NA,PV,Prostějov-Za tržištěm,NA,NA,TRUE
+M1094,24-34-07/1,BO,Prštice-Na ostrých,"Na ostrých, v Babincích, Nad tunelem",materiál v NM,TRUE
+M1095,24-34-13/17,BO,Prštice-Před zámkem,asi i Za zahradami,"viděl v MZM, i.č. 13365",TRUE
+M1096,25-13-09/10,PR,Prusínky-Obransko,Skařinec,uváděno jako Pavlovice u Přerova,TRUE
+M1097,NA,KM,Prusinovice-Dolní odomče,NA,NA,TRUE
+M1098,NA,PR,Prusy-Niva u Prus,NA,NA,TRUE
+M1099,322,HORN,Prutzendorf-Martelbreite,östlich des Ortes,NA,TRUE
+M1100,A43,HORN,Prutzendorf-Prutzenberg,NA,"FO 2, 1934",TRUE
+M1101,25-11-16/10;  25-11-16/11,OC,Přáslavice u Olomouce-Díly pod dědinou,I k.ú. Velká Bystřice-Vrtov,NA,TRUE
+M1102,25-11-16/10,OC,Přáslavice u Olomouce-Na širokém,Kocourovec,NA,TRUE
+M1103,25-11-16/8,OC,Přáslavice u Olomouce-Padělky,NA,NA,TRUE
+M1104,25-13-12/10,PR,Předmostí-Díly,Předmostí IV.,NA,TRUE
+M1105,NA,PR,Předmostí-Malé Předmostí,Předmostí III.,NA,TRUE
+M1106,25-13-12/10,PR,Předmostí-Široký,"Hejnice, Přerov-Předmostí 8",NA,TRUE
+M1107,24-21-25/4,PV,Přemyslovice-Nad rybníkem,NA,NA,TRUE
+M1108,34-11-02/1,ZN,Přeskače-Výhon,"Na výhonu, Na brance",NA,TRUE
+M1109,NA,KM,Přílepy u Holešova-Hynčina,Hlinčina,NA,TRUE
+M1110,23-44-15/2,TR,Příložany-Příložanské padělky,Příložany III.,Západomoravské muzeum v Třebíči,TRUE
+M1111,NA,BO,Přísnotice-Za Humny,NA,NA,TRUE
+M1112,23-44-24/2,TR,Příštpo-Hodavy,Příštpo VIII,NA,TRUE
+M1113,FT384,TR,Příštpo-Markovský,Příštpo VI,NA,TRUE
+M1114,FT383,TR,Příštpo-U žabíka,Příštpo I,NA,TRUE
+M1115,23-44-20/2,TR,Příštpo-Zamrzlík,Příštpo III,NA,TRUE
+M1116,34-23-02/18,BV,Přítluky-Fraumühle,NA,Šmíd 1994,TRUE
+M1117,34-23-02/20,BV,Přítluky-Obecní pastviny,Panwasser,NA,TRUE
+M1118,NA,PV,Ptení-Dvorek Kolonie,NA,NA,TRUE
+M1119,NA,PV,Ptení-Tabule,NA,NA,TRUE
+M1120,24-23-05/16,PV,Ptení-V dobka,NA,NA,TRUE
+M1121,1020,HL,Pulkau-Haselparz,Parz.Nr. 3131,NA,TRUE
+M1122,524,HL,Pulkau-Scheiben,NA,NA,TRUE
+M1123,NA,VY,Pulkava-Kozlének,NA,NA,TRUE
+M1124,24-24-21/12,VY,Pulkava-Obrova noha,uváděno jako Otaslavice-Obrova noha,NA,TRUE
+M1125,24-42-06/23,VY,Pustiměř-Na rovinách,NA,NA,TRUE
+M1126,24-42-06/20,VY,Pustiměř-obec,"ZŠ, MŠ",NA,TRUE
+M1127,24-42-06/1,VY,Pustiměř-Pod Grety,dvůr JZD,NA,TRUE
+M1128,FT180,TR,Rácovice-Kopec,NA,+ Bartík 2015,TRUE
+M1129,NA,TR,Rácovice-U mlýna,i k.ú. Velký Újezd,NA,TRUE
+M1130,FT443,TR,Rácovice-U železniční zastávky,NA,NA,TRUE
+M1131,FT426,TR,Račice u Hrotovic-U hájků,Pod vsí k bahnu,NA,TRUE
+M1132,NA,SI,Radošovce-Diely,Medardská cesta,"skupina Nitriansky Hrádok, 60 ks ŠI + 97 ks ŠI ze sběrů",TRUE
+M1133,NA,SI,Radošovce-Vieska,"č.p. 50-52, 55",NA,TRUE
+M1135,24-42-06/12,VY,Radslavice u Vyškova-Niva,"Padělky, Štamperky",NA,TRUE
+M1136,24-42-06/10,VY,Radslavice u Vyškova-Pod dědinou,Niva,NA,TRUE
+M1137,24-42-06/9,VY,Radslavice u Vyškova-Zelená hora,Hradisko,NA,TRUE
+M1138,24-41-10/10,VY,Radslavičky-Vinohrádky,i k.ú. Radslavice u Vyškova,NA,TRUE
+M1139,1198,HL,Rafing-Beim Bründl,NA,NA,TRUE
+M1140,24-34-20/2,BO,Rajhrad-Matlaška,"nádraží, sladovna",NA,TRUE
+M1141,FT149,BO,Rajhrad-Pod hraničkami,NA,NA,TRUE
+M1142,FT45,BO,Rajhradice-Na předním,NA,NA,TRUE
+M1143,24-34-15/9,BO,Rajhradice-Stráně nad Habřinou,"Stráně, omylem popisováno jako Rajhrad",Muzeum Ivančice,TRUE
+M1144,24-43-10/14,VY,Rašovice u Bučovic-Za malým mostkem,NA,NA,TRUE
+M1145,1016,MI,Reinthal-,Bohranlage Benhardsthal S7,"lokalizace nejistá, autorka neupřesňuje, vrtná plošina lokalizována podle letecké mapy.",TRUE
+M1146,NA,ZN,Rešice-Hradisko,NA,NA,TRUE
+M1147,24-33-23/5,ZN,Rešice-Pod vilou,Rešice - pod vesnici,Moravský Krumlov,TRUE
+M1148,FT427,ZN,Rešice-Zaječné zahrady,"Zaječí zahrada, Rešice III",NA,TRUE
+M1149,NA,HL,Retz-Stadtfeld,NA,NA,TRUE
+M1150,574,GF,Ringelsdorf-Große Herrschaftswiese,Parz. 2404/3,NA,TRUE
+M1151,NA,GF,Ringelsdorf-Große Herrschaftswiese,Parz. 2404/4,NA,TRUE
+M1152,208,GF,Ringelsdorf-Kuse,NA,NA,TRUE
+M1153,576,GF,Ringelsdorf-Langfeld,NA,NA,TRUE
+M1154,NA,ZN,Rokytná-Malé a Velké Hradisko,NA,NA,TRUE
+M1155,NA,ZN,Rokytná-Na brdcích,Na velkých klínkách,NA,TRUE
+M1156,NA,ZN,Rokytná-Obora,NA,NA,TRUE
+M1157,FT227,BO,Rosice u Brna-Brusy,označ. Jako k.ú. Zastávka,NA,TRUE
+M1158,24-33-17/3,TR,Rouchovany-intravilán,NA,NA,TRUE
+M1159,FT429,TR,Rouchovany-Ouvary,Rouchovany II,NA,TRUE
+M1160,FT407,TR,Rouchovany-silnice do Hrotovic,NA,NA,TRUE
+M1161,24-41-24/31,VY,Rousínov u Vyškova-autobusové nádraží,NA,NA,TRUE
+M1162,24-43-04/7,VY,Rousínov u Vyškova-Přední lány,"Slavkovská ul., Kmentova cihelna",NA,TRUE
+M1163,24-41-24/11,VY,Rousínov u Vyškova-Tyršova,Tyršova ulice,Muzeum Vyškovska,TRUE
+M1164,FT276,BO,Rozdrojovice-Čtvrtky,NA,NA,TRUE
+M1165,24-32-18/4,BO,Rozdrojovice-U kříže,Neštěstí,NA,TRUE
+M1166,NA,ZL,Rudimov-Paličky,Kamenná,NA,TRUE
+M1168,14-44-18/10,OC,Rybníček-U Rybného potoka,U svodnice,NA,TRUE
+M1169,24-33-25/1,ZN,Rybníky na Moravě-Čtvrtky,NA,NA,TRUE
+M1170,FT58,ZN,Rybníky na Moravě-Díly,Na dílech,NA,TRUE
+M1171,24-33-24/1,ZN,Rybníky na Moravě-Pipele,Pinosy,NA,TRUE
+M1172,NA,KM,"Rymice-Holoubky,  Za olším",NA,"podle souřadnic ze ZM uvedených u P.K. je lokalita na k.ú. Količína, souřadnice jsem přesunul o cca 100 m na k.ú. Rymic",TRUE
+M1173,25-31-04/4,KM,Rymice-Vrchní blání,"Na blani, Zadní blaní",NA,TRUE
+M1174,24-32-19/22,BM,Řeckovice-Filkukova,Na krbále,MZM,TRUE
+M1175,FT387,BM,Řečkovice-Duhová,Duhová pole,Muzeum města Brna,TRUE
+M1176,24-32-19/21,BM,Řečkovice-Kořískova,"Kořískova ul. 42, Pod Sv. Annou",Skutil – reference jen k VK,TRUE
+M1177,24-22-19/21,OC,Řepčín-Horní nivy,NA,NA,TRUE
+M1178,24-22-19/4,OC,Řepčín-Pod hřbitovem,"Globus, Pražská ul.",NA,TRUE
+M1179,FT15,BO,Řícany u Brna-Díly od Rosic,NA,NA,TRUE
+M1180,FT381,BK,Sebranice u Boskovic-Zadní pola,Zadní pole,"Muzeum Kunštát, informace k relativní chronologii Zuzana Jarůšková",TRUE
+M1181,24-33-03/2,TR,Sedlec u Náměště nad Oslavou-hrad,Sedlecký hrad,NA,TRUE
+M1182,NA,KM,Selešovice-Pod rozdíly,NA,NA,TRUE
+M1183,24-24-11/31,PV,Seloutky-Bouzovce,Bouzovec,NA,TRUE
+M1184,24-24-11/29,PV,Seloutky-Kozinec,NA,NA,TRUE
+M1185,24-24-11/23,PV,Seloutky-obec,NA,NA,TRUE
+M1186,24-24-11/20,PV,Seloutky-Rozumky,NA,NA,TRUE
+M1187,24-24-11/22,PV,Seloutky-U planičky,"Záhumení, Vinohrádky",NA,TRUE
+M1188,NA,SE,Senica-Čapková roľa,NA,NA,TRUE
+M1189,NA,SE,Senica-Diely k vinohradom,stavba Nová Sotina,Parcely 54-45 a 95,TRUE
+M1190,NA,SE,Senica-Diely za cintorínom,NA,NA,TRUE
+M1191,NA,SE,Senica-jižně od liehovaru,NA,NA,TRUE
+M1193,NA,SE,Senica-pri Dolných Surovinach,NA,NA,TRUE
+M1194,NA,SE,Senica-Sedlička,"nákupné centrum, Párovce",NA,TRUE
+M1195,NA,SE,Senica-Sotina-Čapkova roľa,NA,NA,TRUE
+M1196,NA,SE,Senica-Sotinská ul.,Sotina,NA,TRUE
+M1197,NA,SE,Senica-Železničná ul.,NA,NA,TRUE
+M1198,24-22-12/3,OC,Senice na Hané-Loucká hora,I k.ú. Náměšť na Hané,NA,TRUE
+M1199,24-22-12/5,OC,Senice na Hané-Loučanské,NA,NA,TRUE
+M1200,NA,OC,Senička-Křéb,NA,NA,TRUE
+M1201,NA,OC,Senička-Na záhumení,"Záhumení, Podhruší",NA,TRUE
+M1202,NA,OC,Senička-Panské,NA,NA,TRUE
+M1203,24-33-09/1,TR,Senorady-Na hradiskách,"Hradisko, V lipinách, Velká skála, Malá skála, Senorady I",NA,TRUE
+M1204,FT274,TR,Senorady-Podhání,"Pod hajny, Senorady, II",NA,TRUE
+M1205,FT183,TR,Senorady-Rozběhlo,"Bahniska, U kříže",NA,TRUE
+M1206,FT182,TR,Senorady-Zadní nivky,NA,NA,TRUE
+M1207,24-32-07/7,BO,Sentice-Sokolí,Velké klínky pod Sokolím,NA,TRUE
+M1208,"28, 839",MI,Schletz-Kirchfeld,"Kirchäcker, Asparn an der Zaya-Am Wald",NA,TRUE
+M1209,858,MI,Schletz-Kurze Ried,Dürrnschletz,NA,TRUE
+M1210,410,MI,Schletz-Sturmfleck,NA,KGA,TRUE
+M1211,832,MI,Siebenhirten-dům č. 135,NA,NA,TRUE
+M1212,631,GF,Sierndorf an der March-Schanzenfeld,NA,NA,TRUE
+M1213,634,GF,Sierndorf an der March-Unteres Feld,NA,NA,TRUE
+M1214,24-34-13/1,BO,Silůvky-Tikovská hora,Jalovčiny,NA,TRUE
+M1215,FT143,BO,Sivice-Nebosady,NA,NA,TRUE
+M1216,FT482,BO,Sivice-Rejdy,NA,NA,TRUE
+M1217,FT108,BO,Sivice-Záhumení,NA,NA,TRUE
+M1218,FT394,ZN,Skalice u Znojma-V chobotech,Skalice I,NA,TRUE
+M1219,FT395,ZN,Skalice u Znojma-Za hájkem pod kopcem,Skalice II,NA,TRUE
+M1220,24-44-24/9,HO,Skalka u Kyjova-Újezdy,NA,NA,TRUE
+M1221,34-22-08/5,HO,Skoronice-Přední díly,NA,datace do LnK dle SAS,TRUE
+M1222,24-22-08/1,OC,Skrbeň-Hradisko,NA,NA,TRUE
+M1223,NA,OC,Skrbeň-U křepelky,p. č. 375/6,NA,TRUE
+M1224,FT474,TR,Skryje nad Jihlavou-Jahodnice,NA,NA,TRUE
+M1225,FT431,ZN,Slatina u Jevišovic-Padělky,Slatina II,NA,TRUE
+M1226,NA,BM,Slatina-Stránská skála,Na Slatinsku,NA,TRUE
+M1227,24-43-01/30,BM,Slatina-Švédské šance,Pod Tuřankou,NA,TRUE
+M1228,24-43-01/30,BM,Slatina-Švédské valy,Švédské šance,NA,TRUE
+M1229,24-22-22/32,PV,Slatinice na Hané-Na Stráži,NA,NA,TRUE
+M1230,24-22-22/43,OC,Slatinice na Hané-Pasuňk,NA,V literatuře uváděn katastr Slatinek,TRUE
+M1231,24-22-22/35,OC,Slatinice na Hané-Vinohrádky,NA,NA,TRUE
+M1232,24-22-22/4,PV,Slatinky-Boří,NA,NA,TRUE
+M1233,24-22-22/13,PV,Slatinky-Dlouhé,Klínky,NA,TRUE
+M1234,24-22-22/10,PV,Slatinky-Močilky,Močidýlka,NA,TRUE
+M1235,24-22-22/5,PV,Slatinky-Nad Ostichovcem,U pánbíčka,NA,TRUE
+M1236,24-22-22/9,PV,Slatinky-Pod hájem,"U dubu, úvozová cesta na Malý Kosíř",NA,TRUE
+M1237,24-22-22/4,PV,Slatinky-Varhany,U Varhan,NA,TRUE
+M1238,24-22-22/8,PV,Slatinky-Za humny,NA,NA,TRUE
+M1239,FT432,TR,Slavice-Achtele,NA,NA,TRUE
+M1240,FT444,TR,Slavíkovice u Jemnice-Brýle,NA,NA,TRUE
+M1241,FT445,TR,Slavíkovice u Jemnice-Na ostancích,Ostanec,NA,TRUE
+M1242,24-43-09/4,VY,Slavkov u Brna-Na Obůrkách,mezi rybníkem a cihelnou,NA,TRUE
+M1243,NA,UH,Slavkov u Uherského Brodu-Podluža,Podluže,NA,TRUE
+M1244,24-22-19/17,OC,Slavonín-Arbesova,Zahrady,NA,TRUE
+M1245,NA,OC,Slavonín-Horní lán,NA,NA,TRUE
+M1246,24-22-19/20,OC,Slavonín-Pod Vlachovým,NA,NA,TRUE
+M1247,NA,OC,Slavonín-U hvězdárny,NA,NA,TRUE
+M1248,24-22-19/22,OC,Slavonín-U statku,NA,NA,TRUE
+M1249,NA,OC,Slavonín-Za Křenkovým,Ulice Františka Řeháka,NA,TRUE
+M1250,NA,KM,Slížany-mezi dvorem Oborou a lesem Přehýkem,NA,NA,TRUE
+M1251,NA,PV,Služín-Nad zahradami,NA,NA,TRUE
+M1252,24-22-21/24,PV,Služín-Za hliníky,"Široké, Služín III",NA,TRUE
+M1253,NA,SI,Smrdáky-Hrachovište,NA,NA,TRUE
+M1254,NA,SI,Smrdáky-Kraciny,Kliny,NA,TRUE
+M1255,24-24-07/19,PV,Smržice-Prostřední záolešní,NA,NA,TRUE
+M1256,24-24-02/19,PV,Smržice-Přední u cihelny,NA,NA,TRUE
+M1257,NA,PV,Smržice-Rybník,"i k.ú. Držovice-Koňské trávníky, Trávníky u Ostrova",NA,TRUE
+M1258,NA,PV,Smržice-Šamanovská,Parcela 334,NA,TRUE
+M1259,24-24-02/22,PV,Smržice-Šimanov,Šamanovy,NA,TRUE
+M1260,24-24-07/2,PV,Smržice-Trávníky u ostrova,NA,NA,TRUE
+M1261,24-24-07/6,PV,Smržice-Záolešní u mostu,NA,NA,TRUE
+M1262,24-24-21/11,PV,Sněhotice-Za Familií,NA,NA,TRUE
+M1263,25-33-08/1,UH,Spytihněv-Němeča,Německá,NA,TRUE
+M1264,NA,BM,Staré Brno-Nové sady,NA,NA,TRUE
+M1265,24-42-22/3,VY,Staré Hvězdlice-Klín,NA,NA,TRUE
+M1266,NA,UH,Staré Město u Uherského Hradiště-Baťův průplav,vodní komora 37. úseku,NA,TRUE
+M1267,25-33-17/5,UH,Staré Město u Uherského Hradiště-Čertůj Kút,NA,NA,TRUE
+M1268,25-33-17/6,UH,Staré Město u Uherského Hradiště-Špitálky,NA,MZM 167/50,TRUE
+M1269,25-33-17/7,UH,Staré Město u Uherského Hradiště-Zadní Kruhy,NA,NA,TRUE
+M1270,34-21-17/3,BV,Starovičky-Velké padělky,NA,Břeclav,TRUE
+M1271,24-24-02/2,PV,Stařechovice–Kalvy,NA,NA,TRUE
+M1272,NA,SU,Stavenice-Na flecích,I k.ú. Úsov,"Daňhel, M. 2014a: Archeologické lokality a nálezy z katastru Úsova. Střední Morava 37, 49–69.",TRUE
+M1273,506,MI,Steinebrunn-Hechtenteich,NA,NA,TRUE
+M1274,24-24-06/13,PV,Stichovice-Kříž u Zlechova,NA,NA,TRUE
+M1275,24-24-06/14,PV,Stichovice-Přehrada,NA,NA,TRUE
+M1276,NA,GF,Stillfried-Auhagen am Roshusberg,Ziegelei,NA,TRUE
+M1277,34-13-08/1,ZN,Strachotice-Pod silnicí,NA,NA,TRUE
+M1278,NA,BV,Strachotín-štěrkovna,"Pannwasser, štěrkovna n.p. Ingstav, Strachotínské louky",NA,TRUE
+M1279,FT115,BM,Stránice-nám. Míru,NA,NA,TRUE
+M1280,FT2,BO,Střelice u Brna-Chromky,NA,NA,TRUE
+M1281,24-34-08/3,BO,Střelice u Brna-Líchy nad Bobravou,NA,NA,TRUE
+M1282,24-34-08/7,BO,Střelice u Brna-Líchy u palouku,Haneka,NA,TRUE
+M1283,24-34-08/5,BO,Střelice u Brna-Padělky,NA,NA,TRUE
+M1284,FT1,BO,Střelice u Brna-Prostřední trať,NA,NA,TRUE
+M1285,24-34-08/6,BO,Střelice u Brna-škola,Čtvrtky,NA,TRUE
+M1286,FT60,ZN,Střelice u Jevišovic-Bukovina,Za němčickým dvorem,NA,TRUE
+M1287,23-44-25/2,ZN,Střelice u Jevišovic-Klobouček,NA,NA,TRUE
+M1288,33-22-05/7,ZN,Střelice u Jevišovic-Na Okroukách,Střelice IX.,NA,TRUE
+M1289,FT147,ZN,Střelice u Jevišovic-Sklep,"Na sklepě, u sklepa, Střelice II",Podborský 1970,TRUE
+M1290,33-22-05/8,ZN,Střelice u Jevišovic-Starý zámek,"Jevišovice-Starý zámek, Na Starým zámku",NA,TRUE
+M1291,FT389,ZN,Střelice u Jevišovic-Zádušky,U zádušky,NA,TRUE
+M1292,NA,UH,Stříbrnice u Uherského Hradiště-U sv. Jána,NA,NA,TRUE
+M1293,24-14-05/13,BK,Sudice u Boskovic-Na vrších,NA,NA,TRUE
+M1294,24-23-01/4,BK,Sudice u Boskovic-Vejštice,NA,NA,TRUE
+M1295,NA,HO,Sudoměřice-Horní chmelnice,NA,NA,TRUE
+M1296,NA,MA,Suchohrad-Jednotky,NA,NA,TRUE
+M1297,34-11-17/6,ZN,Suchohrdly u Znojma-Starý zámek,NA,NA,TRUE
+M1298,NA,ZN,Suchohrdly u Znojma-U Červeného Dvora,NA,NA,TRUE
+M1299,25-13-09/2,PR,Sušice u Přerova-Dílnice,"Předlibuší, Sušice I.",NA,TRUE
+M1300,NA,UH,Sušice u Uherského Hradiště-Kočovy,NA,NA,TRUE
+M1301,24-32-04/5,BK,Svinošice-U břeží,NA,Lokalita známa z povrchových sběrů V. Růžičky - nepublikováno,TRUE
+M1302,24-14-05/2,BK,Svitávka-Hradisko,NA,NA,TRUE
+M1303,FT254,BO,Syrovice-Klínky,Příčky,NA,TRUE
+M1304,FT493,BO,Syrovice-Malé pole,NA,NA,TRUE
+M1305,34-21-21/29,BV,Šakvice-Štěpničky,"Štěpnické louky, Na zelenině","sbírky RMM, př.č. 78/06",TRUE
+M1306,34-22-11/8,HO,Šardice-Areál Ústředního zásobníku,"Újezdy, Areál Ústředního zásobníku,","střepy většinou z jedné nádoby, ;+ citovat Kazdová 1998",TRUE
+M1307,34-22-06/6,HO,Šardice-intavilán,zahrady č. 15,NA,TRUE
+M1308,34-22-11/4,HO,Šardice-Na pískách,"Písky, Újezdy, Šináglova pískovna, Mokroňovsko,","i k.ú Hovorany, býv. Pískovna, hned vedle FVE",TRUE
+M1309,34-22-11/4,HO,Šardice-Šinogrova pískovna,"Písky, Mokroňovsko, i k.ú. Hovorany",NA,TRUE
+M1310,34-13-06/1,ZN,Šatov-Cihelna,Grüblerova cihelna,NA,TRUE
+M1311,24-21-21/2,BK,Šebetov-U Mořicova dvora,Baba,NA,TRUE
+M1312,23-44-13/17,TR,Šebkovice-Holeček,U Holečka,NA,TRUE
+M1313,23-44-08/2,TR,Šebkovice-U Újezdského mlýna,Verdun,NA,TRUE
+M1314,NA,PR,Šišma - východně od obce,NA,NA,TRUE
+M1315,25-13-09/7,PR,Šišma-Amerika,"Šišma III., Obransko, I k.ú. Pavlovice u Přerova",NA,TRUE
+M1316,25-13-14/8,PR,Šišma-Domovina,Šišma II.,NA,TRUE
+M1317,25-13-14/6,PR,Šišma-Domovina II,Šišma V.,NA,TRUE
+M1318,FT87,BV,Šitbořice-Pod Líchama,NA,NA,TRUE
+M1319,NA,BO,Šlapanice u Brna-Brněnská pole,NA,NA,TRUE
+M1320,24-43-01/24,BO,Šlapanice u Brna-Dílky,skládka /Tondach,Šlapanice,TRUE
+M1321,24-43-01/12,BO,Šlapanice u Brna-Na Puštoře,Puštoř,NA,TRUE
+M1322,24-43-01/17,BO,Šlapanice u Brna-Nad zámkem,NA,datace do LgK I dle SAS,TRUE
+M1323,23-44-09/1,TR,Štěpánovice u Jaroměřic nad Rokytnou-Niva,"U žabíka, Polodíly, Panská niva",NA,TRUE
+M1324,23-44-09/4,TR,Štěpánovice u Jaroměřic nad Rokytnou-okolo Vacenovického potoka,"okolo potůčku a nového rybníka, i k.ú Vacenovice",datace do LgK dle SAS,TRUE
+M1325,FT188,TR,Štěpánovice u Jaroměřic nad Rokytnou-za dvorem,Štěpánovice II,NA,TRUE
+M1326,33-22-13/1,ZN,Štítary na Moravě-U Helenina dvora,Buchan,"JMZ, v NZ č.j. 808/65 se uvádí MMK I",TRUE
+M1327,24-34-04/4,BM,Štýřice-Polní,areál nemocnice U milosrdných bratří,NA,TRUE
+M1328,FT471,BM,Štýřice-Vídeňská ul.,NA,Archaia,TRUE
+M1329,NA,UH,Šumice u Uherského Brodu-U jezer,NA,NA,TRUE
+M1330,NA,ZN,Šumná-Na nivě,NA,NA,TRUE
+M1331,"14-44-07/7,14-44-07/10",OC,Šumvald-rybník,NA,lahev s límcem,TRUE
+M1332,35-11-17/3,HO,Tasov nad Veličkou-Mezi potoky,NA,NA,TRUE
+M1333,NA,HO,Tasov nad Veličkou-Pod Radošovem,"Čtvrtky, Radošiny",NA,TRUE
+M1334,24-43-11/7,BO,Telnice u Brna-cihelna,cihelna u dráhy za kostelem,Belcredi a kol.,TRUE
+M1335,24-43-11/6,BO,Telnice u Brna-Nad Krakovcem,"Na Krakovci, ul. Hliníky",MZM,TRUE
+M1336,34-11-23/3,ZN,Těšetice u Znojma-Ruská,"Ruska ulice, u Hlouškových",NA,TRUE
+M1337,34-11-23/6,ZN,Těšetice u Znojma-Za kostelem,Palliardiho cihelna,Podborský 1970,TRUE
+M1338,35-12-01/4,UH,Těšov-Bažantnice,NA,NA,TRUE
+M1339,25-34-21/4,UH,Těšov-Losky,NA,NA,TRUE
+M1340,FT26,BO,Tetčice-Kříby,NA,NA,TRUE
+M1341,FT25,BO,Tetčice-Podhorka,V zahradkach,NA,TRUE
+M1342,NA,MI,Thomasl-,NA,NA,TRUE
+M1343,NA,BO,Tišnov-Černohorská ul.,Dlouhá ul.,NA,TRUE
+M1344,NA,BO,Tišnov-Wagnerova,NA,NA,TRUE
+M1345,24-42-08/21,PV,Tištín-Díly od Ivanovic,NA,NA,TRUE
+M1346,NA,ZL,Tlumačov na Moravě-Kopce,NA,NA,TRUE
+M1347,NA,ZL,Tlumačov na Moravě-Kráčiny,NA,NA,TRUE
+M1348,NA,ZL,Tlumačov na Moravě-Slivotín,NA,NA,TRUE
+M1349,24-42-11/29,VY,Topolany u Vyškova-Padělky za dědinou,NA,NA,TRUE
+M1350,NA,UH,Topolná-Osičná,NA,NA,TRUE
+M1351,NA,PR,Tovačov - město,NA,NA,TRUE
+M1352,24-24-15/5,PR,Tovačov-cihelna na Hraďouchu,"Nad hliníkem, U pomníku, U kamenného kříže",NA,TRUE
+M1353,NA,BO,Trboušany-V Olších,NA,NA,TRUE
+M1354,NA,PR,Trnávka u Lipníka nad Bečvou-Hyk,NA,"25-11-24, 228Z, 48J",TRUE
+M1355,NA,BM,Trnitá-Dornych,"Mlýnská, Spálená",NA,TRUE
+M1356,NA,BM,Trnitá-ul.Trnitá,Vaňkovka,NA,TRUE
+M1357,14-44-07/4,OC,Troubelice-Padělky,Brossahöhe,NA,TRUE
+M1358,NA,BO,Troubsko-Bažantnice,Polní ul.,NA,TRUE
+M1359,FT293,BO,Troubsko-Za silnicí,NA,ověřit v muzeu (Šlapanice?),FALSE
+M1360,34-11-03/2,ZN,Trstěnice u Moravského Krumlova-Kleštěnec,NA,NA,TRUE
+M1361,25-13-02/2,OC,Tršice-Nad dolním mlýnem,U prostředního mlýna,NA,TRUE
+M1362,25-11-22/1,OC,Tršice-Padělky,Nad rybníkem,NA,TRUE
+M1363,25-13-02/3,OC,Tršice-Za hruškou,Pazdernice,NA,TRUE
+M1364,33-22-01/5,TR,Třebelovice-Lovětice,Zadní k Újezdu,+ Bartík 2015,TRUE
+M1365,FT446,TR,Třebelovice-Nádavky,NA,NA,TRUE
+M1366,FT447,TR,Třebelovice-Palovce,NA,NA,TRUE
+M1367,25-31-09/10,KM,Třebětice-Koleno,NA,NA,TRUE
+M1368,NA,UH,Tučapy-Nad horkami,NA,NA,TRUE
+M1369,FT48,ZN,Tulešice-Za zahradou,Na dlouhých záhonech,NA,TRUE
+M1370,25-13-19/11,PR,Turovice-Díly za vodou,NA,NA,TRUE
+M1371,24-43-02/13,BO,Tvarožná-Pod kopci,NA,LnK obecně,TRUE
+M1372,NA,BO,Tvarožná-Santon,zahrada p. Vandy,NA,TRUE
+M1373,24-43-02/32,BO,Tvarožná-U Sofra,"U kříže, Tvarožná III",NA,TRUE
+M1374,24-41-22/45,BO,Tvarožná-Vinohrady,NA,lengyel???,TRUE
+M1375,24-43-02/12,BO,Tvarožná-Záhumení,Za humny,NA,TRUE
+M1376,FT257,ZN,Tvořihráz-Louky,Za stodolami,NA,TRUE
+M1377,34-11-17/10,ZN,Tvořihráz-Pod sedleckými,Tvořihráz VIII,NA,TRUE
+M1378,FT327,ZN,Tvořihráz-U lisovny,Tvořihráz VII,NA,TRUE
+M1379,34-21-06/4,BV,Uherčice u Hustopečí-Prostřední nad silnicí,NA,NA,TRUE
+M1380,35-11-05/6,UH,Uherský Brod-Katovka,NA,+ Vaškových,TRUE
+M1381,35-11-05/8,UH,Uherský Brod-Kyčkov,NA,NA,TRUE
+M1382,25-33-25/4,UH,Uherský Brod-Náklady,"Za hájom, Odjatá",NA,TRUE
+M1383,24-21-16/10,BK,Uhřice u Boskovic-kravín JZD,NA,NA,TRUE
+M1384,14-43-19/5,SU,Újezd u Mohelnice-intravilán,NA,NA,TRUE
+M1385,14-43-19/7,SU,Újezd u Mohelnice-Na širokých,K Žádlovicím,NA,TRUE
+M1386,14-43-19/5,SU,Újezd u Mohelnice-severní okraj vsi,NA,NA,TRUE
+M1387,14-43-19/6,SU,Újezd u Mohelnice-U Horních Krčem,Zemědělský podnik,NA,TRUE
+M1388,14-44-18/9,OC,Újezd u Uničova-K Žerotínu,NA,NA,TRUE
+M1389,25-34-21/2,UH,Újezdec u Luhačovic-Kopánky,NA,NA,TRUE
+M1390,25-34-21/6,UH,Újezdec u Luhačovic-Lány,"Padělky, Díly, U Žlebca",NA,TRUE
+M1391,34-11-17/2,ZN,Únanov-Padělky,nad rybníkem,NA,TRUE
+M1392,34-11-17/4,ZN,Únanov-Polodíly,Unanov VII,NA,TRUE
+M1393,24-22-07/13,OC,Unčovice-Kříby,i.k.ú. Rozvadovice,NA,TRUE
+M1394,14-44-17/11,OC,Uničov-Mezi silnicemi,NA,NA,TRUE
+M1395,14-44-17/10,OC,Uničov-Šibeniční vrch,"Šibeník, Galgenberg",NA,TRUE
+M1396,NA,OC,Uničov-U kravína,NA,+ info P. Kalábková,TRUE
+M1397,14-44-12/7,OC,Uničov-Za drahou,NA,NA,TRUE
+M1399,313,HORN,Untermixnitz-Droschelsau,NA,NA,TRUE
+M1400,325,HORN,Untermixnitz-Hungerfeld,NA,NA,TRUE
+M1401,258,HORN,Untermixnitz-Lißen,"Lüsse, Daumäckern, Ebrechtsäcker, Feldwiese, Felberäcker",NA,TRUE
+M1402,869,HORN,Unterthürnau-Heide,Jagabründs,NA,TRUE
+M1403,24-24-16/35,PV,Určice-Dlouhé Kluče,"Výkluče, Kluče",NA,TRUE
+M1404,24-24-16/30,PV,Určice-Golštýn-Charbovec,NA,NA,TRUE
+M1405,24-24-16/33,PV,Určice-Hájové,Háječky,NA,TRUE
+M1406,24-24-16/30,PV,Určice-Horní Golštýn,Golštýn-Charbovec,NA,TRUE
+M1407,24-24-16/31,PV,Určice-Klementky,NA,NA,TRUE
+M1408,24-24-16/39,PV,Určice-Kopaniny,NA,NA,TRUE
+M1409,"24-24-16/40, 59",PV,Určice-Kumberky,NA,NA,TRUE
+M1410,24-24-17/5,PV,Určice-Nivky,U větráku,NA,TRUE
+M1411,NA,PV,Určice-Sedliska,Určická niva,NA,TRUE
+M1412,24-24-17/2,PV,Určice-Záhumení,Dvorské,NA,TRUE
+M1413,24-24-16/32,PV,Určice-Zelená zmola,NA,NA,TRUE
+M1414,14-43-15/1,SU,Úsov-město-Na úsovském,NA,"Daňhel, M. 2014a: Archeologické lokality a nálezy z katastru Úsova. Střední Morava 37, 49–69.",TRUE
+M1415,14-44-11/6,SU,Úsov-město-Okroužky,NA,NA,TRUE
+M1416,14-44-11/3,SU,Úsov-město-Ovčár,NA,Pravěk Mohelnicka,TRUE
+M1417,NA,SU,Úsov-město-Pod Křížovou horou,NA,NA,TRUE
+M1418,24-22-18/5,OC,Ústín-Nad Spálencem,"Trávník, Díly nad kovárnou",NA,TRUE
+M1419,25-11-21/6,OC,Vacanovice-Zápotočí,NA,NA,TRUE
+M1420,FT99,TR,Vacenovice-Polodíly,NA,NA,TRUE
+M1421,FT111,TR,Vacenovice-U studně,"U Demarkovy stodoly, U zabitého, Vacenovice V, Na zabitých",MZM,TRUE
+M1422,NA,BK,Vanovice-Boří,NA,NA,TRUE
+M1423,24-12-25/5,BK,Vanovice-Nad rozpadlou,"Na Brodcích, Na Bročcích, někdejší zahradnictví F. Vlka",NA,TRUE
+M1424,NA,UH,Vážany u Uherského Hradiště-Padělky u Divoků,"Padělky u Divoka, Divoky",NA,TRUE
+M1425,FT460,ZN,Vedrovice-Draždík,NA,NA,TRUE
+M1426,34-12-01/14,ZN,Vedrovice-Široká u lesa/Za dvorem,"Vedrovice-Široká u lesa, Dófilka, Dvoufilka",NA,TRUE
+M1427,34-12-01/7,ZN,Vedrovice-U kostela,"Za kostelem, u kostela",NA,TRUE
+M1428,FT461,ZN,Vedrovice-Vanecká,NA,NA,TRUE
+M1429,FT166,ZN,Vedrovice-Za sádkem,uváděno jako Vedrovice,NA,TRUE
+M1430,24-41-22/34,BO,Velatice-Padělky,"Velatický široký, Kouty, Široké zahrádky, zahrádky, Horákov-U kříže, Podolí-V hlavách",NA,TRUE
+M1431,24-43-02/61,BO,Velatice-Prostřední velikonoce,NA,datace do LgK I dle SAS,TRUE
+M1432,24-41-22/58,BO,Velatice-Velatické vrchy,NA,"Lengyel,",TRUE
+M1433,NA,UH,Velehrad-Rákoš,Dolní Rákoš,viděl v MZM,TRUE
+M1434,24-43-03/23,VY,Velešovice-Padělky,NA,NA,TRUE
+M1435,24-43-03/20,VY,Velešovice-Půllány za mlýnem,trasa dálnice,NA,TRUE
+M1436,25-11-16/14,OC,Velká Bystřice-obec,NA,NA,TRUE
+M1437,NA,OC,Velká Bystřice-Přední trávníky,NA,NA,TRUE
+M1438,34-21-24/2,BV,Velké Bílovice-Zimarky,"Zejmarky, Frejunky,",RMM A 1790-1807,TRUE
+M1439,NA,BV,Velké Hostěrádky-Klouč,NA,NA,TRUE
+M1440,NA,BV,Velké Hostěrádky-Skřípov,NA,NA,TRUE
+M1441,FT94,BV,Velké Němčice-Nová Ves,NA,NA,TRUE
+M1442,24-21-11/23,BK,Velké Opatovice 2,NA,NA,TRUE
+M1443,24-21-11/22,BK,Velké Opatovice-Strážnice,"Pod Strážnicí, intravilán",NA,TRUE
+M1444,34-21-18/5,BV,Velké Pavlovice-Na hrúdkách,NA,NA,TRUE
+M1445,FT440,TR,Velký Dešov-U Vlčáku,NA,NA,TRUE
+M1446,24-22-25/4,OC,Velký Týnec-Prostřední a Zadní hony (díly),NA,NA,TRUE
+M1447,25-11-21/2,OC,Velký Týnec–Nivy,"Hráč, Prečanovo pole",NA,TRUE
+M1448,FT449,TR,Velký Újezd u Kojatic-Na volských,"Volská, Stráně",+ Bartík 2015,TRUE
+M1449,FT448,TR,Velký Újezd u Kojatic-Za ústavem,NA,NA,TRUE
+M1450,34-11-04/2,ZN,Vémyslice-Na výhoně,Na výhonech.,MZM,TRUE
+M1451,FT49,ZN,Vémyslice-Stavové,Za vodou,NA,TRUE
+M1452,24-24-15/7,OC,Věrovany-Padělky,Věrovanské padělky,NA,TRUE
+M1453,FT485,ZN,Ves Blížkovice-Dědictví,Magnetky,NA,TRUE
+M1454,FT189,TR,Vesce u Moravských Budějovic-U silničky,NA,NA,TRUE
+M1455,25-13-03/9,PR,Veselíčko u Lipníka nad Bečvou-Vlčince,"Zámecký kopec, Končiny",NA,TRUE
+M1456,34-22-01/2,HO,Věteřov-Nové hory,Lysé hory,NA,FALSE
+M1457,FT479,ZN,Vevčice-Nad vývozem,Za školou,NA,TRUE
+M1458,FT248,ZN,Vevčice-Vysoké Pšeničné,Pod horkou,NA,TRUE
+M1459,FT17,BO,Veverská Bitýška-Člunky,NA,NA,TRUE
+M1460,NA,BO,Veverská Bitýška-Chmelníky,NA,NA,TRUE
+M1461,24-32-22/1,BO,Veverské Knínice-Dlouhé díly,NA,NA,TRUE
+M1462,FT19,BO,Veverské Knínice-Netušilky,NA,NA,TRUE
+M1463,NA,KM,Věžky-u hřbitova,NA,NA,TRUE
+M1464,24-42-03/10,PV,Víceměřice-Padělky,"Zadní Padělky, Padělky nad Broděnkou, Podíly, Záplety",NA,TRUE
+M1465,24-44-06/9,VY,Vícemilice-Baračka,"Přední půllány, i katastr Klobouček",NA,TRUE
+M1466,24-44-06/9,VY,Vícemilice-Písky,Baračka,NA,TRUE
+M1467,24-44-06/36,VY,Vícemilice-U sv. Jána,Nad sv. Janem,"v MZM mladý lengyel Pa 408/82, fáze MMK Ib, i.č. 216-249",TRUE
+M1468,24-23-10/9,PV,Vícov-Výmoly,Žlebce a výmoly,NA,TRUE
+M1469,24-23-10/13,PV,Vícov-Zábrančí,NA,NA,TRUE
+M1470,"24-24-21/2, 42",PV,Vincencov-Kopaniny,"Kamenice, i k.ú. Otaslavice",NA,TRUE
+M1471,24-24-17/31,PV,Vincencov-obec,NA,NA,TRUE
+M1472,24-41-23/21,VY,Vítovice-Padělky,Hradištko. Újezd,NA,TRUE
+M1473,35-11-09/3,HO,Vlčnov-Dřínky,"i k.ú Hluk, Dolní Němčí",NA,TRUE
+M1474,35-11-04/3,HO,Vlčnov-Pod Hájkom,"Pod Hájem, U Hyblova kříže, Mezi potoky, Za dvorem",NA,TRUE
+M1475,24-34-20/10,BO,Vojkovice u Židlochovic-Vojkovické nivy,NA,NA,TRUE
+M1476,NA,SK,Vrádište-Rubanice,NA,NA,TRUE
+M1477,NA,PV,Vrahovice-Trávníky,NA,NA,TRUE
+M1478,24-24-22/7,PV,Vranovice-Háj,V háji,NA,TRUE
+M1479,24-24-22/7,PV,Vranovice-Vranovický Háj,"Háj, V háji",NA,TRUE
+M1480,FT449,ZN,Vratěnín-U kola,NA,NA,TRUE
+M1481,NA,PV,Vrbátky-Na panském,NA,chybné souřadnice v článku,TRUE
+M1482,NA,BV,Vrbice u Velkých Pavlovic-Famílie,NA,NA,TRUE
+M1483,24-42-09/9,PV,Vrchoslavice-Za hrobárňó,"chmelnice p. Jaška, u nového hřbitova, nad Mořickou silnicí, nad silnicí do Mořic,",NA,TRUE
+M1484,24-42-09/11,PV,Vrchoslavice-zemědělské družstvo,Dlouhá Ves,NA,TRUE
+M1485,24-22-25/10,OC,Vsisko-Sklípky,i k.ú. Velký Týnec,NA,TRUE
+M1486,24-32-03/2,BO,Všechovice u Tišnova-Rybníky,Pod vinohradem,NA,TRUE
+M1487,NA,KM,Všetuly-Palackého,NA,NA,TRUE
+M1488,NA,KM,Všetuly-Zdražilovsko,Kuraray Europe Moravia,NA,TRUE
+M1489,23-44-08/6,TR,Výčapy-Kovandy,Panské pole,NA,TRUE
+M1490,23-44-09/2,TR,Výčapy-Strážnice,Výčapy II.,NA,TRUE
+M1491,FT190,TR,Výčapy-Zátoka,Výčapy I.,NA,TRUE
+M1492,34-11-12/10; 34-11-12/11,ZN,Výrovice-Na Brtníku,"Výrovice II, III",NA,TRUE
+M1493,34-11-12/10,ZN,Výrovice-Na kopci,Výrovice II,NA,TRUE
+M1494,34-11-12/11,ZN,Výrovice-Nad skalkami,Výrovice III,NA,TRUE
+M1495,34-11-12/14,ZN,Výrovice-Velká skála,Za zmolami,NA,TRUE
+M1496,NA,ZN,Vysočany u Znojma-Kochovo pole,NA,NA,TRUE
+M1497,33-22-06/1,ZN,Vysočany u Znojma-Palliardiho hradisko,NA,NA,TRUE
+M1498,FT450,ZN,Vysočany u Znojma-U rybníka,"Za rybníkem, Březová seč",NA,TRUE
+M1499,24-42-11/1,VY,Vyškov-Markova cihelna,NA,NA,TRUE
+M1500,315,GF,Waidendorf-Buhuberg,Unteres Marchfeld,NA,TRUE
+M1501,579,GF,Waidendorf-Kridlwiesen,NA,NA,TRUE
+M1502,NA,GF,Waidendorf-Niklassee,NA,NA,TRUE
+M1503,NA,GF,Waidendorf-Unteres Marchfeld,NA,NA,TRUE
+M1504,223,GF,Waltersdorf an der March-Honifäcker,"Unteres Feld, Langes Feld",NA,TRUE
+M1505,NA,GF,Waltersdorf an der March-Langes Feld,NA,NA,TRUE
+M1506,697,MI,Wetzelsdorf-,NA,NA,TRUE
+M1507,709,MI,Wilfersdorf-Kirchbergen,NA,NA,TRUE
+M1508,"326,368, 1009",MI,Wilhelmsdorf-Gratzln,NA,2x KGA,TRUE
+M1509,465?,HORN,Wolfsbach-Hofstätten,Wolfsbach I  (Soldatenkreutz?),NA,TRUE
+M1510,466,HORN,Wolfsbach-Langmais-Irren,"Wolfsbach II, Petersgraben, Lange-Mais-Irren",NA,TRUE
+M1511,"77, 1071",MI,Wultendorf-Angerl,Grube Haas,NA,TRUE
+M1512,NA,BM,Zábrdovice-areál Zbrojovky,NA,viděl jsem,TRUE
+M1513,NA,BM,Zábrdovice-Přadlácká,Vranovská,NA,TRUE
+M1514,14-44-11/14,OC,Zadní Újezd-Holubice,NA,NA,TRUE
+M1515,14-44-11/12,OC,Zadní Újezd-intravilán,NA,NA,TRUE
+M1516,14-44-11/13,OC,Zadní Újezd-Za humny,NA,NA,TRUE
+M1517,NA,KM,Záhlinice-intravilán,NA,NA,TRUE
+M1518,NA,KM,Záhlinice-U mlýna,"Skopalíkovo, Za Novákovým",NA,TRUE
+M1519,NA,BH,Záhorská Bystrica-Devínske jazero,NA,"44-21-15 283, 38",TRUE
+M1520,NA,BH,Záhorská Bystrica-Dievčí hrádok,NA,NA,TRUE
+M1521,NA,BH,Záhorská Bystrica-Krče,NA,NA,TRUE
+M1522,NA,BH,Záhorská Bystrica-Mást-Hrachovisko,i k.ú. Stupava,NA,TRUE
+M1523,NA,BH,Záhorská Bystrica-Westpark I,NA,NA,TRUE
+M1524,NA,BH,Záhorská Ves-hospodársky dvor JRD,NA,NA,TRUE
+M1525,NA,BH,Záhorská Ves-JV obce,NA,NA,TRUE
+M1526,34-23-02/21,BV,Zaječí-štěrkovna,"Babeschhölzel, Babašice",datace dle sas,TRUE
+M1527,FT272,BO,Zakřany-Padělky u hřbitova,"Dolní padělky u hřbitova, Horní padělky u hřbitova",NA,TRUE
+M1528,FT434,ZN,Zálesí u Bítova-Kopanina,U výšiny,NA,TRUE
+M1529,FT374,KM,Zástřizly-Luky,NA,"MZM, Pa 1022/39",TRUE
+M1530,FT437,KM,Zástřizly-Záviška,NA,uapp,TRUE
+M1531,24-42-19/5,KM,Zborovice-Obora,okolo kaple sv. Anny,NA,TRUE
+M1532,FT228,BO,Zbýšov u Oslavan-důl Anna,NA,NA,TRUE
+M1533,24-23-05/10,PV,Zdětín na Moravě-Malá strana,NA,NA,TRUE
+M1534,24-42-25/2,KM,Zdounky-Čtvrtě za chobotem,NA,NA,TRUE
+M1535,24-42-25/1,KM,Zdounky-Ke Světlé,NA,NA,TRUE
+M1536,748,HL,Zellerndorf-Ziegelei Hofstätter,Ferroton,"nejistá lokalizace, podle dolu na současné mapě",TRUE
+M1537,A41,HORN,Zettlitz-Hofäcker,NA,NA,TRUE
+M1538,833,WT,Ziernreith-Lissl,NA,NA,TRUE
+M1539,834,HORN,Zissersdorf-Käferäcker,Lange Marter Feld,NA,TRUE
+M1540,25-33-16/1,UH,Zlechov-Díly,NA,NA,TRUE
+M1541,34-11-21/8,ZN,Znojmo-Hradiště,NA,NA,TRUE
+M1542,FT238,ZN,Znojmo-Hradiště-Goldberg,NA,NA,TRUE
+M1543,FT237,ZN,Znojmo-Hradiště-Velké panské,NA,NA,TRUE
+M1544,FT246,ZN,Znojmo-město-Hakenova,cihelna u drahy za koste,JMZ,TRUE
+M1545,NA,ZN,Znojmo-město-Horní náměstí,NA,"výskyt fragmentů KNP, bez vlastních objektů",TRUE
+M1546,34-11-21/1,ZN,Znojmo-město-Hradní ul.,NA,NA,TRUE
+M1547,34-11-21/5,ZN,Znojmo-město-Novosady,"ul.Jarošova, Palliardiho,",NA,TRUE
+M1548,NA,ZN,Znojmo-město-Pazderky,NA,NA,TRUE
+M1549,FT171,ZN,Znojmo-město-Pazderky II,NA,NA,TRUE
+M1550,NA,ZN,Znojmo-město-U pramenů,NA,NA,TRUE
+M1551,NA,BH,Zohor-Piesky,NA,NA,TRUE
+M1552,NA,SU,Zvole u Zábřeha-stavba silnice,NA,NA,TRUE
+M1553,"644, 645, 646",GF,Zwerndorf-,NA,NA,TRUE
+M1554,749,GF,Zwerndorf-Dornparz,NA,NA,TRUE
+M1555,643,GF,Zwerndorf-Untere Scheibäcker,NA,NA,TRUE
+M1556,24-32-24/15,BM,Žabovřesky-Šmejkalova,NA,NA,TRUE
+M1557,34-22-03/1,HO,Žádovice-Dolní újezd,"Dolni újezd, kravín",NA,TRUE
+M1558,24-43-25/2,HO,Žarošice-Oulehle,NA,NA,TRUE
+M1559,24-43-25/7,HO,Žarošice-Vrchní mlýn,NA,NA,TRUE
+M1560,24-23-15/7,PV,Žárovice-Poddubí,NA,NA,TRUE
+M1561,24-23-15/11,VY,Žbánov-Hradisko,NA,P.K. uvádí jako k.ú. Hamry,TRUE
+M1562,24-23-10/16,VY,Žbánov-Terasa nad Hloučelou,"Ježův hrad, označováno jako Stínava",NA,TRUE
+M1563,24-32-23/11,BM,Žebětín-Čihadla,NA,NA,TRUE
+M1564,24-32-23/3,BM,Žebětín-Na Drdi,"dříve Na měšinách, ul. Měšiny, nyní ul Chrpová",NA,TRUE
+M1565,FT230,BM,Žebětín-Pekárna,NA,NA,TRUE
+M1566,24-32-23/2,BM,Žebětín-U křivé borovice,NA,NA,TRUE
+M1567,25-13-13/4,PR,Želatovice u Přerova-Remíz,NA,NA,TRUE
+M1568,24-42-02/1,PV,Želeč na Hané-Holcasy,NA,NA,TRUE
+M1569,24-42-02/2,PV,Želeč na Hané-Ondrácko,NA,NA,TRUE
+M1570,24-42-02/11,PV,Želeč na Hané-Široké,NA,NA,TRUE
+M1571,14-44-18/4,OC,Želechovice u Uničova-intavilán,NA,NA,TRUE
+M1572,14-44-18/4,OC,Želechovice u Uničova–obec,"dvůr a zahrada J. Škody, čp.21",NA,TRUE
+M1573,24-34-14/8,BO,Želešice-Dvorecké,Hofäcker,NA,TRUE
+M1574,FT253,BO,Želešice-V hojnarkách,NA,NA,TRUE
+M1575,24-32-02/2,BO,Železné-Hradisko,NA,NA,TRUE
+M1576,NA,BO,Železné-Záhomí,NA,NA,TRUE
+M1577,24-22-23/5,OC,Žerůvky-intravilán,NA,NA,TRUE
+M1578,NA,OC,Žerůvky-Ve starých trávníkách,NA,NA,TRUE
+M1579,NA,OC,Žerůvky-Vyškrábané,NA,lokalizace podle stabilního katastru,TRUE
+M1580,NA,BM,Židenice-cihelna,Vinohrady,NA,TRUE
+M1581,25-31-04/8,KM,Žopy-Hrabí,"cihlena, Hrabjó, Chalópke, Střední a Horní Poddubí, Batschova cihlena = hliník = žopská (Mizerova) cihelna a cihlena kruhová = Pokorného cihlena",NA,TRUE
+M1582,NA,KM,Žopy-Nad debří,NA,NA,TRUE
+M1583,NA,BM,Židenice-Táborská,Vančurova,NA,TRUE
+M1584,N,HO,Ždánice-Pašerova bouda,,NA,TRUE
+M1585,N,VY,Snovídky-V hlubině,,NA,TRUE
