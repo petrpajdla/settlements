@@ -387,6 +387,19 @@ pca_per <- res_wide %>%
 pca_per %>% plot_nested_pca(var = "period")
 ```
 
+```{r pca-summations}
+loadings_sum <- pca_per %>% 
+  summarise_variables()
+```
+
+```{r pca-summations-tb}
+loadings_sum %>% 
+  mutate(r = (PC1 + PC2 + PC3 + PC4 + PC5)/(ncol(loadings_sum) - 1)) %>% 
+  select(column, r) %>% 
+  arrange(reg, desc(r)) %>% 
+  knitr::kable()
+```
+
 ## Groups in the data
 
 ```{r package-mclust}

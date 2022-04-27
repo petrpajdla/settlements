@@ -326,7 +326,6 @@ res_wide <- res_long %>%
 ## Principal components analysis
 
 ```{r nested-pca}
-# traditions
 pca_per <- res_wide %>%
   add_region() %>% 
   group_by(reg, period) %>% 
@@ -337,6 +336,25 @@ pca_per <- res_wide %>%
 ```{r pca-plot}
 pca_per %>% plot_nested_pca(var = "period")
 ```
+
+```{r pca-summations}
+loadings_sum <- pca_per %>% 
+  summarise_variables()
+```
+
+```{r pca-summations-hm, eval=FALSE, echo=FALSE}
+# loadings_sum_m <- as.matrix(loadings_sum[, paste0("PC", 1:(ncol(loadings_sum) - 1))])
+# rownames(loadings_sum_m) <- loadings_sum$column
+# heatmap(loadings_sum_m)
+```
+```{r pca-summations-tb}
+loadings_sum %>% 
+  mutate(r = (PC1 + PC2 + PC3 + PC4 + PC5)/(ncol(loadings_sum) - 1)) %>% 
+  select(column, r) %>% 
+  arrange(reg, desc(r)) %>% 
+  knitr::kable()
+```
+
 
 ## Groups in the data
 
