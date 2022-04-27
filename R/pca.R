@@ -74,7 +74,7 @@ plot_nested_pca <- function(x, var, pc = c("PC1", "PC2")) {
 #'
 #' @param x Nested PCA object.
 #'
-#' @return Nested object with hierarchcal clustering results and dendrogram.
+#' @return Nested object with hierarchical clustering results and dendrogram.
 #' @export
 #'
 #' @examples
@@ -97,4 +97,33 @@ hclust_plot_dendro <- function(x, vars) {
     pull(dendro)
 
   (plots[[3]] / plots[4]) | (plots[[2]] / plots[[1]])
+}
+
+#' Summarise variable loadings
+#'
+#' @param x Nested PCA object.
+#' @param prob A threshold of cumulative variability explained.
+#'     Only PCs that cumulatively explain at least the given value are kept.
+#'     Defaults to 0.75.
+#'
+#' @return A tibble with variable loadings summarised across different PCAs.
+#' @export
+#'
+#' @examples
+summarise_variables <- function(x, prob = 0.75) {
+  x %>%
+    mutate(
+      # select only PCs that cumulatively explain given variability
+      overProb = purrr::map(sdev, \(x) x[(cumsum(x[, "var_prop"]) >= prob), ]$pc[1]),
+      overProb = purrr::map(overProb, \(x) 1:x),
+      # select PCs
+      rotation2 = purrr::map2(rotation, overProb, \(x, y) select(x, c("column", paste0("PC", y))))
+    ) %>%
+    select(rotation2) %>%
+    unnest(cols = c(rotation2)) %>%
+    ungroup() %>%
+    select(-period) %>%
+    group_by(reg, column) %>%
+    mutate(across(where(is.numeric), abs)) %>%
+    summarise(across(where(is.numeric), sum, na.rm = TRUE))
 }
