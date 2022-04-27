@@ -11,31 +11,37 @@ library(googledrive)
 
 # upload results to GD -----------------------------------------------------
 
-# paths
-dt_result <- "analysis/data/derived_data/results"
-gd_path <- "~/settlements/data/results/"
-
-now <- paste("Updated", Sys.time())
-write_lines(now, here(dt_result, "README"), append = TRUE)
-
-# delete previous files
-drive_trash(filter(drive_ls(gd_path), str_detect(name, "^results.$")))
-
-# list files to upload
-files_local <- list.files(dt_result, pattern = "csv$", full.names = TRUE)
-readme <- list.files(dt_result, pattern = "^README$", full.names = TRUE)
-
-drive_results <- map(files_local, ~ drive_upload(.x, gd_path,
-                                                 type = "spreadsheet",
-                                                 overwrite = TRUE))
-drive_readme <- drive_upload(readme, gd_path, overwrite = TRUE)
+# # paths
+# dt_result <- "analysis/data/derived_data/results"
+# gd_path <- "~/settlements/data/results/"
+#
+# now <- paste("Updated", Sys.time())
+# write_lines(now, here(dt_result, "README"), append = TRUE)
+#
+# # delete previous files
+# drive_trash(filter(drive_ls(gd_path), str_detect(name, "^results.$")))
+#
+# # list files to upload
+# files_local <- list.files(dt_result, pattern = "csv$", full.names = TRUE)
+# readme <- list.files(dt_result, pattern = "^README$", full.names = TRUE)
+#
+# drive_results <- map(files_local, ~ drive_upload(.x, gd_path,
+#                                                  type = "spreadsheet",
+#                                                  overwrite = TRUE))
+# drive_readme <- drive_upload(readme, gd_path, overwrite = TRUE)
 
 
 # upload SI to GD ---------------------------------------------------------
 
-si <- here("analysis/paper/paper.html")
+# si <- here("analysis/paper/paper.html")
+neo <- here("analysis/neo/neo.html")
+traditions <- here("analysis/traditions/traditions.html")
+groups <- here("analysis/groups/groups.html")
 
-drive_si <- drive_upload(si, "~/settlements/SI/", overwrite = TRUE)
+# drive_si <- drive_upload(si, "~/settlements/SI/", overwrite = TRUE)
+drive_neo <- drive_upload(neo, "~/settlements/SI/", overwrite = TRUE)
+drive_traditions <- drive_upload(traditions, "~/settlements/SI/", overwrite = TRUE)
+drive_groups <- drive_upload(groups, "~/settlements/SI/", overwrite = TRUE)
 
 
 # Figs to GD --------------------------------------------------------------
