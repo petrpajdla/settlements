@@ -53,9 +53,12 @@ analysis/data/derived_data/*/
 # Figures (temporary, working figs)
 analysis/figures/
 
-# Paper files
-analysis/paper/paper_*/
-analysis/paper/*.docx
-analysis/paper/*.html
+# Paper files and figures
+analysis/paper/paper_files/
+*.docx
+*.ods
+*.pdf
+*.svg
+*.geojson
 
-
+neo_faktory.csv
