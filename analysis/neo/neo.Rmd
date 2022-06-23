@@ -384,8 +384,15 @@ pca_per <- res_wide %>%
 ```
 
 ```{r pca-plot}
-pca_per %>% plot_nested_pca(var = "period")
+pca_per %>% 
+  mutate(reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  plot_nested_pca(var = "period")
 ```
+
+```{r}
+# ggsave(here::here("neo_pca.svg"), width = 10, height = 7)
+```
+
 
 ```{r pca-summations}
 loadings_sum <- pca_per %>% 
@@ -399,6 +406,15 @@ loadings_sum %>%
   arrange(reg, desc(r)) %>% 
   knitr::kable()
 ```
+
+```{r}
+# loadings_sum %>% 
+#   mutate(r = (PC1 + PC2 + PC3 + PC4 + PC5)/(ncol(loadings_sum) - 1)) %>% 
+#   select(column, r) %>% 
+#   arrange(reg, desc(r)) %>% 
+#   write_csv(here::here("neo_faktory.csv"))
+```
+
 
 ## Groups in the data
 
