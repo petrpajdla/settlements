@@ -78,6 +78,8 @@ relabel_variable <- function(x) {
     column == "rm_dist_chipped" ~ "d. ch.",
     column == "line_water" ~ "w. line",
     column == "rm_dist_polished" ~ "d. pol.",
+    column == "hydro" ~ "hydro",
+    column == "tpi" ~ "tpi"
   ))
 }
 

@@ -125,5 +125,5 @@ summarise_variables <- function(x, prob = 0.75) {
     select(-period) %>%
     group_by(reg, column) %>%
     mutate(across(where(is.numeric), abs)) %>%
-    summarise(across(where(is.numeric), sum, na.rm = TRUE))
+    summarise(across(where(is.numeric), mean, na.rm = TRUE))
 }
