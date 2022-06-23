@@ -376,10 +376,10 @@ set_spat %>%
 ```
 
 ```{r spat-out}
-set_spat %>% 
-  select(id) %>% 
-  inner_join(classif, by = "id") %>% 
-  write_sf(here::here("analysis/traditions/traditions.geojson"), delete_layer = TRUE)
+# set_spat %>% 
+#   select(id) %>% 
+#   inner_join(classif, by = "id") %>% 
+#   write_sf(here::here("analysis/traditions/traditions.geojson"), delete_layer = TRUE)
 ```
 
 ```{r plot-vars-g}
