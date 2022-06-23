@@ -9,7 +9,7 @@ library(sf)
 library(terra)
 
 # size of a buffer zone around the settlement (meters)
-buffer_dist <- units::set_units(0.2, "km")
+buffer_dist <- units::set_units(0.3, "km")
 
 # data --------------------------------------------------------------------
 

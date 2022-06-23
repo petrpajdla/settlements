@@ -9,7 +9,7 @@ library(sf)
 devtools::load_all()
 
 # size of a buffer zone around the settlement (meters)
-buffer_dist <- units::set_units(0.5, "km")
+buffer_dist <- units::set_units(0.3, "km")
 
 # data --------------------------------------------------------------------
 
@@ -56,6 +56,11 @@ mean_slope %>%
   theme_bw() +
   coord_flip() +
   labs(x = "slope (°)")
+
+ggplot() +
+  geom_sf(data = st_as_sf(mean_slope), aes(color = value),
+          size = 2, alpha = 0.8) +
+  theme_void()
 
 # mean_slope %>%
 #   mutate(reg = stringr::str_extract(id, ".")) %>%

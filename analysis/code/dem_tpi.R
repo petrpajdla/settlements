@@ -9,7 +9,7 @@ library(sf)
 devtools::load_all()
 
 # size of a buffer zone around the settlement (meters)
-buffer_dist <- units::set_units(0.2, "km")
+buffer_dist <- units::set_units(0.3, "km")
 
 # data --------------------------------------------------------------------
 
@@ -45,6 +45,15 @@ mean_tpi %>%
   theme_bw() +
   coord_flip() +
   labs(x = "TPI (terrain position index)")
+
+mean_tpi %>%
+  st_as_sf() %>%
+  ggplot() +
+  geom_sf(aes(color = value), size = 1.8)
+
+mean_tpi %>%
+  ggplot(aes(value)) +
+  geom_histogram()
 
 # mean_slope %>%
 #   mutate(reg = stringr::str_extract(id, ".")) %>%
