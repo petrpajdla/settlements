@@ -39,9 +39,10 @@ The **analysis** directory contains:
     three parts with different granularity/detail in time.
 -   [:file_folder: neo](/analysis/neo): Analysis for Neolithic B and C
     periods.
--   [:file_folder: neo](/analysis/traditions): Analysis for pottery
-    traditions.
--   [:file_folder: neo](/analysis/groups): Analysis for pottery groups.
+-   [:file_folder: traditions](/analysis/traditions): Analysis for
+    pottery traditions.
+-   [:file_folder: groups](/analysis/groups): Analysis for pottery
+    groups.
 -   [:file_folder: data](/analysis/data): Data used in the analysis. We
     were not able to publish all our source data due to copyrights etc.
     There is also an individual data paper:
