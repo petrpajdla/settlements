@@ -40,7 +40,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   message = FALSE,
   echo = FALSE,
-  cache = FALSE,
+  cache = TRUE,
   comment = "#>",
   # fig.path = "../figures/",
   dpi = 300
@@ -72,6 +72,7 @@ Republic and bordering regions of Austria and Slovakia.
 
 ```{r get-data, cache = FALSE}
 derived_data <- "analysis/data/derived_data"
+input_data <- "analysis/data/input_data"
 path_maps <- here::here(derived_data, "maps/")
 path_data <- here::here(derived_data)
 path_temp <- here::here(derived_data, "temp/")
@@ -87,12 +88,12 @@ rivers0 <- st_read(paste0(path_maps, "rivers0.geojson"), quiet = TRUE)
 rivers1 <- st_read(paste0(path_maps, "rivers1.geojson"), quiet = TRUE)
 
 # labels
-labs_chrono <- read_rds(here::here(derived_data, "chrono_labels.RDS"))
+labs_chrono <- read_rds(here::here(input_data, "chrono_labels.RDS"))
 
 # database
-set_base <- read_rds(here::here(derived_data, "settlements.RDS"))
+set_base <- read_rds(here::here(input_data, "settlements.RDS"))
 
-set_spat <- st_read(here::here(derived_data, "settlements_sf.geojson"), 
+set_spat <- st_read(here::here(input_data, "settlements_sf.geojson"), 
                     quiet = TRUE)
 
 settlements1 <- set_spat %>%
@@ -217,17 +218,17 @@ rm_dist <- read_csv(paste0(path_temp, "rm_dist.csv")) %>%
   mutate(rm = str_to_lower(rm))
 ```
 
-<!-- ```{r plot-rm-dist-min, fig.cap="Min. distance to raw material sources."} -->
-<!-- rm_dist %>% -->
-<!--   ggplot(aes(x = min, y = rm, fill = region)) + -->
-<!--   geom_violin() + -->
-<!--   scale_fill_brewer(palette = "Accent") + -->
-<!--   facet_wrap(~type, scales = "free_y") + -->
-<!--   labs(x = "min. dist. (km)", y = "raw material", fill = "Region") + -->
-<!--   theme_minimal() + -->
-<!--   theme(legend.position = "bottom",  -->
-<!--         panel.border = element_rect(color = "black", fill = NA)) -->
-<!-- ``` -->
+```{r plot-rm-dist-min, fig.cap="Min. distance to raw material sources."}
+# rm_dist %>%
+#   ggplot(aes(x = min, y = rm, fill = region)) +
+#   geom_violin() +
+#   scale_fill_brewer(palette = "Accent") +
+#   facet_wrap(~type, scales = "free_y") +
+#   labs(x = "min. dist. (km)", y = "raw material", fill = "Region") +
+#   theme_minimal() +
+#   theme(legend.position = "bottom",
+#         panel.border = element_rect(color = "black", fill = NA))
+```
 
 ## Settlement density against distance to raw materials
 
@@ -508,7 +509,7 @@ rm(list = c("hydro_dens", "hydro_dens_at_points"))
 # Terrain surrounding the settlements
 
 ```{r dem}
-dem_terra <- terra::rast(here::here(derived_data, "/dem/dem_aster_sjtsk_stars.tif"))
+dem_terra <- terra::rast(here::here(derived_data, "archive/dem/dem_aster_sjtsk_stars.tif"))
 ```
 
 ## Slope
@@ -578,58 +579,56 @@ rm(list = c("dem_slope", "slope", "mean_slope"))
 gc()
 ```
 
-<!--
+
 ```{r dem-data}
-dem_data <- read_csv(here::here(derived_data, "dem/vals_dem.csv"))
-
-# bind to results
-res1_long <- set_base$period1 %>% 
-prep_dem_res() %>% 
-bind_rows(res1_long)
-
-res2_long <- set_base$period2 %>% 
-select(-facet) %>% 
-prep_dem_res() %>% 
-bind_rows(res2_long)
+# dem_data <- read_csv(here::here(derived_data, "dem/vals_dem.csv"))
+# 
+# # bind to results
+# res1_long <- set_base$period1 %>% 
+# prep_dem_res() %>% 
+# bind_rows(res1_long)
+# 
+# res2_long <- set_base$period2 %>% 
+# select(-facet) %>% 
+# prep_dem_res() %>% 
+# bind_rows(res2_long)
 ```
 
 ```{r altitude-to-res}
-altitude <- set_spat %>% st_drop_geometry() %>% 
-as_tibble() %>% 
-select(id, altitude)
-
-# bind to results
-res1_long <- set_base$period1 %>% 
-prep_alt_res() %>% 
-bind_rows(res1_long)
-
-res2_long <- set_base$period2 %>% 
-select(-facet) %>% 
-prep_alt_res() %>% 
-bind_rows(res2_long)
-
+# altitude <- set_spat %>% st_drop_geometry() %>% 
+# as_tibble() %>% 
+# select(id, altitude)
+# 
+# # bind to results
+# res1_long <- set_base$period1 %>% 
+# prep_alt_res() %>% 
+# bind_rows(res1_long)
+# 
+# res2_long <- set_base$period2 %>% 
+# select(-facet) %>% 
+# prep_alt_res() %>% 
+# bind_rows(res2_long)
 ```
 
 
 ```{r dem-analysis-correlation, fig.cap='Correlation between altitude derived from DEM and altitude reading in the topographic map.'}
-alt_plot <- set_spat %>% st_drop_geometry() %>% 
-as_tibble() %>% 
-select(id, altitude) %>% 
-left_join(dem_data)
-
-alt_cor <- alt_plot %>% 
-summarise(cor = cor(altitude, dem)) %>% 
-pull(cor) %>% 
-round(2)
-
-alt_plot %>% 
-ggplot(aes(altitude, dem)) +
-geom_point() +
-theme_minimal() +
-annotate(geom = "text", x = 175, y = 525, 
-label = paste("Cor. ", alt_cor))
+# alt_plot <- set_spat %>% st_drop_geometry() %>% 
+# as_tibble() %>% 
+# select(id, altitude) %>% 
+# left_join(dem_data)
+# 
+# alt_cor <- alt_plot %>% 
+# summarise(cor = cor(altitude, dem)) %>% 
+# pull(cor) %>% 
+# round(2)
+# 
+# alt_plot %>% 
+# ggplot(aes(altitude, dem)) +
+# geom_point() +
+# theme_minimal() +
+# annotate(geom = "text", x = 175, y = 525, 
+# label = paste("Cor. ", alt_cor))
 ```
--->
 
 ## Exploring aspect
 
@@ -642,37 +641,36 @@ In both Morava river drainage basin and Eastern part of
 Bohemia, median aspect is normally distributed.
 
 ```{r aspect-norm}
-shapiro.test(filter(med_asp, reg == "B")$med_asp)
-shapiro.test(filter(med_asp, reg == "M")$med_asp)
+# shapiro.test(filter(med_asp, reg == "B")$med_asp)
+# shapiro.test(filter(med_asp, reg == "M")$med_asp)
 ```
 
 ```{r aspect-plot-reg, fig.cap="Histogram of aspect distibution on polar coordinates."}
-
-# polar plot
-med_asp %>% 
-  ggplot(aes(med_asp)) + 
-  geom_histogram(color = "black", fill = "white") +
-  scale_x_continuous(limits = c(0, 359), 
-                     breaks = c(0, 90, 180, 270)) +
-  coord_polar(start = 0) + 
-  facet_wrap(vars(reg)) +
-  theme_bw() +
-  labs(x = "median aspect (°)")
+# # polar plot
+# med_asp %>% 
+#   ggplot(aes(med_asp)) + 
+#   geom_histogram(color = "black", fill = "white") +
+#   scale_x_continuous(limits = c(0, 359), 
+#                      breaks = c(0, 90, 180, 270)) +
+#   coord_polar(start = 0) + 
+#   facet_wrap(vars(reg)) +
+#   theme_bw() +
+#   labs(x = "median aspect (°)")
 ```
 
 ```{r aspect-plot-reg-p2}
-med_asp %>% 
-  inner_join(settlements2, by = "id") %>% 
-  ggplot(aes(med_asp)) + 
-  geom_histogram(color = "black", fill = "white") +
-  scale_x_continuous(limits = c(0, 360), 
-                     breaks = c(0, 90, 180, 270, 360)) +
-  facet_grid(vars(period_label), vars(reg), scales = "free_y") +
-  theme_bw() +
-  labs(x = "median aspect (°)")
+# med_asp %>% 
+#   inner_join(settlements2, by = "id") %>% 
+#   ggplot(aes(med_asp)) + 
+#   geom_histogram(color = "black", fill = "white") +
+#   scale_x_continuous(limits = c(0, 360), 
+#                      breaks = c(0, 90, 180, 270, 360)) +
+#   facet_grid(vars(period_label), vars(reg), scales = "free_y") +
+#   theme_bw() +
+#   labs(x = "median aspect (°)")
 ```
 
-```{r aspect-clean}
+```{r aspect-clean2}
 rm(list = c("dem_asp", "asp", "med_asp"))
 ```
 
@@ -681,19 +679,19 @@ rm(list = c("dem_asp", "asp", "med_asp"))
 > Terrain / Topographic roughness index
 
 ```{r tpi}
-dem_tpi <- terra::terrain(dem_terra, v = "TPI")
-
-# tpi in the vicinity of settlements - 2km
-tpi <- terra::extract(dem_tpi, 
-                      terra::vect(st_buffer(set_spat, dist = 2e3)))
-
-# derive median aspect
-mean_slope <- slope %>% 
-  tibble() %>% 
-  group_by(ID) %>% 
-  summarise(mean_slope = mean(slope)) %>% 
-  bind_cols(id = set_spat$id) %>% 
-  mutate(reg = str_extract(id, "^."))
+# dem_tpi <- terra::terrain(dem_terra, v = "TPI")
+# 
+# # tpi in the vicinity of settlements - 2km
+# tpi <- terra::extract(dem_tpi, 
+#                       terra::vect(st_buffer(set_spat, dist = 2e3)))
+# 
+# # derive median aspect
+# mean_slope <- slope %>% 
+#   tibble() %>% 
+#   group_by(ID) %>% 
+#   summarise(mean_slope = mean(slope)) %>% 
+#   bind_cols(id = set_spat$id) %>% 
+#   mutate(reg = str_extract(id, "^."))
 
 # shapiro.test(filter(mean_slope, reg == "B")$mean_slope)
 # hist(filter(mean_slope, reg == "B")$mean_slope)
@@ -743,7 +741,7 @@ dist_fenced_p2 <- dist_fenced$groups %>%
 
 <!--- ====================================================================== -->
 
-<!--
+
 # Settlement 'continuity'
 
 Is the same location settled in the previous period?
@@ -777,7 +775,7 @@ summarise(sum = n())
 res2_long %>% 
 plot_continuity(y = n_set_per2)
 ```
--->
+
 
 
 <!--- ====================================================================== -->
@@ -883,10 +881,10 @@ res2_violin
 ```
 
 ```{r res-violin-out}
-ggsave(here::here("analysis/figures", "res1_violin.png"), res1_violin, 
-       width = 9, height = 12)
-ggsave(here::here("analysis/figures", "res2_violin.png"), res2_violin, 
-       width = 9, height = 12)
+# ggsave(here::here("analysis/figures", "res1_violin.png"), res1_violin, 
+#        width = 9, height = 12)
+# ggsave(here::here("analysis/figures", "res2_violin.png"), res2_violin, 
+#        width = 9, height = 12)
 ```
 
 ## Line plots
@@ -902,301 +900,277 @@ res2_line
 ```
 
 ```{r res-line-out}
-ggsave(here::here("analysis/figures", "res1_line.png"), res1_line, 
-       width = 7, height = 7)
-ggsave(here::here("analysis/figures", "res2_line.png"), res2_line, 
-       width = 7, height = 7)
+# ggsave(here::here("analysis/figures", "res1_line.png"), res1_line, 
+#        width = 7, height = 7)
+# ggsave(here::here("analysis/figures", "res2_line.png"), res2_line, 
+#        width = 7, height = 7)
 ```
 
 <!-- ## PCA -->
 
 <!-- ### Pottery traditions -->
 
-<!-- ```{r pca1-all} -->
-<!-- # fit PCA -->
-<!-- pca1_all_fit <- res1_wide %>%  -->
-<!--   # select(-cont) %>%  -->
-<!--   select(where(is.numeric)) %>%  -->
-<!--   scale(center = TRUE, scale = TRUE) %>%  -->
-<!--   prcomp() -->
+```{r pca1-all}
+# # fit PCA
+# pca1_all_fit <- res1_wide %>%
+#   # select(-cont) %>%
+#   select(where(is.numeric)) %>%
+#   scale(center = TRUE, scale = TRUE) %>%
+#   prcomp()
+# 
+# # augmented fitted values
+# pca1_all_aug <- pca1_all_fit %>%
+#   broom::augment(res1_wide) %>%
+#   select(-".rownames") %>%
+#   rename_with(\(x) str_remove(x, ".fitted")) %>%
+#   settlements::add_region() %>%
+#   settlements::add_period_label() %>%
+#   settlements::add_neo()
+# 
+# # rotation matrix
+# pca1_all_rot <- pca1_all_fit %>%
+#   broom::tidy(matrix = "rotation") %>%
+#   mutate(PC = str_c("PC", PC)) %>%
+#   pivot_wider(names_from = PC)
+# 
+# # var explained
+# pca1_all_var_exp <- pca1_all_fit %>%
+#   broom::augment(res1_wide) %>%
+#   summarise(across(contains("PC"), var)) %>%
+#   pivot_longer(cols = everything(), names_to = "pc", values_to = "variance") %>%
+#   mutate(var_exp = variance/sum(variance),
+#          cum_var_exp = cumsum(var_exp),
+#          pc = str_replace(pc, ".fitted", "")) %>%
+#   select(pc, var_exp, cum_var_exp)
+# 
+# # PC cum var explained over 0.9
+# pca1_all_var_exp_over <- pca1_all_var_exp %>%
+#   mutate(n = !(cum_var_exp >= 0.9)) %>%
+#   pull(n) %>%
+#   sum() + 1
+```
 
-<!-- # augmented fitted values -->
-<!-- pca1_all_aug <- pca1_all_fit %>%  -->
-<!--   broom::augment(res1_wide) %>%  -->
-<!--   select(-".rownames") %>%  -->
-<!--   rename_with(\(x) str_remove(x, ".fitted")) %>%  -->
-<!--   settlements::add_region() %>%  -->
-<!--   settlements::add_period_label() %>%  -->
-<!--   settlements::add_neo() -->
+```{r pca1-all-var-exp-tab}
+# knitr::kable(pca1_all_var_exp, col.names = c("Comp.",
+#                                              "Prop. of variance",
+#                                              "Cumulative prop."))
+```
 
-<!-- # rotation matrix -->
-<!-- pca1_all_rot <- pca1_all_fit %>% -->
-<!--   broom::tidy(matrix = "rotation") %>% -->
-<!--   mutate(PC = str_c("PC", PC)) %>% -->
-<!--   pivot_wider(names_from = PC) -->
+```{r pca1-all-loadings-plot}
+# # PCA loadings
+# pca1_all_loadings <- pca1_all_fit %>%
+#   broom::tidy(matrix = "rotation") %>%
+#   mutate(component = str_c("PC", PC),
+#          component = fct_reorder(component, PC)) %>%
+#   filter(PC <= pca1_all_var_exp_over) %>%
+#   group_by(PC) %>%
+#   top_n(8, abs(value)) %>%
+#   ungroup() %>%
+#   mutate(cor = if_else(value > 0, "positive", "negative"),
+#          column = tidytext::reorder_within(column, abs(value), component))
+# 
+# pca1_all_loadings %>%
+#   ggplot(aes(abs(value), column, fill = cor)) +
+#   geom_col(color = "black") +
+#   scale_fill_manual(values = c("white", "gray80")) +
+#   facet_wrap(vars(component), scales = "free_y") +
+#   tidytext::scale_y_reordered() +
+#   theme_bw() +
+#   labs(x = "Abs. contribution value", y = element_blank(), fill = "Value")
+```
 
-<!-- # var explained -->
-<!-- pca1_all_var_exp <- pca1_all_fit %>%  -->
-<!--   broom::augment(res1_wide) %>% -->
-<!--   summarise(across(contains("PC"), var)) %>%  -->
-<!--   pivot_longer(cols = everything(), names_to = "pc", values_to = "variance") %>%  -->
-<!--   mutate(var_exp = variance/sum(variance), -->
-<!--          cum_var_exp = cumsum(var_exp), -->
-<!--          pc = str_replace(pc, ".fitted", "")) %>%  -->
-<!--   select(pc, var_exp, cum_var_exp) -->
+```{r plot-pca1-results}
+# plot_pca1_full <- function(x = "PC1", y = "PC2") {
+# 
+#   pcs <- c(x, y)
+# 
+#   pca1_all_plot <- pca1_all_aug %>%
+#     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) +
+#     geom_point(data = select(pca1_all_aug, -period_label),
+#                alpha = 0.05, size = 0.4) +
+#     geom_point(aes(color = reg),
+#                alpha = 0.8, size = 0.5, show.legend = FALSE) +
+#     scale_color_manual(values = mycol[c(1, 2)]) +
+#     facet_grid(vars(period_label), vars(reg)) +
+#     theme_minimal()
+# 
+#   pca1_all_rot <-  pca1_all_rot %>%
+#     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) +
+#     geom_segment(xend = 0, yend = 0, alpha = 0.4) +
+#     geom_text(
+#       aes(label = column),
+#       hjust = 1, nudge_x = -0.02,
+#       color = "#904C2F",
+#       size = 2.6
+#     ) +
+#     theme_minimal()
+# 
+#   pca1_all_load <- pca1_all_loadings %>%
+#     filter(component %in% pcs) %>%
+#     ggplot(aes(abs(value), column, fill = cor)) +
+#     geom_col(color = "black", show.legend = FALSE) +
+#     scale_fill_manual(values = c("white", "gray80")) +
+#     facet_wrap(vars(component), scales = "free_y") +
+#     tidytext::scale_y_reordered() +
+#     labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") +
+#     theme_minimal()
+# 
+#   pca1_all_plot / (pca1_all_rot | pca1_all_load) +
+#     plot_layout(heights = c(6, 1))
+# }
+```
 
-<!-- # PC cum var explained over 0.9 -->
-<!-- pca1_all_var_exp_over <- pca1_all_var_exp %>%  -->
-<!--   mutate(n = !(cum_var_exp >= 0.9)) %>%  -->
-<!--   pull(n) %>%  -->
-<!--   sum() + 1 -->
-<!-- ``` -->
+```{r pca1-all-plots-pc1-pc2}
+# plot_pca1_full()
+# ggsave(here::here("analysis/figures/pca1_full_pc12.png"), height = 14)
+```
 
-<!-- ```{r pca1-all-var-exp-tab} -->
-<!-- knitr::kable(pca1_all_var_exp, col.names = c("Comp.", -->
-<!--                                              "Prop. of variance",  -->
-<!--                                              "Cumulative prop.")) -->
-<!-- ``` -->
+```{r pca1-all-plots-pc3-pc4}
+# plot_pca1_full("PC3", "PC4")
+# ggsave(here::here("analysis/figures/pca1_full_pc34.png"), height = 14)
+```
 
-<!-- ```{r pca1-all-loadings-plot} -->
-<!-- # PCA loadings -->
-<!-- pca1_all_loadings <- pca1_all_fit %>%  -->
-<!--   broom::tidy(matrix = "rotation") %>%  -->
-<!--   mutate(component = str_c("PC", PC), -->
-<!--          component = fct_reorder(component, PC)) %>%  -->
-<!--   filter(PC <= pca1_all_var_exp_over) %>%  -->
-<!--   group_by(PC) %>%  -->
-<!--   top_n(8, abs(value)) %>%  -->
-<!--   ungroup() %>%  -->
-<!--   mutate(cor = if_else(value > 0, "positive", "negative"), -->
-<!--          column = tidytext::reorder_within(column, abs(value), component)) -->
+```{r pca1-all-plots-pc5-pc6}
+# plot_pca1_full("PC5", "PC6")
+# ggsave(here::here("analysis/figures/pca1_full_pc56.png"), height = 14)
+```
 
-<!-- pca1_all_loadings %>%  -->
-<!--   ggplot(aes(abs(value), column, fill = cor)) + -->
-<!--   geom_col(color = "black") + -->
-<!--   scale_fill_manual(values = c("white", "gray80")) + -->
-<!--   facet_wrap(vars(component), scales = "free_y") + -->
-<!--   tidytext::scale_y_reordered() + -->
-<!--   theme_bw() + -->
-<!--   labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") -->
-<!-- ``` -->
+```{r pca1-all-plots-pc7-pc8}
+# plot_pca1_full("PC7", "PC8")
+# ggsave(here::here("analysis/figures/pca1_full_pc78.png"), height = 14)
+```
 
-<!-- ```{r plot-pca1-results} -->
-<!-- plot_pca1_full <- function(x = "PC1", y = "PC2") { -->
+### Pottery groups
 
-<!--   pcs <- c(x, y) -->
+```{r pca2-all}
+# # fit PCA
+# pca2_all_fit <- res2_wide %>%
+#   # select(-cont) %>%
+#   select(where(is.numeric)) %>%
+#   scale(center = TRUE, scale = TRUE) %>%
+#   prcomp()
+# 
+# # augmented fitted values
+# pca2_all_aug <- pca2_all_fit %>%
+#   broom::augment(res2_wide) %>%
+#   select(-".rownames") %>%
+#   rename_with(\(x) str_remove(x, ".fitted")) %>%
+#   settlements::add_region() %>%
+#   settlements::add_period_label() %>%
+#   settlements::add_neo()
+# 
+# # rotation matrix
+# pca2_all_rot <- pca2_all_fit %>%
+#   broom::tidy(matrix = "rotation") %>%
+#   mutate(PC = str_c("PC", PC)) %>%
+#   pivot_wider(names_from = PC)
+# 
+# # var explained
+# pca2_all_var_exp <- pca2_all_fit %>%
+#   broom::augment(res2_wide) %>%
+#   summarise(across(contains("PC"), var)) %>%
+#   pivot_longer(cols = everything(), names_to = "pc", values_to = "variance") %>%
+#   mutate(var_exp = variance/sum(variance),
+#          cum_var_exp = cumsum(var_exp),
+#          pc = str_replace(pc, ".fitted", "")) %>%
+#   select(pc, var_exp, cum_var_exp)
+# 
+# # PC cum var explained over 0.9
+# pca2_all_var_exp_over <- pca2_all_var_exp %>%
+#   mutate(n = !(cum_var_exp >= 0.9)) %>%
+#   pull(n) %>%
+#   sum() + 1
+```
 
-<!--   pca1_all_plot <- pca1_all_aug %>%  -->
-<!--     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) + -->
-<!--     geom_point(data = select(pca1_all_aug, -period_label),  -->
-<!--                alpha = 0.05, size = 0.4) + -->
-<!--     geom_point(aes(color = reg),  -->
-<!--                alpha = 0.8, size = 0.5, show.legend = FALSE) + -->
-<!--     scale_color_manual(values = mycol[c(1, 2)]) + -->
-<!--     facet_grid(vars(period_label), vars(reg)) + -->
-<!--     theme_minimal() -->
+```{r pca2-all-var-exp-tab}
+# knitr::kable(pca1_all_var_exp, col.names = c("Comp.",
+#                                              "Prop. of variance",
+#                                              "Cumulative prop."))
+```
 
-<!--   pca1_all_rot <-  pca1_all_rot %>% -->
-<!--     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) + -->
-<!--     geom_segment(xend = 0, yend = 0, alpha = 0.4) + -->
-<!--     geom_text( -->
-<!--       aes(label = column), -->
-<!--       hjust = 1, nudge_x = -0.02, -->
-<!--       color = "#904C2F", -->
-<!--       size = 2.6 -->
-<!--     ) + -->
-<!--     theme_minimal() -->
+```{r pca2-all-loadings-plot}
+# # PCA loadings
+# pca2_all_loadings <- pca2_all_fit %>%
+#   broom::tidy(matrix = "rotation") %>%
+#   mutate(component = str_c("PC", PC),
+#          component = fct_reorder(component, PC)) %>%
+#   filter(PC <= pca2_all_var_exp_over) %>%
+#   group_by(PC) %>%
+#   top_n(8, abs(value)) %>%
+#   ungroup() %>%
+#   mutate(cor = if_else(value > 0, "positive", "negative"),
+#          column = tidytext::reorder_within(column, abs(value), component))
+# 
+# pca2_all_loadings %>%
+#   ggplot(aes(abs(value), column, fill = cor)) +
+#   geom_col(color = "black") +
+#   scale_fill_manual(values = c("white", "gray80")) +
+#   facet_wrap(vars(component), scales = "free_y") +
+#   tidytext::scale_y_reordered() +
+#   theme_bw() +
+#   labs(x = "Abs. contribution value", y = element_blank(), fill = "Value")
+```
 
-<!--   pca1_all_load <- pca1_all_loadings %>%  -->
-<!--     filter(component %in% pcs) %>%  -->
-<!--     ggplot(aes(abs(value), column, fill = cor)) + -->
-<!--     geom_col(color = "black", show.legend = FALSE) + -->
-<!--     scale_fill_manual(values = c("white", "gray80")) + -->
-<!--     facet_wrap(vars(component), scales = "free_y") + -->
-<!--     tidytext::scale_y_reordered() + -->
-<!--     labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") + -->
-<!--     theme_minimal() -->
+```{r plot-pca2-results}
+# plot_pca2_full <- function(x = "PC1", y = "PC2") {
+# 
+#   pcs <- c(x, y)
+# 
+#   pca2_all_plot <- pca2_all_aug %>%
+#     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) +
+#     geom_point(data = select(pca2_all_aug, -period_label),
+#                alpha = 0.05, size = 0.4) +
+#     geom_point(aes(color = reg),
+#                alpha = 0.8, size = 0.5, show.legend = FALSE) +
+#     scale_color_manual(values = mycol[c(1, 2)]) +
+#     facet_grid(vars(period_label), vars(reg)) +
+#     theme_minimal()
+# 
+#   pca2_all_rot <-  pca2_all_rot %>%
+#     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) +
+#     geom_segment(xend = 0, yend = 0, alpha = 0.4) +
+#     geom_text(
+#       aes(label = column),
+#       hjust = 1, nudge_x = -0.02,
+#       color = "#904C2F",
+#       size = 2.6
+#     ) +
+#     theme_minimal()
+# 
+#   pca2_all_load <- pca2_all_loadings %>%
+#     filter(component %in% pcs) %>%
+#     ggplot(aes(abs(value), column, fill = cor)) +
+#     geom_col(color = "black", show.legend = FALSE) +
+#     scale_fill_manual(values = c("white", "gray80")) +
+#     facet_wrap(vars(component), scales = "free_y") +
+#     tidytext::scale_y_reordered() +
+#     labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") +
+#     theme_minimal()
+# 
+#   pca2_all_plot / (pca2_all_rot | pca2_all_load) +
+#     plot_layout(heights = c(6, 1))
+# }
+```
 
-<!--   pca1_all_plot / (pca1_all_rot | pca1_all_load) +  -->
-<!--     plot_layout(heights = c(6, 1)) -->
-<!-- } -->
-<!-- ``` -->
+```{r pca2-all-plots-pc1-pc2}
+# plot_pca2_full()
+# ggsave(here::here("analysis/figures/pca2_full_pc12.png"), height = 14)
+```
 
-<!-- ```{r pca1-all-plots-pc1-pc2} -->
-<!-- plot_pca1_full() -->
-<!-- ggsave(here::here("analysis/figures/pca1_full_pc12.png"), height = 14) -->
-<!-- ``` -->
+```{r pca2-all-plots-pc3-pc4}
+# plot_pca2_full("PC3", "PC4")
+# ggsave(here::here("analysis/figures/pca2_full_pc34.png"), height = 14)
+```
 
-<!-- ```{r pca1-all-plots-pc3-pc4} -->
-<!-- plot_pca1_full("PC3", "PC4") -->
-<!-- ggsave(here::here("analysis/figures/pca1_full_pc34.png"), height = 14) -->
-<!-- ``` -->
+```{r pca2-all-plots-pc5-pc6}
+# plot_pca2_full("PC5", "PC6")
+# ggsave(here::here("analysis/figures/pca2_full_pc56.png"), height = 14)
+```
 
-<!-- ```{r pca1-all-plots-pc5-pc6} -->
-<!-- plot_pca1_full("PC5", "PC6") -->
-<!-- ggsave(here::here("analysis/figures/pca1_full_pc56.png"), height = 14) -->
-<!-- ``` -->
-
-<!-- ```{r pca1-all-plots-pc7-pc8} -->
-<!-- plot_pca1_full("PC7", "PC8") -->
-<!-- ggsave(here::here("analysis/figures/pca1_full_pc78.png"), height = 14) -->
-<!-- ``` -->
-
-<!-- ### Pottery groups -->
-
-<!-- ```{r pca2-all} -->
-<!-- # fit PCA -->
-<!-- pca2_all_fit <- res2_wide %>%  -->
-<!--   # select(-cont) %>%  -->
-<!--   select(where(is.numeric)) %>%  -->
-<!--   scale(center = TRUE, scale = TRUE) %>%  -->
-<!--   prcomp() -->
-
-<!-- # augmented fitted values -->
-<!-- pca2_all_aug <- pca2_all_fit %>%  -->
-<!--   broom::augment(res2_wide) %>%  -->
-<!--   select(-".rownames") %>%  -->
-<!--   rename_with(\(x) str_remove(x, ".fitted")) %>%  -->
-<!--   settlements::add_region() %>%  -->
-<!--   settlements::add_period_label() %>%  -->
-<!--   settlements::add_neo() -->
-
-<!-- # rotation matrix -->
-<!-- pca2_all_rot <- pca2_all_fit %>% -->
-<!--   broom::tidy(matrix = "rotation") %>% -->
-<!--   mutate(PC = str_c("PC", PC)) %>% -->
-<!--   pivot_wider(names_from = PC) -->
-
-<!-- # var explained -->
-<!-- pca2_all_var_exp <- pca2_all_fit %>%  -->
-<!--   broom::augment(res2_wide) %>% -->
-<!--   summarise(across(contains("PC"), var)) %>%  -->
-<!--   pivot_longer(cols = everything(), names_to = "pc", values_to = "variance") %>%  -->
-<!--   mutate(var_exp = variance/sum(variance), -->
-<!--          cum_var_exp = cumsum(var_exp), -->
-<!--          pc = str_replace(pc, ".fitted", "")) %>%  -->
-<!--   select(pc, var_exp, cum_var_exp) -->
-
-<!-- # PC cum var explained over 0.9 -->
-<!-- pca2_all_var_exp_over <- pca2_all_var_exp %>%  -->
-<!--   mutate(n = !(cum_var_exp >= 0.9)) %>%  -->
-<!--   pull(n) %>%  -->
-<!--   sum() + 1 -->
-<!-- ``` -->
-
-<!-- <!-- -->
-<!-- ```{r} -->
-<!-- fuu <- res2_wide %>% mutate(across(where(is.numeric), \(x) x == 0)) %>%  -->
-<!-- select(where(is.logical)) %>%  -->
-<!-- rowSums() %>%  -->
-<!-- as_tibble() -->
-
-<!-- shit <- res2_wide %>% select(id, period) %>% bind_cols(fuu) %>% arrange(desc(value), id, period) %>%  -->
-<!-- filter(value == 8) %>% pull(id) %>% factor() %>% levels() -->
-
-
-<!-- settlements2 %>%  -->
-<!-- filter(id %in% shit) %>%  -->
-<!-- sf::st_transform(4326) %>%  -->
-<!-- leaflet::leaflet() %>%  -->
-<!-- leaflet::addTiles() %>%  -->
-<!-- leaflet::addMarkers() -->
-
-<!-- res2_wide %>% filter(id %in% shit) %>% View() -->
-<!-- ``` -->
-<!-- --> 
-
-
-
-<!-- ```{r pca2-all-var-exp-tab} -->
-<!-- knitr::kable(pca1_all_var_exp, col.names = c("Comp.", -->
-<!--                                              "Prop. of variance",  -->
-<!--                                              "Cumulative prop.")) -->
-<!-- ``` -->
-
-<!-- ```{r pca2-all-loadings-plot} -->
-<!-- # PCA loadings -->
-<!-- pca2_all_loadings <- pca2_all_fit %>%  -->
-<!--   broom::tidy(matrix = "rotation") %>%  -->
-<!--   mutate(component = str_c("PC", PC), -->
-<!--          component = fct_reorder(component, PC)) %>%  -->
-<!--   filter(PC <= pca2_all_var_exp_over) %>%  -->
-<!--   group_by(PC) %>%  -->
-<!--   top_n(8, abs(value)) %>%  -->
-<!--   ungroup() %>%  -->
-<!--   mutate(cor = if_else(value > 0, "positive", "negative"), -->
-<!--          column = tidytext::reorder_within(column, abs(value), component)) -->
-
-<!-- pca2_all_loadings %>%  -->
-<!--   ggplot(aes(abs(value), column, fill = cor)) + -->
-<!--   geom_col(color = "black") + -->
-<!--   scale_fill_manual(values = c("white", "gray80")) + -->
-<!--   facet_wrap(vars(component), scales = "free_y") + -->
-<!--   tidytext::scale_y_reordered() + -->
-<!--   theme_bw() + -->
-<!--   labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") -->
-<!-- ``` -->
-
-<!-- ```{r plot-pca2-results} -->
-<!-- plot_pca2_full <- function(x = "PC1", y = "PC2") { -->
-
-<!--   pcs <- c(x, y) -->
-
-<!--   pca2_all_plot <- pca2_all_aug %>%  -->
-<!--     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) + -->
-<!--     geom_point(data = select(pca2_all_aug, -period_label),  -->
-<!--                alpha = 0.05, size = 0.4) + -->
-<!--     geom_point(aes(color = reg),  -->
-<!--                alpha = 0.8, size = 0.5, show.legend = FALSE) + -->
-<!--     scale_color_manual(values = mycol[c(1, 2)]) + -->
-<!--     facet_grid(vars(period_label), vars(reg)) + -->
-<!--     theme_minimal() -->
-
-<!--   pca2_all_rot <-  pca2_all_rot %>% -->
-<!--     ggplot(aes(!!sym(pcs[1]), !!sym(pcs[2]))) + -->
-<!--     geom_segment(xend = 0, yend = 0, alpha = 0.4) + -->
-<!--     geom_text( -->
-<!--       aes(label = column), -->
-<!--       hjust = 1, nudge_x = -0.02, -->
-<!--       color = "#904C2F", -->
-<!--       size = 2.6 -->
-<!--     ) + -->
-<!--     theme_minimal() -->
-
-<!--   pca2_all_load <- pca2_all_loadings %>%  -->
-<!--     filter(component %in% pcs) %>%  -->
-<!--     ggplot(aes(abs(value), column, fill = cor)) + -->
-<!--     geom_col(color = "black", show.legend = FALSE) + -->
-<!--     scale_fill_manual(values = c("white", "gray80")) + -->
-<!--     facet_wrap(vars(component), scales = "free_y") + -->
-<!--     tidytext::scale_y_reordered() + -->
-<!--     labs(x = "Abs. contribution value", y = element_blank(), fill = "Value") + -->
-<!--     theme_minimal() -->
-
-<!--   pca2_all_plot / (pca2_all_rot | pca2_all_load) +  -->
-<!--     plot_layout(heights = c(6, 1)) -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- ```{r pca2-all-plots-pc1-pc2} -->
-<!-- plot_pca2_full() -->
-<!-- ggsave(here::here("analysis/figures/pca2_full_pc12.png"), height = 14) -->
-<!-- ``` -->
-
-<!-- ```{r pca2-all-plots-pc3-pc4} -->
-<!-- plot_pca2_full("PC3", "PC4") -->
-<!-- ggsave(here::here("analysis/figures/pca2_full_pc34.png"), height = 14) -->
-<!-- ``` -->
-
-<!-- ```{r pca2-all-plots-pc5-pc6} -->
-<!-- plot_pca2_full("PC5", "PC6") -->
-<!-- ggsave(here::here("analysis/figures/pca2_full_pc56.png"), height = 14) -->
-<!-- ``` -->
-
-<!-- ```{r pca2-all-plots-pc7-pc8} -->
-<!-- plot_pca2_full("PC7", "PC8") -->
-<!-- ggsave(here::here("analysis/figures/pca2_full_pc78.png"), height = 14) -->
-<!-- ``` -->
+```{r pca2-all-plots-pc7-pc8}
+# plot_pca2_full("PC7", "PC8")
+# ggsave(here::here("analysis/figures/pca2_full_pc78.png"), height = 14)
+```
 
 
 ## Principal components analysis
@@ -1310,7 +1284,7 @@ pca2_per %>%
   add_period_label() %>% 
   plot_nested_pca("period_label")
 
-ggsave(here::here("analysis/paper/temp/pca_skup_1.png"), width = 10, height = 21)
+# ggsave(here::here("analysis/paper/temp/pca_skup_1.png"), width = 10, height = 21)
 ```
 
 ```{r plot-pca2-period2, fig.cap="PCA for pottery groups data across periods, PC 3-4 space."}
@@ -1318,7 +1292,7 @@ pca2_per %>%
   add_period_label() %>% 
   plot_nested_pca("period_label", c("PC3", "PC4"))
 
-ggsave(here::here("analysis/paper/temp/pca_skup_2.png"), width = 10, height = 21)
+# ggsave(here::here("analysis/paper/temp/pca_skup_2.png"), width = 10, height = 21)
 ```
 
 
@@ -1342,91 +1316,23 @@ hclust2_neo <- pca2_neo %>%
 hclust_plot_dendro(hclust2_neo, c("reg", "neo"))
 ```
 
-## Groups in the data
-
-This is not done for pottery traditions due to an error in one of the periods/
-regions that is caused by not enough variance in the PCA data. Weird...
-
-
-### Pottery groups
-
-```{r package-mclust}
-library(mclust)
-```
-
-```{r mclust2-neo}
-mb_clust2 <- pca2_neo %>% mbc_cluster()
-
-x <- mb_clust2 %>%
-  dplyr::select(reg, neo, classif) %>% 
-  tidyr::unnest() %>% 
-  dplyr::ungroup(c(reg, neo)) %>% 
-  dplyr::mutate(g = str_c(reg, g))
-
-set_spat %>% 
-  inner_join(x, by = "id") %>% 
-  ggplot() +
-  geom_sf(aes(color = g)) +
-  facet_grid(vars(g), vars(neo))
-
-
-```
-
-mb_classif2_neoB <- mb_clust2 %>% mbc_classify(neo = "NeoB")
-mb_classif2_neoC <- mb_clust2 %>% mbc_classify(neo = "NeoC")
-
-(mb_classif2_neoB == mb_classif2_neoC) %>% all()
-
-# bind_cols(mb_clustering_neo2$x[[2]][, 1:2], mb_clustering_neo2$classif[[2]]) %>% 
-#   ggplot(aes(PC1, PC2, color = factor(g))) +
-#   stat_ellipse() +
-#   geom_point() +
-#   theme_bw() +
-#   facet_wrap(vars(g))
-
-mb_map2_neoB <- mb_classif2 %>% mbc_map(sf = settlements2, neo = "NeoB")
-mb_map2_neoC <- mb_classif2 %>% mbc_map(sf = settlements2, neo = "NeoC")
-
-# boxploty pro proměnné ve skupinách...
-```
-
-```{r mclust2-map-neoB, fig.cap="Clusters in pottery groups in Neolithic B."}
-mb_map2_neoB
-```
-
-```{r mclust2-map-neoC, fig.cap="Clusters in pottery groups in Neolithic C."}
-mb_map2_neoC
-```
-
-```{r}
-res2_long %>% 
-filter(variable != "cont") %>% 
-add_neo() %>% 
-right_join(mb_classif2, by = c("id", "neo")) %>% 
-filter(neo == "NeoC") %>% 
-ggplot(aes(g, value, color = g))+
-geom_boxplot(show.legend = FALSE) +
-facet_wrap(vars(variable), scales = "free_y", ncol = 2) +
-theme_minimal()
-```
-
 
 <!--- ====================================================================== -->
 
-# Results
+<!-- # Results -->
 
 ```{r results-export}
-res1_long %>%
-distinct(id, period, variable, .keep_all = TRUE) %>% 
-pivot_wider(names_from = variable, values_from = value) %>% 
-arrange(id, period) %>% 
-write_csv(here::here(derived_data, "results", "results1.csv"))
-
-res2_long %>% 
-distinct(id, period, variable, .keep_all = TRUE) %>% 
-pivot_wider(names_from = variable, values_from = value) %>% 
-arrange(id, period) %>% 
-write_csv(here::here(derived_data, "results", "results2.csv"))
+# res1_long %>%
+# distinct(id, period, variable, .keep_all = TRUE) %>% 
+# pivot_wider(names_from = variable, values_from = value) %>% 
+# arrange(id, period) %>% 
+# write_csv(here::here(derived_data, "results", "results1.csv"))
+# 
+# res2_long %>% 
+# distinct(id, period, variable, .keep_all = TRUE) %>% 
+# pivot_wider(names_from = variable, values_from = value) %>% 
+# arrange(id, period) %>% 
+# write_csv(here::here(derived_data, "results", "results2.csv"))
 ```
 
 <!--- ====================================================================== -->
