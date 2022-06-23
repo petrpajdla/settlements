@@ -99,13 +99,20 @@ kde <- settlements2 %>%
 ```
 
 ```{r plot-kde}
-kde %>% ggplot(aes(period, value)) +
+kde %>% 
+  add_period_label() %>% 
+  mutate(reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  add_period_label() %>% 
+  ggplot(aes(period_label, value)) +
   geom_violin() +
   geom_boxplot(alpha = 0.4, width = 0.2) +
   geom_jitter(alpha = 0.05, width = 0.4) +
   facet_wrap(vars(reg)) +
   theme_bw() +
-  labs(y = "KDE")
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "KDE (Density of settlements per square km)", x = "Period")
+
+# ggsave(here::here("groups_kde.svg"), width = 10, height = 5)
 ```
 
 
@@ -127,14 +134,19 @@ alt <- settlements2 %>%
 
 ```{r alt}
 settlements2 %>% 
-  mutate(reg = str_extract(id, "^.")) %>% 
-  ggplot(aes(period, altitude)) +
+  mutate(reg = str_extract(id, "^."),
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  add_period_label() %>% 
+  ggplot(aes(period_label, altitude)) +
   geom_violin() +
   geom_boxplot(alpha = 0.4, width = 0.2) +
   geom_jitter(alpha = 0.05, width = 0.4) +
   facet_wrap(vars(reg)) +
   theme_bw() +
-  labs(y = "Altitude (m)")
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "Altitude (m)", x = "Period")
+
+# ggsave(here::here("groups_altitude.svg"), width = 10, height = 5)
 ```
 
 
@@ -150,14 +162,19 @@ slope <- read_csv(here::here("analysis/data/derived_data",
 ```{r plot-slope}
 slope %>% 
   left_join(settlements2, by = "id") %>% 
-  mutate(reg = str_extract(id, "^.")) %>% 
-  ggplot(aes(period, value)) +
+  mutate(reg = str_extract(id, "^."),
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  add_period_label() %>% 
+  ggplot(aes(period_label, value)) +
   geom_violin() +
   geom_boxplot(alpha = 0.4, width = 0.2) +
   geom_jitter(alpha = 0.05, width = 0.4) +
   facet_wrap(vars(reg)) +
   theme_bw() +
-  labs(y = "Slope (°)")
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "Slope (°)", x = "Period")
+
+# ggsave(here::here("groups_slope.svg"), width = 10, height = 5)
 ```
 
 ### TPI
@@ -174,14 +191,21 @@ tpi <- read_csv(here::here("analysis/data/derived_data",
 ```{r plot-tpi}
 tpi %>% 
   left_join(settlements2, by = "id") %>% 
-  mutate(reg = str_extract(id, "^.")) %>% 
-  ggplot(aes(period, value)) +
+  mutate(reg = str_extract(id, "^."),
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  add_period_label() %>% 
+  ggplot(aes(period_label, value)) +
   geom_violin() +
   geom_boxplot(alpha = 0.4, width = 0.2) +
   geom_jitter(alpha = 0.05, width = 0.4) +
   facet_wrap(vars(reg)) +
   theme_bw() +
-  labs(y = "TPI")
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "TPI", x = "Period")
+```
+
+```{r}
+# ggsave(here::here("groups_tpi.svg"), width = 10, height = 5)
 ```
 
 ### Density of water courses
@@ -197,15 +221,22 @@ hydro <- read_csv(here::here("analysis/data/derived_data",
 ```{r plot-hydro}
 hydro %>% 
   left_join(settlements2, by = "id") %>% 
-  mutate(reg = str_extract(id, "^.")) %>% 
-  ggplot(aes(period, value)) +
+  mutate(reg = str_extract(id, "^."),
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  add_period_label() %>% 
+  ggplot(aes(period_label, value)) +
   geom_violin() +
   geom_boxplot(alpha = 0.4, width = 0.2) +
   geom_jitter(alpha = 0.05, width = 0.4) +
   facet_wrap(vars(reg)) +
   theme_bw() +
-  labs(y = "Hydrology KDE")
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "Hydrology KDE", x = "Period")
 ```
+```{r}
+# ggsave(here::here("groups_hydro.svg"), width = 10, height = 5)
+```
+
 
 <!--- ====================================================================== -->
 
@@ -276,6 +307,70 @@ rm_dist_fin <- rm_dist_rel %>%
   prep_dist_rel_rm()
 ```
 
+```{r}
+rm_dist_fin %>% 
+  filter(variable == "rm_dist_chipped") %>% 
+  add_period_label() %>% 
+  mutate(reg = str_extract(id, "^."),
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>% 
+  ggplot(aes(period_label, value)) +
+  geom_violin() +
+  geom_boxplot(alpha = 0.4, width = 0.2) +
+  geom_jitter(alpha = 0.05, width = 0.4) +
+  facet_wrap(vars(reg)) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = -45, hjust = 0)) +
+  labs(y = "Distance to lithic raw. mat. (km)", x = "Period")
+
+# ggsave(here::here("groups_distSI.svg"), width = 10, height = 5)
+```
+
+<!--- ====================================================================== -->
+
+# Continuity
+
+```{r continuity-calc}
+cont <- set_base$period2 %>%
+  select(-period_label, -chrono, - facet) %>%
+  distinct(id, period) %>%
+  mutate(pres = 1L) %>%
+  pivot_wider(names_from = period, values_from = pres, values_fill = 0L) %>%
+  pivot_longer(starts_with("p"), names_to = "period") %>%
+  mutate(period = factor(period, levels = levels(set_base$period2$period))) %>%
+  arrange(id, period) %>%
+  group_by(id) %>%
+  mutate(prev = if_else(value == 1, lag(value), 0L),
+         prev = if_else(is.na(prev), 0L, prev)) %>%
+  ungroup(id) %>%
+  select(-value) %>%
+  mutate(variable = "cont") %>%
+  rename(value = prev)
+
+n_set <- set_base$period2 %>% 
+  add_region() %>% 
+  group_by(period_label, reg) %>% 
+  summarise(sum = n())
+
+cont %>%
+  filter(variable == "cont") %>%
+  add_period_label() %>%
+  add_region() %>%
+  group_by(period_label, reg) %>%
+  summarise(n = sum(value, na.rm = TRUE)) %>%
+  full_join(n_set) %>%
+  mutate(n = if_else(is.na(n), 0L, n),
+         perc = (n / sum) * 100,
+         reg = if_else(reg == "B", "East Bohemia", "Morava river catchment")) %>%
+  ggplot(aes(period_label, perc)) +
+  geom_col(color = "black", fill = "white", 
+           position = "dodge", show.legend = FALSE) +
+  facet_wrap(vars(reg), ncol = 1) +
+  labs(x = "Period", y = "Continuity of settlements (%)") +
+  theme_bw()
+
+# ggsave(here::here("groups_continuity.svg"), width = 10, height = 5)
+```
+
 <!--- ====================================================================== -->
 
 # Synthesis
@@ -335,6 +430,12 @@ pca_per <- res_wide %>%
 
 ```{r pca-plot}
 pca_per %>% plot_nested_pca(var = "period")
+# ggsave(here::here("analysis/groups/pca.pdf"), width = 21, height = 35)
+```
+
+```{r pca-plot2}
+pca_per %>% plot_nested_pca(var = "period", pc = c("PC3", "PC4"))
+# ggsave(here::here("analysis/groups/pca2.pdf"), width = 21, height = 35)
 ```
 
 ```{r pca-summations}
