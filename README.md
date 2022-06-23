@@ -5,6 +5,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/petrpajdla/settlements/master?urlpath=rstudio)
 
+[![DOI](https://zenodo.org/badge/302602094.svg)](https://zenodo.org/badge/latestdoi/302602094)
+
 This repository contains the data and code for our paper:
 
 > Trampota F., Pajdla P., (2022). *Spatial analysis of Neolithic
@@ -27,7 +29,7 @@ Please cite this compendium as:
 
 > Authors, (2022). *Compendium of R code and data for Spatial analysis
 > of Neolithic settlement patterns in central Europe*. Accessed 23 Jun
-> 2022. Online at <https://doi.org/xxx/xxx>
+> 2022. Online at <https://doi.org/10.5281/zenodo.6703462>
 
 ## Contents
 

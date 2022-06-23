@@ -18,6 +18,8 @@ Title <- "Spatial analysis of Neolithic settlement patterns in central Europe"
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/petrpajdla/settlements/master?urlpath=rstudio)
 
+[![DOI](https://zenodo.org/badge/302602094.svg)](https://zenodo.org/badge/latestdoi/302602094)
+
 This repository contains the data and code for our paper:
 
 > Trampota F., Pajdla P., (2022). _`r Title`_. Journal? <https://doi.org/xxx/xxx>
@@ -33,7 +35,7 @@ Data is deposited in a Zenodo repository: <https://doi.org/10.5281/zenodo.565318
 
 Please cite this compendium as:
 
-> Authors, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Authors, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/10.5281/zenodo.6703462>
 
 ## Contents
 
